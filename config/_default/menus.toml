@@ -3,8 +3,6 @@
 #   desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
 
-#  TODO: (Sam) I had to hardcode item menu with # because of the /global2020/, everything is fucked.
-#  DONE! (Sofie) By pre-adding "../global2020/" --> Everything works! 
  
 [[main]]
   pre = "<i class='fas fa-brain'></i>"
@@ -79,10 +77,3 @@
 #   url = "/faq/#hosts"
 #   weight = 73
 #   parent = "faq"
-
-# Link to a PDF of your resume/CV from the menu.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# [[main]]
-#    name = "CV"
-#    url = "files/cv.pdf"
-#    weight = 80

@@ -71,6 +71,10 @@ weight: 15
   overlay_filter = 0.5  # Darken the image. Value in range 0-1.  
 
 ---
+
+
+<!-- WHAT IS THIS FILE ? -->
+
 <!-- <img src="/global2020/media/virtualbh_2.png" alt="" class="border border-light"> -->
 # <div id="wrap" class="" style="text-align:center"><h2 style="color:#2a4644"><b>What?</b></h2></p><p>Brainhack is a unique event format that convenes researchers from across the globe and a myriad of disciplines to work together on innovative projects related to neuroscience.</p>
 <p>Year after year, global Brainhack events have brought researchers together to participate in <b>open collaboration</b>, and regional Brainhack events keep the momentum going throughout the year.</p>
