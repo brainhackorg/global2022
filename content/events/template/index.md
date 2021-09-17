@@ -1,7 +1,7 @@
 ---
 title: Brainhack somewhere
 event: Brainhack somewhere
-event_url: https://brainhack-ankara.github.io/
+event_url: https://brainhack-somewhere.github.io/
 
 location: Somewhere on the planet
 address:
