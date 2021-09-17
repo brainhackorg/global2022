@@ -12,7 +12,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 5
 
-title: 
+title:
 subtitle:
 
 design:
@@ -24,19 +24,16 @@ design:
     image_position: center
     image_size: cover
     text_color_light: true
-    
+
   spacing:
     padding: ["5rem", "0", "5rem", "0"]
 ---
 
+{{% callout note %}} 
 
-{{% alert note %}}
-The official Brainhack Code of Conduct is available at [brainhack.org/code-of-conduct](https://brainhack.org/code-of-conduct). Please refer to this [link](https://brainhack.org/code-of-conduct) if you landed here to read the Code of Conduct.
-{{% /alert %}}
+The official Brainhack Code of Conduct is available at
+[brainhack.org/code-of-conduct](https://brainhack.org/code-of-conduct). Please
+refer to this [link](https://brainhack.org/code-of-conduct) if you landed here
+to read the Code of Conduct. 
 
-
-<!-- {{% alert note %}}
-The Brainhack Code of Conduct is currently under review by the community. In the meantime, you can read the most recent version below. If you would like to comment on it, please refer to [the working document](https://docs.google.com/document/d/11aE6vv67i9pzOUN7DTypqiAVUutXAijP7_jZTURHhAM/edit).
-{{% /alert %}} -->
-
-<!-- Photo by Sharon McCutcheon from Pexels -->
+{{% /callout %}}

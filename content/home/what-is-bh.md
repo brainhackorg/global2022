@@ -12,7 +12,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 15
 
-# title: 
+# title:
 # subtitle:
 # Hero image (optional). Enter filename of an image in the `static/media/` folder.
 # hero_media: "virtualbh_2.png"
@@ -29,22 +29,21 @@ design:
     color: "#e3eeed"
 
   # spacing:
-    # padding: ["100px", "0", "100px", "0"]
-  
+  # padding: ["100px", "0", "100px", "0"]
 ---
 
-
-<!-- <img src="/global2020/media/virtualbh_2.png" alt="" class="border border-light"> -->
+<!-- <img src="/global2021/media/virtualbh_2.png" alt="" class="border border-light"> -->
 
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Pacifico" />
 <h2 style="font-family:'Pacifico';font-size:40px;color:#fe97a0">What is Brainhack?</h2>
 
-Brainhack is a unique event format that convenes researchers from across the globe and a myriad of disciplines to work together on innovative projects related to neuroscience.
+Brainhack is a unique event format that convenes researchers from across the
+globe and a myriad of disciplines to work together on innovative projects
+related to neuroscience.
 
-Year after year, global Brainhack events have brought researchers together to participate in <b>open collaboration</b>, and regional Brainhack events keep the momentum going throughout the year.
-
-2020 being 2020, this year’s Brainhack Global will unite several **virtual** regional Brainhack events throughout the world.
-
+Year after year, global Brainhack events have brought researchers together to
+participate in <b>open collaboration</b>, and regional Brainhack events keep the
+momentum going throughout the year.
 
 <br>
 <div style="text-align:center;color:#fe97a0"><i class="fas fa-laptop-house fa-1x"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-laptop-house fa-1x"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-laptop-house fa-1x"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-laptop-house fa-1x"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-laptop-house fa-1x"></i></div>

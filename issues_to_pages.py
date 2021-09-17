@@ -2,7 +2,7 @@ import requests
 import re
 import json
 
-url = "https://api.github.com/repos/brainhackorg/global2020/issues?per_page=100"
+url = "https://api.github.com/repos/brainhackorg/global2021/issues?per_page=100"
 response = requests.get(url)
 
 if response.status_code == 200:
