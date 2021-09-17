@@ -53,4 +53,3 @@ design:
 ---
 
 <h1><b>Local brainhacks</b></h1>
-

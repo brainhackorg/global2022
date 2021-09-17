@@ -9,7 +9,7 @@ assignees: ''
 
 <!-- Guidelines
 
-We are very excited to meet you at Brainhack Global 2020 🎉. To submit a project, you need to be an attendee to one of the Brainhack Global 2020 events listed on the [Brainhack Global 2020 webpage](https://brainhack.org/global2020/events/). Please, register for the event that is most suitable to your location, time zone, interest, and/or project prior to submitting one. Thank you!
+We are very excited to meet you at Brainhack Global 2021 🎉. To submit a project, you need to be an attendee to one of the Brainhack Global 2021 events listed on the [Brainhack Global 2021 webpage](https://brainhack.org/global2021/events/). Please, register for the event that is most suitable to your location, time zone, interest, and/or project prior to submitting one. Thank you!
 
 We have prepared a checklist to help with your project submission. Here is how to proceed:
 
@@ -17,7 +17,7 @@ Before filling in any part please check items in the checklist below as you go t
 Once you are done (at least all 'required' items must be provided), please delete the "Guidelines" section, submit your issue and add a comment saying 'Hi @Brainhack-Global/project-monitors: my project is ready!'
 Thank you!
 
-After the issue is submitted, we will assign a 'project monitor' from the event location that you are registered with to review your submission. Once the submission is approved by the 'project monitor', they will add the label 'Project is ready' and it will appear on [Brainhack Global 2020 Projects](https://brainhack.org/global2020/projects) page with a separate project dedicated webpage. 
+After the issue is submitted, we will assign a 'project monitor' from the event location that you are registered with to review your submission. Once the submission is approved by the 'project monitor', they will add the label 'Project is ready' and it will appear on [Brainhack Global 2021 Projects](https://brainhack.org/global2021/projects) page with a separate project dedicated webpage. 
 
 Note that you can always update your issue which will also change your page on the website accordingly.
 
@@ -34,8 +34,8 @@ If at any time you need help from us or anything is unclear, please add a commen
 **Project collaborators:**
 <!-- Add full names (and Twitter handles if possible) of any person contributing to the project. Try to follow the [all-contributors specification](https://github.com/all-contributors/all-contributors). Contributions of any kind are welcome! -->
 
-**Registered Brainhack Global 2020 Event:**
-<!-- Specify the city and country of the Brainhack Global 2020 event that you
+**Registered Brainhack Global 2021 Event:**
+<!-- Specify the city and country of the Brainhack Global 2021 event that you
 registered for. If your local event has a special name or topic (e.g. Brainhack
 London - Clinical Neuroanatomy), please do specify that as well to help us
 distinguish between potential events in the same city. -->
@@ -54,7 +54,7 @@ Where to find key resources; -->
 **Link to project repository/sources:**
 <!-- Add a link to the project’s GitHub repo or website. -->
 
-**Goals for Brainhack Global 2020:**
+**Goals for Brainhack Global 2021:**
 <!-- Add a list of milestones or deliverables that you expect to achieve during the event. Try to provide goals of varying complexity for contributors with different sets of skills. -->
 
 **Good first issues:**
@@ -138,17 +138,17 @@ behavioral, DWI, ECG, ECOG, EEG, eye_tracking, fMRI, fNIRS, MEG, MRI, PET, TDCS,
 *Once the issue is submitted, please check items in this list as you add under ‘Additional project info’*
 
 - [ ] Link to your project: could be a code repository, a shared document, etc.
-- [ ] Goals for Brainhack Global 2020: describe what you want to achieve during this brainhack.
+- [ ] Goals for Brainhack Global 2021: describe what you want to achieve during this brainhack.
 - [ ] Flesh out at least 2 “good first issues”: those are tasks that do not require any prior knowledge about your project, could be defined as issues in a GitHub repository, or in a shared document.
 - [ ] Skills: list skills that would be particularly suitable for your project. We ask you to include at least one non-coding skill. Use the issue labels for this purpose.
-- [ ] Chat channel: A link to a chat channel that will be used during the Brainhack Global 2020 event. This can be an existing channel or a new one. We recommend using the [Brainhack space on Mattermost](https://mattermost.brainhack.org/).
-<!-- [ ] Video channel: A link to a video channel that will be used during the Brainhack Global 2020 Brainhack. This can be an existing channel or a new one. For instance a [Jitsi meet room](https://meet.jit.si/). **Please, do not make the video channel public in here**: post a message in your chat channel and pin it so that it remains private, you do not get undesired content, and contributors can still have access to it..-->
+- [ ] Chat channel: A link to a chat channel that will be used during the Brainhack Global 2021 event. This can be an existing channel or a new one. We recommend using the [Brainhack space on Mattermost](https://mattermost.brainhack.org/).
+<!-- [ ] Video channel: A link to a video channel that will be used during the Brainhack Global 2021 Brainhack. This can be an existing channel or a new one. For instance a [Jitsi meet room](https://meet.jit.si/). **Please, do not make the video channel public in here**: post a message in your chat channel and pin it so that it remains private, you do not get undesired content, and contributors can still have access to it..-->
 
 Optionally, you can also include information about:
 
 - [ ] Number of participants required.
 - [ ] Twitter-sized summary of your project pitch.
-- [ ] Provide an image of your project for the Brainhack Global 2020 website. 
+- [ ] Provide an image of your project for the Brainhack Global 2021 website. 
 <!-- You can put an image anywhere in this issue and it will be used to build your project page on the website. -->
 
 We would like to think about how you will credit and onboard new members to your project. If you’d like to share your thoughts with future project participants, you can include information about:

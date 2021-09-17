@@ -40,4 +40,5 @@ show_position = true
   # Text color (true=light or false=dark).
   text_color_light = true
 +++
-If you would like to volunteer, contact us! 
+
+If you would like to volunteer, contact us!

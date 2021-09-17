@@ -48,7 +48,6 @@ See the instruction related to the operatiing system you are using on the
 3. Run the site locally
 
 ```
-hugo server
+hugo server -D
 ```
 
-issue_to_pages
