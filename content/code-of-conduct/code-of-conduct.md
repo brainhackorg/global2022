@@ -169,4 +169,4 @@ The Code of Conduct committee will respect confidentiality requests for the purp
 
 This Code of Conduct was adapted from [Community Covenant](https://community-covenant.net/version/1/0/), [Django Project](https://www.djangoproject.com/conduct/), [Open Science UMontreal](https://openscience.ca/coc) Code of Conducts by Isil Bilgin, Anibal Solon Heinsfeld, Aki Nikolaidis, Emma Kaywin, & Samuel Guay.
 
-License:  Brainhack Code of Conduct is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Cite as, Brainhack. 2020. Brainhack Code of Conduct. Available at [https://brainhack.org/code-of-conduct](https://brainhack.org/code-of-conduct)  -->
+License:  Brainhack Code of Conduct is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Cite as, Brainhack. 2021. Brainhack Code of Conduct. Available at [https://brainhack.org/code-of-conduct](https://brainhack.org/code-of-conduct)  -->

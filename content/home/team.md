@@ -3,7 +3,7 @@
 # This section displays people from `content/authors/` which belong to the `user_groups` below.
 widget = "people"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
+active = false  # Activate this widget? true/false
 weight = 50  # Order that this section will appear.
 
 title = "Meet the Team"
@@ -40,4 +40,5 @@ show_position = true
   # Text color (true=light or false=dark).
   text_color_light = true
 +++
-If you would like to volunteer, contact us! 
+
+If you would like to volunteer, contact us!

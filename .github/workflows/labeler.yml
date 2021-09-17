@@ -16,6 +16,6 @@ jobs:
         # File with label/regex match dictionary
         configuration-path: .github/labeler.yml
         # The issues opened before this date will be ignored
-        not-before: 2020-10-29T00:00:00Z
+        not-before: 2021-10-29T00:00:00Z
         # This can be increased if the dictionary undergoes a breaking change
         enable-versioned-regex: 0

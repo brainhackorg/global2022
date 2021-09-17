@@ -30,7 +30,7 @@ design:
 ---
 
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Pacifico" />
-<h1 style="font-family:'Pacifico';color:#fe97a0">Brainhack Global 2020 Project Submission Guideline</h1>
+<h1 style="font-family:'Pacifico';color:#fe97a0">Brainhack Global 2021 Project Submission Guideline</h1>
 
 ### Why a Centralised Project Submission?
 
@@ -53,11 +53,11 @@ Please read our **[How to Guideline for Leading and Attending to Brainhack Proje
 ### Where to start?
 
 
-In order to submit a project to the Brainhack Global 2020 Project Gallery, please follow these steps:
+In order to submit a project to the Brainhack Global 2021 Project Gallery, please follow these steps:
 
-1. Register with an event listed in the **[Brainhack Global 2020 Events](https://brainhack.org/global2020/events/)**.
+1. Register with an event listed in the **[Brainhack Global 2021 Events](https://brainhack.org/global2021/events/)**.
 1. Create a **[GitHub](http://github.com/)** account.
-1. Go to the **[Brainhack 2020 GitHub Repository](https://github.com/brainhackorg/global2020/issues)**.
+1. Go to the **[Brainhack 2021 GitHub Repository](https://github.com/brainhackorg/global2021/issues)**.
 1. Click on the **New Issue** button on the up right. 
 1. Create a new issue by clicking on the **Get Started** button beside **Project submission template**.
 1. Fill in the necessary/required information as requested. 
@@ -71,8 +71,8 @@ In order to submit a project to the Brainhack Global 2020 Project Gallery, pleas
 
 ### What happens next? 
 
-Once you have submitted your project, a reviewer from the event that you have registered with will follow up with you and will review the information in your issue. They may request some changes if deemed necessary. If all necessary/required information is in place, the project will be marked as 'status:web_ready' and will be listed on the **[Brainhack Global 2020 Projects](https://brainhack.org/global2020/projects/)** page after a short delay. A subpage dedicated to your own project will be automatically created. In the meantime, you can still continue to make changes in/to your issue. 
+Once you have submitted your project, a reviewer from the event that you have registered with will follow up with you and will review the information in your issue. They may request some changes if deemed necessary. If all necessary/required information is in place, the project will be marked as 'status:web_ready' and will be listed on the **[Brainhack Global 2021 Projects](https://brainhack.org/global2021/projects/)** page after a short delay. A subpage dedicated to your own project will be automatically created. In the meantime, you can still continue to make changes in/to your issue. 
 
-This year, Brainhack Global also offers a new feature to assign event attendees to projects across the globe based on the matching between expertise/skill sets that attendees want to acquire and the projects are looking for. Once the attendee registrations are completed, the matching algorithm will be run by the local organizers themselves based on the information provided by the attendees in the participant registration form. The attendees will be automatically sent an email that is listing the best fitting projects with their expertise and interests. However, the preference of the project the attendees will participate will be based on the attendees own decision. They could either go with the suggested options or they could choose among the other projects listed in the **[Brainhack Global 2020 Projects](https://brainhack.org/global2020/projects/)** page. Based on the communication channels listed in the project issues, the attendees will contact the project leaders as necessary. 
+This year, Brainhack Global also offers a new feature to assign event attendees to projects across the globe based on the matching between expertise/skill sets that attendees want to acquire and the projects are looking for. Once the attendee registrations are completed, the matching algorithm will be run by the local organizers themselves based on the information provided by the attendees in the participant registration form. The attendees will be automatically sent an email that is listing the best fitting projects with their expertise and interests. However, the preference of the project the attendees will participate will be based on the attendees own decision. They could either go with the suggested options or they could choose among the other projects listed in the **[Brainhack Global 2021 Projects](https://brainhack.org/global2021/projects/)** page. Based on the communication channels listed in the project issues, the attendees will contact the project leaders as necessary. 
 
 Please be aware that, at the very early stage of the interactions, attendees might just want to contact you for more information to make sure that the project is a good fit to the aims they want to achieve from a Brainhack. Therefore, please make sure that you welcome all attentions and explain your project with care and guide them as necessary. 
