@@ -1,4 +1,4 @@
-# Welcome to the Brainhack Global 2021 repository. 
+# Welcome to the Brainhack Global 2021 repository.  
 
 This is where you will find all the files and actions regarding 
 the [Brainhack Global 2021 website](https://brainhack.org/global2021/) 
