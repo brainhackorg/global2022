@@ -2,37 +2,35 @@
 
 ## Content and what to modify where
 
-- Event location data for the map:
+Pretty much all the content of the website is either in the `data` or the
+`content` folder.
 
-```
-data/locations.yaml
-```
-
-- Event details:
-
-```
-content/events
-```
-
-- Projects were updated dynamically:
-
-```
-content/project
-```
-
-- I guess using this action:
-
-```
-workflows/issue-to-page.yml
-```
-
-- Some config options:
+### config options
 
 ```
 static/admin/config.yml
 ```
 
-- Author data/pictures:
+Default CSS can be "overwritten" in the `assets/scss/custom.scss`.
+
+### Event location data for the map
+
+```
+data/locations.yaml
+```
+
+### Event details:
+
+```
+content/events
+```
+
+### Projects
+
+Projects were updated dynamically in `content/project` using this action
+`workflows/issue-to-page.yml` that calls the script `issues_to_pages.py`.
+
+### Contributors details
 
 ```
 content/authors
@@ -52,3 +50,5 @@ See the instruction related to the operatiing system you are using on the
 ```
 hugo server
 ```
+
+issue_to_pages

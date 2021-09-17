@@ -1,3 +1,7 @@
+# I dont know what everything is above, but here's what to ignore for HUGO
+/resources
+/public
+
 # Logs
 logs
 *.log
@@ -102,7 +106,3 @@ dist
 
 # TernJS port file
 .tern-port
-
-# I dont know what everything is above, but here's what to ignore for HUGO
-/resources
-/public
