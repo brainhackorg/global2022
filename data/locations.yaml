@@ -1,9 +1,8 @@
 events:
-
   # TEMPLATE
-  # - title: 
+  # - title:
   #   organizers:
-  #     - 
+  #     -
   #   contact:
   #     - info.something@stuff.com
   #   website: https://www.something.com
@@ -13,7 +12,6 @@ events:
   #     lng: -1.986154
   #   dates: "From 2021-11-09 to 2021-11-13"
 
-
   - title: Brainhack Donostia
     organizers:
       - Eneko
@@ -21,12 +19,13 @@ events:
     contact:
       - info.bhg-donostia@bcbl.eu
     website: https://brainhack-donostia.github.io
-    address: BCBL - Basque Center on Cognition, Brain and Language, Paseo Mikeletegi, 69, 20009 Donostia,Spain
+    address:
+      BCBL - Basque Center on Cognition, Brain and Language, Paseo Mikeletegi,
+      69, 20009 Donostia,Spain
     position:
       lat: 43.294272
       lng: -1.986154
     dates: "From 2021-11-09 to 2021-11-13"
-
 
   # - title: Brainhack New York
   #   organizers:
@@ -42,9 +41,8 @@ events:
   #     lng: -73.9554942
   #   dates: "From 2021-12-11 to 2021-12-13"
 
-
   # - title: Brainhack Marburg
-  #   organizers: 
+  #   organizers:
   #     - Lydia Riedl
   #   contact:
   #     - riedll@staff.uni-marburg.de
@@ -55,22 +53,20 @@ events:
   #     lng: 8.774465
   #   dates: "From 2021-11-30 to 2021-12-11"
 
-
   # - title: Brainhack Ankara
-  #   organizers: 
-  #   contact: 
+  #   organizers:
+  #   contact:
   #    - atay.m.selim@gmail.com
-  #   website: https://brainhack-ankara.github.io/ 
+  #   website: https://brainhack-ankara.github.io/
   #   address: Middle East Technical University, Ankara, Turkey
   #   position:
   #     lat: 39.889962
   #     lng: 32.780096
   #   dates: "From 2021-12-01 to 2021-12-03"
-    
 
   # - title: Brainhack Pittsburgh
   #   organizers:
-  #   contact:  
+  #   contact:
   #    - raamanap@pitt.edu
   #   website: https://pitt-brainhack.github.io/DeBurghing2021/
   #   address: Machine learning, INformatics and Data Science (MINDS) Lab, University of Pittsburg, Pittsburg, USA
@@ -78,7 +74,6 @@ events:
   #     lat: 40.444263
   #     lng: -79.960921
   #   dates: "From 2021-11-30 to 2021-12-04"
-
 
   # - title: Brainhack Beijing & Nanning
   #   contact:
@@ -90,22 +85,20 @@ events:
   #     lng: 116.321344
   #   dates: "From 2021-12-12 to 2021-12-18"
 
-
   # - title: Brainhack Avoca
-  #   organizers:  
-  #   contact: 
+  #   organizers:
+  #   contact:
   #    - mac.shine@sydney.edu.au
-  #   website: 
+  #   website:
   #   address: The University of Sydney, Sydney, Australia
   #   position:
   #     lat: -33.887949
   #     lng: 151.187092
   #   dates: "From 2021-12-01 to 2021-12-03"
 
-    
   # - title: Brainhack Princeton
-  #   organizers:  
-  #   contact: 
+  #   organizers:
+  #   contact:
   #    - emcdevitt8287@gmail.com
   #   website: https://brainhack-princeton.github.io/2021/
   #   address: Princeton University, Princeton, USA
@@ -114,10 +107,9 @@ events:
   #     lng: -74.654348
   #   dates: "From 2021-12-09 to 2021-12-11"
 
-
   # - title: Brainhack Ontario
   #   organizers:
-  #   contact: 
+  #   contact:
   #    - erin.w.dickie@gmail.com
   #   website: https://brainhackto.github.io/global-ON-2021/
   #   address: University of Toronto / Centre for Addiction and Mental Health, Toronto, Ontario, Canada
@@ -126,10 +118,9 @@ events:
   #     lng: -79.389327
   #   dates: "From 2021-12-02 to 2021-12-04"
 
-
   # - title: Brainhack Marseille
   #   organizers:
-  #   contact: 
+  #   contact:
   #    - sylvain.takerkart@univ-amu.fr
   #   website: https://brainhack-marseille.github.io/
   #   address: INT, CNRS-AMU, Marseille, France
@@ -138,10 +129,9 @@ events:
   #     lng: 5.358004
   #   dates: "From 2021-12-02 to 2021-12-04"
 
-        
   # - title: Brainhack Zagreb
   #   organizers:
-  #   contact: 
+  #   contact:
   #    - saskia.mueller@hotmail.com
   #   website: https://brainhackzg.github.io/
   #   address: Medical Doctor at the Croatian Institute for Emergency Medicine, Zagreb, Crotia
@@ -150,10 +140,9 @@ events:
   #     lng: 16.012705
   #   dates: "On 2021-12"
 
-        
   # - title: Brainhack DC
   #   organizers:
-  #   contact: 
+  #   contact:
   #    - sr1209@georgetown.edu
   #   website: https://brainhackdc.github.io/2021/
   #   address: Georgetown University, DC, USA
@@ -162,27 +151,24 @@ events:
   #     lng: -77.075085
   #   dates: "From 2021-12-12 to 2021-12-13"
 
-        
-  # - title: Brainhack Micro2Macro 
+  # - title: Brainhack Micro2Macro
   #   organizers:
-  #   contact: 
+  #   contact:
   #    - ingmatteomancini@gmail.com
-  #   website: https://brainhack-micro2macro.github.io 
+  #   website: https://brainhack-micro2macro.github.io
   #   address: Somewhere on Earth
   #   position:
   #     lat: 52.975647
   #     lng: -36.409980
   #   dates: "From 2021-01-26 to 2021-01-29"
 
-
-
   # - title: Brainhack Padova
   #   organizers:
-  #   contact: 
+  #   contact:
   #    - poggiali.davide@gmail.com
   #   website: https://pnc.unipd.it/brainhack2021/
   #   address: Padova, Province of Padua, Italy
   #   position:
-  #     lat: 45.41684600730548 
+  #     lat: 45.41684600730548
   #     lng: 11.860687749879997
   #   dates: "From 2021-12-14 to 2021-12-16"
