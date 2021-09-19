@@ -12,7 +12,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 21
 
-title: 
+title:
 subtitle:
 # Hero image (optional). Enter filename of an image in the `static/media/` folder.
 # hero_media: "virtualbh_2.png"
@@ -20,7 +20,7 @@ design:
   columns: "1"
   clip_path: "polygon(0 10%, 100% 0, 100% 90%, 0% 100%)"
   background:
-    image: pattern.svg 
+    image: pattern.svg
     image_darken: 0.0
     image_parallax: true
     image_position: center
@@ -32,25 +32,42 @@ design:
     padding: ["100px", "0", "100px", "0"]
 
 advanced:
- # Custom CSS.
- css_style: ""
+  # Custom CSS.
+  css_style: ""
 
- # CSS class.
- css_class: "text-center"
-  
+  # CSS class.
+  css_class: "text-center"
 ---
 
 # **Host your own local Brainhack**
+
 <br>
-<div class="row"><div class="col-lg-8 mx-auto">
 
-We are currently recruiting sites to host <br> local Brainhack events during Brainhack Global 2021!
+<div class="row">
 
-<p class="text-white mb-5">
-<a href="/global2021/events#host-your-own-local-brainhack" class="btn btn-light mx-auto p-3 font-weight-bold">APPLY TO HOST</a></p>
+  <div class="col-lg-8 mx-auto">
 
-The Brainhack Global team built up a set of resources for you to **help you organize your local Brainhack** including guidelines, checklists, template forms, press release materials and more. Check it out:
+  We are currently recruiting sites to host <br> local Brainhack events during
+  Brainhack Global 2021!
 
-<p class="text-center"><a href="https://github.com/brainhackorg/pr-material" class="btn btn-light mx-auto p-3 font-weight-bold">GET FROM GITHUB</a></p></div></div>
- 
+  <p class="text-white mb-5">
+    <a href="/global2021/events#host-your-own-local-brainhack" 
+      class="btn btn-light mx-auto p-3 font-weight-bold">
+      APPLY TO HOST
+    </a>
+  </p>
 
+  The Brainhack Global team built up a set of resources for you to **help you
+  organize your local Brainhack** including guidelines, checklists, template
+  forms, press release materials and more. Check it out:
+
+  <p class="text-center">
+    <a  href="https://github.com/brainhackorg/pr-material" 
+        class="btn btn-light mx-auto p-3 font-weight-bold">
+        GET FROM GITHUB
+    </a>
+  </p>
+
+  </div>
+
+</div>

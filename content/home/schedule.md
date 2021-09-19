@@ -40,7 +40,13 @@ advanced:
   
 ---
 <div id='calendar-container'>
-<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=America%2FToronto&amp;src=OG11bTdlM2ptOTYyOHExbTZ1cnBrdGJmMXNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%234285F4&amp;mode=AGENDA&amp;showCalendars=0&amp;showNav=1&amp;showPrint=0" style="border:solid 1px #777" width="100%" height="700" frameborder="0" scrolling="no"></iframe>
+  <iframe 
+    src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=America%2FToronto&amp;src=OG11bTdlM2ptOTYyOHExbTZ1cnBrdGJmMXNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%234285F4&amp;mode=AGENDA&amp;showCalendars=0&amp;showNav=1&amp;showPrint=0" style="border:solid 1px #777"  
+    width="100%" 
+    height="700" 
+    frameborder="0" 
+    scrolling="no">
+  </iframe>
 </div>
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jstimezonedetect/1.0.4/jstz.min.js'></script>
