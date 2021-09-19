@@ -5,32 +5,34 @@
 {{ $show_buttons := false }}
 {{ $link := $item.RelPermalink }}
 {{ $target := "" }}
+
 {{ if $item.Params.external_link }}
   {{ $link = $item.Params.external_link }}
   {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
 {{ end }}
+
 {{ if eq $item.Type "talk" }}
-  {{ $show_authors_only = true }}
-  {{ $show_buttons = true }}
-{{ else if eq $item.Type "events" }}
-  {{ $show_authors_only = true }}
-  {{ $show_buttons = true }}
-{{ else if eq $item.Type "publication" }}
-  {{ $show_authors_only = true }}
-  {{ $show_buttons = true }}
-{{ else if eq $item.Type "project" }}
-  {{ $show_authors_only = true }}
-  {{ $show_buttons = true }}
+    {{ $show_authors_only = true }}
+    {{ $show_buttons = true }}
+  {{ else if eq $item.Type "events" }}
+    {{ $show_authors_only = true }}
+    {{ $show_buttons = true }}
+  {{ else if eq $item.Type "publication" }}
+    {{ $show_authors_only = true }}
+    {{ $show_buttons = true }}
+  {{ else if eq $item.Type "project" }}
+    {{ $show_authors_only = true }}
+    {{ $show_buttons = true }}
 {{ end }}
 
 {{/* Get summary. */}}
 {{ $summary := "" }}
 {{ if $item.Params.summary }}
-  {{ $summary = $item.Params.summary | markdownify | emojify }}
-{{ else if .Params.abstract }}
-  {{ $summary = .Params.abstract | markdownify | emojify | truncate (site.Params.abstract_length | default 135) }}
-{{ else if $item.Summary }}
-  {{ $summary = $item.Summary }}
+    {{ $summary = $item.Params.summary | markdownify | emojify }}
+  {{ else if .Params.abstract }}
+    {{ $summary = .Params.abstract | markdownify | emojify | truncate (site.Params.abstract_length | default 135) }}
+  {{ else if $item.Summary }}
+    {{ $summary = $item.Summary }}
 {{ end }}
 
 <div class="media stream-item">

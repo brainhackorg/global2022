@@ -26,15 +26,15 @@
   {{/* Generate page description. */}}
   {{ $desc := "" }}
   {{ if .Params.summary }}
-    {{ $desc = .Params.summary }}
-  {{ else if .Params.abstract }}
-    {{ $desc = .Params.abstract }}
-  {{ else if .IsPage }}
-    {{ $desc = .Summary }}
-  {{ else if site.Params.description }}
-    {{ $desc = site.Params.description }}
-  {{ else }}
-    {{ $desc = $superuser_role }}
+      {{ $desc = .Params.summary }}
+    {{ else if .Params.abstract }}
+      {{ $desc = .Params.abstract }}
+    {{ else if .IsPage }}
+      {{ $desc = .Summary }}
+    {{ else if site.Params.description }}
+      {{ $desc = site.Params.description }}
+    {{ else }}
+      {{ $desc = $superuser_role }}
   {{ end }}
   <meta name="description" content="{{ $desc }}">
 
@@ -45,7 +45,7 @@
 
   {{ partial "functions/parse_theme" . }}
 
-  {{/* Pre-connect to Google Fonts if the site's Font Theme uses them. */}}
+  {{/* Pre-connect to Google Fonts if the site Font Theme uses them. */}}
   {{ with ($scr.Get "google_fonts") }}
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   {{end}}
@@ -125,7 +125,7 @@
 
   {{ end }}
 
-  {{/* Load Google Fonts if the site's Font Theme uses them. */}}
+  {{/* Load Google Fonts if the site Font Theme uses them. */}}
   {{/* Note: we cannot use SRI with Google Fonts because the CSS is dynamically generated according to the user agent. */}}
   {{ with ($scr.Get "google_fonts") }}
     {{ if hasPrefix . "family=" }}
@@ -133,7 +133,7 @@
       <link rel="stylesheet" {{ printf "href=\"https://fonts.googleapis.com/css2?%s&display=swap\"" . | safeHTMLAttr }}>
     {{ else }}
       {{/* Otherwise, use API v1 */}}
-      {{/* Hugo's htmlEscape cannot escape "|" in Google Font URIs so we implement our own escape functionality. */}}
+      {{/* Hugo htmlEscape cannot escape "|" in Google Font URIs so we implement our own escape functionality. */}}
       <link rel="stylesheet" {{ printf "href=\"https://fonts.googleapis.com/css?family=%s&display=swap\"" . | replaceRE "\\|" "%7C" | safeHTMLAttr }}>
     {{ end }}
   {{ end }}
