@@ -29,11 +29,11 @@ design:
     padding: ["5rem", "0", "5rem", "0"]
 ---
 
-{{% callout note %}} 
+{{% callout note %}}
 
 The official Brainhack Code of Conduct is available at
 [brainhack.org/code-of-conduct](https://brainhack.org/code-of-conduct). Please
 refer to this [link](https://brainhack.org/code-of-conduct) if you landed here
-to read the Code of Conduct. 
+to read the Code of Conduct.
 
 {{% /callout %}}

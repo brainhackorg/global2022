@@ -39,4 +39,3 @@ Pretty much all the content of the website is either in the `data` or the
 
 Projects were updated dynamically in `content/project` using the github workflow
 `workflows/issue-to-page.yml` that calls the script `issues_to_pages.py`.
-

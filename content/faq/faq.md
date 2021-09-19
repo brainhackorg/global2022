@@ -12,7 +12,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 5
 
-title: 
+title:
 subtitle:
 
 design:
@@ -24,7 +24,7 @@ design:
     image_position: center
     image_size: cover
     text_color_light: false
-    
+
   spacing:
     padding: ["5rem", "0", "5rem", "0"]
 ---

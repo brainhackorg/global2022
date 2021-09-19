@@ -19,12 +19,12 @@
 {{/*  {{ $js_tag_classes := delimit (apply (apply $item.Params.tags "replace" "." " " "-") "printf" "js-id-%s" ".") " " }}  */}}
 
 <div class="project-card project-item isotope-item {{ range $item.Params.labels }} {{ $classy := replace .name " " "-" }}{{ $classy := replace .name ":" "-" }} {{ printf "js-id-%s" $classy | safeHTMLAttr }} {{end}}">
-  
+
   <div class="card">
-    
+
     {{/*  TODO: Make regex stricter because rn it grabs any link that ends in png,jpg,jpeg,or gif. */}}
 
-    {{ $img_url := findRE "(https?:).*(?:jpg|gif|png|svg)" $item.Params.Content }}  
+    {{ $img_url := findRE "(https?:).*(?:jpg|gif|png|svg)" $item.Params.Content }}
     {{ if $img_url  }}
           <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="card-image hover-overlay">
           <img src="{{ range $img_url | first 1}}{{ . }}{{end}}" alt="" class="img-responsive">
@@ -45,7 +45,7 @@
     <div class="card-text">
 
       <h4><a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{ $item.Title | markdownify | emojify }}</a></h4>
-              
+
       {{ with $item.Params.project_description }}
         {{/*  {{ $descrip := findRE "\\*\\*Description\\*\\*:\s.*" $item.Params.content }}  */}}
         <div class="article-style">
@@ -131,7 +131,7 @@
   {{ if in (slice "fab" "fas" "far" "fal") $pack }}
     {{ $pack_prefix = "fa" }}
   {{ end }}
-  
+
   {{ $link := .url | default "" }}
   {{ $scheme := (urls.Parse $link).Scheme }}
   {{ $target := "" }}
