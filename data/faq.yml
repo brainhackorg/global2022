@@ -72,7 +72,7 @@ wholefaq:
 
       - question:
           Where can I find the sources and guidelines for the organization of a
-          local Brainhack event as part of Brainhack Global?
+          local Brainhack event?
         answer: |
           [Here](https://github.com/brainhackorg/pr-material) you can find several sources that cover different aspects of organizing a Brainhack and helping your attendees with their needs. Please do not hesitate to give us your feedback so we can add/improve the materials.
 
@@ -80,11 +80,10 @@ wholefaq:
         answer: |
           Of course! Each local Brainhack event is free to create its program; you are even free to choose a specific theme (e.g., gradients, connectome, brain segmentation). Nonetheless, the program often follows a general framework, including activities that foster productive collaborations and create an excellent working atmosphere, allowing attendees to interactively learn new skills while working on (one or more) projects. These activities include, but are not limited to: an introduction to Brainhack (Global) (brainhacking 101), project pitches, (open) hacking, unconferences, wrap-ups and feedback, and social events/special activities (ice breakers).
 
-      - question:
-          Could we have projects that do not include coding but are focused on
-          developing guidelines, protocols, or documents?
+      - question: Could we have projects that do not include coding?
         answer: |
           This is your event, and you are the one to decide. In our opinion, any project facilitating collaboration, openness, and reproducibility within the (open) neuroscience community is eligible and should be supported.
+          These projects could be focused on developing guidelines, protocols, or similar documents.
 
       - question: Could we use our own visuals and logo?
         answer: |
@@ -136,8 +135,8 @@ wholefaq:
           Yes. For free giveaways, we recommend you to use your resources wisely and to make sure that you have enough leftovers to spend on those giveaways after the main issues (i.e., venue, catering, printing materials, potentially travel awards) are solved. For selling, again it is up to the hosting site. We would recommend making sure that the money handling is audited and appropriately done abiding by the financial legislation and rules of the institute/country/state you are associated with.
 
       - question:
-          What should I do to prevent/take action against if we are informed on
-          the existence of an action/abuse that violates the Code of Conduct?
+          What should we do to prevent/take action against in case of a Code of
+          Conduct violation?
         answer: |
           As an event organizer, you have the responsibility to ensure the good conduct of your event as well as the safety of your attendees. First of all, as the main organizers, you have to make sure that you, all the volunteers working together with you and all of your attendees read the [Code of Conduct](https://brainhack.org/code-of-conduct.html) and are clear on the terms declared in it. 
 
@@ -164,8 +163,8 @@ wholefaq:
           Yes! Everyone is invited! Brainhack events welcome researchers from every academic background and career stage who are interested in the brain. Each local event is encouraged to accept attendees from diverse backgrounds. Although previous knowledge of neuroscience methods, analysis, and the usage of the software tools are beneficial, it is not a requirement, and please do not forget that participation in Brainhack events can take on many forms. In summary, if you want to get involved, there’s always a place for you.
 
       - question:
-          Where can I find a list of broadcast, (synchronized) talks/workshops
-          across local Brainhack Global events worldwide?
+          Where can I find a list of talks workshops across local Brainhack
+          Global events?
         answer: |
           During the Brainhack Global event, you will be able to get more information about and follow broadcasts from the local sites via a calendar view with an easy search for you in that year’s particular webpage. Materials associated with the tutorials and talks will also be available on the hosting event’s website.
 
