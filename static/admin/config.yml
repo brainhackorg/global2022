@@ -7,11 +7,14 @@ backend:
   identity_url: "https://brainhack.org/global2021/.netlify/identity"
   gateway_url: "https://brainhack.org/global/2021/.netlify/git"
   # cms_label_prefix: netlify-cms/
+
 publish_mode: editorial_workflow # Option to create a branch once new content is created/saved and allow editing before merging the PR
 media_folder: 'static/media/'
 public_folder: 'media'
 # show_preview_links: false # can disable it if preview != good
+
 site_url: https://brainhack.org/global2021
+
 collections:
   - name: projects
     label: Projects

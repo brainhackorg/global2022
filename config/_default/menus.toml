@@ -3,6 +3,14 @@
 #   desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
 
+# TEMPLATE
+# [[main]]
+#   pre = "<i class='fas fa-search-location'></i>"
+#   name = "&nbsp; Events"
+#   url = "../global2021/events/" 
+#   weight = 20
+#   identifier = "event"
+
  
 [[main]]
   pre = "<i class='fas fa-brain'></i>"
@@ -14,21 +22,7 @@
   pre = "<i class='fas fa-search-location'></i>"
   name = "&nbsp; Events"
   url = "../global2021/events/" 
-# "https://brainhack.org/global2021/events"
   weight = 20
-  # identifier = "event"
-
-# [[main]]
-#   name = "View 2021 Events"
-#   url = "/events#talk_list"
-#   weight = 20
-#   parent = "event"
-
-# [[main]]
-#   name = "Host an Event"
-#   url = "/events#host-a-local-brainhack"
-#   weight = 21
-#   parent = "event"
 
 [[main]]
   pre = "<i class='fas fa-laptop'></i>"
@@ -37,43 +31,21 @@
   weight = 30
 
 [[main]]
-  # pre = "<i class='fas fa-pencil-ruler'></i>"
   name = "Code of Conduct"
   url = "https://brainhack.org/code-of-conduct"
   weight = 40
 
 [[main]]
-  # pre = "<i class='fas fa-users'></i>"
   name = "Team"
   url = "../global2021/#team"
   weight = 50
 
 [[main]]
-  # pre = "<i class='fas fa-envelope-square'></i>"
   name = "Contact"
   url = "../global2021/#contact" 
   weight = 60
 
 [[main]]
-  # pre = "<i class='fas fa-question-circle'></i>"
   name = "FAQ"
   url = "../global2021/faq/"
   weight = 70
-  # identifier = "faq"
-
-# [[main]]
-#   name = "General FAQ"
-#   url = "/faq#general-questions"
-#   weight = 71
-#   parent = "faq"
-# [[main]]
-#   name = "FAQ for attendees"
-#   url = "https://brainhack.org/faq/#attendees"
-#   weight = 72
-#   parent = "faq"
-
-# [[main]]
-#   name = "FAQ for hosts"
-#   url = "/faq/#hosts"
-#   weight = 73
-#   parent = "faq"

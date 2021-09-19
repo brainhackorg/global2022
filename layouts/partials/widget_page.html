@@ -70,7 +70,7 @@
     {{ $style = print $style . }}
   {{ end }}
 
-  {{/* Fix Hugo's ContentBaseName returning wrong file base name when page section is within a bundle. */}}
+  {{/* Fix Hugo ContentBaseName returning wrong file base name when page section is within a bundle. */}}
   {{ $hash_id := replace $st.File.ContentBaseName "index" (path.Base (path.Split .Path).Dir) }}
 
   {{ $widget := or $st.Params.widget "blank" }}

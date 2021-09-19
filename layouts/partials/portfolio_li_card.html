@@ -17,9 +17,13 @@
 {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
 
 {{/*  {{ $js_tag_classes := delimit (apply (apply $item.Params.tags "replace" "." " " "-") "printf" "js-id-%s" ".") " " }}  */}}
+
 <div class="project-card project-item isotope-item {{ range $item.Params.labels }} {{ $classy := replace .name " " "-" }}{{ $classy := replace .name ":" "-" }} {{ printf "js-id-%s" $classy | safeHTMLAttr }} {{end}}">
+  
   <div class="card">
+    
     {{/*  TODO: Make regex stricter because rn it grabs any link that ends in png,jpg,jpeg,or gif. */}}
+
     {{ $img_url := findRE "(https?:).*(?:jpg|gif|png|svg)" $item.Params.Content }}  
     {{ if $img_url  }}
           <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="card-image hover-overlay">
@@ -29,74 +33,109 @@
         <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="card-image hover-overlay">
         <img src="{{ "/media/brainhack_header.png" | relURL }}" alt="" class="img-responsive" style="background-color: #2c2c2c;">
         </a>
-         {{end}}
+    {{ end }}
 
     {{ with $resource }}
-    {{ $image := .Resize (printf "550x q90 %s") }}
-    <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="card-image hover-overlay">
-      <img src="{{ $image.RelPermalink }}" alt="" class="img-responsive">
-    </a>
+      {{ $image := .Resize (printf "550x q90 %s") }}
+      <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="card-image hover-overlay">
+        <img src="{{ $image.RelPermalink }}" alt="" class="img-responsive">
+      </a>
     {{ end }}
+
     <div class="card-text">
+
       <h4><a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{ $item.Title | markdownify | emojify }}</a></h4>
               
       {{ with $item.Params.project_description }}
-      {{/*  {{ $descrip := findRE "\\*\\*Description\\*\\*:\s.*" $item.Params.content }}  */}}
-      <div class="article-style">
-        <p>{{ . | markdownify | truncate 130}}</p>
+        {{/*  {{ $descrip := findRE "\\*\\*Description\\*\\*:\s.*" $item.Params.content }}  */}}
+        <div class="article-style">
+          <p>{{ . | markdownify | truncate 130}}</p>
 
-      </div>
+        </div>
       {{ end }}
-      <div class="btn-links">
-    {{ partial "page_links" (dict "page" $item "is_list" 1) }}
-    {{ $project_url := findRE "http.*" $item.Params.project_url }}
-    {{ if $project_url }}
-      <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="{{ range $project_url | first 1}}{{ print . | safeHTMLAttr }}{{end}}">
-    <i class="fab fa-github {{if .name}}mr-1{{end}}"></i>&nbsp;Project URL
-  </a>
-  {{end}}
-  {{/*  TODO:  link href to label filter (dunno if possible) */}}
-  {{ range $item.Params.labels}}
-  {{ if findRE "status:" .name }}
-  {{ else if in "project" .name }}
-  {{ else if findRE "bhg:" .name }}
-  {{ else if findRE "topic:" .name }}
-  <a class="btn my-1 mr-1 btn-sm" href="{{ $link }}" style="color: #fff; background-color: #{{ .color }}"><i class="fa fa-tag {{if .name}}mr-1{{end}}"></i>{{ replace (.name | replaceRE "^topic:" "") "_" " " }}</a>
-  {{ else if findRE "project_type:" .name }}
-  <a class="btn my-1 mr-1 btn-sm" href="{{ $link }}" style="color: #000; background-color: #{{ .color }}"><i class="fa fa-tasks {{if .name}}mr-1{{end}}"></i>{{ replace (.name | replaceRE "^project_type:" "") "_" " " }}</a>
-  {{ else if findRE "project_tools_skills:" .name }}
-  <a class="btn my-1 mr-1 btn-sm" href="{{ $link }}" style="color: #000; background-color: #{{ .color }}"><i class="fa fa-tag {{if .name}}mr-1{{end}}"></i>Skills: {{ replace (.name | replaceRE "^project_tools_skills:" "") "_" " " }}</a>
-  {{ else if findRE "tools:" .name }}
-  <a class="btn my-1 mr-1 btn-sm" href="{{ $link }}" style="color: #fff; background-color: #{{ .color }}"><i class="fa fa-tag {{if .name}}mr-1{{end}}"></i>{{ replace (.name | replaceRE "^tools:" "") "_" " " }}</a>
-  {{ else if findRE "programming:" .name }}
-  <a class="btn my-1 mr-1 btn-sm" href="{{ $link }}" style="color: #fff; background-color: #{{ .color }}"><i class="fa fa-tag {{if .name}}mr-1{{end}}"></i>{{ replace (.name | replaceRE "^programming:" "") "_" " " }}</a>
-  {{ else if findRE "modality:" .name }}
-  <a class="btn my-1 mr-1 btn-sm" href="{{ $link }}" style="color: #fff; background-color: #{{ .color }}"><i class="fa fa-tag {{if .name}}mr-1{{end}}"></i>{{ replace (.name | replaceRE "^modality:" "") "_" " " }}</a>
-  {{ else if findRE "git_skills" .name }}
-  <a class="btn my-1 mr-1 btn-sm" href="{{ $link }}" style="color: #000; background-color: #{{ .color }}"><i class="fa fa-tag {{if .name}}mr-1{{end}}"></i>Git level: {{ replace (.name | replaceRE "^git_skills:" "") "_" " " }}</a>
-  {{ else}}
-  <a class="btn my-1 mr-1 btn-sm" href="{{ $link }}" style="color: #000; background-color: #{{ .color }}"><i class="fa fa-tag {{if .name}}mr-1{{end}}"></i>{{ .name | humanize }}</a>
 
-  {{end}}
-  {{end}}
-  </div>
+      <div class="btn-links">
+
+        {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+        {{ $project_url := findRE "http.*" $item.Params.project_url }}
+        {{ if $project_url }}
+          <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="{{ range $project_url | first 1}}{{ print . | safeHTMLAttr }}{{end}}">
+            <i class="fab fa-github {{if .name}}mr-1{{end}}"></i>&nbsp;Project URL
+          </a>
+        {{end}}
+
+        {{/*  TODO:  link href to label filter (dunno if possible) */}}
+        {{ range $item.Params.labels}}
+          {{ if findRE "status:" .name }}
+          {{ else if in "project" .name }}
+          {{ else if findRE "bhg:" .name }}
+          {{ else if findRE "topic:" .name }}
+            <a class="btn my-1 mr-1 btn-sm" href="{{ $link }}" style="color: #fff; background-color: #{{ .color }}">
+              <i class="fa fa-tag {{if .name}}mr-1{{end}}"></i>
+              {{ replace (.name | replaceRE "^topic:" "") "_" " " }}
+            </a>
+          {{ else if findRE "project_type:" .name }}
+            <a class="btn my-1 mr-1 btn-sm" href="{{ $link }}" style="color: #000; background-color: #{{ .color }}">
+              <i class="fa fa-tasks {{if .name}}mr-1{{end}}"></i>
+              {{ replace (.name | replaceRE "^project_type:" "") "_" " " }}
+            </a>
+          {{ else if findRE "project_tools_skills:" .name }}
+            <a class="btn my-1 mr-1 btn-sm" href="{{ $link }}" style="color: #000; background-color: #{{ .color }}">
+              <i class="fa fa-tag {{if .name}}mr-1{{end}}"></i>
+              Skills: {{ replace (.name | replaceRE "^project_tools_skills:" "") "_" " " }}
+            </a>
+          {{ else if findRE "tools:" .name }}
+            <a class="btn my-1 mr-1 btn-sm" href="{{ $link }}" style="color: #fff; background-color: #{{ .color }}">
+              <i class="fa fa-tag {{if .name}}mr-1{{end}}"></i>
+              {{ replace (.name | replaceRE "^tools:" "") "_" " " }}
+            </a>
+          {{ else if findRE "programming:" .name }}
+            <a class="btn my-1 mr-1 btn-sm" href="{{ $link }}" style="color: #fff; background-color: #{{ .color }}">
+              <i class="fa fa-tag {{if .name}}mr-1{{end}}"></i>
+              {{ replace (.name | replaceRE "^programming:" "") "_" " " }}
+            </a>
+          {{ else if findRE "modality:" .name }}
+            <a class="btn my-1 mr-1 btn-sm" href="{{ $link }}" style="color: #fff; background-color: #{{ .color }}">
+              <i class="fa fa-tag {{if .name}}mr-1{{end}}"></i>
+              {{ replace (.name | replaceRE "^modality:" "") "_" " " }}
+            </a>
+          {{ else if findRE "git_skills" .name }}
+            <a class="btn my-1 mr-1 btn-sm" href="{{ $link }}" style="color: #000; background-color: #{{ .color }}">
+              <i class="fa fa-tag {{if .name}}mr-1{{end}}"></i>
+              Git level: {{ replace (.name | replaceRE "^git_skills:" "") "_" " " }}
+            </a>
+          {{ else}}
+            <a class="btn my-1 mr-1 btn-sm" href="{{ $link }}" style="color: #000; background-color: #{{ .color }}">
+              <i class="fa fa-tag {{if .name}}mr-1{{end}}"></i>
+              {{ .name | humanize }}
+            </a>
+          {{end}}
+        {{end}}
+      </div>
+
     </div>
+
   </div>
+
 </div>
 
 
 {{/*  {{ $is_list := .is_list }}
+
 {{ $link := "" }}
 
 {{ range $item.Params.links }}
   {{ $pack := or .icon_pack "fas" }}
   {{ $pack_prefix := $pack }}
+
   {{ if in (slice "fab" "fas" "far" "fal") $pack }}
     {{ $pack_prefix = "fa" }}
   {{ end }}
+  
   {{ $link := .url | default "" }}
   {{ $scheme := (urls.Parse $link).Scheme }}
   {{ $target := "" }}
+
   {{ if not $scheme }}
     {{ $resource := $item.Resources.GetMatch $link }}
     {{ if $resource }}
@@ -107,9 +146,14 @@
   {{ else if in (slice "http" "https") $scheme }}
     {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
   {{ end }}
+
   <a class="btn btn-outline-primary my-1 mr-1{{ if $is_list }} btn-sm{{end}}" href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>
-    {{ if .icon }}<i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }} {{if .name}}mr-1{{end}}"></i>{{end}}
-    {{ with .name }}{{ . | safeHTML }}{{end}}
+    {{ if .icon }}
+      <i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }} {{if .name}}mr-1{{end}}"></i>
+    {{end}}
+    {{ with .name }}
+      {{ . | safeHTML }}
+    {{end}}
   </a>
 
   {{ end }}  */}}
