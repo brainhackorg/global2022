@@ -1,5 +1,0 @@
-
-{{ range $.Site.Data.faq.general.faq }}
-    {{ .question | markdownify | emojify }}
-    {{ .answer | markdownify | emojify  }}
-{{end}}
