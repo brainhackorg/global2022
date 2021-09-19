@@ -17,7 +17,7 @@ Before filling in any part please check items in the checklist below as you go t
 Once you are done (at least all 'required' items must be provided), please delete the "Guidelines" section, submit your issue and add a comment saying 'Hi @Brainhack-Global/project-monitors: my project is ready!'
 Thank you!
 
-After the issue is submitted, we will assign a 'project monitor' from the event location that you are registered with to review your submission. Once the submission is approved by the 'project monitor', they will add the label 'Project is ready' and it will appear on [Brainhack Global 2021 Projects](https://brainhack.org/global2021/projects) page with a separate project dedicated webpage. 
+After the issue is submitted, we will assign a 'project monitor' from the event location that you are registered with to review your submission. Once the submission is approved by the 'project monitor', they will add the label 'Project is ready' and it will appear on [Brainhack Global 2021 Projects](https://brainhack.org/global2021/projects) page with a separate project dedicated webpage.
 
 Note that you can always update your issue which will also change your page on the website accordingly.
 
@@ -73,7 +73,7 @@ Where to find key resources; -->
 <!-- Add links to chat channels in Slack or Mattermost -->
 
 
-<!-- [ ] Video channel: Please write here the communication channel (Zoom, Jitsi, Twitch, or any other platform) you will be using to work collaboratively however please keep them as commented to avoid any public sharing. Once you set up your project Mattermost communication channel, make sure you write the link of the video channel at the header of the Mattermost channel for your attendees to know --> 
+<!-- [ ] Video channel: Please write here the communication channel (Zoom, Jitsi, Twitch, or any other platform) you will be using to work collaboratively however please keep them as commented to avoid any public sharing. Once you set up your project Mattermost communication channel, make sure you write the link of the video channel at the header of the Mattermost channel for your attendees to know -->
 
 **Project labels**
 <!-- Please prepend a hashtag (#) to all of the labels that fit your project, then tick the box below to state you did so (either by adding an 'x' between square brackets or by ticking it after submission). Please make sure that you stick by the labels listed for each topic below, rather than adding any new one, for further actions to work properly on the issue labels.
@@ -148,7 +148,7 @@ Optionally, you can also include information about:
 
 - [ ] Number of participants required.
 - [ ] Twitter-sized summary of your project pitch.
-- [ ] Provide an image of your project for the Brainhack Global 2021 website. 
+- [ ] Provide an image of your project for the Brainhack Global 2021 website.
 <!-- You can put an image anywhere in this issue and it will be used to build your project page on the website. -->
 
 We would like to think about how you will credit and onboard new members to your project. If you’d like to share your thoughts with future project participants, you can include information about:

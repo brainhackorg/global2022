@@ -5,7 +5,7 @@ wholefaq:
           What is Brainhack Global? What is the difference between global and
           local event sites?
         answer: |
-          Brainhack Global (BHG) is an umbrella term for all the hacking events run all around the world that brings reserchers from variety of subfields of neuroscience and in different seniority level to share open science practices and encourage the knowledge transfer across the community. The Brainhack Global is run by a central organizing committee, which is constituted by a volunteer team of researchers from a variety of research institutions. The team coordinates and helps in the planning and organization of the local events all around the world and is in charge of designing the proceedings of Brainhack Global as well as maintaining the Brainhack Global materials, websites, and social accounts. 
+          Brainhack Global (BHG) is an umbrella term for all the hacking events run all around the world that brings reserchers from variety of subfields of neuroscience and in different seniority level to share open science practices and encourage the knowledge transfer across the community. The Brainhack Global is run by a central organizing committee, which is constituted by a volunteer team of researchers from a variety of research institutions. The team coordinates and helps in the planning and organization of the local events all around the world and is in charge of designing the proceedings of Brainhack Global as well as maintaining the Brainhack Global materials, websites, and social accounts.
           Brainhack Global does not run a central hacking event on their own, but shares the information, materials, and broadcasts from all local event sites during the defined event period.
           Local event sites refer to the local Brainhack events, where a group of researchers from local institutes comes together and runs hacking events for any period of time throughout of the year. These local events are entirely independent in designing their program and event schedule, tutorial materials, recruiting their attendees and speakers, and finding their funding and venues. The events might include educational tutorials, unconferences, hacking, and social events. The Brainhack Global team helps the local event sites by providing them with all the necessary guidelines and tools that would facilitate the organization of the local events and also helps them with the advertisement of their event all around the world via its website and social accounts.
 
@@ -62,7 +62,7 @@ wholefaq:
           Are we eligible to host a local Brainhack event as part of Brainhack
           Global?
         answer: |
-          Yes! You do not have to have a big team or extensive attendee list. Sometimes event sites might not even come up with hacking projects. On those occasions, you might provide the attendees with tutorials, or you can watch simultaneously presented tutorials from other event sites and run brainstorming sessions to discuss the implementability of the presented methods in your research. 
+          Yes! You do not have to have a big team or extensive attendee list. Sometimes event sites might not even come up with hacking projects. On those occasions, you might provide the attendees with tutorials, or you can watch simultaneously presented tutorials from other event sites and run brainstorming sessions to discuss the implementability of the presented methods in your research.
 
           One thing to remember is that regardless of your event’s size, you always need a good supporting team working alongside the main organizers. Because, as you can read from the [How to Guideline for Running Successful Brainhack](https://github.com/brainhackorg/bhg-event-materials/blob/master/docs/successful_brainhack_guideline.md), there are several aspects you have to consider and plan ahead of the event, and each requires a dedicated team of volunteers to work synchronously.
 
@@ -72,7 +72,7 @@ wholefaq:
 
       - question:
           Where can I find the sources and guidelines for the organization of a
-          local Brainhack event as part of Brainhack Global?
+          local Brainhack event?
         answer: |
           [Here](https://github.com/brainhackorg/pr-material) you can find several sources that cover different aspects of organizing a Brainhack and helping your attendees with their needs. Please do not hesitate to give us your feedback so we can add/improve the materials.
 
@@ -80,11 +80,10 @@ wholefaq:
         answer: |
           Of course! Each local Brainhack event is free to create its program; you are even free to choose a specific theme (e.g., gradients, connectome, brain segmentation). Nonetheless, the program often follows a general framework, including activities that foster productive collaborations and create an excellent working atmosphere, allowing attendees to interactively learn new skills while working on (one or more) projects. These activities include, but are not limited to: an introduction to Brainhack (Global) (brainhacking 101), project pitches, (open) hacking, unconferences, wrap-ups and feedback, and social events/special activities (ice breakers).
 
-      - question:
-          Could we have projects that do not include coding but are focused on
-          developing guidelines, protocols, or documents?
+      - question: Could we have projects that do not include coding?
         answer: |
           This is your event, and you are the one to decide. In our opinion, any project facilitating collaboration, openness, and reproducibility within the (open) neuroscience community is eligible and should be supported.
+          These projects could be focused on developing guidelines, protocols, or similar documents.
 
       - question: Could we use our own visuals and logo?
         answer: |
@@ -94,7 +93,7 @@ wholefaq:
           Will we get technical support on implementing the website and setting
           up the broadcasting?
         answer: |
-          We are not able to provide each local Brainhack site with a personalized website for their event, but event holders will receive a general template that can be easily personalized with their event’s information. [Here](https://github.com/brainhackorg/local_brainhack) you can find the template provided by the Brainhack Global. If you have any difficulties adapting the template, you can contact us through our email at brainhackorg [at] gmail [dot] com, and we will do our best to help you. 
+          We are not able to provide each local Brainhack site with a personalized website for their event, but event holders will receive a general template that can be easily personalized with their event’s information. [Here](https://github.com/brainhackorg/local_brainhack) you can find the template provided by the Brainhack Global. If you have any difficulties adapting the template, you can contact us through our email at brainhackorg [at] gmail [dot] com, and we will do our best to help you.
 
           Likewise, we won’t be able to oversee the presentation broadcasting at each local Brainhack site individually, but we will provide you with general information on how to set up the necessary infrastructure in our guidelines listed in our [Github repository](https://github.com/brainhackorg/bhg-event-materials)
 
@@ -136,14 +135,14 @@ wholefaq:
           Yes. For free giveaways, we recommend you to use your resources wisely and to make sure that you have enough leftovers to spend on those giveaways after the main issues (i.e., venue, catering, printing materials, potentially travel awards) are solved. For selling, again it is up to the hosting site. We would recommend making sure that the money handling is audited and appropriately done abiding by the financial legislation and rules of the institute/country/state you are associated with.
 
       - question:
-          What should I do to prevent/take action against if we are informed on
-          the existence of an action/abuse that violates the Code of Conduct?
+          What should we do to prevent/take action against in case of a Code of
+          Conduct violation?
         answer: |
-          As an event organizer, you have the responsibility to ensure the good conduct of your event as well as the safety of your attendees. First of all, as the main organizers, you have to make sure that you, all the volunteers working together with you and all of your attendees read the [Code of Conduct](https://brainhack.org/code-of-conduct.html) and are clear on the terms declared in it. 
+          As an event organizer, you have the responsibility to ensure the good conduct of your event as well as the safety of your attendees. First of all, as the main organizers, you have to make sure that you, all the volunteers working together with you and all of your attendees read the [Code of Conduct](https://brainhack.org/code-of-conduct.html) and are clear on the terms declared in it.
 
-          You are highly recommended to have a dedicated Code of Conduct Committee whose members are outside of the organizing and volunteering team and if possible it should be constituted by the legal consultants in handling the misconduct cases provided by your institute. 
+          You are highly recommended to have a dedicated Code of Conduct Committee whose members are outside of the organizing and volunteering team and if possible it should be constituted by the legal consultants in handling the misconduct cases provided by your institute.
 
-          You have to make sure that your website clearly refers to the Brainhack Code of Conduct and you have a simple and clear reporting workflow that would make it easier for attendees to share their experiences and observations regarding the incident. The reporting workflow could be either via a dedicated email address, contact form, face-to-face meeting, written letter/template report, dedicated communication channels to contact the responsible team, or the personnel. 
+          You have to make sure that your website clearly refers to the Brainhack Code of Conduct and you have a simple and clear reporting workflow that would make it easier for attendees to share their experiences and observations regarding the incident. The reporting workflow could be either via a dedicated email address, contact form, face-to-face meeting, written letter/template report, dedicated communication channels to contact the responsible team, or the personnel.
 
           Please make it clear on your website that, you will handle the cases privately and with a respect, and act accordingly to any reported cases with the same care and delicacy independent from the magnitude of the cases and following the law/rules of the current state/country.
 
@@ -151,7 +150,7 @@ wholefaq:
           How should the Code of Conduct Committee act in the case of a
           violation of the Code of Conduct?
         answer: |
-          When a conduct concern under Brainhack Code of Conduct is raised to the Code of Conduct Committee, they should determine whether the situation can (and should) be defused by communicating privately and separately with the individuals most directly involved and, possibly, particular witness(es) (“simple resolution”). 
+          When a conduct concern under Brainhack Code of Conduct is raised to the Code of Conduct Committee, they should determine whether the situation can (and should) be defused by communicating privately and separately with the individuals most directly involved and, possibly, particular witness(es) (“simple resolution”).
 
           In the existence of the microaggression, a simpler resolution might be provided with a warning and clear conduct instructions to a person accused of a violation of this policy. Following that the Committee should observe whether it is apparent that: the misbehavior is corrected and not repeated, a sense of safety and inclusion has been restored without the need for further action, and each side of the incident is satisfied and agreed with the resolution. The Code of Conduct committee will report the event organizers accordingly regarding the measures that are taken in place.
 
@@ -164,8 +163,8 @@ wholefaq:
           Yes! Everyone is invited! Brainhack events welcome researchers from every academic background and career stage who are interested in the brain. Each local event is encouraged to accept attendees from diverse backgrounds. Although previous knowledge of neuroscience methods, analysis, and the usage of the software tools are beneficial, it is not a requirement, and please do not forget that participation in Brainhack events can take on many forms. In summary, if you want to get involved, there’s always a place for you.
 
       - question:
-          Where can I find a list of broadcast, (synchronized) talks/workshops
-          across local Brainhack Global events worldwide?
+          Where can I find a list of talks workshops across local Brainhack
+          Global events?
         answer: |
           During the Brainhack Global event, you will be able to get more information about and follow broadcasts from the local sites via a calendar view with an easy search for you in that year’s particular webpage. Materials associated with the tutorials and talks will also be available on the hosting event’s website.
 
@@ -181,7 +180,7 @@ wholefaq:
         answer: |
           First of all, please make sure that you read, understand, and abide by the policies listed in the [Brainhack Code of Conduct](https://brainhack.org/code-of-conduct.html). Acting accordingly with the rules listed in the Code of Conduct is one of the main responsibilities of every single participant of the event.
 
-          Any action that violates the Code of Conduct should be immediately reported by following the procedures defined in the website of the local organization you are registered with. Depending on the event location/institute/state/country you are registered with the reporting procedures and resolving the violation of the Code of Conduct might differ from each other which defined and protected by the law of that current country/state where your local event is based on. 
+          Any action that violates the Code of Conduct should be immediately reported by following the procedures defined in the website of the local organization you are registered with. Depending on the event location/institute/state/country you are registered with the reporting procedures and resolving the violation of the Code of Conduct might differ from each other which defined and protected by the law of that current country/state where your local event is based on.
 
           If the misconduct was held by one of the members of the local organizing committee, or if you feel that the local organization’s response to the case is inadequate, you are welcome to contact the Brainhack Global organizing team via sending us an inquiry via brainhackorg [at] gmail [dot] com providing
 
@@ -203,9 +202,9 @@ wholefaq:
 
       - question: How can I submit my project?
         answer: |
-          This year we offer a centralized project submission and listing experience independent of the event location you are registered with. With this we aim to create a platform to increase the across site interactions and provide means for collaborative and open science. 
+          This year we offer a centralized project submission and listing experience independent of the event location you are registered with. With this we aim to create a platform to increase the across site interactions and provide means for collaborative and open science.
 
-          The project submission is expected to run through filling a template issue listed in in [Brainhack Github](https://github.com/brainhackorg/global2021/issues/new/choose), in which you will be asked to fill several details that describe your project, the goals you aim with this project and the profile of the attendees you are looking for. These clear descriptions will help event attendees to browse easily and find the best fit for themselves while increasing the visibility of your project. 
+          The project submission is expected to run through filling a template issue listed in in [Brainhack Github](https://github.com/brainhackorg/global2021/issues/new/choose), in which you will be asked to fill several details that describe your project, the goals you aim with this project and the profile of the attendees you are looking for. These clear descriptions will help event attendees to browse easily and find the best fit for themselves while increasing the visibility of your project.
 
           For more information regarding how to submit your project issue and how the following review procedure works please read through our [Brainhack Global 2021 Project Submission Guideline](https://hackmd.io/VygjKuUSS9Wx_QPNXfQUSA)
 

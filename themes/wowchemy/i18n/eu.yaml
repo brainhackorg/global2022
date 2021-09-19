@@ -148,7 +148,7 @@
   translation: Data
 
 - id: last_updated
-  translation: Azkenengoz editatua 
+  translation: Azkenengoz editatua
 
 - id: event
   translation: Ekitaldia
@@ -231,7 +231,7 @@
 
 - id: cookie_message
   translation: Webgune honek cookie-ak erabiltzen ditu esperientzia hobea bermatzeko.
-  
+
 - id: cookie_dismiss
   translation: Ulertua!
 

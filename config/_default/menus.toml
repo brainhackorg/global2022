@@ -7,11 +7,11 @@
 # [[main]]
 #   pre = "<i class='fas fa-search-location'></i>"
 #   name = "&nbsp; Events"
-#   url = "../global2021/events/" 
+#   url = "../global2021/events/"
 #   weight = 20
 #   identifier = "event"
 
- 
+
 [[main]]
   pre = "<i class='fas fa-brain'></i>"
   name = "&nbsp; Home"
@@ -21,7 +21,7 @@
 [[main]]
   pre = "<i class='fas fa-search-location'></i>"
   name = "&nbsp; Events"
-  url = "../global2021/events/" 
+  url = "../global2021/events/"
   weight = 20
 
 [[main]]
@@ -42,7 +42,7 @@
 
 [[main]]
   name = "Contact"
-  url = "../global2021/#contact" 
+  url = "../global2021/#contact"
   weight = 60
 
 [[main]]

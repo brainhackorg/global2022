@@ -16,7 +16,7 @@ jobs:
 
     - name: Install dependencies
       run: python -m pip install --upgrade pip requests regex
-    
+
     - name: Run script to generate separate pages from issues
       run: |
         python issues_to_pages.py
@@ -31,4 +31,3 @@ jobs:
       run: |
         echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
         echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"
-

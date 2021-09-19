@@ -28,7 +28,7 @@ iconUrl: '../img/brain-marker.svg',
     iconSize: [18, 20], // size of the icon
 });
 
-// TODO: increase size of svg when zoomed in 
+// TODO: increase size of svg when zoomed in
 // create marker cluster layer
 var markers = L.markerClusterGroup();
 
@@ -112,5 +112,3 @@ function clearSearch() {
     findStore();
     resetMap();
 }
-
-

@@ -51,7 +51,7 @@ advanced:
   Brainhack Global 2021!
 
   <p class="text-white mb-5">
-    <a href="/global2021/events#host-your-own-local-brainhack" 
+    <a href="/global2021/events#host-your-own-local-brainhack"
       class="btn btn-light mx-auto p-3 font-weight-bold">
       APPLY TO HOST
     </a>
@@ -62,7 +62,7 @@ advanced:
   forms, press release materials and more. Check it out:
 
   <p class="text-center">
-    <a  href="https://github.com/brainhackorg/pr-material" 
+    <a  href="https://github.com/brainhackorg/pr-material"
         class="btn btn-light mx-auto p-3 font-weight-bold">
         GET FROM GITHUB
     </a>

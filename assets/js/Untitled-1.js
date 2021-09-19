@@ -19,7 +19,7 @@
     var listings = document.getElementById('listingDiv');
     var stores = L.geoJson().addTo(map);
     var storesData = omnivore.csv('assets/data/stores.csv');
-    
+
     function setActive(el) {
       var siblings = listings.getElementsByTagName('div');
       for (var i = 0; i < siblings.length; i++) {
@@ -28,11 +28,11 @@
       }
       el.className += ' active';
     }
-    
+
     function sortGeojson(a,b,prop) {
       return (a.properties.name.toUpperCase() < b.properties.name.toUpperCase()) ? -1 : ((a.properties.name.toUpperCase() > b.properties.name.toUpperCase()) ? 1 : 0);
     }
-    
+
     storesData.on('ready', function() {
 
       var storesSorted = storesData.toGeoJSON();
@@ -42,7 +42,7 @@
       storesSorted.features = sorted;
       //console.log(storesSorted)
       stores.addData(storesSorted);
-      
+
       map.fitBounds(stores.getBounds());
       toggleSearch.onclick = function() {
         var s = document.getElementById('searchbox');

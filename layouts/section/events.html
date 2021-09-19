@@ -26,10 +26,10 @@
               <!-- search on top -->
               <div class="p-4">
                 <div class="input-group shadow-sm mt-3">
-                  <input  class="form-control border-0" 
-                          type="text" 
-                          id="storefinder" 
-                          onkeyup="findStore();" 
+                  <input  class="form-control border-0"
+                          type="text"
+                          id="storefinder"
+                          onkeyup="findStore();"
                           placeholder="location, e.g. 'Donostia'">
                   <div class="input-group-append">
                     <button class="btn btn-secondary bg-white text-secondary border-0 py-0" type="submit">
@@ -42,25 +42,25 @@
 
               <!-- list of events -->
               <div class="shop-container d-flex flex-column flex-nowrap align-content-start px-md-0">
-              
+
                 {{ range sort $shops.events "title" "asc" }}
 
                   {{/*  {{ if .shopActive }}  */}}
 
-                    <div  class="sItem flex-grow-0 px-0 py-2 p-md-2" 
-                          data-name="{{ .title }}" 
-                          data-add="{{ .address }}" 
-                          data-plz="{{ .organizers }}" 
-                          data-cty="{{ .shopCountry }}" 
-                          data-lat="{{ .position.lat }}" 
+                    <div  class="sItem flex-grow-0 px-0 py-2 p-md-2"
+                          data-name="{{ .title }}"
+                          data-add="{{ .address }}"
+                          data-plz="{{ .organizers }}"
+                          data-cty="{{ .shopCountry }}"
+                          data-lat="{{ .position.lat }}"
                           data-lon="{{ .position.lng }}">
 
                       <div class="sItem--offline rounded-lg shadow-sm px-3 py-2">
-                        
+
                         <h5 class="h6 mb-0">{{ .title }}</h5>
 
                         {{/*  <p class="small mt-1 mb-0 text-muted">{{ range .dates }}{{ dateFormat "Monday, Jan 2, 2006" . }}<br>{{end}}</p>  */}}
-                        
+
                         <p class="small mt-1 mb-0 text-muted">
                           {{ .dates }}
                         </p>
@@ -92,7 +92,7 @@
 
     </div>
     {{/*  End of map  */}}
-           
+
     {{ range .Data.Pages.GroupByDate "2006" "asc" }}
 
       <div class="row" id="talk_list">
@@ -129,9 +129,9 @@
 
 </div>
 
-{{/*  
-  
-  TODO: Embed JITSI iframe + Hackmd? 
+{{/*
+
+  TODO: Embed JITSI iframe + Hackmd?
 
   <div class="container-fluid">
       <div class="row">
@@ -139,7 +139,7 @@
               {{ partial "widgets/jitsi.html"}}
           </div>
       </div>
-  </div>   
+  </div>
 
 */}}
 
