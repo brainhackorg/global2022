@@ -286,7 +286,7 @@ body:
       required: true
 
   - type: dropdown
-    id: git level
+    id: git_level
     attributes:
       label: Git skills required to enter the project
       multiple: true
