@@ -33,4 +33,3 @@ user_groups:
   - Brainhack Global Organizing Committee
 # - Volunteers
 ---
-
