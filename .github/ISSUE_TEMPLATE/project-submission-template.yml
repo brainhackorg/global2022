@@ -3,7 +3,7 @@ name: Project submission template
 # See the json schema to help you create / update this form
 # https://json.schemastore.org/github-issue-forms.json
 
-# REQUIRED fields in google form
+# REQUIRED fields in the BHG Donosita google form
 # https://docs.google.com/forms/d/e/1FAIpQLSctW3EjACh9sNAlMK5_G43pPjh0MAWjeU7OrtxOF3teyAgbiQ/viewform
 #
 # - Project title
@@ -49,12 +49,11 @@ body:
         - add a comment saying:
         > Hi @Brainhack-Global/project-monitors: my project is ready!
 
-        After the issue is submitted, we will assign a 'project monitor' to review your submission.
+        After the issue is submitted, we will assign a `project monitor` to review your submission.
 
         After approval we will add the label `Project is ready` and your project will appear on [our Projects page](https://brainhack.org/global2021/projects).
 
-        Note that you can always update your issue after clicking on `Submit new issue`.
-        This will also change your page on the website accordingly.
+        Note that you can always update your issue after clicking on `Submit new issue`. This will also change your page on the website accordingly.
 
         If at any time you need help from us or anything is unclear, please ping the project monitors (`@Brainhack-Global/project-monitors`) in a comment.
         Our team is here to help!
@@ -121,9 +120,15 @@ body:
       description: Add a brief description of the project.
 
         Try to include all the relevant information to answer the following
-        questions - What are you doing, for whom, and why? - What makes your
-        project special and exciting? - How to get started? - Where to find key
-        resources?
+        questions
+
+        - What are you doing, for whom, and why?
+
+        - What makes your project special and exciting?
+
+        - How to get started?
+
+        - Where to find key resources?
 
       placeholder: |
         - What are you doing, for whom, and why?
@@ -189,8 +194,8 @@ body:
         newcomers in your project to learn from each other and share the
         experiences.
       placeholder: |
-        "- Python: advanced"
-        "- FSL: basics"
+        - Python: advanced
+        - FSL: basics
     validations:
       required: true
 
@@ -244,11 +249,11 @@ body:
   - type: textarea
     attributes:
       label: Credit to collaborators
-      description: How you will credit and onboard new members to your project.
-
-        If you’d like to share your thoughts with future project participants,
-        you can include information about - 1) Specify how you will acknowledge
-        contributions (e.g. listing members on a contributing page).
+      description: Describe how you will credit new members to your project.
+      placeholder:
+        Project contributors are listed on the project README using
+        [all-contributors github
+        bot](https://github.com/all-contributors/all-contributors).
     validations:
       required: true
 
@@ -333,7 +338,7 @@ body:
 
   - type: dropdown
     attributes:
-      label: Tools used
+      label: Tools
       multiple: true
       options:
         - AFNI
@@ -359,7 +364,7 @@ body:
 
   - type: dropdown
     attributes:
-      label: Programming language used
+      label: Programming language
       multiple: true
       options:
         - C++
@@ -380,7 +385,7 @@ body:
 
   - type: dropdown
     attributes:
-      label: Modalities involved in the project
+      label: Modalities
       multiple: true
       options:
         - behavioral
@@ -403,7 +408,7 @@ body:
 
   - type: dropdown
     attributes:
-      label: Git skills required to enter the project
+      label: Git skills
       multiple: true
       options:
         - 0_no_git_skills
