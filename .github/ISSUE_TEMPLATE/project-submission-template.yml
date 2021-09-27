@@ -3,6 +3,24 @@ name: Project submission template
 # See the json schema to help you create / update this form
 # https://json.schemastore.org/github-issue-forms.json
 
+# REQUIRED fields in google form
+# https://docs.google.com/forms/d/e/1FAIpQLSctW3EjACh9sNAlMK5_G43pPjh0MAWjeU7OrtxOF3teyAgbiQ/viewform
+#
+# - Project title
+# - Leader
+# - Topic
+# - Project description
+# - Goals for Brainhack
+# - What will participants learn?
+# - Number of collaborators
+# - Credit to collaborators
+# - Type of project
+# - Development status
+# - Programming languages
+# - Necessary Programming skills level for the project
+# - Necessary git skills level for the project
+# - Modality
+
 description: Fill in this template to submit a project
 
 title: "[Project]: "
@@ -24,12 +42,11 @@ body:
 
         - register to the most suitable [Brainhack Global 2021 events](https://brainhack.org/global2021/events/) for your location, time zone, interest
 
-        - fill in all the required items (marqued by `*`) in the form below
+        - fill in all the required items (marqued by red `*`) in the form below. Note that if you are missing some information but still want to submit a project, you can always input dummy content.
 
         - click on `Submit new issue` at the bottom of the form
 
         - add a comment saying:
-
         > Hi @Brainhack-Global/project-monitors: my project is ready!
 
         After the issue is submitted, we will assign a 'project monitor' to review your submission.
@@ -39,7 +56,7 @@ body:
         Note that you can always update your issue after clicking on `Submit new issue`.
         This will also change your page on the website accordingly.
 
-        If at any time you need help from us or anything is unclear, please add a comment and ping your project monitor.
+        If at any time you need help from us or anything is unclear, please ping the project monitors (`@Brainhack-Global/project-monitors`) in a comment.
         Our team is here to help!
 
   # ----------------------------------------------------------------------------
@@ -64,17 +81,28 @@ body:
 
   - type: textarea
     attributes:
-      label: Project leaders
+      label: Leaders
       description:
         Add the full name (and Twitter / Mattermost handle if possible) of the
         project leaders.
     validations:
       required: true
 
+  - type: textarea
+    attributes:
+      label: Collaborators
+      description: Add the full names (and Twitter / Mattermost handle if
+        possible) of any person contributing to the project.
+
+        Try to follow the [all-contributors
+        specification](https://github.com/all-contributors/all-contributors).
+      placeholder: Please add current collaborators within your proposed project
+    validations:
+      required: false
+
   - type: dropdown
     attributes:
-      description:
-        Specify the Brainhack Global 2021 event that you registered for.
+      description: Brainhack Global event you registered for.
       label: Brainhack Global 2021 Event
       multiple: true
       options:
@@ -89,10 +117,15 @@ body:
 
   - type: textarea
     attributes:
-      label: Project Description
+      label: Description
       description: Add a brief description of the project.
+
+        Try to include all the relevant information to answer the following
+        questions - What are you doing, for whom, and why? - What makes your
+        project special and exciting? - How to get started? - Where to find key
+        resources?
+
       placeholder: |
-        Try to include all the relevant information to answer the following questions:
         - What are you doing, for whom, and why?
         - What makes your project special and exciting?
         - How to get started?
@@ -102,18 +135,22 @@ body:
 
   - type: textarea
     attributes:
-      label: Link to project repository / sources
-      description: Add a link to the project’s GitHub repo or website.
+      label: Link to the project
+      description:
+        "If your project already exists, please provide a link to project
+        repository/sources (e.g., Github link)"
       placeholder: https://github.com/user_name/my_awesome_project
     validations:
       required: true
 
   - type: textarea
     attributes:
-      label: Goals for this Brainhack Global
-      description:
-        Add a list of milestones or deliverables that you expect to achieve
-        during the event.
+      label: Goals for Brainhack Global
+      description: Add a list of milestones or deliverables that you expect to
+        achieve during the event.
+
+        Try to provide goals of varying complexity for contributors with
+        different sets of skills
     validations:
       required: true
 
@@ -132,7 +169,8 @@ body:
   - type: textarea
     attributes:
       label: Communication channels
-      description: Add links to chat channels in Slack or Mattermost.
+      description:
+        Add the the project communication channels (Slack, Mattermost or other).
       placeholder: https://mattermost.brainhack.org/brainhack/channels/my_awesome_project
     validations:
       required: true
@@ -140,49 +178,43 @@ body:
   - type: textarea
     attributes:
       label: Skills
-      description:
-        Add a list of skills needed to contribute to this project. Try to think
-        of both coding and non-coding skills. You can provide predefined skill
-        levels, but it’s better if you give concrete examples of the type of
-        task contributors will be facing. Please make sure you create equal
-        opportunities to accommodate the newcomers in your project to learn from
-        each other and share the experiences.
-      placeholder:
-        Add a list of skills needed to contribute to this project. Try to think
-        of both coding and non-coding skills. You can provide predefined skill
-        levels, but it’s better if you give concrete examples of the type of
-        task contributors will be facing. Please make sure you create equal
-        opportunities to accommodate the newcomers in your project to learn from
-        each other and share the experiences.
+      description: Add a list of skills needed to contribute to this project.
+
+        Try to think of both coding and non-coding skills.
+
+        You can provide predefined skill levels, but it’s better if you give
+        concrete examples of the type of task contributors will be facing.
+
+        Please make sure you create equal opportunities to accommodate the
+        newcomers in your project to learn from each other and share the
+        experiences.
+      placeholder: |
+        "- Python: advanced"
+        "- FSL: basics"
     validations:
       required: true
 
   - type: textarea
     attributes:
-      label: Tools
+      label: Onboarding documentation
       description:
-        Add a list of tools that are advised to be
-        installed ahead of the event to gain a bit of time with the
-        installation of the software, preparation of the environments or
-        describing the methods that will be needed to contribute to this
-        project. Try to think of both coding and non-coding details regarding
-        such to be listed.
-    validations:
-      required: true
-
-  # ----------------------------------------------------------------------------
-  # not required
-  # ----------------------------------------------------------------------------
-
-  - type: textarea
-    attributes:
-      label: Project collaborators
-      description:
-        Add full names (and Twitter / Mattermost handle if possible) of any
-        person contributing to the project. Try to follow the [all-contributors
-        specification](https://github.com/all-contributors/all-contributors).
+        Provide links to onboarding documents if you have some (for example a
+        `CONTRIBUTING.md`)
     validations:
       required: false
+
+  - type: textarea
+    attributes:
+      label: What will participants learn?
+      description: In order to make your project appeal to participants of all
+        levels, it is very important that you provide a list of skills that
+        participants would acquire by working on your project.
+
+        Folks that take part in Brainhacks for the first time usually find
+        projects a little intimidating, make sure you make it appealing for them
+        too!
+    validations:
+      required: true
 
   - type: textarea
     attributes:
@@ -192,6 +224,41 @@ body:
         link to its source.
     validations:
       required: false
+
+  - type: dropdown
+    attributes:
+      label: Number of collaborators
+      description:
+        Please mark an estimation of the number of collaborators that would
+        suffice to carry out your project.
+      multiple: false
+      options:
+        - "1"
+        - "2"
+        - "3"
+        - "4"
+        - more
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Credit to collaborators
+      description: How you will credit and onboard new members to your project.
+
+        If you’d like to share your thoughts with future project participants,
+        you can include information about - 1) Specify how you will acknowledge
+        contributions (e.g. listing members on a contributing page).
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Image
+      description:
+        Provide an image of your project for the Brainhack Global website.
+    validations:
+      required: true
 
   # ----------------------------------------------------------------------------
   # LABELS
@@ -287,7 +354,6 @@ body:
         - NWB
         - SPM
         - other
-        - not_applicable
     validations:
       required: true
 
@@ -348,44 +414,31 @@ body:
     validations:
       required: true
 
+  - type: textarea
+    attributes:
+      label: Anything else?
+      description:
+        Ticked the `other` option on one of the menu above and want to add
+        details? Any extra label we did not cover? Some softwares you are using
+        we forgot to mention? Please use the space if there is anything else
+        that you would like to add about your project.
+    validations:
+      required: false
+
   # ----------------------------------------------------------------------------
   # SUBMISSION CHECKLIST
   # ----------------------------------------------------------------------------
 
-  # - type: markdown
-  #   attributes:
-  #     value: |
-  #       ## Submission checklist
+  - type: markdown
+    attributes:
+      value: |
+        ## Submission checklist
 
-  # - type: checkboxes
-  #   attributes:
-  #     label: Once the issue is submitted, please check items in this list
-  #     description:
-  #       Please search to see if an issue already exists for the bug you
-  #       encountered.
-  #     options:
-  #       - label:
-  #           Flesh out at least 2 “good first issues” (those are tasks that do
-  #           not require any prior knowledge about your project, could be defined
-  #           as issues in a GitHub repository, or in a shared document.)
-  #       - label:
-  #           Skills (list skills that would be particularly suitable for your
-  #           project. We ask you to include at least one non-coding skill. Use
-  #           the issue labels for this purpose.)
-  #       - label:
-  #           Chat channel (A link to a chat channel that will be used during the
-  #           Brainhack Global 2021 event. This can be an existing channel or a
-  #           new one. We recommend using the [Brainhack space on
-  #           Mattermost](https://mattermost.brainhack.org/).)
-
-# Optionally, you can also include information about:
-
-# - [ ] Number of participants required.
-# - [ ] Twitter-sized summary of your project pitch.
-# - [ ] Provide an image of your project for the Brainhack Global 2021 website.
-# <!-- You can put an image anywhere in this issue and it will be used to build your project page on the website. -->
-
-# We would like to think about how you will credit and onboard new members to your project. If you’d like to share your thoughts with future project participants, you can include information about:
-
-# - [ ] Specify how you will acknowledge contributions (e.g. listing members on a contributing page).
-# - [ ] Provide links to onboarding documents if you have some:
+  - type: checkboxes
+    attributes:
+      label: Things to do after the project is submitted.
+      options:
+        - label:
+            "Add a comment saying: `Hi @Brainhack-Global/project-monitors: my
+            project is ready!`"
+        - label: Twitter-sized summary of your project pitch.
