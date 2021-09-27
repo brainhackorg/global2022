@@ -1,7 +1,7 @@
+name: Project submission template
+
 # See the json schema to help you create / update this form
 # https://json.schemastore.org/github-issue-forms.json
-
-name: Project submission template
 
 description: Fill in this template to submit a project
 
@@ -137,9 +137,9 @@ body:
 
   # <!-- [ ] Video channel: Please write here the communication channel (Zoom, Jitsi, Twitch, or any other platform) you will be using to work collaboratively however please keep them as commented to avoid any public sharing. Once you set up your project Mattermost communication channel, make sure you write the link of the video channel at the header of the Mattermost channel for your attendees to know -->
 
-#
-# LABELS
-#
+  #
+  # LABELS
+  #
 
   - type: markdown
     attributes:
@@ -298,9 +298,6 @@ body:
         - 4_not_applicable
     validations:
       required: true
-
-
-
 # ## Project Submission
 
 # ### Submission checklist
