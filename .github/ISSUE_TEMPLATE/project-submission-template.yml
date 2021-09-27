@@ -1,3 +1,6 @@
+# See the json schema to help you create / update this form
+# https://json.schemastore.org/github-issue-forms.json
+
 name: Project submission template
 
 description: Fill in this template to submit a project
@@ -98,125 +101,205 @@ body:
     validations:
       required: true
 
-  - type: checkboxes
+  # - type: checkboxes
+  #   attributes:
+  #     label: Is there an existing issue for this?
+  #     description:
+  #       Please search to see if an issue already exists for the bug you
+  #       encountered.
+  #     options:
+  #       - label: I have searched the existing issues
+  #       - label: tests
+
+  # **Data to use:**
+  # <!-- If your project uses data, add a short description of the data and a link to its source. -->
+
+  # **Link to project repository/sources:**
+  # <!-- Add a link to the project’s GitHub repo or website. -->
+
+  # **Goals for Brainhack Global 2021:**
+  # <!-- Add a list of milestones or deliverables that you expect to achieve during the event. Try to provide goals of varying complexity for contributors with different sets of skills. -->
+
+  # **Good first issues:**
+  # <!-- Add a list of tasks to help new contributors find easy gateways into open source projects. -->
+
+  # 1.
+  # 2.
+
+  # **Skills:**
+  # <!-- Add a list of skills needed to contribute to this project. Try to think of both coding and non-coding skills. You can provide predefined skill levels, but it’s better if you give concrete examples of the type of task contributors will be facing. Please make sure you create equal opportunities to accommodate the newcomers in your project to learn from each other and share the experiences. -->
+
+  # **Tools/Software/Methods to Use:**
+  # <!-- Add a list of tools/software/methods that are advised to be installed/reviewed ahead of the event to gain a bit of time with the installation of the software, preparation of the environments or describing the methods that will be needed to contribute to this project. Try to think of both coding and non-coding details regarding such to be listed. -->
+
+  # **Communication channels:**
+  # <!-- Add links to chat channels in Slack or Mattermost -->
+
+  # <!-- [ ] Video channel: Please write here the communication channel (Zoom, Jitsi, Twitch, or any other platform) you will be using to work collaboratively however please keep them as commented to avoid any public sharing. Once you set up your project Mattermost communication channel, make sure you write the link of the video channel at the header of the Mattermost channel for your attendees to know -->
+
+#
+# LABELS
+#
+
+  - type: markdown
     attributes:
-      label: Is there an existing issue for this?
-      description:
-        Please search to see if an issue already exists for the bug you
-        encountered.
+      value: |
+        ## Project labels
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      multiple: true
       options:
-        - label: I have searched the existing issues
-          required: true
-        - label: tests
-          required: true
+        - coding_methods
+        - data_management
+        - documentation
+        - method_development
+        - pipeline_development
+        - tutorial_recording
+        - visualization
+        - other
+    validations:
+      required: true
 
-  # - type: textarea
-  #   attributes:
-  #     label: Steps To Reproduce
-  #     description: Steps to reproduce the behavior.
-  #     placeholder: |
-  #       1. In this environment...
-  #       2. With this config...
-  #       3. Run '...'
-  #       4. See error...
-  #   validations:
-  #     required: false
-  # - type: textarea
-  #   attributes:
-  #     label: Environment
-  #     description: |
-  #       examples:
-  #         - **OS**: Ubuntu 20.04
-  #         - **Node**: 13.14.0
-  #         - **npm**: 7.6.3
-  #     value: |
-  #       - OS:
-  #       - Node:
-  #       - npm:
-  #     render: markdown
-  #   validations:
-  #     required: false
-# **Data to use:**
-# <!-- If your project uses data, add a short description of the data and a link to its source. -->
+  - type: dropdown
+    id: development_status
+    attributes:
+      label: Development status
+      multiple: false
+      options:
+        - 0_concept_no_content
+        - 1_basic structure
+        - 2_releases_existing
+    validations:
+      required: true
 
-# **Link to project repository/sources:**
-# <!-- Add a link to the project’s GitHub repo or website. -->
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Topic
+      multiple: true
+      options:
+        - bayesian_approaches
+        - causality
+        - connectome
+        - data_visualisation
+        - deep_learning
+        - diffusion
+        - diversity_inclusivity_equality
+        - EEG_EventRelatedResponseModelling
+        - EEG_source_modelling
+        - Granger_causality
+        - hypothesis_testing
+        - ICA
+        - information_theory
+        - machine_learning
+        - MR_methodologies
+        - neural_decoding
+        - neural_encoding
+        - neural_networks
+        - PCA
+        - physiology
+        - reinforcement_learning
+        - reproducible_scientific_methods
+        - single_neuron_models
+        - statistical_modelling
+        - systems_neuroscience
+        - tractography
+        - other
+    validations:
+      required: true
 
-# **Goals for Brainhack Global 2021:**
-# <!-- Add a list of milestones or deliverables that you expect to achieve during the event. Try to provide goals of varying complexity for contributors with different sets of skills. -->
+  - type: dropdown
+    id: tools
+    attributes:
+      label: Tools used
+      multiple: true
+      options:
+        - AFNI
+        - ANTs
+        - BIDS
+        - Brainstorm
+        - CPAC
+        - Datalad
+        - DIPY
+        - FieldTrip
+        - fMRIPrep
+        - Freesurfer
+        - FSL
+        - Jupyter
+        - MNE
+        - MRtrix
+        - Nipype
+        - NWB
+        - SPM
+        - other
+        - not_applicable
+    validations:
+      required: true
 
-# **Good first issues:**
-# <!-- Add a list of tasks to help new contributors find easy gateways into open source projects. -->
+  - type: dropdown
+    id: language
+    attributes:
+      label: Programming language used
+      multiple: true
+      options:
+        - C++
+        - containerization
+        - documentation
+        - Java
+        - Julia
+        - Matlab
+        - Python
+        - R
+        - shell_scripting
+        - unix_command_line
+        - html_css
+        - other
+        - not_applicable
+    validations:
+      required: true
 
-# 1.
-# 2.
+  - type: dropdown
+    id: modalities
+    attributes:
+      label: Modalities involved in the project
+      multiple: true
+      options:
+        - behavioral
+        - DWI
+        - ECG
+        - ECOG
+        - EEG
+        - eye_tracking
+        - fMRI
+        - fNIRS
+        - MEG
+        - MRI
+        - PET
+        - TDCS
+        - TMS
+        - other
+        - not_applicable
+    validations:
+      required: true
 
-# **Skills:**
-# <!-- Add a list of skills needed to contribute to this project. Try to think of both coding and non-coding skills. You can provide predefined skill levels, but it’s better if you give concrete examples of the type of task contributors will be facing. Please make sure you create equal opportunities to accommodate the newcomers in your project to learn from each other and share the experiences. -->
+  - type: dropdown
+    id: git level
+    attributes:
+      label: Git skills required to enter the project
+      multiple: true
+      options:
+        - 0_no_git_skills
+        - 1_commit_push
+        - 2_branches_PRs
+        - 3_continuous_integration
+        - 4_not_applicable
+    validations:
+      required: true
 
-# **Tools/Software/Methods to Use:**
-# <!-- Add a list of tools/software/methods that are advised to be installed/reviewed ahead of the event to gain a bit of time with the installation of the software, preparation of the environments or describing the methods that will be needed to contribute to this project. Try to think of both coding and non-coding details regarding such to be listed. -->
 
-# **Communication channels:**
-# <!-- Add links to chat channels in Slack or Mattermost -->
-
-# <!-- [ ] Video channel: Please write here the communication channel (Zoom, Jitsi, Twitch, or any other platform) you will be using to work collaboratively however please keep them as commented to avoid any public sharing. Once you set up your project Mattermost communication channel, make sure you write the link of the video channel at the header of the Mattermost channel for your attendees to know -->
-
-# **Project labels**
-# <!-- Please prepend a hashtag (#) to all of the labels that fit your project, then tick the box below to state you did so (either by adding an 'x' between square brackets or by ticking it after submission). Please make sure that you stick by the labels listed for each topic below, rather than adding any new one, for further actions to work properly on the issue labels.
-
-# E.g. my project is about the modulatory effect of salmon mousse on British supper survival
-# In the following list:
-# ```
-# meal:
-# brunch, supper
-# type:
-# mousse, salmon, squid
-# ```
-# I'm going to hashtag all of the labels I need my project to be indexed in:
-# ```
-# meal:
-# brunch, #supper
-# type:
-# #mousse, #salmon, squid
-# ```
-
-# Now the real list (please indicate all of the labels you'd like to add to your project):
-
-# - Type of project:
-# coding_methods, data_management, documentation, method_development,
-# pipeline_development, tutorial_recording, visualization
-
-# - Project development status:
-# 0_concept_no_content, 1_basic structure, 2_releases_existing
-
-# - Topic of the projet:
-# Bayesian_approaches, causality, connectome, data_visualisation, deep_learning,
-# diffusion, diversity_inclusivity_equality, EEG_EventRelatedResponseModelling,
-# EEG_source_modelling, Granger_causality, hypothesis_testing, ICA, information_theory,
-# machine_learning, MR_methodologies, neural_decoding, neural_encoding, neural_networks,
-# PCA, physiology, reinforcement_learning, reproducible_scientific_methods, single_neuron_models,
-# statistical_modelling, systems_neuroscience, tractography
-
-# - Tools used in the project:
-# AFNI, ANTs, BIDS, Brainstorm, CPAC, Datalad, DIPY, FieldTrip, fMRIPrep, Freesurfer,
-# FSL, Jupyter, MNE, MRtrix, Nipype, NWB, SPM
-
-# - Tools skill level required to enter the project (more than one possible):
-# comfortable, expert, familiar, no_skills_required
-
-# - Programming language used in the project:
-# no_programming_involved, C++, containerization, documentation, Java, Julia, Matlab,
-# Python, R, shell_scripting, Unix_command_line, Web, workflows
-
-# - Modalities involved in the project (if any):
-# behavioral, DWI, ECG, ECOG, EEG, eye_tracking, fMRI, fNIRS, MEG, MRI, PET, TDCS, TMS
-
-# - Git skills reuired to enter the project (more than one possible):
-# 0_no_git_skills, 1_commit_push, 2_branches_PRs, 3_continuous_integration
-# -->
-
-# - [ ] I added all of the labels I want an associate to my project
 
 # ## Project Submission
 
