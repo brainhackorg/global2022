@@ -352,38 +352,31 @@ body:
   # SUBMISSION CHECKLIST
   # ----------------------------------------------------------------------------
 
-  - type: markdown
-    attributes:
-      value: |
-        ## Submission checklist
+  # - type: markdown
+  #   attributes:
+  #     value: |
+  #       ## Submission checklist
 
-  - type: checkboxes
-    attributes:
-      label: Once the issue is submitted, please check items in this list
-      description:
-        Please search to see if an issue already exists for the bug you
-        encountered.
-      options:
-        - label:
-            Link to your project (could be a code repository, a shared document,
-            etc.)
-        - label:
-            Goals for Brainhack Global 2021 (describe what you want to achieve
-            during this brainhack)
-        - label:
-            Flesh out at least 2 “good first issues” (those are tasks that do
-            not require any prior knowledge about your project, could be defined
-            as issues in a GitHub repository, or in a shared document.)
-        - label:
-            Skills (list skills that would be particularly suitable for your
-            project. We ask you to include at least one non-coding skill. Use
-            the issue labels for this purpose.)
-        - label:
-            Chat channel (A link to a chat channel that will be used during the
-            Brainhack Global 2021 event. This can be an existing channel or a
-            new one. We recommend using the [Brainhack space on
-            Mattermost](https://mattermost.brainhack.org/).)
-
+  # - type: checkboxes
+  #   attributes:
+  #     label: Once the issue is submitted, please check items in this list
+  #     description:
+  #       Please search to see if an issue already exists for the bug you
+  #       encountered.
+  #     options:
+  #       - label:
+  #           Flesh out at least 2 “good first issues” (those are tasks that do
+  #           not require any prior knowledge about your project, could be defined
+  #           as issues in a GitHub repository, or in a shared document.)
+  #       - label:
+  #           Skills (list skills that would be particularly suitable for your
+  #           project. We ask you to include at least one non-coding skill. Use
+  #           the issue labels for this purpose.)
+  #       - label:
+  #           Chat channel (A link to a chat channel that will be used during the
+  #           Brainhack Global 2021 event. This can be an existing channel or a
+  #           new one. We recommend using the [Brainhack space on
+  #           Mattermost](https://mattermost.brainhack.org/).)
 
 # Optionally, you can also include information about:
 
