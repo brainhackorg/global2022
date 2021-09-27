@@ -92,9 +92,6 @@ body:
       label: Collaborators
       description: Add the full names (and Twitter / Mattermost handle if
         possible) of any person contributing to the project.
-
-        Try to follow the [all-contributors
-        specification](https://github.com/all-contributors/all-contributors).
       placeholder: Please add current collaborators within your proposed project
     validations:
       required: false
