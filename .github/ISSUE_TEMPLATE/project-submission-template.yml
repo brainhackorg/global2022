@@ -86,7 +86,6 @@ body:
       required: true
 
   - type: dropdown
-    id: event
     attributes:
       description:
         Specify the city and country of the Brainhack Global 2021 event that you
@@ -200,7 +199,6 @@ body:
         ## Project labels
 
   - type: dropdown
-    id: type
     attributes:
       label: Type
       multiple: true
@@ -217,7 +215,6 @@ body:
       required: true
 
   - type: dropdown
-    id: development_status
     attributes:
       label: Development status
       multiple: false
@@ -229,7 +226,6 @@ body:
       required: true
 
   - type: dropdown
-    id: topic
     attributes:
       label: Topic
       multiple: true
@@ -265,7 +261,6 @@ body:
       required: true
 
   - type: dropdown
-    id: tools
     attributes:
       label: Tools used
       multiple: true
@@ -293,7 +288,6 @@ body:
       required: true
 
   - type: dropdown
-    id: language
     attributes:
       label: Programming language used
       multiple: true
@@ -315,7 +309,6 @@ body:
       required: true
 
   - type: dropdown
-    id: modalities
     attributes:
       label: Modalities involved in the project
       multiple: true
@@ -339,7 +332,6 @@ body:
       required: true
 
   - type: dropdown
-    id: git_level
     attributes:
       label: Git skills required to enter the project
       multiple: true
