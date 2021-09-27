@@ -20,117 +20,92 @@ body:
 
         We are very excited to meet you at Brainhack Global 2021 🎉.
 
-        To submit a project, you need to be an attendee to one of the Brainhack Global 2021 events
-        listed on the [Brainhack Global 2021 webpage](https://brainhack.org/global2021/events/).
+        To submit a project:
 
-        Please, register for the event that is most suitable to your location, time zone, interest, and/or project prior to submitting one.
+        - register to the most suitable [Brainhack Global 2021 events](https://brainhack.org/global2021/events/) for your location, time zone, interest
 
-        Thank you!
+        - fill in all the required items (marqued by `*`) in the form below
 
-        We have prepared a checklist to help with your project submission. Here is how to proceed:
+        - click on `Submit new issue` at the bottom of the form
 
-        Before filling in any part please check items in the checklist below as you go through them.
-
-        Once you are done (at least all 'required' items must be provided),
-
-        please delete the "Guidelines" section, submit your issue and add a comment saying:
+        - add a comment saying:
 
         > Hi @Brainhack-Global/project-monitors: my project is ready!
 
-        Thank you!
+        After the issue is submitted, we will assign a 'project monitor' to review your submission.
 
-        After the issue is submitted, we will assign a 'project monitor'
-        from the event location that you are registered with to review your submission.
-        Once the submission is approved by the 'project monitor',
-        they will add the label 'Project is ready'
-        and it will appear on [Brainhack Global 2021 Projects](https://brainhack.org/global2021/projects)
-        page with a separate project dedicated webpage.
+        After approval we will add the label `Project is ready` and your project will appear on [our Projects page](https://brainhack.org/global2021/projects).
 
-        Note that you can always update your issue which will also change your page on the website accordingly.
+        Note that you can always update your issue after clicking on `Submit new issue`.
+        This will also change your page on the website accordingly.
 
         If at any time you need help from us or anything is unclear, please add a comment and ping your project monitor.
         Our team is here to help!
+
+  # ----------------------------------------------------------------------------
+  # PROJECT INFO
+  # ----------------------------------------------------------------------------
 
   - type: markdown
     attributes:
       value: |
         ## Project info
 
+  # ----------------------------------------------------------------------------
+  # required
+  # ----------------------------------------------------------------------------
+
   - type: textarea
     attributes:
       label: Title
-      description:
-        Add a title that reflects what the code (or content) will do in a way
-        that makes sense to newcomers who want to contribute to your project.
+      description: Add a title to describe your project.
     validations:
       required: true
 
   - type: textarea
     attributes:
-      label: Project lead
+      label: Project leaders
       description:
-        Add full name (and Twitter / Mattermost handle if possible) of the
-        contact person.
-    validations:
-      required: true
-
-  - type: textarea
-    attributes:
-      label: Project collaborators
-      description:
-        Add full names (and Twitter / Mattermost handle if possible) of any
-        person contributing to the project. Try to follow the [all-contributors
-        specification](https://github.com/all-contributors/all-contributors).
-        Contributions of any kind are welcome!
+        Add the full name (and Twitter / Mattermost handle if possible) of the
+        project leaders.
     validations:
       required: true
 
   - type: dropdown
     attributes:
       description:
-        Specify the city and country of the Brainhack Global 2021 event that you
-        registered for. If your local event has a special name or topic, please
-        do specify that as well to help us distinguish between potential events
-        in the same city.
-      label: Registered Brainhack Global 2021 Event
+        Specify the Brainhack Global 2021 event that you registered for.
+      label: Brainhack Global 2021 Event
       multiple: true
       options:
-        - nordic
-        - donostia
+        - Brainhack Nordic
+        - Brainhack Zurich
+        - Brainhack Boston
+        - BrainHack Donostia
+        - BrainHack Nordic
+        - Brainhack Global Child Mind
+        - Brainhack Montreal
     validations:
       required: true
 
   - type: textarea
     attributes:
       label: Project Description
-      description: Add a brief description of the project. Try to include all
-        the relevant information to answer the following questions
-
-        What are you doing, for who, and why;
-
-        What makes your project special and exciting;
-
-        A short example;
-
-        How to get started;
-
-        Where to find key resources
+      description: Add a brief description of the project.
+      placeholder: |
+        Try to include all the relevant information to answer the following questions:
+        - What are you doing, for whom, and why?
+        - What makes your project special and exciting?
+        - How to get started?
+        - Where to find key resources?
     validations:
       required: true
 
   - type: textarea
     attributes:
-      label: Data to use
-      description:
-        If your project uses data, add a short description of the data and a
-        link to its source.
-    validations:
-      required: false
-
-  - type: textarea
-    attributes:
       label: Link to project repository / sources
       description: Add a link to the project’s GitHub repo or website.
+      placeholder: https://github.com/user_name/my_awesome_project
     validations:
       required: true
 
@@ -139,8 +114,7 @@ body:
       label: Goals for this Brainhack Global
       description:
         Add a list of milestones or deliverables that you expect to achieve
-        during the event. Try to provide goals of varying complexity for
-        contributors with different sets of skills.
+        during the event.
     validations:
       required: true
 
@@ -160,6 +134,7 @@ body:
     attributes:
       label: Communication channels
       description: Add links to chat channels in Slack or Mattermost.
+      placeholder: https://mattermost.brainhack.org/brainhack/channels/my_awesome_project
     validations:
       required: true
 
@@ -173,6 +148,13 @@ body:
         task contributors will be facing. Please make sure you create equal
         opportunities to accommodate the newcomers in your project to learn from
         each other and share the experiences.
+      placeholder:
+        Add a list of skills needed to contribute to this project. Try to think
+        of both coding and non-coding skills. You can provide predefined skill
+        levels, but it’s better if you give concrete examples of the type of
+        task contributors will be facing. Please make sure you create equal
+        opportunities to accommodate the newcomers in your project to learn from
+        each other and share the experiences.
     validations:
       required: true
 
@@ -180,14 +162,37 @@ body:
     attributes:
       label: Tools
       description:
-        Add a list of tools/software/methods that are advised to be
-        installed/reviewed ahead of the event to gain a bit of time with the
+        Add a list of tools that are advised to be
+        installed ahead of the event to gain a bit of time with the
         installation of the software, preparation of the environments or
         describing the methods that will be needed to contribute to this
         project. Try to think of both coding and non-coding details regarding
         such to be listed.
     validations:
       required: true
+
+  # ----------------------------------------------------------------------------
+  # not required
+  # ----------------------------------------------------------------------------
+
+  - type: textarea
+    attributes:
+      label: Project collaborators
+      description:
+        Add full names (and Twitter / Mattermost handle if possible) of any
+        person contributing to the project. Try to follow the [all-contributors
+        specification](https://github.com/all-contributors/all-contributors).
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Data to use
+      description:
+        If your project uses data, add a short description of the data and a
+        link to its source.
+    validations:
+      required: false
 
   # ----------------------------------------------------------------------------
   # LABELS
@@ -379,6 +384,8 @@ body:
             Brainhack Global 2021 event. This can be an existing channel or a
             new one. We recommend using the [Brainhack space on
             Mattermost](https://mattermost.brainhack.org/).)
+
+
 # Optionally, you can also include information about:
 
 # - [ ] Number of participants required.
