@@ -3,7 +3,7 @@ name: Project submission template
 # See the json schema to help you create / update this form
 # https://json.schemastore.org/github-issue-forms.json
 
-# REQUIRED fields in the BHG Donosita google form
+# REQUIRED fields in the BHG Donostia google form
 # https://docs.google.com/forms/d/e/1FAIpQLSctW3EjACh9sNAlMK5_G43pPjh0MAWjeU7OrtxOF3teyAgbiQ/viewform
 #
 # - Project title
@@ -20,6 +20,7 @@ name: Project submission template
 # - Necessary Programming skills level for the project
 # - Necessary git skills level for the project
 # - Modality
+#
 
 description: Fill in this template to submit a project
 
@@ -90,8 +91,9 @@ body:
   - type: textarea
     attributes:
       label: Collaborators
-      description: Add the full names (and Twitter / Mattermost handle if
-        possible) of any person contributing to the project.
+      description:
+        Add the full names (and Twitter / Mattermost handle if possible) of any
+        person contributing to the project.
       placeholder: Please add current collaborators within your proposed project
     validations:
       required: false
@@ -117,17 +119,8 @@ body:
       description: Add a brief description of the project.
 
         Try to include all the relevant information to answer the following
-        questions
-
-        - What are you doing, for whom, and why?
-
-        - What makes your project special and exciting?
-
-        - How to get started?
-
-        - Where to find key resources?
-
-      placeholder: |
+        questions.
+      value: |
         - What are you doing, for whom, and why?
         - What makes your project special and exciting?
         - How to get started?
@@ -162,9 +155,10 @@ body:
       description:
         Add a list of tasks to help new contributors find easy gateways into
         open source projects.
-      placeholder: |
-        1. issue one
-        2. issue two
+      value: |
+        1. issue one:
+
+        2. issue two:
     validations:
       required: true
 
