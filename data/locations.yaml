@@ -4,14 +4,15 @@ events:
   #   organizers:
   #     -
   #   contact:
-  #     - info.something@stuff.com
-  #   website: https://www.something.com
-  #   address: 3rd planet from the sun
+  #     -
+  #   website:
+  #   address:
   #   position:
-  #     lat: 43.294272
-  #     lng: -1.986154
-  #   dates: "From 2021-11-09 to 2021-11-13"
+  #     lat:
+  #     lng:
+  #   dates:
 
+  # e.g.
   # - title: Brainhack somewhere
   #   organizers:
   #     - Marie Curie
