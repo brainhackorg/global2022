@@ -93,10 +93,10 @@ events:
     contact:
       - valentinaborghesani@gmail.com
     website:
-    address: Centre de recherche de l'IUGM, 4545 Queen Mary Rd, Montréal, Québec
-    H3W 1W6, Canada
+    address:
+      Centre de recherche de l'IUGM, 4545 Queen Mary Rd, Montréal, Québec H3W
+      1W6, Canada
     position:
       lat: 45.492031
       lng: -73.624961
     dates: "From 2021-12-06 to 2021-12-10"
-
