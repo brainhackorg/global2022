@@ -1,0 +1,61 @@
+name: Website issue template
+description:
+  Use this template to open issue regarding design/function of the website
+labels: ["website"]
+body:
+  - type: markdown
+    attributes:
+      value: Describe in simple words or drawings the issue.
+
+  - type: checkboxes
+    attributes:
+      label: Add bug or feature or design
+      options:
+        - label: bug report
+        - label: feature request
+        - label: design request
+        - label: other
+
+  - type: textarea
+    attributes:
+      label: Current behavior
+      description: |
+        What is the current behavior?
+
+        What feature / design would you like to implement?
+
+  - type: textarea
+    attributes:
+      label: Bug report information
+      description:
+        If the current behavior is a bug, please provide the steps to reproduce
+        and if possible a minimal demo of the problem.
+
+  - type: textarea
+    attributes:
+      label: Expected behavior
+      description:
+        If the current behavior is a bug, what is the expected behavior?
+
+  - type: checkboxes
+    attributes:
+      label:
+        If the current behavior is a bug, please tell us about your environment
+      options:
+        - label: all
+        - label: Chrome XX
+        - label: Firefox XX
+        - label: Internet explorer XX
+        - label: Safari XX
+        - label: Mobile Chrome XX
+        - label: Android X.X Web Browser
+        - label: iOS XX Safari
+        - label: iOS XX UIWebView
+        - label: iOS XX WKWebView
+
+  - type: textarea
+    attributes:
+      label: Other information
+      description:
+        Detailed explanation, stacktraces, related issues, suggestions how to
+        fix, links for us to have context, eg. stackoverflow, gitter...

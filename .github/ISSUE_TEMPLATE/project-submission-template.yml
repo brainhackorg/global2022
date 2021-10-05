@@ -24,8 +24,6 @@ name: Project submission template
 
 description: Fill in this template to submit a project
 
-title: "[Project]: "
-
 labels: ["project"]
 
 # assignees:
@@ -115,7 +113,7 @@ body:
 
   - type: textarea
     attributes:
-      label: Description
+      label: Project Description
       description: Add a brief description of the project.
 
         Try to include all the relevant information to answer the following
@@ -130,7 +128,7 @@ body:
 
   - type: textarea
     attributes:
-      label: Link to the project
+      label: Link to project repository/sources
       description:
         "If your project already exists, please provide a link to project
         repository/sources (e.g., Github link)"
