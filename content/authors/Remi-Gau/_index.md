@@ -10,7 +10,9 @@ github: Remi-Gau
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence) & Organizations/Affiliations
-position: "Post doctoral fellow at Université catholique de Louvain, Louvain-la-Neuve, Belgium"
+position:
+  "Post doctoral fellow at Université catholique de Louvain, Louvain-la-Neuve,
+  Belgium"
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -30,6 +32,7 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Brainhack Global Organizing Committee
-# - Volunteers
+  - Logistics
+  - Operations
+  - DEI
 ---

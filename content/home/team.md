@@ -9,7 +9,7 @@ weight = 50  # Order that this section will appear.
 title = "Meet the Team"
 subtitle = "The more, the merrier!"
 
-user_groups = ["Brainhack Global Organizing Committee", "Volunteers"]
+user_groups = ["Logistics", "Outreach", "DEI", "Onboarding", "Operations"]
 show_social = true
 show_position = true
 
