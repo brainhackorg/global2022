@@ -10,7 +10,8 @@ github: vborghesani
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence) & Organizations/Affiliations
-position: "Post doctoral fellow at Université de Montréal, Montréal, Québec, Canada"
+position:
+  "Post doctoral fellow at Université de Montréal, Montréal, Québec, Canada"
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
