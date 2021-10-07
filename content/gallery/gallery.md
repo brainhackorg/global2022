@@ -20,5 +20,3 @@ design:
   spacing:
     padding: ["5rem", "0", "5rem", "0"]
 ---
-
-We list here all the images that we use in our website.
