@@ -34,5 +34,5 @@ social:
 user_groups:
   - Logistics
   - Operations
-  - DEI
+  - Outreach & DEI
 ---
