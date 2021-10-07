@@ -53,8 +53,13 @@
     {{ end }}
 
     <div class="portrait-title">
-      <h2>{{ .Title }}</h2>{{ if $page.Params.show_social }}{{ partial "social_links" . }}{{ end }}</sup>
-      {{ if and $show_interests .Params.interests }}<p class="people-interests">{{ delimit .Params.interests ", " | markdownify | emojify }}</p>{{ end }}
+      <h2>{{ .Title }}</h2>
+      {{ if $page.Params.show_social }}
+        {{ partial "social_links" . }}
+      {{ end }}</sup>
+      {{ if and $show_interests .Params.interests }}
+        <p class="people-interests">{{ delimit .Params.interests ", " | markdownify | emojify }}</p>
+      {{ end }}
     </div>
   </div>
   {{ end }}
