@@ -18,8 +18,8 @@ subtitle:
 design:
   columns: "1"
   background:
-    image: headers/code-of-conduct.jpg
-    image_darken: 0.3
+    image: brain_art/kaleidoscope.jpg
+    image_darken: 0.5
     image_parallax: true
     image_position: center
     image_size: cover

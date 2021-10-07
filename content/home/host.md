@@ -20,8 +20,8 @@ design:
   columns: "1"
   clip_path: "polygon(0 10%, 100% 0, 100% 90%, 0% 100%)"
   background:
-    image: pattern.svg
-    image_darken: 0.0
+    image: brain_art/what_thoughts_in_her_head.png
+    image_darken: 0.5
     image_parallax: true
     image_position: center
     image_size: cover
@@ -47,8 +47,8 @@ advanced:
 
   <div class="col-lg-8 mx-auto">
 
-  We are currently recruiting sites to host <br> local Brainhack events during
-  Brainhack Global 2021!
+We are currently recruiting sites to host <br> local Brainhack events during
+Brainhack Global 2021!
 
   <p class="text-white mb-5">
     <a href="/global2021/events#host-your-own-local-brainhack"
@@ -57,9 +57,9 @@ advanced:
     </a>
   </p>
 
-  The Brainhack Global team built up a set of resources for you to **help you
-  organize your local Brainhack** including guidelines, checklists, template
-  forms, press release materials and more. Check it out:
+The Brainhack Global team built up a set of resources for you to **help you
+organize your local Brainhack** including guidelines, checklists, template
+forms, press release materials and more. Check it out:
 
   <p class="text-center">
     <a  href="https://github.com/brainhackorg/pr-material"
