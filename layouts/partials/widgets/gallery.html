@@ -36,13 +36,17 @@
 
         {{ range $brain_art.brain_art.images }}
 
-            <h3 id="{{.name | urlize }}" class="text-secondary text-center text-md-left">
-                {{ .name | markdownify | emojify }}
-                by {{ .author | markdownify | emojify }}
-            </h3>
+            <div style="padding-top: 1rem;">
 
-            <div>
-                <img src="{{ printf "%s/brain_art/%s" $media_dir .filename | relURL }}" alt="{{ .name }}">
+                <h3 id="{{.name | urlize }}" class="text-secondary text-center text-md-left">
+                    {{ .name | markdownify | emojify }}
+                    by {{ .author | markdownify | emojify }}
+                </h3>
+
+                <div style="width: 80%; padding-left: 10%">
+                    <img src="{{ printf "%s/brain_art/%s" $media_dir .filename | relURL }}" alt="{{ .name }}">
+                </div>
+
             </div>
 
         {{ end }}
