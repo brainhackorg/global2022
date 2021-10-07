@@ -5,7 +5,7 @@ title: "Valentina Borghesani"
 # Username (this should match the folder name and the name on publications)
 authors:
   - "Valentina Borghesani"
-github: vborghesani
+
 # Is this the primary user of the site?
 superuser: false
 
