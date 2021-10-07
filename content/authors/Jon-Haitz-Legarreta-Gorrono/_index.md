@@ -5,7 +5,7 @@ title: "Jon Haitz Legarreta Gorroño"
 # Username (this should match the folder name and the name on publications)
 authors:
   - "Jon Haitz Legarreta Gorroño"
-github: jhlegarreta
+
 # Is this the primary user of the site?
 superuser: false
 

@@ -5,7 +5,7 @@ title: "Cameron Craddock"
 # Username (this should match the folder name and the name on publications)
 authors:
   - "Cameron Craddock"
-github: ccraddock
+
 # Is this the primary user of the site?
 superuser: false
 

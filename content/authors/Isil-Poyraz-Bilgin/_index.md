@@ -5,7 +5,7 @@ title: "Isil Poyraz Bilgin"
 # Username (this should match the folder name and the name on publications)
 authors:
   - "Isil Poyraz Bilgin"
-github: complexbrains
+
 # Is this the primary user of the site?
 superuser: false
 

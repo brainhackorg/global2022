@@ -5,7 +5,7 @@ title: "Johanna Bayer"
 # Username (this should match the folder name and the name on publications)
 authors:
   - "Johanna Bayer"
-github: likeajumprope
+
 # Is this the primary user of the site?
 superuser: false
 

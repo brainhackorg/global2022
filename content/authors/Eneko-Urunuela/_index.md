@@ -5,7 +5,7 @@ title: "Eneko Uruñuela"
 # Username (this should match the folder name and the name on publications)
 authors:
   - "Eneko Uruñuela"
-github: eurunuela
+
 # Is this the primary user of the site?
 superuser: false
 
