@@ -39,11 +39,11 @@ hero_media = "headers/brain.png"
 # Call to action links (optional).
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
-[cta]
-  url = "/events#host-your-own-local-brainhack"
-  label = "Host your own local Brainhack"
-  icon_pack = "fas"
-  icon = "map-pin fa-fw"
+# [cta]
+#   url = "/events#host-your-own-local-brainhack"
+#   label = "Host your own local Brainhack"
+#   icon_pack = "fas"
+#   icon = "map-pin fa-fw"
 #
 # [cta_alt]
 #   url = "#projects"
@@ -60,4 +60,39 @@ hero_media = "headers/brain.png"
 
 <br>
 
-<br>
+<p class="cta-btns">
+  <a href="events#host-your-own-local-brainhack"
+    class="btn bg.text_color_light btn-light btn-primary btn-lg"
+    style="text-decoration: none">
+    <i class="fas fa-map-pin pr-2" aria-hidden="true"></i>
+    Host your own local Brainhack
+  </a>
+</p>
+
+<p class="cta-btns">
+  <a href="events"
+      class="btn bg.text_color_light btn-light btn-primary btn-lg"
+      style="text-decoration: none">
+    <i class="fas fa-globe pr-2" aria-hidden="true"></i>
+    Register for a local event
+  </a>
+</p>
+
+<p class="cta-btns">
+  <a href="https://github.com/brainhackorg/global2021/issues/new?assignees=&labels=project&template=project-submission-template.yml"
+      class="btn bg.text_color_light btn-light btn-primary btn-lg"
+      style="text-decoration: none"
+      target="_blank">
+    <i class="fas fa-file-import pr-2" aria-hidden="true"></i>
+    Submit a project
+  </a>
+</p>
+
+<p class="cta-btns">
+  <a href="projects"
+      class="btn bg.text_color_light btn-light btn-primary btn-lg"
+      style="text-decoration: none">
+    <i class="fas fa-thumbs-up pr-2" aria-hidden="true"></i>
+    Join a project
+  </a>
+</p>
