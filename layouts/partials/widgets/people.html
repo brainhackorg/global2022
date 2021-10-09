@@ -7,61 +7,78 @@
 {{ $show_interests := $page.Params.design.show_interests | default true }}
 
 <div class="row justify-content-center people-widget">
+
   {{ with $page.Title }}
-  <div class="col-md-12 section-heading">
-    <h1>{{ . | markdownify | emojify }}</h1>
-    {{ if $page.Params.subtitle }}<p>{{ $page.Params.subtitle | markdownify | emojify }}</p>{{ end }}
-  </div>
+    <div class="col-md-12 section-heading">
+      <h1>{{ . | markdownify | emojify }}</h1>
+      {{ if $page.Params.subtitle }}
+        <p>{{ $page.Params.subtitle | markdownify | emojify }}</p>
+      {{ end }}
+    </div>
   {{ end }}
 
   {{ with $page.Content }}
-  <div class="col-md-12">
-    {{ . }}
-  </div>
+    <div class="col-md-12">
+      {{ . }}
+    </div>
   {{ end }}
 
   {{ range $page.Params.user_groups }}
-  {{/*  Added shuffle so the order always change!  */}}
-  {{ $query := where (where site.Pages "Section" "authors") ".Params.user_groups" "intersect" (slice .) | shuffle }}
 
-  {{if $query}}
-  <div class="col-md-12">
-    <h2 class="mb-4">{{ . | markdownify }}</h2>
-  </div>
-  {{end}}
+    {{/*  Added shuffle so the order always change!  */}}
 
-  {{ range $query }}
-  {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
-  {{/* Get link to user profile page. */}}
-  {{ $link := "" }}
-  {{ with site.GetPage (printf "/authors/%s" (path.Base (path.Split .Path).Dir)) }}
-    {{ $link = .RelPermalink }}
-  {{ end }}
-  <div class="col-12 col-sm-auto people-person">
-    {{ $src := "" }}
-    {{ if site.Params.avatar.gravatar }}
-      {{ $src = printf "https://s.gravatar.com/avatar/%s?s=150" (md5 .Params.email) }}
-    {{ else if $avatar }}
-      {{ $avatar_image := $avatar.Fill "270x270 Center" }}
-      {{ $src = $avatar_image.RelPermalink }}
-    {{ else if .Params.github}}
-      {{ $src = printf "https://avatars.githubusercontent.com/%s" .Params.github }}
+    {{ $query := where (where site.Pages "Section" "authors") ".Params.user_groups" "intersect" (slice .) | shuffle }}
+
+    {{if $query}}
+      <div class="col-md-12">
+        <h2 class="mb-4">{{ . | markdownify }}</h2>
+      </div>
+    {{end}}
+
+    {{ range $query }}
+
+      {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
+      {{/* Get link to user profile page. */}}
+
+      <div class="col-12 col-sm-auto people-person">
+
+        {{ $src := "" }}
+
+        <!-- ugly hack where we loop through the social media
+             to parse the github username -->
+        {{ $github_user_name := "" }}
+        {{ range .Params.social }}
+          {{ if in (slice "github") .icon }}
+            {{ $github_user_name = printf "%s" (path.Split .link).File }}
+          {{ end }}
+        {{ end }}
+
+        {{ if $avatar }}
+          {{ $avatar_image := $avatar.Fill "270x270 Center" }}
+          {{ $src = $avatar_image.RelPermalink }}
+        {{ else if $github_user_name}}
+          {{ $src = printf "https://avatars.githubusercontent.com/%s" $github_user_name }}
+        {{ end }}
+
+        {{ if $src }}
+          {{ $avatar_shape := site.Params.avatar.shape | default "circle" }}
+          <img title={{ if $page.Params.show_social }}{{ .Params.position }}{{ end }} class="avatar avatar-circle" src="{{ $src }}" alt="Avatar">
+        {{ end }}
+
+        <div class="portrait-title">
+          <h2>{{ .Title }}</h2>
+          {{ if $page.Params.show_social }}
+            {{ partial "social_links" . }}
+          {{ end }}</sup>
+          {{ if and $show_interests .Params.interests }}
+            <p class="people-interests">{{ delimit .Params.interests ", " | markdownify | emojify }}</p>
+          {{ end }}
+        </div>
+
+      </div>
+
     {{ end }}
-    {{ if $src }}
-      {{ $avatar_shape := site.Params.avatar.shape | default "circle" }}
-      <img title={{ if $page.Params.show_social }}{{ .Params.position }}{{ end }} class="avatar avatar-circle" src="{{ $src }}" alt="Avatar">
-    {{ end }}
 
-    <div class="portrait-title">
-      <h2>{{ .Title }}</h2>
-      {{ if $page.Params.show_social }}
-        {{ partial "social_links" . }}
-      {{ end }}</sup>
-      {{ if and $show_interests .Params.interests }}
-        <p class="people-interests">{{ delimit .Params.interests ", " | markdownify | emojify }}</p>
-      {{ end }}
-    </div>
-  </div>
   {{ end }}
-  {{ end }}
+
 </div>
