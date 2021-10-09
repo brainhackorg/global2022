@@ -80,7 +80,7 @@ def filter_issues_on_label_name(issues, value):
     issues : list
         Issue data.
     value : str
-        Value required for the label name, e.g. "status:published".
+        Value required for the label name, e.g. "status:web_ready".
 
     Returns
     -------
@@ -203,7 +203,7 @@ def gather_website_project_data(issues):
     issues_of_interest = filter_issues_on_state(issues, value)
 
     # Filter issues that do not have a published status
-    value = "status:published"
+    value = "status:web_ready"
     issues_of_interest = filter_issues_on_label_name(issues_of_interest, value)
 
     projects = dict({})
