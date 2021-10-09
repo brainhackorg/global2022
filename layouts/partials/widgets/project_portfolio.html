@@ -15,6 +15,13 @@
         {{ with $st.Title }}<h1 class="mt-0 text-white">{{ . | markdownify | emojify }}</h1>{{ end }}
         {{ with $st.Params.subtitle }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
       </div>
+
+      <div class="center-text m-3">
+        <p class="btn btn-primary btn-lg active m-3 rounded text-white font-weight-bold">
+          Click the buttons below to filter the projects you may want to join.
+        </p>
+      </div>
+
       <div>
 
         {{/*  TODO: Find a way to iterate through location labels, then topic labels, then levels, etc. so we can select multiple filters at once */}}
@@ -22,9 +29,11 @@
         {{/*  <div id="options">
           <div class="option-set" data-group="locations">
             <input type="checkbox" value="" id="location-all" class="all" checked /><label for="location-all">&nbsp;All locations</label>
-            {{ range $label }} {{ if in .name "hub" }}
-            <input type="checkbox" value=".{{replace .name " " "-"}}" id="{{replace .name " " "-"}}" /><label for="{{replace .name " " "-"}}">&nbsp;{{ .name }}</label>
-        {{end}}{{end}}
+            {{ range $label }}
+              {{ if in .name "hub" }}
+              <input type="checkbox" value=".{{replace .name " " "-"}}" id="{{replace .name " " "-"}}" /><label for="{{replace .name " " "-"}}">&nbsp;{{ .name }}</label>
+              {{end}}
+            {{end}}
           </div>
         </div>  */}}
 
