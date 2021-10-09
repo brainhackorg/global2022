@@ -160,9 +160,16 @@ def extract_website_project_data(issue):
     project_data.update(content)
 
     # Get project URL if provided
+
+    # Get the body of the relevant section
     proj_url_re_match = re.search(
-        "(?<=Link to project repository\\/sources:\*\*)[\\r\\n\s]*.*(http.*)(?=\\r\\n)",
+        "(?<=### Link to project repository/sources[^\v]{2})((?:.*\r?\n?)*)(?=[^\v]{2}###)",
         issue["body"],
+    )
+    # Get the URLs
+    proj_url_re_match = re.search(
+        "\b(http:|www\.)(?:[^\s,.;:!?]|[,.!?](?!\s))+",
+        proj_url_re_match.group(),
     )
     if proj_url_re_match:
         project_url = {"project_url": proj_url_re_match.group()}
@@ -170,7 +177,7 @@ def extract_website_project_data(issue):
 
     # Get project description if provided
     proj_desc_re_match = re.search(
-        "(?<=Project Description:\*\*)[\\r\\n\s]*.*(?=\\r\\n)",
+        "(?<=### Project Description[^\v]{2})((?:.*\r?\n?)*)(?=[^\v]{2}###)",
         issue["body"],
         flags=re.DOTALL,
     )
