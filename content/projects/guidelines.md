@@ -25,11 +25,9 @@ design:
 
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Pacifico" />
 
-<h1 style="font-family:'Pacifico';color:#fe97a0">
-   Brainhack Global 2021 Project Submission Guideline
-</h1>
-
-### Why a centralised project submission?
+<h2 style="font-family:'Pacifico'; color:#fe97a0">
+   Why a centralised project submission?
+</h2>
 
 As the Brainhack Global team, we aim to :
 
@@ -45,10 +43,12 @@ virtually, a common platform for project submission and listing will allow you
 to submit your initial project call to gather interests from researchers from
 all Brainhack Global event locations.
 
-### Submitting a project
+<h2 style="font-family:'Pacifico'; color:#fe97a0">
+   Submitting a project
+</h2>
 
 Please read our
-**[How to Guideline for Leading and Attending to Brainhack Projects](https://github.com/brainhackorg/bhg-event-materials/blob/master/docs/leading_and_attending_to_brainhack_projects.md)**
+**[Guidelines for Leading and Attending to Brainhack Projects](https://github.com/brainhackorg/bhg-event-materials/blob/master/docs/leading_and_attending_to_brainhack_projects.md)**
 to get more ideas about:
 
 - how to design your project and what to expect from a Brainhack experience,
@@ -61,11 +61,9 @@ facilitate the implementation of open science practices in neuroscience and
 create more opportunities for collaborative work and information exchange within
 the community.
 
-<h2 style="font-family:'Pacifico';color:#fe97a0">
-   How will it work?
-</h2>
-
-#### Fill in the project submission form
+<h3 style="font-family:'Pacifico'; color:#fe97a0">
+   How does it work?
+</h3>
 
 In order to submit a project to the Brainhack Global 2021 Project Gallery,
 please follow these steps:
@@ -73,61 +71,45 @@ please follow these steps:
 1. Register with an event listed in the
    **[Brainhack Global 2021 Events](https://brainhack.org/global2021/events/)**.
 1. Create a **[GitHub](http://github.com/)** account.
-1. Use
-   [our project submission form](https://github.com/brainhackorg/global2021/issues/new?assignees=&labels=project&template=project-submission-template.md&title=)
-   and fill in the necessary/required information as requested.
+1. Use our project submission form and fill in the necessary/required
+information as requested.
+<p class="text-center">
+  <a  href="https://github.com/brainhackorg/global2021/issues/new?assignees=&labels=project&template=project-submission-template.yml"
+      target="_blank"
+      class="btn btn-light mx-auto p-3 font-weight-bold">
+      Project submission form
+  </a>
+</p>
 
-   1. Make sure that the information about your project is as clear and brief as
-      possible.
-   1. Share the necessary links that point reviewers/attendees to the right
-      resources/repository and more detailed information about your project.
+<h3 style="font-family:'Pacifico'; color:#fe97a0">
+   What happens next?
+</h3>
 
-   1. Follow the instructions in the
-      **[How to Guideline for Leading and Attending to Brainhack Projects](https://github.com/brainhackorg/bhg-event-materials/blob/master/docs/leading_and_attending_to_brainhack_projects.md)**
-      to increase the diversity and inclusivity in your project work and define
-      the tasks, roles and the skills that you are expecting from your attendees
-      accordingly. Make sure that you have room for newcomers to give them a
-      chance to learn from more senior colleagues and share their own
-      experiences.
+Once you have submitted your project, a reviewer will check the information in
+your issue. They may request some changes if deemed necessary.
 
-   1. Choose/create the label pointing to the event location that you are
-      registered with.
-
-   1. Follow the instructions given in the project form to choose the labels for
-      your project. These labels can help match your project with the attendees'
-      interests.
-
-   1. After you are done filling in the necessary/required information, open the
-      issue to submit your project to be reviewed.
-
-   1. Remember that you can make always amend your project submission as
-      necessary during the reviewing process.
-
-### What happens next?
-
-Once you have submitted your project, a reviewer from the event that you have
-registered with will follow up with you and will review the information in your
-issue. They may request some changes if deemed necessary. If all
-necessary/required information is in place, the project will be marked as
-`status:web_ready` and will be listed on the
+Once the review completed the project will be marked as `status:web_ready` and
+will be listed on the
 **[Brainhack Global 2021 Projects](https://brainhack.org/global2021/projects/)**
 page after a short delay. A subpage dedicated to your own project will be
-automatically created. In the meantime, you can still continue to make changes
-to your project submission.
+automatically created.
+
+<h3 style="font-family:'Pacifico'; color:#fe97a0">
+   Matching projects with participants
+</h3>
 
 The Brainhack Global team will try to match event attendees to projects across
-the globe based the expertise/skill sets that attendees want to acquire and the
-projects are looking for. Once the attendee registrations are completed, the
-matching algorithm will be run by the local organizers themselves based on the
-information provided by the attendees in the participant registration form. The
-attendees will be automatically sent an email that is listing the best fitting
-projects with their expertise and interests. However, the preference of the
-project the attendees will join will be based on the attendees own decision.
-They could either go with the suggested options or they could choose among the
-other projects listed in the
+the globe based the expertise/skill sets that attendees want to acquire and
+those the projects are looking for. Once the attendee registrations are
+completed, our matching algorithm will be run based on the information provided
+by the attendees during registration. The attendees will then receive an email
+listing the best fitting projects for their expertise and interests.
+
+Of course, the project attendees decide to join is ultimately their own. They
+could either go with the suggested options or they could choose among the other
+projects listed in the
 **[Brainhack Global 2021 Projects](https://brainhack.org/global2021/projects/)**
-page. Based on the communication channels listed in the project issues, the
-attendees will contact the project leaders.
+page.
 
 Please be aware that, at the very early stage of the interactions, attendees
 might just want to contact you for more information to make sure that the
