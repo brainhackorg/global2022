@@ -1,7 +1,7 @@
 ---
 # An instance of the Blank widget.
 # Documentation: https://sourcethemes.com/academic/docs/page-builder/
-widget: "blank"
+widget:
 
 # Activate this widget? true/false
 active: true
@@ -47,24 +47,22 @@ advanced:
 
   <div class="col-lg-8 mx-auto">
 
-We are currently recruiting sites to host <br> local Brainhack events during
-Brainhack Global 2021!
+  We are currently recruiting sites to host local Brainhack events during Brainhack Global 2021!
 
   <p class="text-white mb-5">
-    <a href="/global2021/events#host-your-own-local-brainhack"
-      class="btn btn-light mx-auto p-3 font-weight-bold">
+    <a href="/global2021/events#host-your-own-local-brainhack" class="btn btn-light mx-auto p-3 font-weight-bold">
       APPLY TO HOST
     </a>
   </p>
 
-The Brainhack Global team built up a set of resources for you to **help you
-organize your local Brainhack** including guidelines, checklists, template
-forms, press release materials and more. Check it out:
+  The Brainhack Global team built up a set of resources for you to help you
+  organize your local Brainhack including guidelines, checklists, template
+  forms, press release materials and more.
 
   <p class="text-center">
     <a  href="https://github.com/brainhackorg/pr-material"
         class="btn btn-light mx-auto p-3 font-weight-bold">
-        GET FROM GITHUB
+        RESOURCES
     </a>
   </p>
 
