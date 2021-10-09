@@ -1,0 +1,56 @@
+{{/* Gallery Widget */}}
+{{/* Initialise */}}
+{{ $ := .root }}
+{{ $page := .page }}
+{{ $brain_art := $.Site.Data.brain_art }}
+{{ $media_dir := $.Scratch.Get "media_dir" }}
+
+<div class="row justify-content-center">
+
+  {{ with $page.Title }}
+    <div class="col-md-12 section-heading">
+        <h1>{{ . | markdownify | emojify }}</h1>
+        {{ if $page.Params.subtitle }}
+            <p>{{ $page.Params.subtitle | markdownify | emojify }}</p>
+        {{ end }}
+    </div>
+  {{ end }}
+
+  {{ with $page.Content }}
+    <div class="col-md-12">
+        {{ . }}
+    </div>
+  {{ end }}
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+
+        Images for the website were kindly provided by
+        <a href="https://ohbm-brainart.github.io/" target="_blank">
+            the brain art special interest group
+        </a>
+        of the <a href="https://www.humanbrainmapping.org" target="_blank">
+            organization for human brain mapping.
+        </a>
+
+        {{ range $brain_art.brain_art.images }}
+
+            <div style="padding-top: 1rem;">
+
+                <h3 id="{{.name | urlize }}" class="text-secondary text-center text-md-left">
+                    {{ .name | markdownify | emojify }}
+                    by {{ .author | markdownify | emojify }}
+                </h3>
+
+                <div style="width: 80%; padding-left: 10%">
+                    <img src="{{ printf "%s/brain_art/%s" $media_dir .filename | relURL }}" alt="{{ .name }}">
+                </div>
+
+            </div>
+
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</div>

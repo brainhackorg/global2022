@@ -31,21 +31,28 @@
   weight = 30
 
 [[main]]
+  pre = "<i class='fas fa-brush'></i>"
+  name = "&nbsp; Gallery"
+  url = "../global2021/gallery"
+  weight = 40
+
+[[main]]
+  pre = "<i class='fas fa-question'></i>"
+  name = "&nbsp; FAQ"
+  url = "../global2021/faq/"
+  weight = 50
+
+[[main]]
   name = "Code of Conduct"
   url = "https://brainhack.org/code-of-conduct"
-  weight = 40
+  weight = 60
 
 [[main]]
   name = "Team"
   url = "../global2021/#team"
-  weight = 50
+  weight = 70
 
 [[main]]
   name = "Contact"
   url = "../global2021/#contact"
-  weight = 60
-
-[[main]]
-  name = "FAQ"
-  url = "../global2021/faq/"
-  weight = 70
+  weight = 80

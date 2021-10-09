@@ -1,0 +1,34 @@
+brain_art:
+  images:
+    - name: Kaleidoscope
+      filename: kaleidoscope_V3.jpg
+      author: Elizabeth Jameson
+      link:
+    - name: A Brain With Flair
+      filename: "a_brain_with_flair.jpg"
+      author: Patrick Lao
+      link:
+    - name: Jungles brain
+      filename: "jungles_brain.jpeg"
+      author: Batool Rizvi 
+      link:
+    - name: Brain eyes
+      filename: "brain_eyes.jpg"
+      author: Jean-François Mangin
+      link:
+    - name: The great connectome off Kanagawa
+      filename: "the_great_connectome_off_Kanagawa.jpg"
+      author: QMENTA [Irina sanchez, Santi Puch & Salvis]
+      link:
+    - name: Budde.Matthew
+      filename: "Matt_Budde.jpg"
+      author: Matt Budde
+      link:
+    - name: What thoughts in her head
+      filename: "what_thoughts_in_her_head.png"
+      author: Rachel Scott
+      link:
+    - name: Bundle Analytics (BUAN) in action!
+      filename: "BUAN.png"
+      author: Bramsh Chandio
+      link:

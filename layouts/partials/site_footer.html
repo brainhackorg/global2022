@@ -1,3 +1,9 @@
+  <!-- TODO
+
+    the different div of the footer are not all aligned
+
+  -->
+
 <footer class="site-footer">
   {{ if or (site.GetPage "terms.md") (site.GetPage "privacy.md") }}
   <p class="powered-by">
@@ -13,6 +19,13 @@
 
   <p class="powered-by">
     {{ with site.Copyright }}{{ replace . "{year}" now.Year | markdownify}}{{ end }}
+  </p>
+
+  {{/* Link to gallery page for credits. */}}
+  <p style="width: 80%; padding-left: 10%">
+    Images (and their credits) provided by <a href="https://ohbm-brainart.github.io/" target="_blank">the brain art special interest group</a>
+    of the <a href="https://www.humanbrainmapping.org" target="_blank">organization for human brain mapping</a>
+    can be viewed on <a href="TODO">our gallery page</a>.
   </p>
 
   {{/* Display copyright license. */}}
