@@ -23,8 +23,8 @@ hero_media = "headers/brain.png"
   color = "#2a4644"
 
   # Background gradient.
-  # gradient_start = "#64a19d"
-  # gradient_end = "#64a19d"
+  gradient_start = "#2a4644"
+  gradient_end = "#64a19d"
 
   # Background image.
  # image = "headers/brain.png"  # Name of image in `static/media/`.
