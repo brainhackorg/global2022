@@ -1,0 +1,49 @@
+{{/* Partner Widget */}}
+
+{{/* Initialise */}}
+{{ $ := .root }}
+{{ $page := .page }}
+{{ $partners := $.Site.Data.partners }}
+{{ $media_dir := $.Scratch.Get "media_dir" }}
+
+<div class="row justify-content-center">
+
+  {{ with $page.Title }}
+    <div class="col-lg-12 text-center m-3">
+      <h1>{{ . | markdownify | emojify }}</h1>
+      {{ if $page.Params.subtitle }}
+        <p>{{ $page.Params.subtitle | markdownify | emojify }}</p>
+      {{ end }}
+    </div>
+  {{ end }}
+
+  {{ with $page.Content }}
+    <div class="col-md-12">
+      {{ . }}
+    </div>
+  {{ end }}
+
+  <div class="row justify-content-center">
+
+    {{ range $partners.partners }}
+
+      <div class="col-sm-4 m-3">
+
+        <div>
+          <a href="{{ .website }}" target="_blank">
+            <img  src="{{ printf "%s/partners/%s" $media_dir .image | relURL }}"
+                  alt="{{ .name }}">
+          </a>
+        </div>
+
+        <div class="text-center">
+          <h2>{{ .name }}</h2>
+        </div>
+
+      </div>
+
+    {{ end }}
+
+  </div>
+
+</div>

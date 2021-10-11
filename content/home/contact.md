@@ -10,7 +10,7 @@ active: true
 headless: true
 
 # Order that this section appears on the page.
-weight: 60
+weight: 70
 
 title: Contact
 subtitle: Feel free to reach out through the form or by email at brainhackorg@gmail.com.
