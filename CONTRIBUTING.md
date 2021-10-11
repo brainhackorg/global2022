@@ -2,7 +2,10 @@
 
 Hugo based static website: https://gohugo.io/documentation/
 
-Uses the wowchemy theme:https://wowchemy.com/
+Uses the wowchemy theme: https://wowchemy.com/
+
+Based on bootstrap for the layout: https://getbootstrap.com/
+
 ## Run the website locally
 
 1. Install hugo
@@ -34,6 +37,11 @@ Pretty much all the content of the website is either in the `data` or the
 - Event location data for the map: `data/locations.yaml`
 - Event details: `content/events`
 - Contributors details: `content/authors`
+
+### Partners
+
+- new partner details should be added in `data/partners.yml`
+- new images for partners should be added in `static/media/partners`
 
 ## Projects
 
