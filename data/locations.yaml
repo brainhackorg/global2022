@@ -25,6 +25,30 @@ events:
   #     lng: 0.0
   #   dates: "From 2021-11-09 to 2021-11-13"
 
+  - title: Brainhack Marseille
+    organizers:
+      - TBD
+    contact:
+      - TBD
+    website: TDB
+    address: Marseille, France
+    position:
+      lat: 43.29
+      lng: 5.36
+    dates: "From 2021-12-06 to 2021-12-08"
+
+  - title: Brainhack UCLA
+    organizers:
+      - Lucina Uddin
+    contact:
+      - TBD
+    website: TDB
+    address: UCLA, Los Angeles, USA
+    position:
+      lat: 34.06
+      lng: -118.44
+    dates: TBD
+
   - title: Brainhack Donostia
     organizers:
       - Chiara Luna Rivolta, Irene Arrieta
@@ -33,8 +57,8 @@ events:
     website: https://brainhack-donostia.github.io
     address: Online
     position:
-      lat: 43.294272
-      lng: -1.986154
+      lat: 43.29
+      lng: -1.98
     dates: "From 2021-11-22 to 2021-11-24"
 
   - title: Brainhack Nordic
@@ -59,8 +83,8 @@ events:
     website:
     address: Rämistrasse 101, 8092 Zürich, Switzerland
     position:
-      lat: 47.376420
-      lng: 8.548000
+      lat: 47.37
+      lng: 8.54
     dates: "From 2021-12-03 to 2021-12-05"
 
   - title: Brainhack Boston
@@ -71,8 +95,8 @@ events:
     website:
     address: Online
     position:
-      lat: 42.377280
-      lng: -71.052400
+      lat: 42.37
+      lng: -71.05
     dates: "2021-12-06 week"
 
   - title: Brainhack Global Child Mind
@@ -83,8 +107,8 @@ events:
     website: https://brainhacknyc.github.io/2021/
     address: Child Mind Institute, 101 East 56th St., New York, NY 10022, USA
     position:
-      lat: 40.7572235
-      lng: -73.963010
+      lat: 40.75
+      lng: -73.96
     dates: "From 2021-11-29 to 2021-12-03"
 
   - title: Brainhack Montreal
@@ -97,6 +121,6 @@ events:
       Centre de recherche de l'IUGM, 4545 Queen Mary Rd, Montréal, Québec H3W
       1W6, Canada
     position:
-      lat: 45.492031
-      lng: -73.624961
+      lat: 45.49
+      lng: -73.62
     dates: "From 2021-12-06 to 2021-12-10"
