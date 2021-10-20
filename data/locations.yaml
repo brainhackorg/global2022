@@ -25,6 +25,32 @@ events:
   #     lng: 0.0
   #   dates: "From 2021-11-09 to 2021-11-13"
 
+  - title: Brainhack Australasia
+    organizers:
+      - Johanna Bayer, Kelly Garner
+    contact:
+      - TBD
+    website: TDB
+    address: Online
+    position:
+      lat: -37.7982
+      lng: -144.9610
+    dates: "From 2021-11-28 to 2021-12-12"
+
+  - title: BrainHack Toronto
+    organizers:
+      - Erin Dickie, John Griffiths
+    contact:
+      - TBD
+    website: TDB
+    address:
+      Krembil Centre for Neuroinformatics, Centre for Addiction and Mental
+      Health, Toronto, Canada
+    position:
+      lat: 43.6544
+      lng: -79.4052
+    dates: "From 2021-12-08 to 2021-12-10"
+
   - title: Brainhack Marseille
     organizers:
       - TBD
