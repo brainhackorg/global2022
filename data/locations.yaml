@@ -25,6 +25,18 @@ events:
   #     lng: 0.0
   #   dates: "From 2021-11-09 to 2021-11-13"
 
+  - title: Brainhack Global Geneva
+    organizers:
+      - Michael Dayan
+    contact:
+      - TBD
+    website: TDB
+    address: Foundation Campus Biotech Geneva (FCBG), Geneva, Switzerland
+    position:
+      lat: 46.2228
+      lng: 6.1474
+    dates: "From 2021-12-02 to 2021-12-04"
+
   - title: Brainhack Australasia
     organizers:
       - Johanna Bayer, Kelly Garner
