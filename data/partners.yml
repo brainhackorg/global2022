@@ -8,3 +8,11 @@ partners:
   - name: Neuromatch
     website: https://neuromatch.io/
     image: NeuromatchLogo_full_Bl_1024.png
+
+  - name: WinRepo
+    website: https://www.winrepo.org/
+    image: winrepo.png
+
+  - name: INCF
+    website: https://www.incf.org/
+    image: incf.png

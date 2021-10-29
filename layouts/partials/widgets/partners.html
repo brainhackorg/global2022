@@ -27,16 +27,16 @@
 
     {{ range $partners.partners }}
 
-      <div class="col-sm-4 m-3">
+      <div class="col-sm-4 m-3 d-flex flex-column">
 
-        <div>
+        <div class="p-2 text-center">
           <a href="{{ .website }}" target="_blank">
             <img  src="{{ printf "%s/partners/%s" $media_dir .image | relURL }}"
                   alt="{{ .name }}">
           </a>
         </div>
 
-        <div class="text-center">
+        <div class="p-2 text-center">
           <h2>{{ .name }}</h2>
         </div>
 
