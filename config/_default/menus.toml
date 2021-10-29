@@ -53,6 +53,11 @@
   weight = 70
 
 [[main]]
+  name = "Partners"
+  url = "../global2021/#partner"
+  weight = 80
+
+[[main]]
   name = "Contact"
   url = "../global2021/#contact"
-  weight = 80
+  weight = 90
