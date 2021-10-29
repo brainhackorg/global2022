@@ -24,7 +24,7 @@ autolink: true
 #   2: formspree.io
 email_form: 2
 design:
-  clip_path: "polygon(0 10%, 100% 0, 100% 90%, 0% 100%)"
+  clip_path: "polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%)"
   background:
     color: "#e3eeed"
     # gradient_start: "#e8e8e8"

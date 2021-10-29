@@ -11,7 +11,7 @@ title = "Brainhack Global 2021"
 hero_media = "headers/brain.png"
 
 [design]
-  clip_path = "polygon(0 0,100% 0,100% 80%,0% 100%)"
+  clip_path = "polygon(0% 0%, 100% 0, 100% 80%, 0% 100%)"
 
 [design.background]
   # Apply a background color, gradient, or image.

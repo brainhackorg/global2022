@@ -25,12 +25,36 @@ events:
   #     lng: 0.0
   #   dates: "From 2021-11-09 to 2021-11-13"
 
-  - title: Brainhack Global Geneva
+  - title: BrainHack UVA
+    organizers:
+      - Amalia McDonald, Sarah Kucenas
+    contact:
+      - am5sd@virginia.edu
+    website:
+    address: University of Virginia, Charlottesville, United States
+    position:
+      lat: 38.03376
+      lng: -78.50841
+    dates: "From 2021-12-02 to 2021-12-03"
+
+  - title: Brainhack Western
+    organizers:
+      - Suzanne Witt
+    contact:
+      - brainhack.western@gmail.com
+    website: https://brainhackwestern.github.io
+    address: Western University, London, Ontario,	Canada
+    position:
+      lat: 43.0101
+      lng: -81.2736
+    dates: "From 2021-12-01 to 2021-12-03"
+
+  - title: Brainhack Geneva
     organizers:
       - Michael Dayan
     contact:
-      - TBD
-    website: TDB
+      - michael.dayan@fcbg.ch
+    website: https://brainhack.ch/
     address: Foundation Campus Biotech Geneva (FCBG), Geneva, Switzerland
     position:
       lat: 46.2228
@@ -46,14 +70,14 @@ events:
     address: Online
     position:
       lat: -37.7982
-      lng: -144.9610
+      lng: 144.9610
     dates: "From 2021-11-28 to 2021-12-12"
 
   - title: BrainHack Toronto
     organizers:
       - Erin Dickie, John Griffiths
     contact:
-      - TBD
+      - erin.w.dickie@gmail.com
     website: TDB
     address:
       Krembil Centre for Neuroinformatics, Centre for Addiction and Mental
@@ -65,11 +89,13 @@ events:
 
   - title: Brainhack Marseille
     organizers:
-      - TBD
+      - Sylvain Takerkart, Dipankar
     contact:
-      - TBD
-    website: TDB
-    address: Institut de Neurosciences de la Timone Faculté de Médecine 27, boulevard Jean Moulin 13005 Marseille - France
+      - sylvain.takerkart@univ-amu.fr
+    website: https://brainhack-marseille.github.io/
+    address:
+      Institut de Neurosciences de la Timone Faculté de Médecine 27, boulevard
+      Jean Moulin 13005 Marseille - France
     position:
       lat: 43.29
       lng: 5.36
@@ -79,7 +105,7 @@ events:
     organizers:
       - Lucina Uddin
     contact:
-      - TBD
+      - lucina@ucla.edu
     website: TDB
     address: UCLA, Los Angeles, USA
     position:
@@ -137,7 +163,7 @@ events:
       lng: -71.05
     dates: "2021-12-06 week"
 
-  - title: Brainhack Global Child Mind
+  - title: Brainhack NYC
     organizers:
       - Gregory Kiar, Steven Giavasis
     contact:
@@ -151,7 +177,7 @@ events:
 
   - title: Brainhack Montreal
     organizers:
-      - Valentina Borghesani
+      - Valentina Borghesani, Désirée Lussier
     contact:
       - valentinaborghesani@gmail.com
     website:

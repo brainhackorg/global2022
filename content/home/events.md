@@ -41,7 +41,7 @@ design:
   #   3 = Card
   #   4 = Citation (publication only)
   view: 2
-  clip_path: "polygon(0 10%, 100% 0, 100% 90%, 0% 100%)"
+  clip_path: "polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%)"
   background:
     image: laptop_world.svg
     image_darken: 0.0
