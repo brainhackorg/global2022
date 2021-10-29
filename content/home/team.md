@@ -14,7 +14,7 @@ show_social = true
 show_position = true
 
 [design]
-  clip_path = "polygon(0 10%, 100% 0, 100% 90%, 0% 100%)"
+  clip_path = "polygon(0% 2%, 100% 0%, 100% 98%, 0% 100%)"
 
 
 [design.background]

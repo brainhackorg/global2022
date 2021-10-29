@@ -18,7 +18,7 @@ subtitle: "Don't miss out on the next coming events!"
 # hero_media: "virtualbh_2.png"
 design:
   columns: "1"
-  clip_path: "polygon(0 10%, 100% 0, 100% 90%, 0% 100%)"
+  clip_path: "polygon(0% 0%, 100% 0%, 100% 95%, 0% 100%)"
   background:
     image: laptop_world.svg
     image_darken: 0.0

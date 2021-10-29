@@ -18,7 +18,7 @@ subtitle:
 # hero_media: "virtualbh_2.png"
 design:
   columns: "1"
-  clip_path: "polygon(0 10%, 100% 0, 100% 90%, 0% 100%)"
+  clip_path: "polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%)"
   background:
     image: brain_art/what_thoughts_in_her_head.png
     image_darken: 0.5
