@@ -99,7 +99,8 @@ body:
 
   - type: dropdown
     attributes:
-      description: Brainhack Global event you registered for.
+      description:
+        Brainhack Global event you registered for. Several options are possible.
       label: Brainhack Global 2021 Event
       multiple: true
       options:
@@ -107,8 +108,15 @@ body:
         - Brainhack Zurich
         - Brainhack Boston
         - BrainHack Donostia
-        - Brainhack Global Child Mind
+        - Brainhack NYC
         - Brainhack Montreal
+        - Brainhack UCLA
+        - Brainhack Marseille
+        - BrainHack Toronto
+        - Brainhack Australasia
+        - Brainhack Geneva
+        - Brainhack Western
+        - BrainHack UVA
     validations:
       required: true
 
