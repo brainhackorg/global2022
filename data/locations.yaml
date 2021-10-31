@@ -25,6 +25,20 @@ events:
   #     lng: 0.0
   #   dates: "From 2021-11-09 to 2021-11-13"
 
+  - title: Brainhack Washington DC
+    organizers:
+      - Shawn Rhoads, Dustin Moraczewski
+    contact:
+      - sr1209@georgetown.edu
+    website:
+    address:
+      Georgetown University, National Institute of Mental Health, University of
+      Maryland - College Park; Washington DC; United States
+    position:
+      lat: 39.05114973899682
+      lng: -77.1204863663375
+    dates: "From 2021-12-10 to 2021-12-12"
+
   - title: BrainHack UVA
     organizers:
       - Amalia McDonald, Sarah Kucenas
