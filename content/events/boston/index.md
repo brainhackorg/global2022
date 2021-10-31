@@ -1,27 +1,27 @@
 ---
-title: Brainhack somewhere
-event: Brainhack somewhere
-event_url: https://brainhack-somewhere.github.io/
+title: BrainHack Boston
+event: BrainHack Boston
+event_url:
 
-location: Somewhere on the planet
+location:
 address:
   street:
-  city:
+  city: Boston
   region:
   postcode:
-  country:
+  country: United States
 
-summary: "First ever Brainhack in somewhere."
+summary: " "
 abstract: " "
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2021-12-01T13:00:00Z"
-date_end: "2021-12-03T15:00:00Z"
+date: "2021-12-06T13:00:00Z"
+date_end: "2021-12-11T15:00:00Z"
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2021-09-01T00:00:00Z"
+publishDate: "2021-10-31T00:00:00Z"
 
 authors: []
 tags: []
@@ -30,30 +30,24 @@ tags: []
 featured: false
 
 image:
-  caption:
-    "Image credit: [**Brainhack
-    Somewhere**](https://brainhack-Somewhere.github.io/)"
+  caption: " "
   focal_point: center
 
 links:
   - icon: globe
     icon_pack: fas
     name: Website
-    url: https://brainhack-Somewhere.github.io/
+    url: https://github.com/openneuropet/outreach/tree/main/Brainhack-Nordic2021
 
-  - icon: twitter
-    icon_pack: fab
-    name: Follow
-    url: https://twitter.com/BH_Somewhere
-  # - icon: video
-  #   icon_pack: fas
-  #   name: Streaming
-  #   url:
+  # - icon: twitter
+  #   icon_pack: fab
+  #   name: Follow
+  #   url: https://twitter.com/OHBM_Australia
 
   - icon: mattermost
     icon_pack: custom
     name: Mattermost Channel
-    url: https://mattermost.brainhack.org/brainhack/channels/bhg20-Somewhere
+    url: https://mattermost.brainhack.org/brainhack/channels/bhg21-zurich
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
@@ -66,5 +60,3 @@ projects:
 # Enable math on this page?
 math: true
 ---
-
-<!-- Add content here -->
