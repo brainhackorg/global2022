@@ -117,6 +117,7 @@ body:
         - Brainhack Geneva
         - Brainhack Western
         - BrainHack UVA
+        - Brainhack Washington DC
     validations:
       required: true
 
