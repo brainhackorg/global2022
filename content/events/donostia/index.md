@@ -21,7 +21,7 @@ date_end: "2021-11-24T15:00:00Z"
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2021-10-3²1T00:00:00Z"
+publishDate: "2021-10-31T00:00:00Z"
 
 authors: []
 tags: []
