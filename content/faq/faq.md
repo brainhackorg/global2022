@@ -18,8 +18,8 @@ subtitle:
 design:
   columns: "1"
   background:
-    image: headers/faq.jpg
-    image_darken: 0.3
+    image: brain_art/a_brain_with_flair.jpg
+    image_darken: 0.5
     image_parallax: true
     image_position: center
     image_size: cover
