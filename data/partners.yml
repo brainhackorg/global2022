@@ -1,5 +1,4 @@
 partners:
-
   # template
   # - name:
   #   website:
@@ -16,3 +15,7 @@ partners:
   - name: INCF
     website: https://www.incf.org/
     image: incf.png
+
+  - name: OHBM
+    website: https://www.humanbrainmapping.org/
+    image: hbm_logo.png
