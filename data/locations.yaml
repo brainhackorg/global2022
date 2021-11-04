@@ -25,6 +25,18 @@ events:
   #     lng: 0.0
   #   dates: "From 2021-11-09 to 2021-11-13"
 
+  - title: Brainhack Sydney
+    organizers:
+      - Mac Shine, Ben Fulcher
+    contact:
+      - mac.shine@sydney.edu.au
+    website:
+    address: The University of Sydney, Sydney,	Australia
+    position:
+      lat: -33.8883636936788
+      lng: 151.1873131074999
+    dates: "From 2021-12-01 to 2021-12-03"
+
   - title: Brainhack Washington DC
     organizers:
       - Shawn Rhoads, Dustin Moraczewski
