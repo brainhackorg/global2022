@@ -156,13 +156,13 @@ events:
       - Cyril Pernet, Melanie Ganz
     contact:
       - openneuropet@gmail.com
-    website: https://openneuropet.github.io/brainhack/
+    website: https://github.com/openneuropet/outreach/tree/main/Brainhack-Nordic2021
     address:
-      Neurobiology Research Unit, 6-8 Inge Lehmanns Vej, Rigshospitalet,
-      building 8057 DK-2100, Copenhagen, Denmark
+      HOTEL SP34
+      Sankt Peters Stræde 34, 1453 Copehangen, Denmark
     position:
-      lat: 55.4
-      lng: 12.34
+      lat: 55.67
+      lng: 12.56
     dates: "From 2021-12-06 to 2021-12-07"
 
   - title: Brainhack Zurich
@@ -182,7 +182,7 @@ events:
       - Paul Wighton
     contact:
       - pwighton@mgh.harvard.edu
-    website: https://github.com/openneuropet/outreach/tree/main/Brainhack-Nordic2021
+    website: https://github.com/openneuropet/outreach/tree/main/Brainhack-MGH2021
     address: Online
     position:
       lat: 42.37
