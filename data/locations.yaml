@@ -25,6 +25,33 @@ events:
   #     lng: 0.0
   #   dates: "From 2021-11-09 to 2021-11-13"
 
+  - title: Brainhack Zagreb
+    organizers:
+      - Eda Jovčić, Andrija Štajduhar
+    contact:
+      - eda.jovicic@fer.hr
+    website: https://brainhackzg.github.io/
+    address:
+      Medical School, University of Zagreb; Faculty of Electrical Engineering
+      and Computing, University of Zagreb, Croatian Instittue for Brain
+      Research; Society for out of frame education, Zagreb, Croatia
+    position:
+      lat: 45.834516106778395
+      lng: 16.05382042938537
+    dates: "From 2021-12-11 to 2021-12-12"
+
+  - title: BrainWeb metaverse
+    organizers:
+      - Roberto Toro, Katja Heuer
+    contact:
+      - rto@pasteur.fr
+    website: https://brain-web.github.io
+    address: Institut Pasteur, France, Paris
+    position:
+      lat: 48.84082037722391
+      lng: 2.311374595722641
+    dates: "From 2021-12-06 to 2021-12-08"
+
   - title: Brainhack Washington DC
     organizers:
       - Shawn Rhoads, Dustin Moraczewski
