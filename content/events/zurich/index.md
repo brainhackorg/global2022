@@ -11,7 +11,7 @@ address:
   postcode: 8092
   country: Switzerland
 
-summary: " "
+summary: "Mobile EEG and Biomarkers"
 abstract: " "
 
 # Talk start and end times.
@@ -34,19 +34,9 @@ image:
   focal_point: center
 
 links:
-  # - icon: globe
-  #   icon_pack: fas
-  #   name: Website
-  #   url: https://openneuropet.github.io/brainhack/
-
-  # - icon: twitter
-  #   icon_pack: fab
-  #   name: Follow
-  #   url: https://twitter.com/OHBM_Australia
-
   - icon: mattermost
     icon_pack: custom
-    name: Mattermost Channel
+    name: Mattermost
     url: https://mattermost.brainhack.org/brainhack/channels/bhg21-zurich
 
 # Projects (optional).

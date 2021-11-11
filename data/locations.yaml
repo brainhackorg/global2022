@@ -25,6 +25,33 @@ events:
   #     lng: 0.0
   #   dates: "From 2021-11-09 to 2021-11-13"
 
+  - title: Brainhack Zagreb
+    organizers:
+      - Eda Jovčić, Andrija Štajduhar
+    contact:
+      - eda.jovicic@fer.hr
+    website: https://brainhackzg.github.io/
+    address:
+      Medical School, University of Zagreb; Faculty of Electrical Engineering
+      and Computing, University of Zagreb, Croatian Instittue for Brain
+      Research; Society for out of frame education, Zagreb, Croatia
+    position:
+      lat: 45.834516106778395
+      lng: 16.05382042938537
+    dates: "From 2021-12-11 to 2021-12-12"
+
+  - title: BrainWeb metaverse
+    organizers:
+      - Roberto Toro, Katja Heuer
+    contact:
+      - rto@pasteur.fr
+    website: https://brain-web.github.io
+    address: Institut Pasteur, France, Paris
+    position:
+      lat: 48.84082037722391
+      lng: 2.311374595722641
+    dates: "From 2021-12-06 to 2021-12-08"
+
   - title: Brainhack Sydney
     organizers:
       - Mac Shine, Ben Fulcher
@@ -97,7 +124,7 @@ events:
     position:
       lat: -37.7982
       lng: 144.9610
-    dates: "From 2021-11-28 to 2021-12-12"
+    dates: "From 2021-11-29 to 2021-12-03"
 
   - title: BrainHack Toronto
     organizers:
@@ -109,8 +136,8 @@ events:
       Krembil Centre for Neuroinformatics, Centre for Addiction and Mental
       Health, Toronto, Canada
     position:
-      lat: 43.6544
-      lng: -79.4052
+      lat: 43.654730647517326
+      lng: -79.40470761077849
     dates: "From 2021-12-08 to 2021-12-10"
 
   - title: Brainhack Marseille
@@ -120,11 +147,11 @@ events:
       - sylvain.takerkart@univ-amu.fr
     website: https://brainhack-marseille.github.io/
     address:
-      Institut de Neurosciences de la Timone Faculté de Médecine 27, boulevard
+      Institut de Neurosciences de la Timone, Faculté de Médecine 27, boulevard
       Jean Moulin 13005 Marseille - France
     position:
-      lat: 43.29
-      lng: 5.36
+      lat: 43.287036449254515
+      lng: 5.4032124890651305
     dates: "From 2021-12-06 to 2021-12-08"
 
   - title: Brainhack UCLA
@@ -173,8 +200,8 @@ events:
     website:
     address: Rämistrasse 101, 8092 Zürich, Switzerland
     position:
-      lat: 47.37
-      lng: 8.54
+      lat: 47.37666088954596
+      lng: 8.548579624651714
     dates: "From 2021-12-03 to 2021-12-05"
 
   - title: Brainhack Boston
@@ -197,8 +224,8 @@ events:
     website: https://brainhacknyc.github.io/2021/
     address: Child Mind Institute, 101 East 56th St., New York, NY 10022, USA
     position:
-      lat: 40.75
-      lng: -73.96
+      lat: 40.76103663481412
+      lng: -73.97044149270326
     dates: "From 2021-11-29 to 2021-12-03"
 
   - title: Brainhack Montreal
@@ -211,6 +238,6 @@ events:
       Centre de recherche de l'IUGM, 4545 Queen Mary Rd, Montréal, Québec H3W
       1W6, Canada
     position:
-      lat: 45.49
-      lng: -73.62
+      lat: 45.49221148292775
+      lng: -73.62426362752213
     dates: "From 2021-12-06 to 2021-12-10"

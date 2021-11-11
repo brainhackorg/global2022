@@ -118,6 +118,9 @@ body:
         - Brainhack Western
         - BrainHack UVA
         - Brainhack Washington DC
+        - Brainhack Zagreb
+        - BrainWeb Metaverse
+        - Brainhack Sydney
     validations:
       required: true
 

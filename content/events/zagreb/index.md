@@ -1,27 +1,27 @@
 ---
-title: BrainHack Nordic
-event: BrainHack Nordic
+title: BrainHack Zagreb
+event: BrainHack Zagreb
 event_url:
 
-location:
+location: University of Zagreb; Zagreb, Croatia
 address:
-  street: HOTEL SP34, Sankt Peters Stræde 34
-  city: Copenhagen
+  street:
+  city: Zagreb
   region:
-  postcode: 1453
-  country: Denmark
+  postcode:
+  country: Croatia
 
-summary: "PET imaging and BIDS"
-abstract: " "
+summary: "Blockchain"
+abstract: "test"
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2021-12-06T13:00:00Z"
-date_end: "2021-12-08T15:00:00Z"
+date: "2021-12-11T13:00:00Z"
+date_end: "2021-12-12T15:00:00Z"
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2021-10-31T00:00:00Z"
+publishDate: "2021-11-09T00:00:00Z"
 
 authors: []
 tags: []
@@ -37,7 +37,17 @@ links:
   - icon: globe
     icon_pack: fas
     name: Website
-    url: https://github.com/openneuropet/outreach/tree/main/Brainhack-Nordic2021
+    url: https://brainhackzg.github.io/
+
+  - icon: facebook
+    icon_pack: fab
+    name: Facebook
+    url: https://www.facebook.com/BrainhackZagreb
+
+  - icon: instagram
+    icon_pack: fab
+    name: Instagram
+    url: https://www.instagram.com/brainhack_zagreb
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.

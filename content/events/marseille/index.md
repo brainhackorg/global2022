@@ -11,7 +11,7 @@ address:
   postcode: 13005
   country: France
 
-summary: "Third edition of Brainhack Marseille'."
+summary: "Third edition of Brainhack Marseille."
 abstract: ""
 
 # Talk start and end times.
@@ -43,21 +43,12 @@ links:
 
   - icon: twitter
     icon_pack: fab
-    name: Follow
+    name: Twitter
     url: https://twitter.com/BrainhackM
-
-  #  icon_pack: fab
-  # name: Follow
-  # url:
-
-  #- icon: video
-  #  icon_pack: fas
-  #  name: Streaming
-  #  url:
 
   - icon: mattermost
     icon_pack: custom
-    name: Mattermost Channel
+    name: Mattermost
     url: https://mattermost.brainhack.org/brainhack/channels/bhg20-marseille
 
 # Projects (optional).

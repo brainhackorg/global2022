@@ -3,7 +3,7 @@ title: BrainHack Boston
 event: BrainHack Boston
 event_url:
 
-location:
+location: MGH, Boston, United States
 address:
   street:
   city: Boston
@@ -11,7 +11,7 @@ address:
   postcode:
   country: United States
 
-summary: " "
+summary: "PET and multimodal imaging"
 abstract: " "
 
 # Talk start and end times.
@@ -34,20 +34,6 @@ image:
   focal_point: center
 
 links:
-  - icon: globe
-    icon_pack: fas
-    name: Website
-    url: https://github.com/openneuropet/outreach/tree/main/Brainhack-Nordic2021
-
-  # - icon: twitter
-  #   icon_pack: fab
-  #   name: Follow
-  #   url: https://twitter.com/OHBM_Australia
-
-  - icon: mattermost
-    icon_pack: custom
-    name: Mattermost Channel
-    url: https://mattermost.brainhack.org/brainhack/channels/bhg21-zurich
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.

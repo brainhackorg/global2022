@@ -30,8 +30,7 @@ tags: []
 featured: false
 
 image:
-  caption:
-    " "
+  caption: " "
   focal_point: center
 
 links:
@@ -42,7 +41,7 @@ links:
 
   - icon: twitter
     icon_pack: fab
-    name: Follow
+    name: Twitter
     url: https://twitter.com/brainhackgeneva
 
 # Projects (optional).

@@ -1,17 +1,17 @@
 ---
-title: BrainHack Nordic
-event: BrainHack Nordic
+title: Brainweb metaverse
+event: Brainweb metaverse
 event_url:
 
-location:
+location: Institut Pasteur, Paris, France
 address:
-  street: HOTEL SP34, Sankt Peters Stræde 34
-  city: Copenhagen
+  street:
+  city: Paris
   region:
-  postcode: 1453
-  country: Denmark
+  postcode:
+  country: France
 
-summary: "PET imaging and BIDS"
+summary: "VR and AR in neuroscience"
 abstract: " "
 
 # Talk start and end times.
@@ -21,7 +21,7 @@ date_end: "2021-12-08T15:00:00Z"
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2021-10-31T00:00:00Z"
+publishDate: "2021-11-09T00:00:00Z"
 
 authors: []
 tags: []
@@ -37,7 +37,17 @@ links:
   - icon: globe
     icon_pack: fas
     name: Website
-    url: https://github.com/openneuropet/outreach/tree/main/Brainhack-Nordic2021
+    url: https://brain-web.github.io
+
+  - icon: twitter
+    icon_pack: fas
+    name: Twitter
+    url: https://brain-web.github.io
+
+  - icon: mattermost
+    icon_pack: custom
+    name: Mattermost
+    url: https://mattermost.brainhack.org/brainweb
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.

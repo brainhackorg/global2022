@@ -39,17 +39,15 @@ links:
     icon_pack: fas
     name: Website
     url: https://brainhack-ny.github.io/
+
   - icon: twitter
     icon_pack: fab
-    name: Follow
+    name: Twitter
     url: https://twitter.com/brainhackNY
-  # - icon: video
-  #   icon_pack: fas
-  #   name: Streaming
-  #   url: https://meet.jit.si/bhg2021-ny
+
   - icon: mattermost
     icon_pack: custom
-    name: Mattermost Channel
+    name: Mattermost
     url: https://mattermost.brainhack.org/brainhack/channels/bhg21-nyc
 
 # Projects (optional).
