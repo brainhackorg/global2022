@@ -4,13 +4,11 @@ event: BrainHack Nordic
 event_url:
 
 location:
-  Neurobiology Research Unit, 6-8 Inge Lehmanns Vej, Rigshospitalet, building
-  8057 DK-2100, Copenhagen, Denmark
 address:
-  street: Neurobiology Research Unit, 6-8 Inge Lehmanns Vej, Rigshospitalet
+  street: HOTEL SP34, Sankt Peters Stræde 34
   city: Copenhagen
   region:
-  postcode: 8057
+  postcode: 1453
   country: Denmark
 
 summary: "PET imaging and BIDS"
@@ -39,7 +37,7 @@ links:
   - icon: globe
     icon_pack: fas
     name: Website
-    url: https://openneuropet.github.io/brainhack/
+    url: https://github.com/openneuropet/outreach/tree/main/Brainhack-Nordic2021
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
