@@ -19,7 +19,9 @@ jobs:
 
     - name: Run script to generate separate pages from issues
       run: |
-        python issues_to_pages.py
+        url="https://api.github.com/repos/brainhackorg/global2021/issues?per_page=100"
+        path="content/project"
+        python scripts/issues_to_pages.py $url $path
 
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v3

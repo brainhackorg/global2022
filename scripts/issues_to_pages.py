@@ -1,6 +1,16 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+"""
+Convert relevant issue data to Markdown files so that they can be used to
+populate the website project section.
+
+Usage:
+> python issues_to_pages.py "https://api.github.com/repos/brainhackorg/global2021/issues?per_page=100" "content/project"
+
+"""
+
+import argparse
 import json
 import os
 import requests
@@ -30,6 +40,34 @@ def request_issues(url):
     response = requests.get(url)
 
     return response
+
+
+def check_issue_data_request(response):
+    """Check the issue request response success.
+
+    Parameters
+    ----------
+    response : Response
+        Response data.
+
+    Returns
+    -------
+    success : bool
+        `True` if  response was.
+    """
+
+    if response.status_code != 200:
+        print(
+            "Cannot continue: no issues found or request for issues unsuccessful.\nResponse:\n".format(
+                response
+            )
+        )
+        success = False
+
+    else:
+        success = True
+
+    return success
 
 
 def get_issue_data(response):
@@ -226,28 +264,17 @@ def gather_website_project_data(issues):
     return projects
 
 
-def main():
+def save_project_data(website_project_data, path):
+    """Save the website project data as separate Markdown files.
 
-    # Request issues
-    url = "https://api.github.com/repos/brainhackorg/global2021/issues?per_page=100"
-    response = request_issues(url)
+    Parameters
+    ----------
+    website_project_data : dict
+        Project data.
+    path : str
+        Path were project data will be saved.
+    """
 
-    if response.status_code != 200:
-        print(
-            "Cannot continue: no issues found or request for issues unsuccessful.\nResponse:\n".format(
-                response
-            )
-        )
-        sys.exit()
-
-    # Get issue data
-    issues = get_issue_data(response)
-
-    # Get the appropriate data for the website from the issues
-    website_project_data = gather_website_project_data(issues)
-
-    # Save the website project data as separate Markdown files
-    path = "content/project"
     for project in website_project_data.items():
 
         file_rootname = (
@@ -258,6 +285,44 @@ def main():
 
         with open(fname, "w") as json_file:
             json.dump(project[1], json_file, indent=2)
+
+
+def _build_arg_parser():
+
+    parser = argparse.ArgumentParser(
+        formatter_class=argparse.RawTextHelpFormatter,
+        description=__doc__)
+
+    parser.add_argument("url", help="URL where to fetch issues.")
+    parser.add_argument(
+        "path",
+        help="Path where to write relevant issue data to Markdown files."
+    )
+
+    return parser
+
+
+def main():
+
+    parser = _build_arg_parser()
+    args = parser.parse_args()
+
+    # Request issues
+    response = request_issues(args.url)
+
+    # Check whether the response was successful
+    success = check_issue_data_request(response)
+    if not success:
+        sys.exit()
+
+    # Get issue data
+    issues = get_issue_data(response)
+
+    # Get the appropriate data for the website from the issues
+    website_project_data = gather_website_project_data(issues)
+
+    # Save the project data
+    save_project_data(website_project_data, args.path)
 
 
 if __name__ == "__main__":
