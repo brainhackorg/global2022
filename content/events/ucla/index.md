@@ -3,7 +3,7 @@ title: BrainHack UCLA
 event: BrainHack UCLA
 event_url:
 
-location: UCLA
+location: UCLA, Los Angeles, California, United States
 address:
   street:
   city: Los Angeles
@@ -30,25 +30,10 @@ tags: []
 featured: false
 
 image:
-  caption:
-    " "
+  caption: " "
   focal_point: center
 
 links:
-  # - icon: globe
-  #   icon_pack: fas
-  #   name: Website
-  #   url:
-
-  # - icon: twitter
-  #   icon_pack: fab
-  #   name: Follow
-  #   url: https://twitter.com/
-
-  # - icon: mattermost
-  #   icon_pack: custom
-  #   name: Mattermost Channel
-  #   url: https://mattermost.brainhack.org/brainhack/channels/
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.

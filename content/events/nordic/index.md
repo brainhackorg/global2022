@@ -13,7 +13,7 @@ address:
   postcode: 8057
   country: Denmark
 
-summary: " "
+summary: "PET imaging and BIDS"
 abstract: " "
 
 # Talk start and end times.
@@ -40,16 +40,6 @@ links:
     icon_pack: fas
     name: Website
     url: https://openneuropet.github.io/brainhack/
-
-  # - icon: twitter
-  #   icon_pack: fab
-  #   name: Follow
-  #   url: https://twitter.com/OHBM_Australia
-
-  # - icon: mattermost
-  #   icon_pack: custom
-  #   name: Mattermost Channel
-  #   url: https://mattermost.brainhack.org/brainhack/channels/brainhack-australasia
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.

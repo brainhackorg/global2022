@@ -30,27 +30,24 @@ tags: []
 featured: false
 
 image:
-  caption:
-    " "
+  caption: " "
   focal_point: center
 
 links:
-
-# - icon: globe
-  #   icon_pack: fas
-  #   name: Website
-  #   url: https://brainhack.ch/
+  - icon: globe
+    icon_pack: fas
+    name: Website
+    url: https://brainhack-aus.github.io/global2021/
 
   - icon: twitter
     icon_pack: fab
-    name: Follow
+    name: Twitter
     url: https://twitter.com/OHBM_Australia
 
   - icon: mattermost
     icon_pack: custom
-    name: Mattermost Channel
+    name: Mattermost
     url: https://mattermost.brainhack.org/brainhack/channels/brainhack-australasia
-
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.

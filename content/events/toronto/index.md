@@ -3,8 +3,9 @@ title: BrainHack Toronto
 event: BrainHack Toronto
 event_url:
 
-location: Krembil Centre for Neuroinformatics, Centre for Addiction and Mental
-      Health, Toronto, Canada
+location:
+  Krembil Centre for Neuroinformatics, Centre for Addiction and Mental Health,
+  Toronto, Canada
 address:
   street:
   city: Toronto
@@ -31,25 +32,14 @@ tags: []
 featured: false
 
 image:
-  caption:
-    " "
+  caption: " "
   focal_point: center
 
 links:
-  # - icon: globe
-  #   icon_pack: fas
-  #   name: Website
-  #   url: https://brainhack-donostia.github.io/
-
   - icon: twitter
     icon_pack: fab
-    name: Follow
+    name: Twitter
     url: https://twitter.com/brainhackto
-
-  # - icon: mattermost
-  #   icon_pack: custom
-  #   name: Mattermost Channel
-  #   url: https://mattermost.brainhack.org/brainhack/channels/brainhack-uva
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.

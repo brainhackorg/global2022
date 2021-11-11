@@ -3,7 +3,7 @@ title: Brainhack Washington DC
 event: Brainhack Washington DC
 event_url: https://brainhackdc.github.io/
 
-location: Somewhere on the planet
+location: Washington DC, United States
 address:
   street:
   city: Washington DC
@@ -30,8 +30,7 @@ tags: []
 featured: false
 
 image:
-  caption:
-    "Image credit: [**Brainhack DC**](https://brainhackdc.github.io/)"
+  caption: "Image credit: [**Brainhack DC**](https://brainhackdc.github.io/)"
   focal_point: center
 
 links:
@@ -42,7 +41,7 @@ links:
 
   - icon: mattermost
     icon_pack: custom
-    name: Mattermost Channel
+    name: Mattermost
     url: https://mattermost.brainhack.org/brainhack/channels/bhg-washingtondc
 
 # Projects (optional).

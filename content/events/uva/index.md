@@ -30,19 +30,13 @@ tags: []
 featured: false
 
 image:
-  caption:
-    " "
+  caption: " "
   focal_point: center
 
 links:
-  # - icon: globe
-  #   icon_pack: fas
-  #   name: Website
-  #   url: https://brainhack-donostia.github.io/
-
   - icon: mattermost
     icon_pack: custom
-    name: Mattermost Channel
+    name: Mattermost
     url: https://mattermost.brainhack.org/brainhack/channels/brainhack-uva
 
 # Projects (optional).

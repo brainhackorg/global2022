@@ -3,7 +3,7 @@ title: Brainhack Donostia
 event: Brainhack Donostia
 event_url: https://brainhack-donostia.github.io/
 
-location:
+location: Donostia, Basque Country
 address:
   street:
   city: Donostia
@@ -43,13 +43,8 @@ links:
 
   - icon: twitter
     icon_pack: fab
-    name: Follow
+    name: Twitter
     url: https://www.twitter.com/BHDonostia
-
-# - icon: video
-#   icon_pack: fas
-#   name: Streaming
-#   url: https://meet.jit.si/bhg2021-donostia
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.

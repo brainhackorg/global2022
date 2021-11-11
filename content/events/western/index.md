@@ -32,8 +32,7 @@ tags: []
 featured: false
 
 image:
-  caption:
-    " "
+  caption: " "
   focal_point: center
 
 links:
@@ -44,9 +43,8 @@ links:
 
   - icon: twitter
     icon_pack: fab
-    name: Follow
+    name: Twitter
     url: https://twitter.com/BrainHackUWO
-
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
