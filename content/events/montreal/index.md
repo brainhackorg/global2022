@@ -1,7 +1,7 @@
 ---
 title: Brainhack Montreal
 event: Brainhack Montreal
-event_url:
+event_url: https://brainhackmtl.github.io/global2021/
 
 location:
   Centre de recherche de l'IUGM, 4545 Queen Mary Rd, Montréal, Québec H3W 1W6,
@@ -33,10 +33,15 @@ featured: false
 
 image:
   caption:
-    "Image credit: [**Brainhack New York**](https://brainhack-ny.github.io/)"
+    "Image credit: [**Brainhack Montreal**](https://brainhackmtl.github.io/global2021/)"
   focal_point: center
 
 links:
+  - icon: globe
+    icon_pack: fas
+    name: Website
+    url: https://brainhackmtl.github.io/global2021/
+    
   - icon: twitter
     icon_pack: fab
     name: Twitter
