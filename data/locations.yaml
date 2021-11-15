@@ -25,6 +25,19 @@ events:
   #     lng: 0.0
   #   dates: "From 2021-11-09 to 2021-11-13"
 
+  - title: Brainhack Marburg
+    organizers:
+      - Thomas S. Hartmann, Lydia Riedl
+    contact:
+      - hartma4k@students.uni-marburg.de
+    website: https://brainhackzg.github.io/
+    address:
+      OSIUM (Open Science Initiative University Marburg), Marburg,	Germany
+    position:
+      lat: 50.81080790834922
+      lng: 8.774228471279875
+    dates: "From 2021-12-09 to 2021-12-09"
+
   - title: Brainhack Zagreb
     organizers:
       - Eda Jovčić, Andrija Štajduhar

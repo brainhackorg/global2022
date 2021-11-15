@@ -120,6 +120,7 @@ body:
         - Brainhack Washington DC
         - Brainhack Zagreb
         - BrainWeb Metaverse
+        - Brainhack Marburg
     validations:
       required: true
 
