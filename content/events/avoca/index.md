@@ -1,6 +1,6 @@
 ---
-title: Brainhack Sydney
-event: Brainhack Sydney
+title: Brainhack Avoca
+event: Brainhack Avoca
 event_url:
 
 location: The University of Sydney, Sydney,	Australia

@@ -52,7 +52,7 @@ events:
       lng: 2.311374595722641
     dates: "From 2021-12-06 to 2021-12-08"
 
-  - title: Brainhack Sydney
+  - title: Brainhack Avoca
     organizers:
       - Mac Shine, Ben Fulcher
     contact:
@@ -184,9 +184,7 @@ events:
     contact:
       - openneuropet@gmail.com
     website: https://github.com/openneuropet/outreach/tree/main/Brainhack-Nordic2021
-    address:
-      HOTEL SP34
-      Sankt Peters Stræde 34, 1453 Copehangen, Denmark
+    address: HOTEL SP34 Sankt Peters Stræde 34, 1453 Copehangen, Denmark
     position:
       lat: 55.67
       lng: 12.56
