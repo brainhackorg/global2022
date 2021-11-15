@@ -24,7 +24,7 @@ jobs:
 
     - name: Run script to generate separate pages from issues
       run: |
-        url="https://${GITHUB_API_URL}/repos/${GITHUB_REPOSITORY}/issues?per_page=100"
+        url="${GITHUB_API_URL}/repos/${GITHUB_REPOSITORY}/issues?per_page=100"
         path="content/project"
         python scripts/transform_issues_to_pages.py $url $path
 
