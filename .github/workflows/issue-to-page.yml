@@ -19,7 +19,7 @@ jobs:
 
     - name: Run script to generate separate pages from issues
       run: |
-        url="https://api.github.com/repos/brainhackorg/global2021/issues?per_page=100"
+        url="https://${GITHUB_API_URL}/repos/${GITHUB_REPOSITORY}/issues?per_page=100"
         path="content/project"
         python scripts/issues_to_pages.py $url $path
 
