@@ -164,6 +164,85 @@ def get_gh_label_data(issue):
     return labels
 
 
+def find_project_link(text):
+    """Find the project link in the provided text.
+
+    Parameters
+    ----------
+    text : str
+        Text where to find the match.
+
+    Returns
+    -------
+    target : str
+        Project link found. `None` otherwise.
+    """
+
+    # Get the body of the relevant section
+    pattern = "(?<=### Link to project repository/sources)[^###]*"
+    form_target = find_target(pattern, text)
+
+    target = None
+    if form_target:
+        # Get the URLs
+        pattern = "((http|https)\:\/\/)?[a-zA-Z0-9\.\/\?\:@\-_=#]+\.([a-zA-Z]){2,6}([a-zA-Z0-9\.\&\/\?\:@\-_=#])*"
+        target = find_target(
+            pattern,
+            form_target.replace("\n", "").replace("\r", "")
+        )
+
+    return target
+
+
+def find_project_description(text):
+    """Find the project description in the provided text.
+
+    Parameters
+    ----------
+    text : str
+        Text where to find the match.
+
+    Returns
+    -------
+    target : str
+        Project description found. `None` otherwise.
+
+    """
+
+    pattern = "(?<=### Project Description)[^###]*"
+    target = find_target(pattern, text, flags=re.DOTALL)
+
+    return target
+
+
+def find_target(pattern, text, **kwargs):
+    """Find a match for the given pattern in the text through a regular
+    expression search.
+
+    Parameters
+    ----------
+    pattern : str
+        Pattern to look for.
+    text : str
+        Text where to find the match.
+    **kwargs : dict
+        Arbitrary keyword arguments for `re.search`.
+
+    Returns
+    -------
+    target : str
+        Matching text. `None` otherwise.
+    """
+
+    match = re.search(pattern, text, **kwargs)
+
+    target = None
+    if match:
+        target = match.group()
+
+    return target
+
+
 def extract_website_project_data(issue):
     """Extract project data relevant for the website.
 
@@ -198,29 +277,15 @@ def extract_website_project_data(issue):
     project_data.update(content)
 
     # Get project URL if provided
-
-    # Get the body of the relevant section
-    proj_url_re_match = re.search(
-        "(?<=### Link to project repository/sources)[^###]*",
-        issue["body"],
-    )
-    # Get the URLs
-    proj_url_re_match = re.search(
-        "((http|https)\:\/\/)?[a-zA-Z0-9\.\/\?\:@\-_=#]+\.([a-zA-Z]){2,6}([a-zA-Z0-9\.\&\/\?\:@\-_=#])*",
-        proj_url_re_match.group().replace("\n", "").replace("\r", "")
-    )
-    if proj_url_re_match:
-        project_url = {"project_url": proj_url_re_match.group()}
+    url = find_project_link(issue["body"])
+    if url:
+        project_url = {"project_url": url}
         project_data.update(project_url)
 
     # Get project description if provided
-    proj_desc_re_match = re.search(
-        "(?<=### Project Description)[^###]*",
-        issue["body"],
-        flags=re.DOTALL,
-    )
-    if proj_desc_re_match:
-        project_desc = {"project_description": proj_desc_re_match.group()}
+    desc = find_project_description(issue["body"])
+    if desc:
+        project_desc = {"project_description": desc}
         project_data.update(project_desc)
 
     # TODO: Grab other relevant terms such as Project leads, etc.
