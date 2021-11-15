@@ -121,6 +121,7 @@ body:
         - Brainhack Zagreb
         - BrainWeb Metaverse
         - Brainhack Marburg
+        - Brainhack Taipei
     validations:
       required: true
 
