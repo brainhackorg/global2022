@@ -1,0 +1,419 @@
+{
+  "0": {
+    "url": "https://api.github.com/repos/Remi-Gau/global2021/issues/9",
+    "repository_url": "https://api.github.com/repos/Remi-Gau/global2021",
+    "labels_url": "https://api.github.com/repos/Remi-Gau/global2021/issues/9/labels{/name}",
+    "comments_url": "https://api.github.com/repos/Remi-Gau/global2021/issues/9/comments",
+    "events_url": "https://api.github.com/repos/Remi-Gau/global2021/issues/9/events",
+    "html_url": "https://github.com/Remi-Gau/global2021/issues/9",
+    "id": 1021642210,
+    "node_id": "I_kwDOGDgIIc485QXi",
+    "number": 9,
+    "title": "Another test",
+    "user": {
+      "login": "Remi-Gau",
+      "id": 6961185,
+      "node_id": "MDQ6VXNlcjY5NjExODU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6961185?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Remi-Gau",
+      "html_url": "https://github.com/Remi-Gau",
+      "followers_url": "https://api.github.com/users/Remi-Gau/followers",
+      "following_url": "https://api.github.com/users/Remi-Gau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Remi-Gau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Remi-Gau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Remi-Gau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Remi-Gau/orgs",
+      "repos_url": "https://api.github.com/users/Remi-Gau/repos",
+      "events_url": "https://api.github.com/users/Remi-Gau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Remi-Gau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 3407341420,
+        "node_id": "LA_kwDOGDgIIc7LF-ds",
+        "url": "https://api.github.com/repos/Remi-Gau/global2021/labels/git_skills:2_branches_PRs",
+        "name": "git_skills:2_branches_PRs",
+        "color": "bfdadc",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 3407341425,
+        "node_id": "LA_kwDOGDgIIc7LF-dx",
+        "url": "https://api.github.com/repos/Remi-Gau/global2021/labels/modality:ECOG",
+        "name": "modality:ECOG",
+        "color": "1d76db",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 3407341426,
+        "node_id": "LA_kwDOGDgIIc7LF-dy",
+        "url": "https://api.github.com/repos/Remi-Gau/global2021/labels/modality:EEG",
+        "name": "modality:EEG",
+        "color": "1d76db",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 3407341462,
+        "node_id": "LA_kwDOGDgIIc7LF-eW",
+        "url": "https://api.github.com/repos/Remi-Gau/global2021/labels/programming:containerization",
+        "name": "programming:containerization",
+        "color": "5319e7",
+        "default": false,
+        "description": "Docker, Singularity"
+      },
+      {
+        "id": 3407341469,
+        "node_id": "LA_kwDOGDgIIc7LF-ed",
+        "url": "https://api.github.com/repos/Remi-Gau/global2021/labels/programming:documentation",
+        "name": "programming:documentation",
+        "color": "5319e7",
+        "default": false,
+        "description": "Markdown, Sphinx"
+      },
+      {
+        "id": 3407341480,
+        "node_id": "LA_kwDOGDgIIc7LF-eo",
+        "url": "https://api.github.com/repos/Remi-Gau/global2021/labels/programming:R",
+        "name": "programming:R",
+        "color": "5319e7",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 3407341485,
+        "node_id": "LA_kwDOGDgIIc7LF-et",
+        "url": "https://api.github.com/repos/Remi-Gau/global2021/labels/project_development_status:1_basic%20structure",
+        "name": "project_development_status:1_basic structure",
+        "color": "bfd4f2",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 3407341491,
+        "node_id": "LA_kwDOGDgIIc7LF-ez",
+        "url": "https://api.github.com/repos/Remi-Gau/global2021/labels/project_type:coding_methods",
+        "name": "project_type:coding_methods",
+        "color": "c5def5",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 3407341493,
+        "node_id": "LA_kwDOGDgIIc7LF-e1",
+        "url": "https://api.github.com/repos/Remi-Gau/global2021/labels/project_type:documentation",
+        "name": "project_type:documentation",
+        "color": "c5def5",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 3407341494,
+        "node_id": "LA_kwDOGDgIIc7LF-e2",
+        "url": "https://api.github.com/repos/Remi-Gau/global2021/labels/project_type:method_development",
+        "name": "project_type:method_development",
+        "color": "c5def5",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 3407341498,
+        "node_id": "LA_kwDOGDgIIc7LF-e6",
+        "url": "https://api.github.com/repos/Remi-Gau/global2021/labels/project",
+        "name": "project",
+        "color": "f9bc70",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 3407341500,
+        "node_id": "LA_kwDOGDgIIc7LF-e8",
+        "url": "https://api.github.com/repos/Remi-Gau/global2021/labels/status:published",
+        "name": "status:published",
+        "color": "0e8a16",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 3407341504,
+        "node_id": "LA_kwDOGDgIIc7LF-fA",
+        "url": "https://api.github.com/repos/Remi-Gau/global2021/labels/status:web_ready",
+        "name": "status:web_ready",
+        "color": "0e8a16",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 3407341513,
+        "node_id": "LA_kwDOGDgIIc7LF-fJ",
+        "url": "https://api.github.com/repos/Remi-Gau/global2021/labels/tools:CPAC",
+        "name": "tools:CPAC",
+        "color": "0052cc",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 3407341568,
+        "node_id": "LA_kwDOGDgIIc7LF-gA",
+        "url": "https://api.github.com/repos/Remi-Gau/global2021/labels/topic:EEG_source_modelling",
+        "name": "topic:EEG_source_modelling",
+        "color": "006b75",
+        "default": false,
+        "description": ""
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2021-10-09T08:07:57Z",
+    "updated_at": "2021-11-15T17:20:47Z",
+    "closed_at": null,
+    "author_association": "OWNER",
+    "active_lock_reason": null,
+    "body": "### Title\r\n\r\nTitles are hard.\r\n\r\nTesting things.\r\n\r\n### Leaders\r\n\r\nWe are all leaders\r\n\r\n### Collaborators\r\n\r\nWe will have many, all around the globe.\r\n\r\n### Brainhack Global 2021 Event\r\n\r\nBrainhack Nordic\r\n\r\n### Project Description\r\n\r\nMy project is like my facebook relationship status: \"It's complicated\"\r\n\r\n\r\n### Link to project repository/sources\r\n\r\nhttps:/anything.will.do.com\r\n\r\n### Goals for Brainhack Global\r\n\r\nLike every year... Take over the world.\r\n\r\n### Good first issues\r\n\r\n1. issue one:\r\nPancakes\r\n2. issue two:\r\nWaffles\r\n\r\n\r\n### Communication channels\r\n\r\nSmoke signals\r\n\r\n### Skills\r\n\r\nBe patient and kind.\r\n\r\n### Onboarding documentation\r\n\r\n_No response_\r\n\r\n### What will participants learn?\r\n\r\nSo much. So so much.\r\n\r\n### Data to use\r\n\r\n_No response_\r\n\r\n### Number of collaborators\r\n\r\n2\r\n\r\n### Credit to collaborators\r\n\r\nall contributors\r\n\r\n### Image\r\n\r\ntemp\r\n\r\n### Type\r\n\r\ncoding_methods, method_development\r\n\r\n### Development status\r\n\r\n1_basic structure\r\n\r\n### Topic\r\n\r\nEEG_source_modelling\r\n\r\n### Tools\r\n\r\nCPAC\r\n\r\n### Programming language\r\n\r\ncontainerization\r\n\r\n### Modalities\r\n\r\nECOG\r\n\r\n### Git skills\r\n\r\n2_branches_PRs\r\n\r\n### Anything else?\r\n\r\n_No response_\r\n\r\n### Things to do after the project is submitted.\r\n\r\n- [X] Add a comment saying: `Hi @Brainhack-Global/project-monitors: my project is ready!`\r\n- [ ] Twitter-sized summary of your project pitch.",
+    "reactions": {
+      "url": "https://api.github.com/repos/Remi-Gau/global2021/issues/9/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/Remi-Gau/global2021/issues/9/timeline",
+    "performed_via_github_app": null
+  },
+  "1": {
+    "url": "https://api.github.com/repos/Remi-Gau/global2021/issues/4",
+    "repository_url": "https://api.github.com/repos/Remi-Gau/global2021",
+    "labels_url": "https://api.github.com/repos/Remi-Gau/global2021/issues/4/labels{/name}",
+    "comments_url": "https://api.github.com/repos/Remi-Gau/global2021/issues/4/comments",
+    "events_url": "https://api.github.com/repos/Remi-Gau/global2021/issues/4/events",
+    "html_url": "https://github.com/Remi-Gau/global2021/issues/4",
+    "id": 1014064253,
+    "node_id": "I_kwDOGDgIIc48cWR9",
+    "number": 4,
+    "title": "[Project]: Test project",
+    "user": {
+      "login": "jhlegarreta",
+      "id": 5576557,
+      "node_id": "MDQ6VXNlcjU1NzY1NTc=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5576557?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jhlegarreta",
+      "html_url": "https://github.com/jhlegarreta",
+      "followers_url": "https://api.github.com/users/jhlegarreta/followers",
+      "following_url": "https://api.github.com/users/jhlegarreta/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jhlegarreta/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jhlegarreta/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jhlegarreta/subscriptions",
+      "organizations_url": "https://api.github.com/users/jhlegarreta/orgs",
+      "repos_url": "https://api.github.com/users/jhlegarreta/repos",
+      "events_url": "https://api.github.com/users/jhlegarreta/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jhlegarreta/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 3407341421,
+        "node_id": "LA_kwDOGDgIIc7LF-dt",
+        "url": "https://api.github.com/repos/Remi-Gau/global2021/labels/git_skills:3_continuous_integration",
+        "name": "git_skills:3_continuous_integration",
+        "color": "bfdadc",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 3407341423,
+        "node_id": "LA_kwDOGDgIIc7LF-dv",
+        "url": "https://api.github.com/repos/Remi-Gau/global2021/labels/modality:DWI",
+        "name": "modality:DWI",
+        "color": "1d76db",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 3407341424,
+        "node_id": "LA_kwDOGDgIIc7LF-dw",
+        "url": "https://api.github.com/repos/Remi-Gau/global2021/labels/modality:ECG",
+        "name": "modality:ECG",
+        "color": "1d76db",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 3407341463,
+        "node_id": "LA_kwDOGDgIIc7LF-eX",
+        "url": "https://api.github.com/repos/Remi-Gau/global2021/labels/modality:PET",
+        "name": "modality:PET",
+        "color": "1d76db",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 3407341469,
+        "node_id": "LA_kwDOGDgIIc7LF-ed",
+        "url": "https://api.github.com/repos/Remi-Gau/global2021/labels/programming:documentation",
+        "name": "programming:documentation",
+        "color": "5319e7",
+        "default": false,
+        "description": "Markdown, Sphinx"
+      },
+      {
+        "id": 3407341478,
+        "node_id": "LA_kwDOGDgIIc7LF-em",
+        "url": "https://api.github.com/repos/Remi-Gau/global2021/labels/programming:Python",
+        "name": "programming:Python",
+        "color": "5319e7",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 3407341480,
+        "node_id": "LA_kwDOGDgIIc7LF-eo",
+        "url": "https://api.github.com/repos/Remi-Gau/global2021/labels/programming:R",
+        "name": "programming:R",
+        "color": "5319e7",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 3407341483,
+        "node_id": "LA_kwDOGDgIIc7LF-er",
+        "url": "https://api.github.com/repos/Remi-Gau/global2021/labels/project_development_status:0_concept_no_content",
+        "name": "project_development_status:0_concept_no_content",
+        "color": "bfd4f2",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 3407341491,
+        "node_id": "LA_kwDOGDgIIc7LF-ez",
+        "url": "https://api.github.com/repos/Remi-Gau/global2021/labels/project_type:coding_methods",
+        "name": "project_type:coding_methods",
+        "color": "c5def5",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 3407341493,
+        "node_id": "LA_kwDOGDgIIc7LF-e1",
+        "url": "https://api.github.com/repos/Remi-Gau/global2021/labels/project_type:documentation",
+        "name": "project_type:documentation",
+        "color": "c5def5",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 3407341494,
+        "node_id": "LA_kwDOGDgIIc7LF-e2",
+        "url": "https://api.github.com/repos/Remi-Gau/global2021/labels/project_type:method_development",
+        "name": "project_type:method_development",
+        "color": "c5def5",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 3407341498,
+        "node_id": "LA_kwDOGDgIIc7LF-e6",
+        "url": "https://api.github.com/repos/Remi-Gau/global2021/labels/project",
+        "name": "project",
+        "color": "f9bc70",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 3407341500,
+        "node_id": "LA_kwDOGDgIIc7LF-e8",
+        "url": "https://api.github.com/repos/Remi-Gau/global2021/labels/status:published",
+        "name": "status:published",
+        "color": "0e8a16",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 3407341504,
+        "node_id": "LA_kwDOGDgIIc7LF-fA",
+        "url": "https://api.github.com/repos/Remi-Gau/global2021/labels/status:web_ready",
+        "name": "status:web_ready",
+        "color": "0e8a16",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 3407341508,
+        "node_id": "LA_kwDOGDgIIc7LF-fE",
+        "url": "https://api.github.com/repos/Remi-Gau/global2021/labels/tools:BIDS",
+        "name": "tools:BIDS",
+        "color": "0052cc",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 3407341514,
+        "node_id": "LA_kwDOGDgIIc7LF-fK",
+        "url": "https://api.github.com/repos/Remi-Gau/global2021/labels/tools:Datalad",
+        "name": "tools:Datalad",
+        "color": "0052cc",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 3407341534,
+        "node_id": "LA_kwDOGDgIIc7LF-fe",
+        "url": "https://api.github.com/repos/Remi-Gau/global2021/labels/tools:FSL",
+        "name": "tools:FSL",
+        "color": "0052cc",
+        "default": false,
+        "description": ""
+      },
+      {
+        "id": 3407341557,
+        "node_id": "LA_kwDOGDgIIc7LF-f1",
+        "url": "https://api.github.com/repos/Remi-Gau/global2021/labels/topic:connectome",
+        "name": "topic:connectome",
+        "color": "006b75",
+        "default": false,
+        "description": ""
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2021-10-02T14:19:14Z",
+    "updated_at": "2021-10-09T08:44:08Z",
+    "closed_at": null,
+    "author_association": "COLLABORATOR",
+    "active_lock_reason": null,
+    "body": "### Title\r\n\r\nProject to test a few things:\r\n - Issue labeler\r\n - Generated issue data to generate project website cards\r\n - Generated issue data to extract relevant data to a TSV file for `brainmatch`\r\n\r\nThis is a test to see if talking about #PET here creates a \"false positive\" label by our dear labeller in a project that is not about PET.\r\n\r\nLet's edit this again to see if the labeller has improved.\r\n\r\n### Leaders\r\n\r\nR\u00e9mi Gau is a good one.\r\n\r\n### Collaborators\r\n\r\nNone at the moment.\r\n\r\n### Brainhack Global 2021 Event\r\n\r\nBrainhack Boston\r\n\r\n### Description\r\n\r\n- What are you doing, for whom, and why? Doing it for everybody\r\n- What makes your project special and exciting? Nothing for the moment.\r\n- How to get started? N/A\r\n- Where to find key resources? Anywhere on the internet.\r\n\r\n\r\n### Link to the project\r\n\r\nhttps://github.com/my_name/my_project\r\n\r\n### Goals for Brainhack Global\r\n\r\nTo make the labeling system, the project card system and other stuff working\r\n\r\n### Good first issues\r\n\r\n1. issue one: Labeling system\r\n\r\n2. issue two: Project cards\r\n\r\n\r\n### Communication channels\r\n\r\nUse mattermost\r\n\r\n### Skills\r\n\r\n- Python: advanced\r\n- FSL: basics\r\n\r\n### Onboarding documentation\r\n\r\n_No response_\r\n\r\n### What will participants learn?\r\n\r\nLots of things\r\n\r\n### Data to use\r\n\r\n_No response_\r\n\r\n### Number of collaborators\r\n\r\n1\r\n\r\n### Credit to collaborators\r\n\r\nGitHub takes care of crediging.\r\n\r\n### Image\r\n\r\nNo image.\r\n\r\n### Type\r\n\r\ncoding_methods, method_development\r\n\r\n### Development status\r\n\r\n0_concept_no_content\r\n\r\n### Topic\r\n\r\nbayesian_approaches, connectome\r\n\r\n### Tools\r\n\r\nBIDS, Datalad\r\n\r\n### Programming language\r\n\r\nPython\r\n\r\n### Modalities\r\n\r\nDWI, ECG\r\n\r\n### Git skills\r\n\r\n3_continuous_integration\r\n\r\n### Anything else?\r\n\r\n_No response_\r\n\r\n### Things to do after the project is submitted.\r\n\r\n- [ ] Add a comment saying: `Hi @Brainhack-Global/project-monitors: my project is ready!`\r\n- [ ] Twitter-sized summary of your project pitch.",
+    "reactions": {
+      "url": "https://api.github.com/repos/Remi-Gau/global2021/issues/4/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "timeline_url": "https://api.github.com/repos/Remi-Gau/global2021/issues/4/timeline",
+    "performed_via_github_app": null
+  }
+}

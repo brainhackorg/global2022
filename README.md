@@ -1,5 +1,7 @@
 # Welcome to the Brainhack Global 2021 repository.
 
+[![Build Status](https://github.com/brainhackorg/global2021/workflows/test,%20package/badge.svg)](https://github.com/brainhackorg/global2021/actions?query=workflow%3A%22test%2C+package%22+branch%3Amain)
+
 This is where you will find all the files and actions regarding the
 [Brainhack Global 2021 website](https://brainhack.org/global2021/) which is
 developed together with the Brainhack community.
