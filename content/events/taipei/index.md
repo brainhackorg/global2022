@@ -1,27 +1,28 @@
 ---
-title: Brainhack Sydney
-event: Brainhack Sydney
+title: BrainHack Taipei
+event: BrainHack Taipei
 event_url:
 
-location: The University of Sydney, Sydney,	Australia
+location:
+  Graduate Institute of Linguistics, National Taiwan University, Taipei, Taiwan
 address:
   street:
-  city:
+  city: Taipei
   region:
   postcode:
-  country:
+  country: Taiwan
 
-summary: " "
+summary: "EEG data analysis"
 abstract: " "
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2021-12-01T13:00:00Z"
-date_end: "2021-12-04T15:00:00Z"
+date: "2021-12-11T13:00:00Z"
+date_end: "2021-12-11T16:00:00Z"
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2021-11-04T00:00:00Z"
+publishDate: "2021-11-15T00:00:00Z"
 
 authors: []
 tags: []
@@ -34,20 +35,10 @@ image:
   focal_point: center
 
 links:
-  # - icon: globe
-  #   icon_pack: fas
-  #   name: Website
-  #   url: https://openneuropet.github.io/brainhack/
-
-  # - icon: twitter
-  #   icon_pack: fab
-  #   name: Follow
-  #   url: https://twitter.com/OHBM_Australia
-
-  # - icon: mattermost
-  #   icon_pack: custom
-  #   name: Mattermost Channel
-  #   url: https://mattermost.brainhack.org/brainhack/channels/bhg21-zurich
+  - icon: globe
+    icon_pack: fas
+    name: Website
+    url: https://langsci-edu.github.io/brainhack21
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
