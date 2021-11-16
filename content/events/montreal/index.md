@@ -13,7 +13,7 @@ address:
   postcode: H3W 1W6
   country: Canada
 
-summary: " "
+summary: Hybrid event
 abstract: " "
 
 # Talk start and end times.
@@ -39,7 +39,7 @@ image:
 links:
   - icon: twitter
     icon_pack: fab
-    name: Twitter
+    name: "@BrainhackMTL"
     url: https://twitter.com/BrainhackMTL
 
   - icon: mattermost

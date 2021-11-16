@@ -11,7 +11,7 @@ address:
   postcode: 1202
   country: Switzerland
 
-summary: " "
+summary: In person only
 abstract: " "
 
 # Talk start and end times.
@@ -41,7 +41,7 @@ links:
 
   - icon: twitter
     icon_pack: fab
-    name: Twitter
+    name: "@brainhackgeneva"
     url: https://twitter.com/brainhackgeneva
 
 # Projects (optional).

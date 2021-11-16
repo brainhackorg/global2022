@@ -3,7 +3,9 @@ title: Brainhack Marburg
 event: Brainhack Marburg
 event_url:
 
-location: OSIUM (Open Science Initative University Marburg), Philipps-Universität Marburg, Marburg, Germany
+location:
+  OSIUM (Open Science Initative University Marburg), Philipps-Universität
+  Marburg, Marburg, Germany
 address:
   street:
   city: Marburg
@@ -11,7 +13,7 @@ address:
   postcode:
   country: Germany
 
-summary: " "
+summary: In person only
 abstract: " "
 
 # Talk start and end times.
@@ -41,7 +43,7 @@ links:
 
   - icon: twitter
     icon_pack: fab
-    name: Follow
+    name: "@OpenScieneUM"
     url: https://twitter.com/OpenScieneUM
 
   - icon: mattermost

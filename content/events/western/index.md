@@ -13,7 +13,7 @@ address:
   postcode:
   country: Canada
 
-summary: " "
+summary: Hybrid event
 abstract: " "
 
 # Talk start and end times.
@@ -43,7 +43,7 @@ links:
 
   - icon: twitter
     icon_pack: fab
-    name: Twitter
+    name: "@BrainHackUWO"
     url: https://twitter.com/BrainHackUWO
 
 # Projects (optional).

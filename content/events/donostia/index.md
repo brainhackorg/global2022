@@ -11,7 +11,7 @@ address:
   postcode:
   country: Basque Country
 
-summary: " "
+summary: Online only
 abstract: " "
 
 # Talk start and end times.
@@ -43,7 +43,7 @@ links:
 
   - icon: twitter
     icon_pack: fab
-    name: Twitter
+    name: "@BHDonostia"
     url: https://www.twitter.com/BHDonostia
 
 # Projects (optional).

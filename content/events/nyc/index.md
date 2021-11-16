@@ -11,7 +11,7 @@ address:
   postcode: 10022
   country: United States
 
-summary: " "
+summary: Hybrid event
 abstract: " "
 
 # Talk start and end times.
@@ -42,7 +42,7 @@ links:
 
   - icon: twitter
     icon_pack: fab
-    name: Twitter
+    name: "@brainhackNY"
     url: https://twitter.com/brainhackNY
 
   - icon: mattermost

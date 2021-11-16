@@ -11,7 +11,7 @@ address:
   postcode: 13005
   country: France
 
-summary: "Third edition of Brainhack Marseille."
+summary: "Hybrid event - Third edition of Brainhack Marseille."
 abstract: ""
 
 # Talk start and end times.
@@ -43,7 +43,7 @@ links:
 
   - icon: twitter
     icon_pack: fab
-    name: Twitter
+    name: "@BrainhackM"
     url: https://twitter.com/BrainhackM
 
   - icon: mattermost

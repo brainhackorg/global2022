@@ -11,7 +11,7 @@ address:
   postcode: 1453
   country: Denmark
 
-summary: "PET imaging and BIDS"
+summary: "Hybrid event - PET imaging and BIDS"
 abstract: " "
 
 # Talk start and end times.

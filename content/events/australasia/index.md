@@ -11,7 +11,7 @@ address:
   postcode:
   country: Australia
 
-summary: " "
+summary: Online only
 abstract: " "
 
 # Talk start and end times.
@@ -41,7 +41,7 @@ links:
 
   - icon: twitter
     icon_pack: fab
-    name: Twitter
+    name: "@OHBM_Australia"
     url: https://twitter.com/OHBM_Australia
 
   - icon: mattermost

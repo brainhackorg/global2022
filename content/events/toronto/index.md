@@ -13,7 +13,7 @@ address:
   postcode:
   country: Canada
 
-summary: " "
+summary: Online only
 abstract: " "
 
 # Talk start and end times.
@@ -38,7 +38,7 @@ image:
 links:
   - icon: twitter
     icon_pack: fab
-    name: Twitter
+    name: "@brainhackto"
     url: https://twitter.com/brainhackto
 
 # Projects (optional).

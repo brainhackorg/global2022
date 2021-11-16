@@ -11,7 +11,7 @@ address:
   postcode:
   country: France
 
-summary: "VR and AR in neuroscience"
+summary: "Hybrid event - VR and AR in neuroscience"
 abstract: " "
 
 # Talk start and end times.
@@ -41,8 +41,8 @@ links:
 
   - icon: twitter
     icon_pack: fas
-    name: Twitter
-    url: https://brain-web.github.io
+    name: "@TheBrainWeb"
+    url: https://twitter.com/TheBrainWeb
 
   - icon: mattermost
     icon_pack: custom

@@ -11,7 +11,7 @@ address:
   postcode: 8092
   country: Switzerland
 
-summary: "Mobile EEG and Biomarkers"
+summary: "Hybrid event - Mobile EEG and Biomarkers"
 abstract: " "
 
 # Talk start and end times.
