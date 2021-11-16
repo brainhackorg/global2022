@@ -13,7 +13,7 @@ Usage:
 import argparse
 import sys
 
-from issues_to_pages import (
+from scripts.issues_to_pages import (
     check_issue_data_request,
     gather_website_project_data,
     get_issue_data,
