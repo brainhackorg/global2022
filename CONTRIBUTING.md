@@ -45,5 +45,10 @@ Pretty much all the content of the website is either in the `data` or the
 
 ## Projects
 
-Projects were updated dynamically in `content/project` using the github workflow
-`workflows/issue-to-page.yml` that calls the script `issues_to_pages.py`.
+Projects are updated dynamically using the Python `scripts/transform_issues_to_pages.py`
+script. The script parses the GitHub issues in the current repository, filters
+the issues that correspond to projects, and scrapes the relevant data to
+generate project Markdown files that are written to the `content/project`
+folder. These files are then processed by the website generator framework to
+fill the contents of the project page. The process is automated using the
+`.github/workflows/issue-to-page.yml` GitHub workflow.
