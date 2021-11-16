@@ -1,7 +1,7 @@
 ---
 title: BrainHack Toronto
 event: BrainHack Toronto
-event_url:
+event_url: https://brainhackto.github.io/global-toronto-12-2021/
 
 location:
   Krembil Centre for Neuroinformatics, Centre for Addiction and Mental Health,
