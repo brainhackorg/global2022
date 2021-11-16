@@ -43,7 +43,7 @@ links:
 
   - icon: twitter
     icon_pack: fab
-    name: Twitter
+    name: "@BrainHackUWO"
     url: https://twitter.com/BrainHackUWO
 
 # Projects (optional).

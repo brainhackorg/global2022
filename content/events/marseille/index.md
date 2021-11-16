@@ -43,7 +43,7 @@ links:
 
   - icon: twitter
     icon_pack: fab
-    name: Twitter
+    name: "@BrainhackM"
     url: https://twitter.com/BrainhackM
 
   - icon: mattermost

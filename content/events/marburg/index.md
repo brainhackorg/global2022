@@ -41,7 +41,7 @@ links:
 
   - icon: twitter
     icon_pack: fab
-    name: Follow
+    name: "@OpenScieneUM"
     url: https://twitter.com/OpenScieneUM
 
   - icon: mattermost

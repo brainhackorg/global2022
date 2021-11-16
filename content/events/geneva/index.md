@@ -41,7 +41,7 @@ links:
 
   - icon: twitter
     icon_pack: fab
-    name: Twitter
+    name: "@brainhackgeneva"
     url: https://twitter.com/brainhackgeneva
 
 # Projects (optional).

@@ -43,7 +43,7 @@ links:
 
   - icon: twitter
     icon_pack: fab
-    name: Twitter
+    name: "@BHDonostia"
     url: https://www.twitter.com/BHDonostia
 
 # Projects (optional).

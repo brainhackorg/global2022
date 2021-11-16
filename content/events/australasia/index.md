@@ -41,7 +41,7 @@ links:
 
   - icon: twitter
     icon_pack: fab
-    name: Twitter
+    name: "@OHBM_Australia"
     url: https://twitter.com/OHBM_Australia
 
   - icon: mattermost

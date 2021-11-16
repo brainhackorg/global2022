@@ -39,7 +39,7 @@ image:
 links:
   - icon: twitter
     icon_pack: fab
-    name: Twitter
+    name: "@BrainhackMTL"
     url: https://twitter.com/BrainhackMTL
 
   - icon: mattermost

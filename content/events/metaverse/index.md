@@ -41,8 +41,8 @@ links:
 
   - icon: twitter
     icon_pack: fas
-    name: Twitter
-    url: https://brain-web.github.io
+    name: "@TheBrainWeb"
+    url: https://twitter.com/TheBrainWeb
 
   - icon: mattermost
     icon_pack: custom

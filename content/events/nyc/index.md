@@ -42,7 +42,7 @@ links:
 
   - icon: twitter
     icon_pack: fab
-    name: Twitter
+    name: "@brainhackNY"
     url: https://twitter.com/brainhackNY
 
   - icon: mattermost

@@ -38,7 +38,7 @@ image:
 links:
   - icon: twitter
     icon_pack: fab
-    name: Twitter
+    name: "@brainhackto"
     url: https://twitter.com/brainhackto
 
 # Projects (optional).
