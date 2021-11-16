@@ -11,9 +11,9 @@ address:
   postcode:
   country: United States
 
-summary: "PET and multimodal imaging"
-abstract: " "
+summary: Online only - PET and multimodal imaging
 
+abstract:
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
 date: "2021-12-06T13:00:00Z"

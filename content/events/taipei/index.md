@@ -12,7 +12,7 @@ address:
   postcode:
   country: Taiwan
 
-summary: "EEG data analysis"
+summary: "In person only - EEG data analysis"
 abstract: " "
 
 # Talk start and end times.

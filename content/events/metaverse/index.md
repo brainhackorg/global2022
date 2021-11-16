@@ -11,7 +11,7 @@ address:
   postcode:
   country: France
 
-summary: "VR and AR in neuroscience"
+summary: "Hybrid event - VR and AR in neuroscience"
 abstract: " "
 
 # Talk start and end times.

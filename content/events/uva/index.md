@@ -11,7 +11,7 @@ address:
   postcode:
   country: United States
 
-summary: " "
+summary: In person only
 abstract: " "
 
 # Talk start and end times.

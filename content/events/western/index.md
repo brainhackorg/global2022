@@ -13,7 +13,7 @@ address:
   postcode:
   country: Canada
 
-summary: " "
+summary: Hybrid event
 abstract: " "
 
 # Talk start and end times.

@@ -11,8 +11,8 @@ address:
   postcode:
   country: Croatia
 
-summary: "Blockchain"
-abstract: "test"
+summary: "In person only - Blockchain"
+abstract: ""
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.

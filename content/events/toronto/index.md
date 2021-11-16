@@ -13,7 +13,7 @@ address:
   postcode:
   country: Canada
 
-summary: " "
+summary: Online only
 abstract: " "
 
 # Talk start and end times.

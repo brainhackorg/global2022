@@ -11,7 +11,7 @@ address:
   postcode: 1202
   country: Switzerland
 
-summary: " "
+summary: In person only
 abstract: " "
 
 # Talk start and end times.

@@ -11,7 +11,7 @@ address:
   postcode: 10022
   country: United States
 
-summary: " "
+summary: Hybrid event
 abstract: " "
 
 # Talk start and end times.
