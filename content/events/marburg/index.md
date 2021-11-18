@@ -1,7 +1,7 @@
 ---
 title: Brainhack Marburg
 event: Brainhack Marburg
-event_url:
+event_url: https://brainhack-marburg.github.io/
 
 location:
   OSIUM (Open Science Initative University Marburg), Philipps-Universität
@@ -18,8 +18,8 @@ abstract: " "
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2021-12-09T13:00:00Z"
-date_end: "2021-12-09T15:00:00Z"
+date: "2021-12-09T00:00:00Z"
+date_end: "2021-12-09T00:00:00Z"
 all_day: true
 
 # Schedule page publish date (NOT event date).

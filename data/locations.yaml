@@ -25,7 +25,7 @@ events:
   #     lng: 0.0
   #   dates: "From 2021-11-09 to 2021-11-13"
 
-  - title: Brainhack Taipei
+  - title: Brainhack Taipei (in person only)
     organizers:
       - Shu-Kai Hsieh, Chiung-Yu Chiang
     contact:
@@ -37,21 +37,21 @@ events:
     position:
       lat: 25.017476595471454
       lng: 121.53975179752602
-    dates: "From 2021-11-09 to 2021-11-09"
+    dates: "From 2021-12-11 to 2021-12-11"
 
-  - title: Brainhack Marburg
+  - title: Brainhack Marburg (in person only)
     organizers:
       - Thomas S. Hartmann, Lydia Riedl
     contact:
       - hartma4k@students.uni-marburg.de
-    website: https://brainhackzg.github.io/
+    website: https://brainhack-marburg.github.io/
     address: OSIUM (Open Science Initiative University Marburg), Marburg,	Germany
     position:
       lat: 50.81080790834922
       lng: 8.774228471279875
     dates: "From 2021-12-09 to 2021-12-09"
 
-  - title: Brainhack Zagreb
+  - title: Brainhack Zagreb (in person only)
     organizers:
       - Eda Jovčić, Andrija Štajduhar
     contact:
@@ -66,7 +66,7 @@ events:
       lng: 16.05382042938537
     dates: "From 2021-12-11 to 2021-12-12"
 
-  - title: BrainWeb metaverse
+  - title: BrainWeb metaverse (hybrid)
     organizers:
       - Roberto Toro, Katja Heuer
     contact:
@@ -78,7 +78,7 @@ events:
       lng: 2.311374595722641
     dates: "From 2021-12-06 to 2021-12-08"
 
-  - title: Brainhack Avoca
+  - title: Brainhack Avoca (hybrid)
     organizers:
       - Mac Shine, Ben Fulcher
     contact:
@@ -90,7 +90,7 @@ events:
       lng: 151.1873131074999
     dates: "From 2021-12-01 to 2021-12-03"
 
-  - title: Brainhack Washington DC
+  - title: Brainhack Washington DC (hybrid)
     organizers:
       - Shawn Rhoads, Dustin Moraczewski
     contact:
@@ -104,7 +104,7 @@ events:
       lng: -77.1204863663375
     dates: "From 2021-12-10 to 2021-12-12"
 
-  - title: BrainHack UVA
+  - title: BrainHack UVA (in person only)
     organizers:
       - Amalia McDonald, Sarah Kucenas
     contact:
@@ -116,7 +116,7 @@ events:
       lng: -78.50841
     dates: "From 2021-12-02 to 2021-12-03"
 
-  - title: Brainhack Western
+  - title: Brainhack Western (hybrid)
     organizers:
       - Suzanne Witt
     contact:
@@ -128,7 +128,7 @@ events:
       lng: -81.2736
     dates: "From 2021-12-01 to 2021-12-03"
 
-  - title: Brainhack Geneva
+  - title: Brainhack Geneva (in person only)
     organizers:
       - Michael Dayan
     contact:
@@ -140,7 +140,7 @@ events:
       lng: 6.1474
     dates: "From 2021-12-02 to 2021-12-04"
 
-  - title: Brainhack Australasia
+  - title: Brainhack Australasia (online only)
     organizers:
       - Johanna Bayer, Kelly Garner
     contact:
@@ -150,14 +150,14 @@ events:
     position:
       lat: -37.7982
       lng: 144.9610
-    dates: "From 2021-11-29 to 2021-12-03"
+    dates: "From 2021-11-28 to 2021-12-03"
 
-  - title: BrainHack Toronto
+  - title: BrainHack Toronto (online only)
     organizers:
       - Erin Dickie, John Griffiths
     contact:
       - erin.w.dickie@gmail.com
-    website: TDB
+    website: https://brainhackto.github.io/global-toronto-12-2021/
     address:
       Krembil Centre for Neuroinformatics, Centre for Addiction and Mental
       Health, Toronto, Canada
@@ -166,7 +166,7 @@ events:
       lng: -79.40470761077849
     dates: "From 2021-12-08 to 2021-12-10"
 
-  - title: Brainhack Marseille
+  - title: Brainhack Marseille (hybrid)
     organizers:
       - Sylvain Takerkart, Dipankar
     contact:
@@ -180,7 +180,7 @@ events:
       lng: 5.4032124890651305
     dates: "From 2021-12-06 to 2021-12-08"
 
-  - title: Brainhack UCLA
+  - title: Brainhack UCLA (hybrid)
     organizers:
       - Lucina Uddin
     contact:
@@ -190,9 +190,9 @@ events:
     position:
       lat: 34.06
       lng: -118.44
-    dates: TBD
+    dates: "From 2021-11-22 to 2021-11-22"
 
-  - title: Brainhack Donostia
+  - title: Brainhack Donostia (online only)
     organizers:
       - Chiara Luna Rivolta, Irene Arrieta
     contact:
@@ -204,7 +204,7 @@ events:
       lng: -1.98
     dates: "From 2021-11-22 to 2021-11-24"
 
-  - title: Brainhack Nordic
+  - title: Brainhack Nordic (online only)
     organizers:
       - Cyril Pernet, Melanie Ganz
     contact:
@@ -216,7 +216,7 @@ events:
       lng: 12.56
     dates: "From 2021-12-06 to 2021-12-07"
 
-  - title: Brainhack Zurich
+  - title: Brainhack Zurich (hybrid)
     organizers:
       - Mark Melnykowycz, Cao Tri Do
     contact:
@@ -228,7 +228,7 @@ events:
       lng: 8.548579624651714
     dates: "From 2021-12-03 to 2021-12-05"
 
-  - title: Brainhack Boston
+  - title: Brainhack Boston (online only)
     organizers:
       - Paul Wighton
     contact:
@@ -238,9 +238,9 @@ events:
     position:
       lat: 42.37
       lng: -71.05
-    dates: "From 2021-12-06 to 2021-12-12"
+    dates: "From 2021-12-06 to 2021-12-07"
 
-  - title: Brainhack NYC
+  - title: Brainhack NYC (hybrid)
     organizers:
       - Gregory Kiar, Steven Giavasis
     contact:
@@ -252,7 +252,7 @@ events:
       lng: -73.97044149270326
     dates: "From 2021-11-29 to 2021-12-03"
 
-  - title: Brainhack Montreal
+  - title: Brainhack Montreal (hybrid)
     organizers:
       - Valentina Borghesani, Désirée Lussier
     contact:
