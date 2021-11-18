@@ -1,7 +1,7 @@
 ---
 title: BrainHack Zagreb
 event: BrainHack Zagreb
-event_url:
+event_url: https://brainhackzg.github.io/
 
 location: University of Zagreb; Zagreb, Croatia
 address:
@@ -16,8 +16,8 @@ abstract: ""
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2021-12-11T13:00:00Z"
-date_end: "2021-12-12T15:00:00Z"
+date: "2021-12-11T00:00:00Z"
+date_end: "2021-12-12T00:00:00Z"
 all_day: true
 
 # Schedule page publish date (NOT event date).

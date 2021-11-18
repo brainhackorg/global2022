@@ -1,7 +1,7 @@
 ---
 title: BrainHack Geneva
 event: BrainHack Geneva
-event_url:
+event_url: https://brainhack.ch/
 
 location: Foundation Campus Biotech Geneva (FCBG), Geneva, Switzerland
 address:
@@ -16,8 +16,8 @@ abstract: " "
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2021-12-02T13:00:00Z"
-date_end: "2021-12-05T15:00:00Z"
+date: "2021-12-02T00:00:00Z"
+date_end: "2021-12-04T00:00:00Z"
 all_day: true
 
 # Schedule page publish date (NOT event date).
