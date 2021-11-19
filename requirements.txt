@@ -1,2 +1,1 @@
-regex
-requests
+git+https://github.com/brainhackorg/braintransform@v0.1.0
