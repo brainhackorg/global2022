@@ -45,10 +45,13 @@ Pretty much all the content of the website is either in the `data` or the
 
 ## Projects
 
-Projects are updated dynamically using the Python `scripts/transform_issues_to_pages.py`
-script. The script parses the GitHub issues in the current repository, filters
-the issues that correspond to projects, and scrapes the relevant data to
-generate project Markdown files that are written to the `content/project`
-folder. These files are then processed by the website generator framework to
-fill the contents of the project page. The process is automated using the
+Projects are updated dynamically using the
+[`braintransform`](https://github.com/brainhackorg/braintransform) Python
+package. The package provides the `transform_issues_to_pages.py` script, which
+parses the GitHub issues in a given repository, filters the issues that
+correspond to projects, and scrapes the relevant data to generate project
+Markdown files that are written to the specified folder. For the current
+website, the files are written to the `content/project` folder: the website
+generator framework reads the contents of the folder and appropriately renders
+the project data. The process is automated using the
 `.github/workflows/issue-to-page.yml` GitHub workflow.
