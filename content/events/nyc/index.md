@@ -38,7 +38,7 @@ links:
   - icon: globe
     icon_pack: fas
     name: Website
-    url: https://brainhack-ny.github.io/
+    url: https://brainhacknyc.github.io/2021/
 
   - icon: twitter
     icon_pack: fab

@@ -1,24 +1,22 @@
 ---
-title: BrainHack Toronto
-event: BrainHack Toronto
-event_url: https://brainhackto.github.io/global-toronto-12-2021/
+title: BrainHack Yale
+event: BrainHack Yale
+event_url:
 
-location:
-  Krembil Centre for Neuroinformatics, Centre for Addiction and Mental Health,
-  Toronto, Canada
+location: Yale University, New Haven,	United States
 address:
   street:
-  city: Toronto
+  city: New Haven
   region:
   postcode:
-  country: Canada
+  country: United States
 
-summary: Online only
+summary: In person only
 abstract: " "
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2021-12-08T00:00:00Z"
+date: "2021-12-09T00:00:00Z"
 date_end: "2021-12-10T00:00:00Z"
 all_day: true
 
@@ -36,15 +34,6 @@ image:
   focal_point: center
 
 links:
-  - icon: globe
-    icon_pack: fas
-    name: Website
-    url: https://brainhackto.github.io/global-toronto-12-2021/
-
-  - icon: twitter
-    icon_pack: fab
-    name: "@brainhackto"
-    url: https://twitter.com/brainhackto
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
