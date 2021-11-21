@@ -36,6 +36,11 @@ image:
   focal_point: center
 
 links:
+  - icon: globe
+    icon_pack: fas
+    name: Website
+    url: https://brainhackto.github.io/global-toronto-12-2021/
+
   - icon: twitter
     icon_pack: fab
     name: "@brainhackto"
