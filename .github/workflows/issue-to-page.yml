@@ -30,7 +30,7 @@ jobs:
         echo $url
         echo "Project pages destination directory: "
         echo $path
-        python transform_issues_to_pages.py $url $path
+        python scripts/transform_issues_to_pages.py $url $path
 
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v3
