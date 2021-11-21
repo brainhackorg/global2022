@@ -122,6 +122,7 @@ body:
         - BrainWeb Metaverse
         - Brainhack Marburg
         - Brainhack Taipei
+        - BrainHack Yale
     validations:
       required: true
 

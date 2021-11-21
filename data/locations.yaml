@@ -25,6 +25,18 @@ events:
   #     lng: 0.0
   #   dates: "From 2021-11-09 to 2021-11-13"
 
+  - title: BrainHack Yale (in person only)
+    organizers:
+      - David O'Connor, Hannah Peterson
+    contact:
+      - dave.oconnor@yale.edu
+    website:
+    address: Yale University, New Haven,	USA
+    position:
+      lat: 41.3171463076155
+      lng: -72.92204269579824
+    dates: "From 2021-12-09 to 2021-12-10"
+
   - title: Brainhack Taipei (in person only)
     organizers:
       - Shu-Kai Hsieh, Chiung-Yu Chiang
