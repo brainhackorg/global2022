@@ -1,7 +1,7 @@
 ---
 title: BrainHack Nordic
 event: BrainHack Nordic
-event_url:
+event_url: https://openneuropet.github.io/brainhack/
 
 location:
 address:

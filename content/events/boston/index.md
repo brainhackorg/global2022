@@ -1,7 +1,7 @@
 ---
 title: BrainHack Boston
 event: BrainHack Boston
-event_url:
+event_url: https://openneuropet.github.io/brainhack/
 
 location: MGH, Boston, United States
 address:
