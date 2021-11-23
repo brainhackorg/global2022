@@ -46,7 +46,7 @@ links:
     name: "@brainhackto"
     url: https://twitter.com/brainhackto
     
-      - icon: mattermost
+  - icon: mattermost
     icon_pack: custom
     name: Mattermost
     url: https://mattermost.brainhack.org/brainhack/channels/brainhack-toronto
