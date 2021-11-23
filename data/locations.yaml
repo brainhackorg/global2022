@@ -197,12 +197,12 @@ events:
       - Lucina Uddin
     contact:
       - lucina@ucla.edu
-    website: TDB
+    website: https://sites.google.com/view/brainhack-ucla/home
     address: UCLA, Los Angeles, USA
     position:
       lat: 34.06
       lng: -118.44
-    dates: "From 2021-11-22 to 2021-11-22"
+    dates: "From 2022-01-22 to 2022-01-22"
 
   - title: Brainhack Donostia (online only)
     organizers:
