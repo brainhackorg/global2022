@@ -47,7 +47,7 @@ links:
   - icon: mattermost
     icon_pack: custom
     name: Mattermost
-    url: https://mattermost.brainhack.org/brainweb
+    url:https://mattermost.brainhack.org/brainhack/channels/brainweb
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
