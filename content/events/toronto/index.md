@@ -45,7 +45,7 @@ links:
     icon_pack: fab
     name: "@brainhackto"
     url: https://twitter.com/brainhackto
-    
+
   - icon: mattermost
     icon_pack: custom
     name: Mattermost

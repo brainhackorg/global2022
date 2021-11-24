@@ -32,7 +32,7 @@ featured: false
 image:
   caption: " "
   focal_point: center
- 
+
 
 links:
 
@@ -40,7 +40,7 @@ links:
     icon_pack: fas
     name: Website
     url: https://sites.google.com/view/brainhack-ucla/home
-    
+
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
