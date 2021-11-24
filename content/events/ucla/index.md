@@ -1,7 +1,7 @@
 ---
 title: BrainHack UCLA
 event: BrainHack UCLA
-event_url:
+event_url: https://sites.google.com/view/brainhack-ucla/home
 
 location: UCLA, Los Angeles, California, United States
 address:
@@ -12,12 +12,12 @@ address:
   country: United States
 
 summary: Hybrid event
-abstract: " "
+abstract: "Brainhack brings together cross-disciplinary researchers within the neuroimaging community at UCLA "
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2021-11-22T00:00:00Z"
-date_end: "2021-11-22T23:00:00Z"
+date: "2022-01-22T00:00:00Z"
+date_end: "2022-01-22T23:00:00Z"
 all_day: true
 
 # Schedule page publish date (NOT event date).
@@ -33,7 +33,13 @@ image:
   caption: " "
   focal_point: center
 
+
 links:
+
+  - icon: globe
+    icon_pack: fas
+    name: Website
+    url: https://sites.google.com/view/brainhack-ucla/home
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.

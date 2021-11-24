@@ -46,6 +46,11 @@ links:
     name: "@brainhackto"
     url: https://twitter.com/brainhackto
 
+  - icon: mattermost
+    icon_pack: custom
+    name: Mattermost
+    url: https://mattermost.brainhack.org/brainhack/channels/brainhack-toronto
+
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
