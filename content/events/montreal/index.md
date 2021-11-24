@@ -41,7 +41,7 @@ links:
     icon_pack: fas
     name: Website
     url: https://brainhackmtl.github.io/global2021/
-    
+
   - icon: twitter
     icon_pack: fab
     name: "@BrainhackMTL"
