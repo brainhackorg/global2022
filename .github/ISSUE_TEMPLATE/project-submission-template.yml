@@ -3,24 +3,6 @@ name: Project submission template
 # See the json schema to help you create / update this form
 # https://json.schemastore.org/github-issue-forms.json
 
-# REQUIRED fields in the BHG Donostia google form
-# https://docs.google.com/forms/d/e/1FAIpQLSctW3EjACh9sNAlMK5_G43pPjh0MAWjeU7OrtxOF3teyAgbiQ/viewform
-#
-# - Project title
-# - Leader
-# - Topic
-# - Project description
-# - Goals for Brainhack
-# - What will participants learn?
-# - Number of collaborators
-# - Credit to collaborators
-# - Type of project
-# - Development status
-# - Programming languages
-# - Necessary Programming skills level for the project
-# - Necessary git skills level for the project
-# - Modality
-#
 
 description: Fill in this template to submit a project
 
