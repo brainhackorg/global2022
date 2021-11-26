@@ -48,7 +48,7 @@ body:
         - click on `Submit new issue` at the bottom of the form
 
         - add a comment saying:
-        > Hi @brainhackorg/project-monitors: my project is ready!
+        > Hi @brainhackorg/project-monitors my project is ready!
 
         After the issue is submitted, we will assign a `project monitor` to review your submission.
 
@@ -448,9 +448,9 @@ body:
 
   - type: checkboxes
     attributes:
-      label: Things to do after the project is submitted.
+      label: Things to do after the project is submitted and ready to review.
       options:
         - label:
-            "Add a comment saying: `Hi @Brainhack-Global/project-monitors: my
-            project is ready!`"
+            "Add a comment below the main post of your issue saying: `Hi
+            @brainhackorg/project-monitors my project is ready!`"
         - label: Twitter-sized summary of your project pitch.
