@@ -29,6 +29,11 @@
       "color": "5319e7"
     },
     {
+      "name": "tools:Nipype",
+      "description": "",
+      "color": "0052cc"
+    },
+    {
       "name": "topic:diffusion",
       "description": "",
       "color": "006b75"
