@@ -45,6 +45,8 @@ programming:documentation:
     - 'documentation'
 programming:Java:
     - 'Java'
+programming:Javascript²:
+    - 'Javascript'    
 programming:Julia:
     - 'Julia'
 programming:Matlab:
@@ -58,11 +60,9 @@ programming:R:
 programming:shell_scripting:
     - 'shell_scripting'
 programming:Unix_command_line:
-    - 'Unix_command_line'
-programming:Web:
-    - 'Web'
-programming:workflows:
-    - 'workflows'
+    - 'unix_command_line'
+programming:html_css:
+    - 'html_css'
 # Project development status labels
 project_development_status:0_concept_no_content:
     - '0_concept_no_content'

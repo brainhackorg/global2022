@@ -367,6 +367,7 @@ body:
         - shell_scripting
         - unix_command_line
         - html_css
+        - javascript
         - other
         - not_applicable
     validations:
