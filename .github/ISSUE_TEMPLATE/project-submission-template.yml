@@ -105,6 +105,7 @@ body:
         - Brainhack Marburg
         - Brainhack Taipei
         - BrainHack Yale
+        - Brainhack MIT
     validations:
       required: true
 
