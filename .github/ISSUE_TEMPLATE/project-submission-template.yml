@@ -105,6 +105,7 @@ body:
         - Brainhack Marburg
         - Brainhack Taipei
         - BrainHack Yale
+        - Brainhack MIT
     validations:
       required: true
 
@@ -363,10 +364,11 @@ body:
         - Julia
         - Matlab
         - Python
-        - R
+        - "`R`"
         - shell_scripting
         - unix_command_line
         - html_css
+        - javascript
         - other
         - not_applicable
     validations:

@@ -25,6 +25,18 @@ events:
   #     lng: 0.0
   #   dates: "From 2021-11-09 to 2021-11-13"
 
+  - title: BrainHack MIT (online only)
+    organizers:
+      - Aakanksha Rana, Hoda Rajaei
+    contact:
+      - aakrana@mit.edu
+    website: https://neuronets.github.io/mit-brainhack2021/?version=b7e8e2f
+    address: MIT, Boston, USA
+    position:
+      lat: 42.36029710173573
+      lng: -71.09390251005894
+    dates: "From 2021-12-06 to 2021-12-07"
+
   - title: BrainHack Yale (in person only)
     organizers:
       - David O'Connor, Hannah Peterson
@@ -216,7 +228,7 @@ events:
       lng: -1.98
     dates: "From 2021-11-22 to 2021-11-24"
 
-  - title: Brainhack Nordic (online only)
+  - title: Brainhack Nordic (hybrid)
     organizers:
       - Cyril Pernet, Melanie Ganz
     contact:
