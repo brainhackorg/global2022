@@ -10,7 +10,7 @@
     },
     {
       "name": "programming:Java",
-      "description": "JS/HTML/CSS, Django or others",
+      "description": "Java",
       "color": "5319e7"
     },
     {

@@ -9,11 +9,6 @@
       "color": "006b75"
     },
     {
-      "name": "programming:workflows",
-      "description": "nextflow",
-      "color": "5319e7"
-    },
-    {
       "name": "tools:BIDS",
       "description": "",
       "color": "0052cc"
