@@ -54,7 +54,7 @@ programming:none:
 programming:Python:
     - 'Python'
 programming:R:
-    - 'R'
+    - '`R`'
 programming:shell_scripting:
     - 'shell_scripting'
 programming:Unix_command_line:

@@ -363,7 +363,7 @@ body:
         - Julia
         - Matlab
         - Python
-        - R
+        - "`R`"
         - shell_scripting
         - unix_command_line
         - html_css
