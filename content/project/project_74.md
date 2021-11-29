@@ -254,6 +254,11 @@
       "color": "c5def5"
     },
     {
+      "name": "bhg:melbourne_aus_1",
+      "description": "BHG 2021 Australasia event",
+      "color": "d4c5f9"
+    },
+    {
       "name": "programming:html_css",
       "description": "",
       "color": "5319e7"
