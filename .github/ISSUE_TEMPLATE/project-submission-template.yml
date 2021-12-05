@@ -106,6 +106,8 @@ body:
         - Brainhack Taipei
         - BrainHack Yale
         - Brainhack MIT
+        - Brainhack Bloomington
+        - Brainhack Minipig
     validations:
       required: true
 

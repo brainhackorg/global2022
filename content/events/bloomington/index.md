@@ -1,27 +1,27 @@
 ---
-title: Brainweb metaverse
-event: Brainweb metaverse
-event_url: https://brain-web.github.io
+title: BrainHack Bloomington
+event: BrainHack Bloomington
+event_url:
 
-location: Institut Pasteur, Paris, France
+location: Indiana University
 address:
   street:
-  city: Paris
-  region:
+  city: Bloomington
+  region: Indiana
   postcode:
-  country: France
+  country: USA
 
-summary: "Online only - VR and AR in neuroscience"
+summary: Online only
 abstract: " "
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2021-12-06T00:00:00Z"
-date_end: "2021-12-08T00:00:00Z"
+date: "2021-12-16T00:00:00Z"
+date_end: "2021-12-17T00:00:00Z"
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2021-11-09T00:00:00Z"
+publishDate: "2021-12-05T00:00:00Z"
 
 authors: []
 tags: []
@@ -34,20 +34,10 @@ image:
   focal_point: center
 
 links:
-  - icon: globe
-    icon_pack: fas
-    name: Website
-    url: https://brain-web.github.io
-
-  - icon: twitter
-    icon_pack: fas
-    name: "@TheBrainWeb"
-    url: https://twitter.com/TheBrainWeb
-
   - icon: mattermost
     icon_pack: custom
     name: Mattermost
-    url: https://mattermost.brainhack.org/brainhack/channels/brainweb
+    url: https://mattermost.brainhack.org/brainhack/channels/dipy
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
@@ -60,5 +50,3 @@ projects:
 # Enable math on this page?
 math: true
 ---
-
-<!--  -->
