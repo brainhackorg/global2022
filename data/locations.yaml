@@ -25,6 +25,30 @@ events:
   #     lng: 0.0
   #   dates: "From 2021-11-09 to 2021-11-13"
 
+  - title: BrainHack Bloomington (online only)
+    organizers:
+      - Serge Koudoro, Eleftherios Garyfallidis
+    contact:
+      - SKAB12@GMAIL.COM
+    website:
+    address: Indiana University, Bloomington, Indiana, USA
+    position:
+      lat: 39.17563165674661
+      lng: -86.51225149286539
+    dates: "From 2021-12-16 to 2021-12-17"
+
+  - title: BrainHack Minipig (online only)
+    organizers:
+      - Michal Brzus, Hans Johnson
+    contact:
+      - michal-brzus@uiowa.edu
+    website:
+    address: University of Iowa, Iowa City,	USA
+    position:
+      lat: 41.66286808308367
+      lng: -91.55440847343925
+    dates: "2021-12-10"
+
   - title: BrainHack MIT (online only)
     organizers:
       - Aakanksha Rana, Hoda Rajaei
@@ -90,7 +114,7 @@ events:
       lng: 16.05382042938537
     dates: "From 2021-12-11 to 2021-12-12"
 
-  - title: BrainWeb metaverse (hybrid)
+  - title: BrainWeb metaverse (online only)
     organizers:
       - Roberto Toro, Katja Heuer
     contact:
