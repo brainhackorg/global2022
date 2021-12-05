@@ -11,7 +11,7 @@ address:
   postcode:
   country: France
 
-summary: "Hybrid event - VR and AR in neuroscience"
+summary: "Online only - VR and AR in neuroscience"
 abstract: " "
 
 # Talk start and end times.
@@ -60,3 +60,5 @@ projects:
 # Enable math on this page?
 math: true
 ---
+
+<!--  -->
