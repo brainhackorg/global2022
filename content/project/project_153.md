@@ -24,6 +24,11 @@
       "color": "006b75"
     },
     {
+      "name": "status:published",
+      "description": "",
+      "color": "0e8a16"
+    },
+    {
       "name": "project_development_status:1_basic structure",
       "description": "",
       "color": "bfd4f2"
