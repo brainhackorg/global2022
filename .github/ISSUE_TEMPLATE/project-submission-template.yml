@@ -108,6 +108,7 @@ body:
         - Brainhack MIT
         - Brainhack Bloomington
         - Brainhack Minipig
+        - Brainhack Magdeburg
     validations:
       required: true
 
