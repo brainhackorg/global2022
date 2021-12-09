@@ -313,3 +313,15 @@ events:
       lat: 45.49221148292775
       lng: -73.62426362752213
     dates: "From 2021-12-06 to 2021-12-10"
+
+- title: BrainHack Magdeburd (online only)
+    organizers:
+      - Anika Dirks, Peer Herholz
+    contact:
+      - anika.dirks@med.ovgu.de
+    website:
+    address: Medical Faculty, Otto von Guericke University Magdeburg
+    position:
+      lat: 52.14235072529714
+      lng: 11.647752113849283
+    dates: "2021-12-10"
