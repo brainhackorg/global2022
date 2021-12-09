@@ -4,6 +4,11 @@
   "issue_number": 108,
   "labels": [
     {
+      "name": "status:published",
+      "description": "",
+      "color": "0e8a16"
+    },
+    {
       "name": "tools:Jupyter",
       "description": "",
       "color": "0052cc"

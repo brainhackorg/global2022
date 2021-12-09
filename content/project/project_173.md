@@ -9,6 +9,11 @@
       "color": "5319e7"
     },
     {
+      "name": "status:published",
+      "description": "",
+      "color": "0e8a16"
+    },
+    {
       "name": "topic:tractography",
       "description": "",
       "color": "006b75"

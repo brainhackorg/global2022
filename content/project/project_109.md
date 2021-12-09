@@ -4,6 +4,11 @@
   "issue_number": 109,
   "labels": [
     {
+      "name": "status:published",
+      "description": "",
+      "color": "0e8a16"
+    },
+    {
       "name": "project",
       "description": "",
       "color": "f9bc70"

@@ -24,6 +24,11 @@
       "color": "006b75"
     },
     {
+      "name": "status:published",
+      "description": "",
+      "color": "0e8a16"
+    },
+    {
       "name": "programming:shell_scripting",
       "description": "",
       "color": "5319e7"

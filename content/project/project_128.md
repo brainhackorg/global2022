@@ -19,6 +19,11 @@
       "color": "006b75"
     },
     {
+      "name": "status:published",
+      "description": "",
+      "color": "0e8a16"
+    },
+    {
       "name": "topic:neural_networks",
       "description": "",
       "color": "006b75"

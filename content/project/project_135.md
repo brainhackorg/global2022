@@ -9,6 +9,11 @@
       "color": "5319e7"
     },
     {
+      "name": "status:published",
+      "description": "",
+      "color": "0e8a16"
+    },
+    {
       "name": "project_type:data_management",
       "description": "involves programming",
       "color": "c5def5"

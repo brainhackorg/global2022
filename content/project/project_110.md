@@ -4,6 +4,11 @@
   "issue_number": 110,
   "labels": [
     {
+      "name": "status:published",
+      "description": "",
+      "color": "0e8a16"
+    },
+    {
       "name": "tools:FieldTrip",
       "description": "",
       "color": "0052cc"
