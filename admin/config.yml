@@ -1,0 +1,372 @@
+backend:
+  name: github
+  repo: brainhackorg/global2022
+  branch: cms # Branch to update (optional; defaults to master)
+  api_root: https://api.github.com
+  base_url: https://api.netlify.com
+  identity_url: "https://brainhack.org/global2022/.netlify/identity"
+  gateway_url: "https://brainhack.org/global/2022/.netlify/git"
+  # cms_label_prefix: netlify-cms/
+
+publish_mode: editorial_workflow # Option to create a branch once new content is created/saved and allow editing before merging the PR
+media_folder: "static/media/"
+public_folder: "media"
+# show_preview_links: false # can disable it if preview != good
+
+site_url: https://brainhack.org/global2022
+
+collections:
+  - name: projects
+    label: Projects
+    label_singular: Project
+    folder: "content/project"
+    path: "{{slug}}/index"
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Subtitle",
+          name: "subtitle",
+          widget: "string",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+      - { label: "Publish this page on", name: "date", widget: "datetime" }
+      - {
+          label: "Summary",
+          name: "summary",
+          widget: "markdown",
+          required: false,
+        }
+      - label: "Draft"
+        name: "draft"
+        widget: "boolean"
+        default: false
+      - label: "Featured"
+        name: "featured"
+        widget: "boolean"
+        default: false
+      - label: "Authors"
+        name: "authors"
+        required: false
+        widget: "list"
+      - label: "Tags"
+        name: "tags"
+        required: false
+        widget: "list"
+      - label: "Categories"
+        name: "categories"
+        required: false
+        widget: "list"
+      - {
+          label: "External link (optional - replaces link to project page)",
+          name: "external_link",
+          widget: "string",
+        }
+      - label: Links
+        name: links
+        required: false
+        widget: list
+        fields:
+          - { label: Link, name: url, widget: string }
+          - { label: Link text, name: name, widget: string, required: false }
+          - label: Icon pack
+            name: icon_pack
+            widget: select
+            multiple: false
+            required: false
+            options:
+              - { label: "None", value: "" }
+              - { label: "Solid", value: "fas" }
+              - { label: "Regular", value: "far" }
+              - { label: "Brand", value: "fab" }
+              - { label: "Academic", value: "ai" }
+          - {
+              label:
+                "Icon (see
+                https://sourcethemes.com/academic/docs/page-builder/#icons)",
+              name: icon,
+              widget: string,
+              required: false,
+            }
+      - label: "Featured Image"
+        name: "image"
+        required: false
+        widget: object
+        fields:
+          - label: "Upload an image named `featured.jpg/png`"
+            name: "filename"
+            widget: "image"
+            default: "featured"
+            media_library:
+              config:
+                multiple: false
+          - { label: Caption, name: caption, widget: string, required: false }
+          - {
+              label: Description for screen readers,
+              name: alt_text,
+              widget: string,
+              required: false,
+            }
+          - {
+              label:
+                "Where's the focal point in the image? Smart, Center, TopLeft,
+                Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.",
+              name: focal_point,
+              widget: string,
+              required: false,
+              default: "Smart",
+            }
+          - {
+              label: "Thumbnail Only?",
+              name: preview_only,
+              widget: boolean,
+              default: false,
+            }
+  - name: events
+    label: Events
+    label_singular: Event
+    folder: "content/events"
+    path: "{{slug}}/index"
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Abstract", name: "abstract", widget: "text" }
+      - { label: "Where", name: "location", widget: "text" }
+      - { label: "From", name: "date", widget: "datetime" }
+      - { label: "To", name: "date_end", widget: "datetime", default: "" }
+      - {
+          label: "All day event?",
+          name: "all_day",
+          widget: "boolean",
+          default: false,
+        }
+      - label: Links/Tickets
+        name: links
+        required: false
+        widget: list
+        fields:
+          - { label: Link, name: url, widget: string }
+          - { label: Link text, name: name, widget: string, required: false }
+          - label: Icon pack
+            name: icon_pack
+            widget: select
+            multiple: false
+            required: false
+            options:
+              - { label: "None", value: "" }
+              - { label: "Solid", value: "fas" }
+              - { label: "Regular", value: "far" }
+              - { label: "Brand", value: "fab" }
+              - { label: "Academic", value: "ai" }
+          - {
+              label:
+                "Icon (see
+                https://sourcethemes.com/academic/docs/page-builder/#icons)",
+              name: icon,
+              widget: string,
+              required: false,
+            }
+      - { label: "Event", name: "event", widget: "string" }
+      - { label: "Event link", name: "event_url", widget: "string" }
+      - {
+          label: "Publish this page on",
+          name: "publishDate",
+          widget: "datetime",
+        }
+      - {
+          label: "Markdown slides (reference a deck in 'content/slides/')",
+          name: "slides",
+          widget: "string",
+          required: false,
+        }
+      - label: "Draft"
+        name: "draft"
+        widget: "boolean"
+        default: false
+      - label: "Featured"
+        name: "featured"
+        widget: "boolean"
+        default: false
+      - label: "Authors"
+        name: "authors"
+        required: false
+        widget: "list"
+      - label: "Tags"
+        name: "tags"
+        required: false
+        widget: "list"
+      - label: "Categories"
+        name: "categories"
+        required: false
+        widget: "list"
+      - label: "Projects (reference projects in 'content/project/')"
+        name: "projects"
+        required: false
+        widget: "list"
+      - label: "Featured Image"
+        name: "image"
+        required: false
+        widget: object
+        fields:
+          - label: "Upload an image named `featured.jpg/png`"
+            name: "filename"
+            widget: "image"
+            default: "featured"
+            media_library:
+              config:
+                multiple: false
+          - { label: Caption, name: caption, widget: string, required: false }
+          - {
+              label: Description for screen readers,
+              name: alt_text,
+              widget: string,
+              required: false,
+            }
+          - {
+              label:
+                "Where's the focal point in the image? Smart, Center, TopLeft,
+                Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.",
+              name: focal_point,
+              widget: string,
+              required: false,
+              default: "Smart",
+            }
+          - {
+              label: "Thumbnail Only?",
+              name: preview_only,
+              widget: boolean,
+              default: false,
+            }
+      - { label: "Details", name: "body", widget: "markdown", required: false }
+  - name: pages
+    label: "Pages"
+    files:
+      - file: "content/privacy.md"
+        label: "Privacy Policy"
+        name: "privacy"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Publish Date", name: "date", widget: "datetime" }
+          - {
+              label: "Subtitle",
+              name: "subtitle",
+              widget: "string",
+              required: false,
+            }
+          - {
+              label: "Summary",
+              name: "summary",
+              widget: "markdown",
+              required: false,
+            }
+          - label: "Draft"
+            name: "draft"
+            required: false
+            widget: "boolean"
+            default: false
+          - { label: "Body", name: "body", widget: "markdown" }
+      - file: "content/terms.md"
+        label: "Terms"
+        name: "terms"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Publish Date", name: "date", widget: "datetime" }
+          - {
+              label: "Subtitle",
+              name: "subtitle",
+              widget: "string",
+              required: false,
+            }
+          - {
+              label: "Summary",
+              name: "summary",
+              widget: "markdown",
+              required: false,
+            }
+          - label: "Draft"
+            name: "draft"
+            required: false
+            widget: "boolean"
+            default: false
+          - { label: "Body", name: "body", widget: "markdown" }
+  - name: posts
+    label: Posts
+    label_singular: Post
+    folder: "content/post"
+    path: "{{slug}}/index"
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Subtitle",
+          name: "subtitle",
+          widget: "string",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Publish this page on", name: "date", widget: "datetime" }
+      - {
+          label: "Summary",
+          name: "summary",
+          widget: "markdown",
+          required: false,
+        }
+      - label: "Draft"
+        name: "draft"
+        widget: "boolean"
+        default: false
+      - label: "Featured"
+        name: "featured"
+        widget: "boolean"
+        default: false
+      - label: "Authors"
+        name: "authors"
+        required: false
+        widget: "list"
+      - label: "Tags"
+        name: "tags"
+        required: false
+        widget: "list"
+      - label: "Categories"
+        name: "categories"
+        required: false
+        widget: "list"
+      - label: "Projects"
+        name: "projects"
+        required: false
+        widget: "list"
+      - label: "Featured Image"
+        name: "image"
+        required: false
+        widget: object
+        fields:
+          - label: "Upload an image named `featured.jpg/png`"
+            name: "filename"
+            widget: "image"
+            default: "featured"
+            media_library:
+              config:
+                multiple: false
+          - { label: Caption, name: caption, widget: string, required: false }
+          - {
+              label: Description for screen readers,
+              name: alt_text,
+              widget: string,
+              required: false,
+            }
+          - {
+              label:
+                "Where's the focal point in the image? Smart, Center, TopLeft,
+                Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.",
+              name: focal_point,
+              widget: string,
+              required: false,
+              default: "Smart",
+            }
+          - {
+              label: "Thumbnail Only?",
+              name: preview_only,
+              widget: boolean,
+              default: false,
+            }
