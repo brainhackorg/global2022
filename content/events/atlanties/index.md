@@ -1,23 +1,23 @@
 ---
-title: BrainHack Boston
-event: BrainHack Boston
-event_url: https://openneuropet.github.io/brainhack/
+title: BrainHack Atlantis
+event: BrainHack Atlantis
+event_url:
 
-location: MGH, Boston, United States
+location:
 address:
   street:
-  city: Boston
+  city:
   region:
   postcode:
-  country: United States
+  country: Atlantis
 
-summary: Online only - PET and multimodal imaging
+summary: Underwater only
+abstract: " "
 
-abstract:
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2021-12-06T00:00:00Z"
-date_end: "2021-12-07T00:00:00Z"
+date: "2021-11-29T13:00:00Z"
+date_end: "2021-12-03T15:00:00Z"
 all_day: true
 
 # Schedule page publish date (NOT event date).
@@ -34,6 +34,25 @@ image:
   focal_point: center
 
 links:
+  - icon: globe
+    icon_pack: fas
+    name: Website
+    url: https://atlantis.github.io/
+
+  - icon: twitter
+    icon_pack: fab
+    name: "@OHBM_Australia"
+    url: https://twitter.com/brainhack_atlantis
+
+  - icon: mattermost
+    icon_pack: custom
+    name: Mattermost
+    url: https://mattermost.brainhack.org/brainhack/channels/brainhack-atlantis
+
+  - icon: facebook
+    icon_pack: fab
+    name: Facebook
+    url: https://www.facebook.com/BrainhackZagreb    
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
