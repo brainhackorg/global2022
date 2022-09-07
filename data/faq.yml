@@ -29,7 +29,7 @@ wholefaq:
 
       - question: How can we contact the Brainhack Global team?
         answer: |
-          You can either use the email form in [Contact](https://brainhack.org/global2021/#contact) page or send an email to brainhackorg [at] gmail [dot] com.
+          You can either use the email form in [Contact](https://brainhack.org/global2022/#contact) page or send an email to brainhackorg [at] gmail [dot] com.
 
       - question: Where can I see the previous years’ events?
         answer: |
@@ -37,11 +37,11 @@ wholefaq:
 
       - question: Where can I see the current event locations?
         answer: |
-          [Here](https://brainhack.org/global2021/events/) you can find updated information about all the confirmed event sites for that particular year’s Brainhack Global events.
+          [Here](https://brainhack.org/global2022/events/) you can find updated information about all the confirmed event sites for that particular year’s Brainhack Global events.
 
       - question: How can I watch online streaming tutorials?
         answer: |
-          [Here](https://brainhack.org/global2021/) you can find a calendar view of all of the local event sites' streamed and public events and information regarding how to attend to them. For the schedule of the each event site, please visit that particular event location's website.
+          [Here](https://brainhack.org/global2022/) you can find a calendar view of all of the local event sites' streamed and public events and information regarding how to attend to them. For the schedule of the each event site, please visit that particular event location's website.
 
       - question:
           May I use the logo of Brainhack Global in my presentations/materials?
@@ -68,7 +68,7 @@ wholefaq:
 
       - question: How can we apply to run a local Brainhack event?
         answer: |
-          Please fill the [Host Your Own Local Brainhack Event](https://brainhack.org/global2021/events/#host-your-own-local-brainhack) form with as much detail you can provide to the asked questions. Once the Brainhack organizing committee receives your application, we will contact you regarding the confirmation of your application and you will be supplied with the necessary details regarding the organization of your event.
+          Please fill the [Host Your Own Local Brainhack Event](https://brainhack.org/global2022/events/#host-your-own-local-brainhack) form with as much detail you can provide to the asked questions. Once the Brainhack organizing committee receives your application, we will contact you regarding the confirmation of your application and you will be supplied with the necessary details regarding the organization of your event.
 
       - question:
           Where can I find the sources and guidelines for the organization of a
@@ -204,9 +204,9 @@ wholefaq:
         answer: |
           This year we offer a centralized project submission and listing experience independent of the event location you are registered with. With this we aim to create a platform to increase the across site interactions and provide means for collaborative and open science.
 
-          The project submission is expected to run through filling a template issue listed in in [Brainhack Github](https://github.com/brainhackorg/global2021/issues/new/choose), in which you will be asked to fill several details that describe your project, the goals you aim with this project and the profile of the attendees you are looking for. These clear descriptions will help event attendees to browse easily and find the best fit for themselves while increasing the visibility of your project.
+          The project submission is expected to run through filling a template issue listed in in [Brainhack Github](https://github.com/brainhackorg/global2022/issues/new/choose), in which you will be asked to fill several details that describe your project, the goals you aim with this project and the profile of the attendees you are looking for. These clear descriptions will help event attendees to browse easily and find the best fit for themselves while increasing the visibility of your project.
 
-          For more information regarding how to submit your project issue and how the following review procedure works please read through our [Brainhack Global 2021 Project Submission Guideline](https://hackmd.io/VygjKuUSS9Wx_QPNXfQUSA)
+          For more information regarding how to submit your project issue and how the following review procedure works please read through our [Brainhack Global 2022 Project Submission Guideline](https://hackmd.io/VygjKuUSS9Wx_QPNXfQUSA)
 
           When you propose a project make sure that it has a rough plan about the amount of work that needs to be done and that it has clear goals that can be (partly) achieved during the (short) amount of time you are provided with. Afterward, further collaboration is encouraged to finalize the project. If your project involves coding make sure that your codes, README documents, and materials are stored on an open-access reposition; hence the attendees who would like to join your project can quickly go over them and start helping/contributing as soon as possible.
 

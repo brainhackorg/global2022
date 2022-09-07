@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
-title = "Brainhack Global 2021"
+title = "Brainhack Global 2022"
 
 # Hero image (optional). Enter filename of an image in the `static/media/` folder.
 hero_media = "headers/brain.png"
@@ -79,7 +79,7 @@ hero_media = "headers/brain.png"
 </p>
 
 <p class="cta-btns">
-  <a href="https://github.com/brainhackorg/global2021/issues/new?assignees=&labels=project&template=project-submission-template.yml"
+  <a href="https://github.com/brainhackorg/global2022/issues/new?assignees=&labels=project&template=project-submission-template.yml"
       class="btn bg.text_color_light btn-light btn-primary btn-lg"
       style="text-decoration: none"
       target="_blank">

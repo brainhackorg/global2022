@@ -23,7 +23,7 @@ events:
   #   position: # it is cold out there
   #     lat: -90.0
   #     lng: 0.0
-  #   dates: "From 2021-11-09 to 2021-11-13"
+  #   dates: "From 2022-11-09 to 2022-11-13"
 
   - title: Brainhack Atlantis
     organizers:
@@ -35,4 +35,4 @@ events:
     position: # it is cold out there
       lat: 34.762643
       lng: -39.878810
-    dates: "From 2021-11-09 to 2021-11-13"
+    dates: "From 2022-11-09 to 2022-11-13"

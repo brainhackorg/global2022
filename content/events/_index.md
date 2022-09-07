@@ -16,7 +16,7 @@ header:
 ## **Host your own local Brainhack**
 
 We are currently recruiting sites to host local events during Brainhack Global
-2021! If you are interested in hosting a local Brainhack, please fill in the
+2022! If you are interested in hosting a local Brainhack, please fill in the
 form below or use this [direct link](https://forms.gle/j6Z3qVukrDm4xAo46) to
 open the form in a new tab.
 

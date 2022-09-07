@@ -65,16 +65,16 @@ the community.
    How does it work?
 </h3>
 
-In order to submit a project to the Brainhack Global 2021 Project Gallery,
+In order to submit a project to the Brainhack Global 2022 Project Gallery,
 please follow these steps:
 
 1. Register with an event listed in the
-   **[Brainhack Global 2021 Events](https://brainhack.org/global2021/events/)**.
+   **[Brainhack Global 2022 Events](https://brainhack.org/global2022/events/)**.
 1. Create a **[GitHub](http://github.com/)** account.
 1. Use our project submission form and fill in the necessary/required
 information as requested.
 <p class="text-center">
-  <a  href="https://github.com/brainhackorg/global2021/issues/new?assignees=&labels=project&template=project-submission-template.yml"
+  <a  href="https://github.com/brainhackorg/global2022/issues/new?assignees=&labels=project&template=project-submission-template.yml"
       target="_blank"
       class="btn btn-light mx-auto p-3 font-weight-bold">
       Project submission form
@@ -90,7 +90,7 @@ your issue. They may request some changes if deemed necessary.
 
 Once the review completed the project will be marked as `status:web_ready` and
 will be listed on the
-**[Brainhack Global 2021 Projects](https://brainhack.org/global2021/projects/)**
+**[Brainhack Global 2022 Projects](https://brainhack.org/global2022/projects/)**
 page after a short delay. A subpage dedicated to your own project will be
 automatically created.
 
@@ -108,7 +108,7 @@ listing the best fitting projects for their expertise and interests.
 Of course, the project attendees decide to join is ultimately their own. They
 could either go with the suggested options or they could choose among the other
 projects listed in the
-**[Brainhack Global 2021 Projects](https://brainhack.org/global2021/projects/)**
+**[Brainhack Global 2022 Projects](https://brainhack.org/global2022/projects/)**
 page.
 
 Please be aware that, at the very early stage of the interactions, attendees

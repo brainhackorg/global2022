@@ -41,7 +41,7 @@ knowledge across parties, removing the barriers and allowing contributions by
 researchers from all around the globe and a myriad of disciplines.
 
 If you would like to submit a project, please do so by
-[opening an issue here](https://github.com/brainhackorg/global2021/issues/new/choose)
+[opening an issue here](https://github.com/brainhackorg/global2022/issues/new/choose)
 or reading the submission guidelines [down below the gallery](#guidelines) to
 get more details.
 

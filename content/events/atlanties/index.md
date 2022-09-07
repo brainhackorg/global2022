@@ -16,12 +16,12 @@ abstract: " "
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2021-11-29T13:00:00Z"
-date_end: "2021-12-03T15:00:00Z"
+date: "2022-11-29T13:00:00Z"
+date_end: "2022-12-03T15:00:00Z"
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2021-10-31T00:00:00Z"
+publishDate: "2022-10-31T00:00:00Z"
 
 authors: []
 tags: []
@@ -52,7 +52,7 @@ links:
   - icon: facebook
     icon_pack: fab
     name: Facebook
-    url: https://www.facebook.com/BrainhackZagreb    
+    url: https://www.facebook.com/BrainhackZagreb
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.

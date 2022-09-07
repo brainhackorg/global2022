@@ -9,13 +9,13 @@ jobs:
   triage:
     runs-on: ubuntu-18.04
     steps:
-    - uses: github/issue-labeler@v2.2
-      with:
-        # Secret token needed (not sure which permisions though)
-        repo-token: "${{ secrets.GITHUB_TOKEN }}"
-        # File with label/regex match dictionary
-        configuration-path: .github/labeler.yml
-        # The issues opened before this date will be ignored
-        not-before: 2021-10-01T00:00:00Z
-        # This can be increased if the dictionary undergoes a breaking change
-        enable-versioned-regex: 0
+      - uses: github/issue-labeler@v2.2
+        with:
+          # Secret token needed (not sure which permisions though)
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"
+          # File with label/regex match dictionary
+          configuration-path: .github/labeler.yml
+          # The issues opened before this date will be ignored
+          not-before: 2022-10-01T00:00:00Z
+          # This can be increased if the dictionary undergoes a breaking change
+          enable-versioned-regex: 0

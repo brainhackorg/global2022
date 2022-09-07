@@ -3,7 +3,6 @@ name: Project submission template
 # See the json schema to help you create / update this form
 # https://json.schemastore.org/github-issue-forms.json
 
-
 description: Fill in this template to submit a project
 
 labels: ["project"]
@@ -17,11 +16,11 @@ body:
       value: |
         ## Guidelines
 
-        We are very excited to meet you at Brainhack Global 2021 🎉.
+        We are very excited to meet you at Brainhack Global 2022 🎉.
 
         To submit a project:
 
-        - register to the most suitable [Brainhack Global 2021 events](https://brainhack.org/global2021/events/) for your location, time zone, interest...
+        - register to the most suitable [Brainhack Global 2022 events](https://brainhack.org/global2022/events/) for your location, time zone, interest...
 
         - make sure you have read our **[Guidelines for Leading and Attending to Brainhack Projects](https://github.com/brainhackorg/bhg-event-materials/blob/master/docs/leading_and_attending_to_brainhack_projects.md)** to increase the diversity and inclusivity of your project work
 
@@ -34,7 +33,7 @@ body:
 
         After the issue is submitted, we will assign a `project monitor` to review your submission.
 
-        After approval we will add the label `status:web_ready` and your project will appear on [our Projects page](https://brainhack.org/global2021/projects).
+        After approval we will add the label `status:web_ready` and your project will appear on [our Projects page](https://brainhack.org/global2022/projects).
 
         Note that you can always update your issue after clicking on `Submit new issue`. This will also change your page on the website accordingly.
 
@@ -83,7 +82,7 @@ body:
     attributes:
       description:
         Brainhack Global event you registered for. Several options are possible.
-      label: Brainhack Global 2021 Event
+      label: Brainhack Global 2022 Event
       multiple: true
       options:
         - Brainhack Nordic

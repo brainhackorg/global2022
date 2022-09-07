@@ -1,4 +1,4 @@
-# How to contribute to the Brainhack global 2021 website
+# How to contribute to the Brainhack global 2022 website
 
 Hugo based static website: https://gohugo.io/documentation/
 
@@ -20,8 +20,6 @@ See the instruction related to the operatiing system you are using on the
 ```
 hugo server -D
 ```
-
-
 
 ## Configuration
 

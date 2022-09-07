@@ -25,7 +25,7 @@
       <div>
 
         {{/*  TODO: Find a way to iterate through location labels, then topic labels, then levels, etc. so we can select multiple filters at once */}}
-        {{$label := getJSON "https://api.github.com/repos/brainhackorg/global2021/labels?per_page=100"}}
+        {{$label := getJSON "https://api.github.com/repos/brainhackorg/global2022/labels?per_page=100"}}
         {{/*  <div id="options">
           <div class="option-set" data-group="locations">
             <input type="checkbox" value="" id="location-all" class="all" checked /><label for="location-all">&nbsp;All locations</label>

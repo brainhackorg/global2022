@@ -6,15 +6,15 @@
 # Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
 
 # Title of your site
-title = "Brainhack Global 2021"
+title = "Brainhack Global 2022"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "https://www.brainhack.org/global2021/"
+baseurl = "https://www.brainhack.org/global2022/"
 
 # Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
-copyright = "&copy; Brainhack Global 2021"
+copyright = "&copy; Brainhack Global 2022"
 
 ############################
 ## Advanced options below ##

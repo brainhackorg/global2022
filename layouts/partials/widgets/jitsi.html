@@ -1,25 +1,24 @@
 <style>
-
-.jitsi {
+  .jitsi {
     margin: 0;
     padding: 0;
-    background:#000;
+    background: #000;
     font-size: 1rem;
     min-height: 90vh;
   }
-.jitsi span {
-    display:block;
+  .jitsi span {
+    display: block;
     font-family: "Quicksand", sans-serif;
-    color:white;
-    font-size:3rem;
+    color: white;
+    font-size: 3rem;
     line-height: 3rem;
-    margin-bottom:2rem;
+    margin-bottom: 2rem;
   }
   .jitsi p {
     font-family: sans-serif;
-    color:white;
+    color: white;
     font-size: 1rem;
-    padding:15px;
+    padding: 15px;
     cursor: pointer;
   }
   .jitsi p.selected {
@@ -40,17 +39,17 @@
     display: inline-block;
     width: calc(100% - var(--nav-width));
     height: 90vh;
-    position:relative;
+    position: relative;
     background: #000;
   }
   #content {
     display: block;
     padding: 2rem;
     width: 50%;
-    position:absolute;
+    position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50% , -50%);
+    transform: translate(-50%, -50%);
     text-align: center;
   }
 
@@ -60,55 +59,61 @@
     width: var(--nav-width);
     height: 90vh;
   }
-
 </style>
 
 <div class="jitsi" id="rooms">
   <p id="streamingsesh" class="selected" data-room="Home">Home</p>
-  <p data-room="bhg2021-open-discussion">Open discussion</p>
-  <p data-room="bhg2021-coworking-session">Coworking session</p>
-  <p data-room="bhg2021-quiet-coworking-session">Quiet co-working session</p>
-  <p data-room="bhg2021-project-rooms">Project rooms (could display all projects in which people have linked a jitsi link?)</p>
-  <p data-room="bhg2021-party">Party</p>
+  <p data-room="bhg2022-open-discussion">Open discussion</p>
+  <p data-room="bhg2022-coworking-session">Coworking session</p>
+  <p data-room="bhg2022-quiet-coworking-session">Quiet co-working session</p>
+  <p data-room="bhg2022-project-rooms">
+    Project rooms (could display all projects in which people have linked a
+    jitsi link?)
+  </p>
+  <p data-room="bhg2022-party">Party</p>
 </div>
 <div id="jitsi"></div>
 <div class="jitsi" id="home">
   <div class="jitsi text-center" id="content">
-    <img width="50%" class="mx-auto" src="/bhg2021/media/bhg19_logo.jpeg"/>
+    <img width="50%" class="mx-auto" src="/bhg2022/media/bhg19_logo.jpeg" />
     <p class="jit">Streaming sessions</p>
-    <p >To join a discussion room, just click on one of the tabs on the left.</p>
+    <p>To join a discussion room, just click on one of the tabs on the left.</p>
   </div>
 </div>
 
 <script src="https://meet.jit.si/external_api.js"></script>
 
 <script>
-  const domain = 'meet.jit.si';
-  const {offsetWidth: width, offsetHeight: height} = document.querySelector("#home");
+  const domain = "meet.jit.si";
+  const { offsetWidth: width, offsetHeight: height } =
+    document.querySelector("#home");
   const options = {
-    roomName: 'bhg2021',
-    width, height,
-    parentNode: document.querySelector('#jitsi'),
+    roomName: "bhg2022",
+    width,
+    height,
+    parentNode: document.querySelector("#jitsi"),
     configOverwrite: {
-      startWithAudioMuted: true
-    }
+      startWithAudioMuted: true,
+    },
   };
   let api;
-  document.querySelectorAll('p').forEach((el) => {
-    el.addEventListener('click', () => {
-      document.querySelectorAll('p').forEach((el) => el.classList.remove('selected'));
-      el.classList.add('selected');
-      const {room} = el.dataset;
+  document.querySelectorAll("p").forEach((el) => {
+    el.addEventListener("click", () => {
+      document
+        .querySelectorAll("p")
+        .forEach((el) => el.classList.remove("selected"));
+      el.classList.add("selected");
+      const { room } = el.dataset;
       options.roomName = room;
-      if(api) {
+      if (api) {
         api.dispose();
       }
-      if(room === "Home") {
-        document.querySelector("#home").style.display='inline-block';
-        document.querySelector("#jitsi").style.display='none';
+      if (room === "Home") {
+        document.querySelector("#home").style.display = "inline-block";
+        document.querySelector("#jitsi").style.display = "none";
       } else {
-        document.querySelector("#home").style.display='none';
-        document.querySelector("#jitsi").style.display='inline-block';
+        document.querySelector("#home").style.display = "none";
+        document.querySelector("#jitsi").style.display = "inline-block";
         api = new JitsiMeetExternalAPI(domain, options);
       }
     });
