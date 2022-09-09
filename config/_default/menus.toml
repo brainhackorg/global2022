@@ -52,10 +52,10 @@
   url = "../global2022/#team"
   weight = 70
 
-[[main]]
-  name = "Partners"
-  url = "../global2022/#partner"
-  weight = 80
+# [[main]]
+#   name = "Partners"
+#   url = "../global2022/#partner"
+#   weight = 80
 
 [[main]]
   name = "Contact"

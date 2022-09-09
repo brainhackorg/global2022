@@ -56,7 +56,7 @@ hero_media = "headers/brain.png"
 
 <br>
 
-## **November 28th - December 12th**
+## **November 28th - December 11th**
 
 <br>
 
