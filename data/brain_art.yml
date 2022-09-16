@@ -1,34 +1,42 @@
 brain_art:
   images:
-    - name: Kaleidoscope
-      filename: kaleidoscope_V3.jpg
-      author: Elizabeth Jameson
+    - name: Brainception
+      filename: "Brainception_HüdenNeşe.png"
+      author: Hüden Neşe
       link:
-    - name: A Brain With Flair
-      filename: "a_brain_with_flair.jpg"
-      author: Patrick Lao
+    - name: Brain Deep Dream
+      filename: "BrainDeepDream_SinaMansour.png"
+      author: Sina Mansour
       link:
-    - name: Jungles brain
-      filename: "jungles_brain.jpeg"
-      author: Batool Rizvi 
+    - name: Colors Of Hope
+      filename: "ColorsOfHope_LauraBundesen.jpg"
+      author: Laura Bundesen
       link:
-    - name: Brain eyes
-      filename: "brain_eyes.jpg"
-      author: Jean-François Mangin
+    - name: Frida Kahlo
+      filename: "FridaKahlo_VesnaPrčkovska.jpg"
+      author: Vesna Prčkovska
       link:
-    - name: The great connectome off Kanagawa
-      filename: "the_great_connectome_off_Kanagawa.jpg"
-      author: QMENTA [Irina sanchez, Santi Puch & Salvis]
+    - name: Graphics Competition
+      filename: "GraphicsCompetition_Susanne Stoll.png"
+      author: Susanne Stoll
       link:
-    - name: Budde.Matthew
-      filename: "Matt_Budde.jpg"
-      author: Matt Budde
+    - name: Maltreated
+      filename: "Maltreated_MooKChung.png"
+      author: MooK Chung
       link:
-    - name: What thoughts in her head
-      filename: "what_thoughts_in_her_head.png"
-      author: Rachel Scott
+    - name: Milk and Honey
+      filename: "MilkandHoney_ZanibNaeem.png"
+      author: Zanib Naeem
       link:
-    - name: Bundle Analytics (BUAN) in action!
-      filename: "BUAN.png"
-      author: Bramsh Chandio
+    - name: Mind Map 
+      filename: "MindMap_SaharAhmad.png"
+      author: Sahar Ahmad
+      link:
+    - name: MRI Self Portrait
+      filename: "MRISelfPortrait_JosephSalvo.png"
+      author: Joseph Salvo
+      link:
+    - name: Yarn Brain PaolaGaldi
+      filename: "YarnBrain_PaolaGaldi.png"
+      author: Paola Galdi
       link:

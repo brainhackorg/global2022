@@ -53,7 +53,7 @@ subtitle = ""
   # gradient_end = "SkyBlue"
 
   # Background image.
-  image = "brain_art/kaleidoscope.jpg"  # Name of image in `static/media/`.
+  image = "brain_art/FridaKahlo_VesnaPrčkovska.jpg"  # Name of image in `static/media/`.
   image_darken = 0.5  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
