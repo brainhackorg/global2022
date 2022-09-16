@@ -20,7 +20,7 @@ design:
   columns: "1"
   clip_path: "polygon(0 10%, 100% 0, 100% 90%, 0% 100%)"
   background:
-    image: brain_art/Matt_Budde.jpg
+    image: brain_art/MindMap_SaharAhmad.png
     image_darken: 0.5
     image_parallax: true
     image_position: center
