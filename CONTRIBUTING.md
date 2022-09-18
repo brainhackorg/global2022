@@ -73,3 +73,19 @@ For example in `content/home/team.md`:
   image_position = "center"  # Options include `left`, `center` (default), or `right`.
   image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
 ```
+
+## Team
+
+The details for each team member is in `content/authors` folder.
+
+For team member Jane Smith, the details will be in the frontmatter of
+`content/authors/Jane-Smith/_index.md`.
+
+Team belonging is defined in that frontmatter. 
+Which group to display on the landing page is changed in the frontmatter of
+`content/home/team.md`
+
+An `avatar.jpg` can be added to the folder to be used as the profile picture.
+
+The corresponding page will be found at `[base-url]/author/jane-smith/`.
+
