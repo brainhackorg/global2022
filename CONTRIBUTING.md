@@ -53,3 +53,39 @@ website, the files are written to the `content/project` folder: the website
 generator framework reads the contents of the folder and appropriately renders
 the project data. The process is automated using the
 `.github/workflows/issue-to-page.yml` GitHub workflow.
+
+## Images
+
+Images from the brain art competition are stored in `static/media/brain-art`.
+
+Extra information about the images is stored in `data/brain-art.yaml`.
+
+You also decide where each image is to be used as background in the yml
+frontmatter of the page you want to use it in.
+
+For example in `content/home/team.md`:
+
+```yaml
+  # Background image.
+  image = "brain_art/jungles_brain.jpeg" # Name of image in `static/media/`.
+  image_darken = 0.5  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+  image_size = "cover"  #  Options are `cover` (default), `contain`, or `actual` size.
+  image_position = "center"  # Options include `left`, `center` (default), or `right`.
+  image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
+```
+
+## Team
+
+The details for each team member is in `content/authors` folder.
+
+For team member Jane Smith, the details will be in the frontmatter of
+`content/authors/Jane-Smith/_index.md`.
+
+Team belonging is defined in that frontmatter. 
+Which group to display on the landing page is changed in the frontmatter of
+`content/home/team.md`
+
+An `avatar.jpg` can be added to the folder to be used as the profile picture.
+
+The corresponding page will be found at `[base-url]/author/jane-smith/`.
+
