@@ -1,6 +1,6 @@
 ---
-title: BrainHack Atlantis
-event: BrainHack Atlantis
+title: BrainHack Australasia
+event: BrainHack Australasia
 event_url:
 
 location:
@@ -9,15 +9,15 @@ address:
   city:
   region:
   postcode:
-  country: Atlantis
+  country: Australia
 
-summary: Underwater only
+summary: Online only
 abstract: " "
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2022-11-29T13:00:00Z"
-date_end: "2022-12-03T15:00:00Z"
+date: "2021-11-29T13:00:00Z"
+date_end: "2021-12-03T15:00:00Z"
 all_day: true
 
 # Schedule page publish date (NOT event date).
@@ -37,22 +37,17 @@ links:
   - icon: globe
     icon_pack: fas
     name: Website
-    url: https://atlantis.github.io/
+    url: https://brainhack-aus.github.io/global2021/
 
   - icon: twitter
     icon_pack: fab
     name: "@OHBM_Australia"
-    url: https://twitter.com/brainhack_atlantis
+    url: https://twitter.com/OHBM_Australia
 
   - icon: mattermost
     icon_pack: custom
     name: Mattermost
-    url: https://mattermost.brainhack.org/brainhack/channels/brainhack-atlantis
-
-  - icon: facebook
-    icon_pack: fab
-    name: Facebook
-    url: https://www.facebook.com/BrainhackZagreb
+    url: https://mattermost.brainhack.org/brainhack/channels/brainhack-australasia
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.

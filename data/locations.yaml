@@ -34,8 +34,52 @@ events:
     address: the atlantis university of open science
     position: 
       lat: 34.762643
-      lng: -39.878810
-    dates: "From 2022-11-09 to 2022-11-13"
+      lng: -45
+    dates: "From 2023-11-09 to 2023-11-13"
+
+  - title: Brainhack Australasia (online only)
+    display: true
+    organizers:
+      - Johanna Bayer, Kelly Garner
+    contact:
+      - johanna.bayer@orygen.org.au
+    website: https://brainhack-aus.github.io/global2021/
+    address: Online
+    position:
+      lat: -37.7982
+      lng: 144.9610
+    dates: "From 2021-11-28 to 2021-12-03"
+
+  - title: Brainhack Donostia (online only)
+    display: true
+    organizers:
+      - Chiara Luna Rivolta, Irene Arrieta
+    contact:
+      - info.bhg-donostia@bcbl.eu
+    website: https://brainhack-donostia.github.io
+    address: Online
+    position:
+      lat: 43.29
+      lng: -1.98
+    dates: "From 2021-11-22 to 2021-11-24"
+
+  - title: Brainhack Marseille
+    format: hybrid
+    display: true
+    organizers:
+      - Sylvain Takerkart, Dipankar
+    contact:
+      - sylvain.takerkart@univ-amu.fr
+    website: https://brainhack-marseille.github.io/
+    address: |
+      Institut de Neurosciences de la Timone, Faculté de Médecine 27, boulevard
+      Jean Moulin 13005 Marseille - France
+    position:
+      lat: 43.287036449254515
+      lng: 5.4032124890651305
+    dates: "From 2021-12-06 to 2021-12-08"
+
+# ------------------------------------------------------------------------------
 
   - title: BrainHack Bloomington
     name: bloomington
@@ -57,8 +101,6 @@ events:
       lng: -86.51225149286539
     dates: "From 2021-12-16 to 2021-12-17"
     mattermost_channel: dipy
-
-# ------------------------------------------------------------------------------
 
   - title: BrainHack Minipig (online only)
     display: false
@@ -223,18 +265,7 @@ events:
       lng: 6.1474
     dates: "From 2021-12-02 to 2021-12-04"
 
-  - title: Brainhack Australasia (online only)
-    display: false
-    organizers:
-      - Johanna Bayer, Kelly Garner
-    contact:
-      - johanna.bayer@orygen.org.au
-    website: https://brainhack-aus.github.io/global2021/
-    address: Online
-    position:
-      lat: -37.7982
-      lng: 144.9610
-    dates: "From 2021-11-28 to 2021-12-03"
+
 
   - title: BrainHack Toronto (online only)
     display: false
@@ -251,20 +282,7 @@ events:
       lng: -79.40470761077849
     dates: "From 2021-12-08 to 2021-12-10"
 
-  - title: Brainhack Marseille (hybrid)
-    display: false
-    organizers:
-      - Sylvain Takerkart, Dipankar
-    contact:
-      - sylvain.takerkart@univ-amu.fr
-    website: https://brainhack-marseille.github.io/
-    address: |
-      Institut de Neurosciences de la Timone, Faculté de Médecine 27, boulevard
-      Jean Moulin 13005 Marseille - France
-    position:
-      lat: 43.287036449254515
-      lng: 5.4032124890651305
-    dates: "From 2021-12-06 to 2021-12-08"
+
 
   - title: Brainhack UCLA (hybrid)
     display: false
@@ -279,18 +297,7 @@ events:
       lng: -118.44
     dates: "From 2022-01-22 to 2022-01-22"
 
-  - title: Brainhack Donostia (online only)
-    display: false
-    organizers:
-      - Chiara Luna Rivolta, Irene Arrieta
-    contact:
-      - info.bhg-donostia@bcbl.eu
-    website: https://brainhack-donostia.github.io
-    address: Online
-    position:
-      lat: 43.29
-      lng: -1.98
-    dates: "From 2021-11-22 to 2021-11-24"
+
 
   - title: Brainhack Nordic (hybrid)
     display: false
