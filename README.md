@@ -23,7 +23,7 @@ more information about project submission.
 ---
 
 If you would like to hear, say and participate in discussions about the
-Brainhack, please join our
+Brainhack, please join our  
 [Brainhack community forum](https://mattermost.brainhack.org/brainhack/) and
 [Brainhack Global communication channel](https://mattermost.brainhack.org/brainhack/channels/brainhack-global)
 
