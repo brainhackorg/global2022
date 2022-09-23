@@ -1,8 +1,9 @@
 events:
   # TEMPLATE
-  # - title:
-  #   display:
-  #   format:
+  # - title: # what will be displayed
+  #   name:  # variable name for this event
+  #   display: true # if false, the event will not be displayed on the website
+  #   format: # the format of the event (e.g. "online", "in-person", "hybrid")
   #   organizers:
   #     -
   #   contact:
@@ -15,23 +16,13 @@ events:
   #     postcode:
   #     country: 
   #   position:
-  #     lat:
+  #     lat: 
   #     lng:
   #   dates:
+  #   mattermost_channel: # the name of the mattermost channel for this event on the brainhack server; 
+  #                       # will be prefaced with the rest of url automatically 
+  #                       # (e.g. https://mattermost.brainhack.org/brainhack/channels/)
 
-  # e.g.
-  # - title: Brainhack somewhere
-  #   display: true # if false, the event will not be displayed on the website
-  #   organizers:
-  #     - Marie Curie
-  #   contact:
-  #     - info.bhg-somewhere@earth.edu
-  #   website: https://brainhack-somewhere.github.io/
-  #   address: Somewhere on the planet
-  #   position: # it is cold out there
-  #     lat: -90.0
-  #     lng: 0.0
-  #   dates: "From 2022-11-09 to 2022-11-13"
 
   - title: Brainhack Atlantis
     display: true
@@ -47,6 +38,7 @@ events:
     dates: "From 2022-11-09 to 2022-11-13"
 
   - title: BrainHack Bloomington
+    name: bloomington
     display: false
     format: online
     organizers:
@@ -65,6 +57,8 @@ events:
       lng: -86.51225149286539
     dates: "From 2021-12-16 to 2021-12-17"
     mattermost_channel: dipy
+
+# ------------------------------------------------------------------------------
 
   - title: BrainHack Minipig (online only)
     display: false
