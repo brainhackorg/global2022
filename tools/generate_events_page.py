@@ -55,7 +55,7 @@ def return_publish_date(event):
     publish_date = datetime.now() + timedelta(days=3650)
     if event["display"]:
         publish_date = datetime.now() - timedelta(days=1)
-    return publish_date.strftime("%Y-%m-%dT%H:%M:%SZ")
+    return publish_date.strftime("%Y-%m-%d")
 
 def return_image_caption(this_event):
     if (     this_event["image_caption"] in [None, ""]     and this_event["website"] is not None    ):

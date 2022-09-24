@@ -11,10 +11,10 @@ event_url: https://brainhack.ch/
 location: Foundation Campus Biotech Geneva (FCBG)
 
 address:
-  street:
+  street: Chemin des Mines 9
   city: Geneva
   region:
-  postcode:
+  postcode: 1202
   country: Switzerland
 
 summary: |
@@ -30,7 +30,7 @@ date_end: ""
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2032-09-21T17:57:09Z"
+publishDate: "2032-09-21"
 
 authors: []
 tags: []
@@ -39,7 +39,7 @@ tags: []
 featured: false
 
 image:
-  caption: ""
+  caption: "Image credit: [**Brainhack Geneva**](https://brainhack.ch/)"
   focal_point: center
 
 links:
@@ -48,6 +48,10 @@ links:
     name: Website
     url: https://brainhack.ch/
 
+  - icon: twitter
+    icon_pack: fab
+    name: "@brainhackgeneva"
+    url: https://twitter.com/brainhackgeneva
 
 
 
@@ -56,7 +60,8 @@ links:
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   E.g. `projects = ["internal-project"]` references
+`content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
 # - project_84
