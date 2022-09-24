@@ -2,7 +2,7 @@ events:
   # TEMPLATE
   # - title: # what will be displayed
   #   name:  # variable name for this event
-  #   display: true # if false, the event will not be displayed on the website
+  #   display: # true or false; if false, the event will not be displayed on the website
   #   format: # the format of the event (e.g. "online", "in-person", "hybrid")
   #   organizers:
   #     -
@@ -18,10 +18,18 @@ events:
   #   position:
   #     lat:
   #     lng:
-  #   date:
+  #   date: # format 'YYYY-MM-DD'
+  #   date_end: # format 'YYYY-MM-DD'
   #   mattermost_channel: # the name of the mattermost channel for this event on the brainhack server;
   #                       # will be prefaced with the rest of url automatically
   #                       # (e.g. https://mattermost.brainhack.org/brainhack/channels/)
+  #   twitter_handle:
+  #   facebook:
+  #   instagram:
+  #   website:
+  #   image: # name of the image file in the images folder static/media/events
+  #   image_caption:
+  #   publishDate: # will be replaced automatically so you can leave this blank
 
   - title: Brainhack Australasia
     format: online
@@ -44,17 +52,16 @@ events:
     position:
       lat: -37.7982
       lng: 144.9610
-    date: "2022-11-29"
-    date_end: "2022-12-29"
+    date: '2022-11-29'
+    date_end: '2022-12-29'
     mattermost_channel: brainhack-australasia
     twitter_handle: OHBM_Australia
     facebook:
+    instagram:
     website: https://brainhack-aus.github.io/global2021/
     image: australasia.png
-    image_caption:
-      "Image credit: [**Brainhack
-      Australasia**](https://brainhack-aus.github.io/global2021/)"
-    publishDate: "2022-09-23T15:49:45Z"
+    image_caption: 'Image credit: [**Brainhack Australasia**](https://brainhack-aus.github.io/global2021/)'
+    publishDate: '2022-09-23T16:10:12Z'
   - title: Brainhack Donostia
     format: online
     display: true
@@ -72,18 +79,16 @@ events:
     position:
       lat: 43.29
       lng: -1.98
-    date: "2022-11-29"
-    date_end: "2022-12-29"
+    date: '2022-11-29'
+    date_end: '2022-12-29'
     mattermost_channel:
     twitter_handle: BHDonostia
     facebook:
+    instagram:
     website: https://brainhack-donostia.github.io
     image: donostia.jpg
-    image_caption:
-      "Image credit: [**Brainhack
-      Donostia**](https://brainhack-donostia.github.io)"
-    publishDate: "2022-09-23T15:49:45Z"
-
+    image_caption: 'Image credit: [**Brainhack Donostia**](https://brainhack-donostia.github.io)'
+    publishDate: '2022-09-23T16:10:12Z'
   - title: Brainhack Marseille
     format: hybrid
     display: true
@@ -101,18 +106,16 @@ events:
     position:
       lat: 43.287036449254515
       lng: 5.4032124890651305
-    date: "2022-11-29"
-    date_end: "2022-12-29"
+    date: '2022-11-29'
+    date_end: '2022-12-29'
     mattermost_channel: bhg20-marseille
     twitter_handle: BrainhackM
     facebook:
+    instagram:
     website: https://brainhack-marseille.github.io/
     image: marseille.png
-    image_caption:
-      "Image credit: [**Brainhack
-      Marseille**](https://brainhack-marseille.github.io/)"
-    publishDate: "2022-09-23T15:49:45Z"
-
+    image_caption: 'Image credit: [**Brainhack Marseille**](https://brainhack-marseille.github.io/)'
+    publishDate: '2022-09-23T16:10:12Z'
   - title: BrainHack Bloomington
     format: online
     display: false
@@ -130,150 +133,186 @@ events:
     position:
       lat: 39.17563165674661
       lng: -86.51225149286539
-    date: "2022-11-29"
+    date: '2022-11-29'
     date_end:
     mattermost_channel: dipy
     twitter_handle:
     facebook:
+    instagram:
     website:
     image:
     image_caption:
     publishDate:
 
-  - title: BrainHack Minipig (online only)
-    format:
+  - title: BrainHack Minipig
+    format: online
     display: false
     abstract:
     summary:
     organizers:
       - Michal Brzus, Hans Johnson
-    location:
-    address: University of Iowa, Iowa City, USA
+    location: University of Iowa
+    address:
+      street:
+      city: Iowa City
+      region: Iowa
+      postcode:
+      country: USA
     position:
       lat: 41.66286808308367
       lng: -91.55440847343925
-    date: "2022-11-29"
+    date: '2022-11-29'
     date_end:
-    mattermost_channel:
+    mattermost_channel: minipig
     twitter_handle:
     facebook:
+    instagram:
     website:
     image:
     image_caption:
     publishDate:
 
-  - title: BrainHack MIT (online only)
-    format:
+  - title: BrainHack MIT
+    format: online
     display: false
     abstract:
     summary:
     organizers:
       - Aakanksha Rana, Hoda Rajaei
-    location:
-    address: MIT, Boston, USA
+    location: MIT
+    address:
+      street:
+      city: Boston
+      region:
+      postcode:
+      country: USA
     position:
       lat: 42.36029710173573
       lng: -71.09390251005894
-    date: "2022-11-29"
+    date: '2022-11-29'
     date_end:
-    mattermost_channel:
-    twitter_handle:
+    mattermost_channel: brainhack-mit-neuro
+    twitter_handle: bhkMitNeuro
     facebook:
+    instagram:
     website: https://neuronets.github.io/mit-brainhack2022/?version=b7e8e2f
-    image:
+    image: mit.png
     image_caption:
     publishDate:
 
-  - title: BrainHack Yale (in person only)
-    format:
+  - title: BrainHack Yale
+    format: IRL
     display: false
     abstract:
     summary:
     organizers:
       - David O'Connor, Hannah Peterson
-    location:
-    address: Yale University, New Haven, USA
+    location: Yale University
+    address:
+      street:
+      city: New Haven
+      region:
+      postcode:
+      country: United States
     position:
       lat: 41.3171463076155
       lng: -72.92204269579824
-    date: "2022-11-29"
+    date: '2022-11-29'
     date_end:
     mattermost_channel:
     twitter_handle:
     facebook:
+    instagram:
     website:
     image:
     image_caption:
     publishDate:
 
-  - title: Brainhack Taipei (in person only)
-    format:
+  - title: Brainhack Taipei
+    format: IRL
     display: false
     abstract:
-    summary:
+    summary: In person only - EEG data analysis
     organizers:
       - Shu-Kai Hsieh, Chiung-Yu Chiang
-    location:
-    address: |
-      Graduate Institute of Linguistics, National Taiwan University, Taipei, Taiwan
+    location: Graduate Institute of Linguistics, National Taiwan University
+    address:
+      street:
+      city: Taipei
+      region:
+      postcode:
+      country: Taiwan
     position:
       lat: 25.017476595471454
       lng: 121.53975179752602
-    date: "2022-11-29"
+    date: '2022-11-29'
     date_end:
     mattermost_channel:
     twitter_handle:
     facebook:
+    instagram:
     website: https://langsci-edu.github.io/brainhack21
     image:
     image_caption:
     publishDate:
 
-  - title: Brainhack Marburg (in person only)
+  - title: Brainhack Marburg
     format:
     display: false
     abstract:
     summary:
     organizers:
       - Thomas S. Hartmann, Lydia Riedl
-    location:
+    location: Open Science Initiative University Marburg
     address:
-      OSIUM (Open Science Initiative University Marburg), Marburg, Germany
+      street:
+      city: Marburg
+      region:
+      postcode:
+      country: Germany
     position:
       lat: 50.81080790834922
       lng: 8.774228471279875
-    date: "2022-11-29"
+    date: '2022-11-29'
     date_end:
-    mattermost_channel:
-    twitter_handle:
+    mattermost_channel: brainhack-marburg
+    twitter_handle: OpenScieneUM
     facebook:
+    instagram:
     website: https://brainhack-marburg.github.io/
     image:
     image_caption:
     publishDate:
 
-  - title: Brainhack Zagreb (in person only)
-    format:
+  - title: Brainhack Zagreb
+    format: IRL
     display: false
     abstract:
-    summary:
+    summary: Blockchain
     organizers:
       - Eda Jovčić, Andrija Štajduhar
-    location:
-    address: |
-      Medical School, University of Zagreb; Faculty of Electrical Engineering
-      and Computing, University of Zagreb, Croatian Instittue for Brain
-      Research; Society for out of frame education, Zagreb, Croatia
+    location: |
+      Medical School, University of Zagreb;
+      Faculty of Electrical Engineering and Computing, University of Zagreb;
+      Croatian Institute for Brain Research;
+      Society for out of frame education
+    address:
+      street:
+      city: Zagreb
+      region:
+      postcode:
+      country: Croatia
     position:
       lat: 45.834516106778395
       lng: 16.05382042938537
-    date: "2022-11-29"
+    date: '2022-11-29'
     date_end:
     mattermost_channel:
     twitter_handle:
-    facebook:
+    facebook: BrainhackZagreb
+    instagram: brainhack_zagreb
     website: https://brainhackzg.github.io/
-    image:
+    image: zagreb.png
     image_caption:
     publishDate:
 
@@ -289,11 +328,12 @@ events:
     position:
       lat: 48.84082037722391
       lng: 2.311374595722641
-    date: "2022-11-29"
+    date: '2022-11-29'
     date_end:
     mattermost_channel:
     twitter_handle:
     facebook:
+    instagram:
     website: https://brain-web.github.io
     image:
     image_caption:
@@ -311,11 +351,12 @@ events:
     position:
       lat: -33.8883636936788
       lng: 151.1873131074999
-    date: "2022-11-29"
+    date: '2022-11-29'
     date_end:
     mattermost_channel:
     twitter_handle:
     facebook:
+    instagram:
     website:
     image:
     image_caption:
@@ -335,11 +376,12 @@ events:
     position:
       lat: 39.05114973899682
       lng: -77.1204863663375
-    date: "2022-11-29"
+    date: '2022-11-29'
     date_end:
     mattermost_channel:
     twitter_handle:
     facebook:
+    instagram:
     website: https://brainhackdc.github.io/
     image:
     image_caption:
@@ -357,11 +399,12 @@ events:
     position:
       lat: 38.03376
       lng: -78.50841
-    date: "2022-11-29"
+    date: '2022-11-29'
     date_end:
     mattermost_channel:
     twitter_handle:
     facebook:
+    instagram:
     website:
     image:
     image_caption:
@@ -379,11 +422,12 @@ events:
     position:
       lat: 43.0101
       lng: -81.2736
-    date: "2022-11-29"
+    date: '2022-11-29'
     date_end:
     mattermost_channel:
     twitter_handle:
     facebook:
+    instagram:
     website: https://brainhackwestern.github.io
     image:
     image_caption:
@@ -401,11 +445,12 @@ events:
     position:
       lat: 46.2228
       lng: 6.1474
-    date: "2022-11-29"
+    date: '2022-11-29'
     date_end:
     mattermost_channel:
     twitter_handle:
     facebook:
+    instagram:
     website: https://brainhack.ch/
     image:
     image_caption:
@@ -425,11 +470,12 @@ events:
     position:
       lat: 43.654730647517326
       lng: -79.40470761077849
-    date: "2022-11-29"
+    date: '2022-11-29'
     date_end:
     mattermost_channel:
     twitter_handle:
     facebook:
+    instagram:
     website: https://brainhackto.github.io/global-toronto-12-2022/
     image:
     image_caption:
@@ -447,11 +493,12 @@ events:
     position:
       lat: 34.06
       lng: -118.44
-    date: "2022-11-29"
+    date: '2022-11-29'
     date_end:
     mattermost_channel:
     twitter_handle:
     facebook:
+    instagram:
     website: https://sites.google.com/view/brainhack-ucla/home
     image:
     image_caption:
@@ -469,11 +516,12 @@ events:
     position:
       lat: 55.67
       lng: 12.56
-    date: "2022-11-29"
+    date: '2022-11-29'
     date_end:
     mattermost_channel:
     twitter_handle:
     facebook:
+    instagram:
     website: https://github.com/openneuropet/outreach/tree/main/Brainhack-Nordic2022
     image:
     image_caption:
@@ -491,11 +539,12 @@ events:
     position:
       lat: 47.37666088954596
       lng: 8.548579624651714
-    date: "2022-11-29"
+    date: '2022-11-29'
     date_end:
     mattermost_channel:
     twitter_handle:
     facebook:
+    instagram:
     website:
     image:
     image_caption:
@@ -513,11 +562,12 @@ events:
     position:
       lat: 42.37
       lng: -71.05
-    date: "2022-11-29"
+    date: '2022-11-29'
     date_end:
     mattermost_channel:
     twitter_handle:
     facebook:
+    instagram:
     website: https://github.com/openneuropet/outreach/tree/main/Brainhack-MGH2022
     image:
     image_caption:
@@ -535,11 +585,12 @@ events:
     position:
       lat: 40.76103663481412
       lng: -73.97044149270326
-    date: "2022-11-29"
+    date: '2022-11-29'
     date_end:
     mattermost_channel:
     twitter_handle:
     facebook:
+    instagram:
     website: https://brainhacknyc.github.io/2022/
     image:
     image_caption:
@@ -552,25 +603,26 @@ events:
     summary:
     organizers:
       - Valentina Borghesani, Désirée Lussier
-    location:
+    location: Centre de recherche de l'IUGM
     address: |
       Centre de recherche de l'IUGM, 4545 Queen Mary Rd, Montréal, Québec H3W
       1W6, Canada
     position:
       lat: 45.49221148292775
       lng: -73.62426362752213
-    date: "2022-11-29"
+    date: '2022-11-29'
     date_end:
     mattermost_channel:
     twitter_handle:
     facebook:
+    instagram:
     website: https://brainhackmtl.github.io/global2022/
     image:
     image_caption:
     publishDate:
 
-  - title: BrainHack Magdeburd (online only)
-    format:
+  - title: BrainHack Magdeburd
+    format: online
     display: false
     abstract:
     summary:
@@ -581,11 +633,12 @@ events:
     position:
       lat: 52.14235072529714
       lng: 11.647752113849283
-    date: "2022-11-29"
+    date: '2022-11-29'
     date_end:
     mattermost_channel:
     twitter_handle:
     facebook:
+    instagram:
     website:
     image:
     image_caption:

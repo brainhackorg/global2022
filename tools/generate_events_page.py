@@ -41,6 +41,7 @@ def main():
         "mattermost_channel",
         "twitter_handle",
         "facebook",
+        "instagram",
         "website",
         "image",
         "image_caption",
