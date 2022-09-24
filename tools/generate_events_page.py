@@ -1,13 +1,67 @@
-from pathlib import Path
-from rich import print
-import ruamel.yaml
-import chevron
-from datetime import datetime
-from datetime import timedelta
-import shutil
-import os
+"""this script:
+- loads the locations.yaml file
+- creates a folder for each event
+- copies the image of the event from the static folder to the event folder if there is one
+- creates an index.md file for each event
+- updates the publishDate of each event to be yesterday if the event is to be displayed
+  otherwise it is set to a date far in the future
+- updates missing fields in the locations.yaml file
+- sort the fields in the locations.yaml file for each event
+- saves the locations.yaml file
+"""
 
+
+import os
+import shutil
 from collections import OrderedDict
+from datetime import datetime, timedelta
+from pathlib import Path
+
+import chevron
+import ruamel.yaml
+from rich import print
+
+ORDER = [
+    "title",
+    "format",
+    "display",
+    "abstract",
+    "summary",
+    "organizers",
+    "contact",
+    "location",
+    "address",
+    "position",
+    "date",
+    "date_end",
+    "mattermost_channel",
+    "twitter_handle",
+    "facebook",
+    "instagram",
+    "website",
+    "github_username",
+    "image",
+    "image_caption",
+    "publishDate",
+]
+
+def reorder_fields_event(event, order=ORDER):
+    ordered = OrderedDict()
+    for k in order:
+        ordered[k] = event[k]
+    return dict(ordered)
+
+def return_publish_date(event):
+    publish_date = datetime.now() + timedelta(days=3650)
+    if event["display"]:
+        publish_date = datetime.now() - timedelta(days=1)
+    return publish_date.strftime("%Y-%m-%dT%H:%M:%SZ")
+
+def return_image_caption(this_event):
+    if (     this_event["image_caption"] in [None, ""]     and this_event["website"] is not None    ):
+        return f"Image credit: [**{this_event['title']}**]({this_event['website']})"
+    else:
+        return ""
 
 
 def main():
@@ -16,52 +70,28 @@ def main():
     media_dir = root_dir.joinpath("static", "media", "events")
 
     template_file = root_dir.joinpath("content", "events", "index.mustache")
-    locations_file = root_dir.joinpath("data", "locations.yaml")
 
-    yesterday = datetime.now() - timedelta(days=1)
-    publishDate = yesterday.strftime("%Y-%m-%dT%H:%M:%SZ")
+    locations_file = root_dir.joinpath("data", "locations.yaml")
 
     yaml = ruamel.yaml.YAML()
     yaml.indent(mapping=2, sequence=4, offset=2)
     with open(locations_file, "r", encoding="utf8") as file:
         locations = yaml.load(file)
 
-    order = [
-        "title",
-        "format",
-        "display",
-        "abstract",
-        "summary",
-        "organizers",
-        "location",
-        "address",
-        "position",
-        "date",
-        "date_end",
-        "mattermost_channel",
-        "twitter_handle",
-        "facebook",
-        "instagram",
-        "website",
-        "image",
-        "image_caption",
-        "publishDate",
-    ]
-
     for i, this_event in enumerate(locations["events"]):
 
-        for field in order:
+        # ensure that all fields are set in case manual editing forgot some
+        for field in ORDER:
             if field not in this_event:
                 this_event[field] = None
 
-        if this_event["display"]:
-
+            # create an index.md file for each event and copy the image to the static folder
             output_dir = root_dir.joinpath(
                 "content", "events", this_event["title"].lower().replace(" ", "_")
             )
             output_dir.mkdir(parents=True, exist_ok=True)
 
-            this_event["publishDate"] = publishDate
+            this_event["publishDate"] = return_publish_date(this_event)
 
             if this_event["image"] is not None:
                 image_file = media_dir.joinpath(this_event["image"])
@@ -84,11 +114,7 @@ def main():
             with open(output_file, "w") as output:
                 print(text, file=output)
 
-        ordered = OrderedDict()
-        for k in order:
-            ordered[k] = this_event[k]
-
-        locations["events"][i] = dict(ordered)
+        locations["events"][i] = reorder_fields_event(event=this_event, order=ORDER)
 
     with open(locations_file, "w") as output_file:
         yaml.dump(locations, output_file)
