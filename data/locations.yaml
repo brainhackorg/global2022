@@ -27,15 +27,15 @@ events:
     format: online
     display: true
     summary: |
-      Brainhack Australasia is a virtual event that brings together researchers 
-        from across the globe to collaborate on open science projects.       
-        The event is hosted by the Australian and New Zealand chapters of the Open Science MOOC,       
+      Brainhack Australasia is a virtual event that brings together researchers
+        from across the globe to collaborate on open science projects.
+        The event is hosted by the Australian and New Zealand chapters of the Open Science MOOC,
         and is supported by the Australian and New Zealand Society for Neuroscience (ANZSN).
     organizers:
       - Johanna Bayer, Kelly Garner
     contact:
       - johanna.bayer@orygen.org.au
-    location:     
+    location:
     address:
       street:
       city:
@@ -45,14 +45,16 @@ events:
     position:
       lat: -37.7982
       lng: 144.9610
-    date: "2022-11-29"
-    date_end: "2022-12-29"
+    date: '2022-11-29'
+    date_end: '2022-12-29'
     mattermost_channel: brainhack-australasia
     twitter_handle: OHBM_Australia
     facebook:
     website: https://brainhack-aus.github.io/global2021/
     image: australasia.png
-
+    abstract:
+    image_caption: 'Image credit: [**Brainhack Australasia**](https://brainhack-aus.github.io/global2021/)'
+    publishDate: '2022-09-23T15:14:19Z'
   - title: Brainhack Donostia
     format: online
     display: true
@@ -60,7 +62,7 @@ events:
       - Chiara Luna Rivolta, Irene Arrieta
     contact:
       - info.bhg-donostia@bcbl.eu
-    location:     
+    location:
     address:
       street:
       city: Donostia
@@ -70,12 +72,17 @@ events:
     position:
       lat: 43.29
       lng: -1.98
-    date: "2022-11-29"
-    date_end: "2022-12-29"
-    twitter_handle: BHDonostia    
+    date: '2022-11-29'
+    date_end: '2022-12-29'
+    twitter_handle: BHDonostia
     website: https://brainhack-donostia.github.io
     image: donostia.jpg
-
+    abstract:
+    summary:
+    mattermost_channel:
+    facebook:
+    image_caption: 'Image credit: [**Brainhack Donostia**](https://brainhack-donostia.github.io)'
+    publishDate: '2022-09-23T15:14:19Z'
   - title: Brainhack Marseille
     format: hybrid
     display: true
@@ -94,14 +101,16 @@ events:
     position:
       lat: 43.287036449254515
       lng: 5.4032124890651305
-    date: "2022-11-29"
-    date_end: "2022-12-29"
+    date: '2022-11-29'
+    date_end: '2022-12-29'
     mattermost_channel: bhg20-marseille
-    twitter_handle: BrainhackM    
+    twitter_handle: BrainhackM
     website: https://brainhack-marseille.github.io/
     image: marseille.png
-
-
+    abstract:
+    facebook:
+    image_caption: 'Image credit: [**Brainhack Marseille**](https://brainhack-marseille.github.io/)'
+    publishDate: '2022-09-23T15:14:19Z'
   - title: BrainHack Bloomington
     format: online
     display: false
@@ -118,10 +127,18 @@ events:
     position:
       lat: 39.17563165674661
       lng: -86.51225149286539
-    date: "2022-11-29"
+    date: '2022-11-29'
     mattermost_channel: dipy
     website:
-
+    abstract:
+    summary:
+    location:
+    date_end:
+    twitter_handle:
+    facebook:
+    image:
+    image_caption:
+    publishDate:
   - title: BrainHack Minipig (online only)
     display: false
     organizers:
@@ -133,8 +150,18 @@ events:
     position:
       lat: 41.66286808308367
       lng: -91.55440847343925
-    date: "2022-11-29"
-
+    date: '2022-11-29'
+    format:
+    abstract:
+    summary:
+    location:
+    date_end:
+    mattermost_channel:
+    twitter_handle:
+    facebook:
+    image:
+    image_caption:
+    publishDate:
   - title: BrainHack MIT (online only)
     display: false
     organizers:
@@ -146,8 +173,18 @@ events:
     position:
       lat: 42.36029710173573
       lng: -71.09390251005894
-    date: "2022-11-29"
-
+    date: '2022-11-29'
+    format:
+    abstract:
+    summary:
+    location:
+    date_end:
+    mattermost_channel:
+    twitter_handle:
+    facebook:
+    image:
+    image_caption:
+    publishDate:
   - title: BrainHack Yale (in person only)
     display: false
     organizers:
@@ -159,8 +196,18 @@ events:
     position:
       lat: 41.3171463076155
       lng: -72.92204269579824
-    date: "2022-11-29"
-
+    date: '2022-11-29'
+    format:
+    abstract:
+    summary:
+    location:
+    date_end:
+    mattermost_channel:
+    twitter_handle:
+    facebook:
+    image:
+    image_caption:
+    publishDate:
   - title: Brainhack Taipei (in person only)
     display: false
     organizers:
@@ -173,8 +220,18 @@ events:
     position:
       lat: 25.017476595471454
       lng: 121.53975179752602
-    date: "2022-11-29"
-
+    date: '2022-11-29'
+    format:
+    abstract:
+    summary:
+    location:
+    date_end:
+    mattermost_channel:
+    twitter_handle:
+    facebook:
+    image:
+    image_caption:
+    publishDate:
   - title: Brainhack Marburg (in person only)
     display: false
     organizers:
@@ -182,13 +239,22 @@ events:
     contact:
       - hartma4k@students.uni-marburg.de
     website: https://brainhack-marburg.github.io/
-    address:
-      OSIUM (Open Science Initiative University Marburg), Marburg, Germany
+    address: OSIUM (Open Science Initiative University Marburg), Marburg, Germany
     position:
       lat: 50.81080790834922
       lng: 8.774228471279875
-    date: "2022-11-29"
-
+    date: '2022-11-29'
+    format:
+    abstract:
+    summary:
+    location:
+    date_end:
+    mattermost_channel:
+    twitter_handle:
+    facebook:
+    image:
+    image_caption:
+    publishDate:
   - title: Brainhack Zagreb (in person only)
     display: false
     organizers:
@@ -203,8 +269,18 @@ events:
     position:
       lat: 45.834516106778395
       lng: 16.05382042938537
-    date: "2022-11-29"
-
+    date: '2022-11-29'
+    format:
+    abstract:
+    summary:
+    location:
+    date_end:
+    mattermost_channel:
+    twitter_handle:
+    facebook:
+    image:
+    image_caption:
+    publishDate:
   - title: BrainWeb metaverse (online only)
     display: false
     organizers:
@@ -216,8 +292,18 @@ events:
     position:
       lat: 48.84082037722391
       lng: 2.311374595722641
-    date: "2022-11-29"
-
+    date: '2022-11-29'
+    format:
+    abstract:
+    summary:
+    location:
+    date_end:
+    mattermost_channel:
+    twitter_handle:
+    facebook:
+    image:
+    image_caption:
+    publishDate:
   - title: Brainhack Avoca (hybrid)
     display: false
     organizers:
@@ -229,8 +315,18 @@ events:
     position:
       lat: -33.8883636936788
       lng: 151.1873131074999
-    date: "2022-11-29"
-
+    date: '2022-11-29'
+    format:
+    abstract:
+    summary:
+    location:
+    date_end:
+    mattermost_channel:
+    twitter_handle:
+    facebook:
+    image:
+    image_caption:
+    publishDate:
   - title: Brainhack Washington DC (hybrid)
     display: false
     organizers:
@@ -244,8 +340,18 @@ events:
     position:
       lat: 39.05114973899682
       lng: -77.1204863663375
-    date: "2022-11-29"
-
+    date: '2022-11-29'
+    format:
+    abstract:
+    summary:
+    location:
+    date_end:
+    mattermost_channel:
+    twitter_handle:
+    facebook:
+    image:
+    image_caption:
+    publishDate:
   - title: BrainHack UVA (in person only)
     display: false
     organizers:
@@ -257,8 +363,18 @@ events:
     position:
       lat: 38.03376
       lng: -78.50841
-    date: "2022-11-29"
-
+    date: '2022-11-29'
+    format:
+    abstract:
+    summary:
+    location:
+    date_end:
+    mattermost_channel:
+    twitter_handle:
+    facebook:
+    image:
+    image_caption:
+    publishDate:
   - title: Brainhack Western (hybrid)
     display: false
     organizers:
@@ -270,8 +386,18 @@ events:
     position:
       lat: 43.0101
       lng: -81.2736
-    date: "2022-11-29"
-
+    date: '2022-11-29'
+    format:
+    abstract:
+    summary:
+    location:
+    date_end:
+    mattermost_channel:
+    twitter_handle:
+    facebook:
+    image:
+    image_caption:
+    publishDate:
   - title: Brainhack Geneva (in person only)
     display: false
     organizers:
@@ -283,8 +409,18 @@ events:
     position:
       lat: 46.2228
       lng: 6.1474
-    date: "2022-11-29"
-
+    date: '2022-11-29'
+    format:
+    abstract:
+    summary:
+    location:
+    date_end:
+    mattermost_channel:
+    twitter_handle:
+    facebook:
+    image:
+    image_caption:
+    publishDate:
   - title: BrainHack Toronto (online only)
     display: false
     organizers:
@@ -298,8 +434,18 @@ events:
     position:
       lat: 43.654730647517326
       lng: -79.40470761077849
-    date: "2022-11-29"
-
+    date: '2022-11-29'
+    format:
+    abstract:
+    summary:
+    location:
+    date_end:
+    mattermost_channel:
+    twitter_handle:
+    facebook:
+    image:
+    image_caption:
+    publishDate:
   - title: Brainhack UCLA (hybrid)
     display: false
     organizers:
@@ -311,8 +457,18 @@ events:
     position:
       lat: 34.06
       lng: -118.44
-    date: "2022-11-29"
-
+    date: '2022-11-29'
+    format:
+    abstract:
+    summary:
+    location:
+    date_end:
+    mattermost_channel:
+    twitter_handle:
+    facebook:
+    image:
+    image_caption:
+    publishDate:
   - title: Brainhack Nordic (hybrid)
     display: false
     organizers:
@@ -324,8 +480,18 @@ events:
     position:
       lat: 55.67
       lng: 12.56
-    date: "2022-11-29"
-
+    date: '2022-11-29'
+    format:
+    abstract:
+    summary:
+    location:
+    date_end:
+    mattermost_channel:
+    twitter_handle:
+    facebook:
+    image:
+    image_caption:
+    publishDate:
   - title: Brainhack Zurich (hybrid)
     display: false
     organizers:
@@ -337,8 +503,18 @@ events:
     position:
       lat: 47.37666088954596
       lng: 8.548579624651714
-    date: "2022-11-29"
-
+    date: '2022-11-29'
+    format:
+    abstract:
+    summary:
+    location:
+    date_end:
+    mattermost_channel:
+    twitter_handle:
+    facebook:
+    image:
+    image_caption:
+    publishDate:
   - title: Brainhack Boston (online only)
     display: false
     organizers:
@@ -350,8 +526,18 @@ events:
     position:
       lat: 42.37
       lng: -71.05
-    date: "2022-11-29"
-
+    date: '2022-11-29'
+    format:
+    abstract:
+    summary:
+    location:
+    date_end:
+    mattermost_channel:
+    twitter_handle:
+    facebook:
+    image:
+    image_caption:
+    publishDate:
   - title: Brainhack NYC (hybrid)
     display: false
     organizers:
@@ -363,8 +549,18 @@ events:
     position:
       lat: 40.76103663481412
       lng: -73.97044149270326
-    date: "2022-11-29"
-
+    date: '2022-11-29'
+    format:
+    abstract:
+    summary:
+    location:
+    date_end:
+    mattermost_channel:
+    twitter_handle:
+    facebook:
+    image:
+    image_caption:
+    publishDate:
   - title: Brainhack Montreal (hybrid)
     display: false
     organizers:
@@ -378,8 +574,18 @@ events:
     position:
       lat: 45.49221148292775
       lng: -73.62426362752213
-    date: "2022-11-29"
-
+    date: '2022-11-29'
+    format:
+    abstract:
+    summary:
+    location:
+    date_end:
+    mattermost_channel:
+    twitter_handle:
+    facebook:
+    image:
+    image_caption:
+    publishDate:
   - title: BrainHack Magdeburd (online only)
     display: false
     organizers:
@@ -391,4 +597,15 @@ events:
     position:
       lat: 52.14235072529714
       lng: 11.647752113849283
-    date: "2022-11-29"
+    date: '2022-11-29'
+    format:
+    abstract:
+    summary:
+    location:
+    date_end:
+    mattermost_channel:
+    twitter_handle:
+    facebook:
+    image:
+    image_caption:
+    publishDate:

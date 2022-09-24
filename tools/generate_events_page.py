@@ -1,4 +1,3 @@
-from asyncore import file_dispatcher
 from pathlib import Path
 from rich import print
 import ruamel.yaml
@@ -21,14 +20,34 @@ def main():
     publishDate = yesterday.strftime("%Y-%m-%dT%H:%M:%SZ")
 
     yaml = ruamel.yaml.YAML()
+    yaml.indent(mapping=2, sequence=4, offset=2)
     with open(locations_file, "r", encoding="utf8") as file:
         locations = yaml.load(file)
 
-    fields_to_check = ["image_caption", "image", "website"]
+    order = [
+        "title",
+        "format",
+        "display",
+        "abstract",
+        "summary",
+        "organizers",
+        "location",
+        "address",
+        "position",
+        "date",
+        "date_end",
+        "mattermost_channel",
+        "twitter_handle",
+        "facebook",
+        "website",
+        "image",
+        "image_caption",
+        "publishDate",
+    ]
 
-    for this_event in locations["events"]:
+    for i, this_event in enumerate(locations["events"]):
 
-        for field in fields_to_check:
+        for field in order:
             if field not in this_event:
                 this_event[field] = None
 
@@ -56,14 +75,16 @@ def main():
 
             with open(template_file, "r") as template:
                 text = chevron.render(template, this_event)
-                print(text)
+                # print(text)
 
             output_file = output_dir.joinpath("index.md")
             with open(output_file, "w") as output:
                 print(text, file=output)
 
-    with open(citation_file, "w") as output_file:
-        yaml.dump(citation, output_file)
+        locations["events"][i] = this_event
+
+    with open(locations_file, "w") as output_file:
+        yaml.dump(locations, locations_file)
 
 
 if __name__ == "__main__":
