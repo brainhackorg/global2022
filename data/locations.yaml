@@ -11,18 +11,17 @@ events:
   #   website:
   #   address:
   #     street:
-  #     city: 
-  #     region: 
+  #     city:
+  #     region:
   #     postcode:
-  #     country: 
+  #     country:
   #   position:
-  #     lat: 
+  #     lat:
   #     lng:
   #   date:
-  #   mattermost_channel: # the name of the mattermost channel for this event on the brainhack server; 
-  #                       # will be prefaced with the rest of url automatically 
+  #   mattermost_channel: # the name of the mattermost channel for this event on the brainhack server;
+  #                       # will be prefaced with the rest of url automatically
   #                       # (e.g. https://mattermost.brainhack.org/brainhack/channels/)
-
 
   - title: Brainhack Atlantis
     display: true
@@ -30,75 +29,71 @@ events:
       - Aquaman
     contact:
       - info.bhg-atlantis@atlantis.edu
-    website: https://atlantis.github.io/
-    address: the atlantis university of open science
-    position: 
-      lat: 34.762643
-      lng: -45
-    date: "2021-11-29T13:00:00Z"
-    date_end: "2023-11-13"
-    publishDate: "2021-10-31T00:00:00Z"    
-
-  - title: Brainhack Australasia
-    format: online
-    display: true
-    abstract: "Brainhack Australasia is a virtual event that brings together researchers from across the globe to collaborate on open science projects. The event is hosted by the Australian and New Zealand chapters of the Open Science MOOC, and is supported by the Australian and New Zealand Society for Neuroscience (ANZSN)."
-
-    organizers:
-      - Johanna Bayer, Kelly Garner
-
-    contact:
-      - johanna.bayer@orygen.org.au
-
-    website: https://brainhack-aus.github.io/global2021/
-
     address:
       street:
       city:
       region:
       postcode:
-      country: Australia
+      country: TBD
+    position:
+      lat: 34.762643
+      lng: -45
+    date: "2022-11-29"
+    date_end: "2022-12-29"
+    mattermost_channel: atlantis
+    twitter_handle: atlantis
+    facebook: atlantis
+    website: https://atlantis.github.io/
+    image: australasia.png
 
+  - title: Brainhack Australasia
+    format: online
+    display: true
+    abstract: |
+      Brainhack Australasia is a virtual event that brings together researchers from across the globe
+        to collaborate on open science projects.       
+        The event is hosted by the Australian and New Zealand chapters of the Open Science MOOC,       
+        and is supported by the Australian and New Zealand Society for Neuroscience (ANZSN).
+    organizers:
+      - Johanna Bayer, Kelly Garner
+    contact:
+      - johanna.bayer@orygen.org.au
+    address:
+      street:
+      city: TBD
+      region:
+      postcode:
+      country: Australia
     position:
       lat: -37.7982
       lng: 144.9610
-
-    Date: "2021-11-29T13:00:00Z"
-    date_end: "2021-12-03T15:00:00Z"
-    publishDate: "2021-10-31T00:00:00Z" 
-
-    links:
-      - icon: globe
-        icon_pack: fas
-        name: Website
-        url: https://brainhack-aus.github.io/global2021/
-
-      - icon: twitter
-        icon_pack: fab
-        name: "@OHBM_Australia"
-        url: https://twitter.com/OHBM_Australia
-
-      - icon: mattermost
-        icon_pack: custom
-        name: Mattermost
-        url: https://mattermost.brainhack.org/brainhack/channels/brainhack-australasia
-
+    date: "2022-11-29"
+    date_end: "2022-12-29"
+    mattermost_channel: brainhack-australasia
+    twitter_handle: OHBM_Australia
+    facebook:
+    website: https://brainhack-aus.github.io/global2022/
 
   - title: Brainhack Donostia
-    format: online  
+    format: online
     display: true
     organizers:
       - Chiara Luna Rivolta, Irene Arrieta
     contact:
       - info.bhg-donostia@bcbl.eu
-    website: https://brainhack-donostia.github.io
-    address: Online
+    address:
+      street:
+      city: Donostia
+      region:
+      postcode:
+      country: Basque Country
     position:
       lat: 43.29
       lng: -1.98
-    Date: "2023-11-09"
-    date_end: "2023-11-13"
-    publishDate: "2021-10-31T00:00:00Z"     
+    date: "2022-11-29"
+    date_end: "2022-12-29"
+    website: https://brainhack-donostia.github.io
+    image: donostia.jpg
 
   - title: Brainhack Marseille
     format: hybrid
@@ -108,312 +103,308 @@ events:
     contact:
       - sylvain.takerkart@univ-amu.fr
     website: https://brainhack-marseille.github.io/
-    address: |
-      Institut de Neurosciences de la Timone, Faculté de Médecine 27, boulevard
-      Jean Moulin 13005 Marseille - France
+    location: Institut de Neurosciences de la Timone
+    address:
+      street: Faculté de Médecine 27, boulevard  Jean Moulin
+      city: Marseille
+      region:
+      postcode: 13005
+      country: France
     position:
       lat: 43.287036449254515
       lng: 5.4032124890651305
-    date: "2021-11-29T13:00:00Z"
-    date_end: "2023-11-13"    
-    publishDate: "2021-10-31T00:00:00Z"     
+    date: "2022-11-29"
+    date_end: "2022-12-29"
 
-# # ------------------------------------------------------------------------------
+  - title: BrainHack Bloomington
+    name: bloomington
+    display: false
+    format: online
+    organizers:
+      - Serge Koudoro, Eleftherios Garyfallidis
+    contact:
+      - SKAB12@GMAIL.COM
+    website:
+    address:
+      street:
+      city: Bloomington
+      region: Indiana
+      postcode:
+      country: USA
+    position:
+      lat: 39.17563165674661
+      lng: -86.51225149286539
+    date: "2022-11-29"
+    mattermost_channel: dipy
+    twitter_handle: foo
 
-#   - title: BrainHack Bloomington
-#     name: bloomington
-#     display: false
-#     format: online
-#     organizers:
-#       - Serge Koudoro, Eleftherios Garyfallidis
-#     contact:
-#       - SKAB12@GMAIL.COM
-#     website:
-#     address:
-#       street:
-#       city: Bloomington
-#       region: Indiana
-#       postcode:
-#       country: USA
-#     position:
-#       lat: 39.17563165674661
-#       lng: -86.51225149286539
-#     date: "2021-11-29T13:00:00Z"
-#     mattermost_channel: dipy
+  - title: BrainHack Minipig (online only)
+    display: false
+    organizers:
+      - Michal Brzus, Hans Johnson
+    contact:
+      - michal-brzus@uiowa.edu
+    website:
+    address: University of Iowa, Iowa City, USA
+    position:
+      lat: 41.66286808308367
+      lng: -91.55440847343925
+    date: "2022-11-29"
 
-#   - title: BrainHack Minipig (online only)
-#     display: false
-#     organizers:
-#       - Michal Brzus, Hans Johnson
-#     contact:
-#       - michal-brzus@uiowa.edu
-#     website:
-#     address: University of Iowa, Iowa City,	USA
-#     position:
-#       lat: 41.66286808308367
-#       lng: -91.55440847343925
-#     date: "2021-11-29T13:00:00Z"
+  - title: BrainHack MIT (online only)
+    display: false
+    organizers:
+      - Aakanksha Rana, Hoda Rajaei
+    contact:
+      - aakrana@mit.edu
+    website: https://neuronets.github.io/mit-brainhack2022/?version=b7e8e2f
+    address: MIT, Boston, USA
+    position:
+      lat: 42.36029710173573
+      lng: -71.09390251005894
+    date: "2022-11-29"
 
-#   - title: BrainHack MIT (online only)
-#     display: false
-#     organizers:
-#       - Aakanksha Rana, Hoda Rajaei
-#     contact:
-#       - aakrana@mit.edu
-#     website: https://neuronets.github.io/mit-brainhack2021/?version=b7e8e2f
-#     address: MIT, Boston, USA
-#     position:
-#       lat: 42.36029710173573
-#       lng: -71.09390251005894
-#     date: "2021-11-29T13:00:00Z"
+  - title: BrainHack Yale (in person only)
+    display: false
+    organizers:
+      - David O'Connor, Hannah Peterson
+    contact:
+      - dave.oconnor@yale.edu
+    website:
+    address: Yale University, New Haven, USA
+    position:
+      lat: 41.3171463076155
+      lng: -72.92204269579824
+    date: "2022-11-29"
 
-#   - title: BrainHack Yale (in person only)
-#     display: false
-#     organizers:
-#       - David O'Connor, Hannah Peterson
-#     contact:
-#       - dave.oconnor@yale.edu
-#     website:
-#     address: Yale University, New Haven,	USA
-#     position:
-#       lat: 41.3171463076155
-#       lng: -72.92204269579824
-#     date: "2021-11-29T13:00:00Z"
+  - title: Brainhack Taipei (in person only)
+    display: false
+    organizers:
+      - Shu-Kai Hsieh, Chiung-Yu Chiang
+    contact:
+      - shukaihsieh@ntu.edu.tw
+    website: https://langsci-edu.github.io/brainhack21
+    address: |
+      Graduate Institute of Linguistics, National Taiwan University, Taipei, Taiwan
+    position:
+      lat: 25.017476595471454
+      lng: 121.53975179752602
+    date: "2022-11-29"
 
-#   - title: Brainhack Taipei (in person only)
-#     display: false
-#     organizers:
-#       - Shu-Kai Hsieh, Chiung-Yu Chiang
-#     contact:
-#       - shukaihsieh@ntu.edu.tw
-#     website: https://langsci-edu.github.io/brainhack21
-#     address: |
-#       Graduate Institute of Linguistics, National Taiwan University,
-#       Taipei,	Taiwan
-#     position:
-#       lat: 25.017476595471454
-#       lng: 121.53975179752602
-#     date: "2021-11-29T13:00:00Z"
+  - title: Brainhack Marburg (in person only)
+    display: false
+    organizers:
+      - Thomas S. Hartmann, Lydia Riedl
+    contact:
+      - hartma4k@students.uni-marburg.de
+    website: https://brainhack-marburg.github.io/
+    address:
+      OSIUM (Open Science Initiative University Marburg), Marburg, Germany
+    position:
+      lat: 50.81080790834922
+      lng: 8.774228471279875
+    date: "2022-11-29"
 
-#   - title: Brainhack Marburg (in person only)
-#     display: false
-#     organizers:
-#       - Thomas S. Hartmann, Lydia Riedl
-#     contact:
-#       - hartma4k@students.uni-marburg.de
-#     website: https://brainhack-marburg.github.io/
-#     address: OSIUM (Open Science Initiative University Marburg), Marburg,	Germany
-#     position:
-#       lat: 50.81080790834922
-#       lng: 8.774228471279875
-#     date: "2021-11-29T13:00:00Z"
+  - title: Brainhack Zagreb (in person only)
+    display: false
+    organizers:
+      - Eda Jovčić, Andrija Štajduhar
+    contact:
+      - eda.jovicic@fer.hr
+    website: https://brainhackzg.github.io/
+    address: |
+      Medical School, University of Zagreb; Faculty of Electrical Engineering
+      and Computing, University of Zagreb, Croatian Instittue for Brain
+      Research; Society for out of frame education, Zagreb, Croatia
+    position:
+      lat: 45.834516106778395
+      lng: 16.05382042938537
+    date: "2022-11-29"
 
-#   - title: Brainhack Zagreb (in person only)
-#     display: false
-#     organizers:
-#       - Eda Jovčić, Andrija Štajduhar
-#     contact:
-#       - eda.jovicic@fer.hr
-#     website: https://brainhackzg.github.io/
-#     address: |
-#       Medical School, University of Zagreb; Faculty of Electrical Engineering
-#       and Computing, University of Zagreb, Croatian Instittue for Brain
-#       Research; Society for out of frame education, Zagreb, Croatia
-#     position:
-#       lat: 45.834516106778395
-#       lng: 16.05382042938537
-#     date: "2021-11-29T13:00:00Z"
+  - title: BrainWeb metaverse (online only)
+    display: false
+    organizers:
+      - Roberto Toro, Katja Heuer
+    contact:
+      - rto@pasteur.fr
+    website: https://brain-web.github.io
+    address: Institut Pasteur, France, Paris
+    position:
+      lat: 48.84082037722391
+      lng: 2.311374595722641
+    date: "2022-11-29"
 
-#   - title: BrainWeb metaverse (online only)
-#     display: false
-#     organizers:
-#       - Roberto Toro, Katja Heuer
-#     contact:
-#       - rto@pasteur.fr
-#     website: https://brain-web.github.io
-#     address: Institut Pasteur, France, Paris
-#     position:
-#       lat: 48.84082037722391
-#       lng: 2.311374595722641
-#     date: "2021-11-29T13:00:00Z"
+  - title: Brainhack Avoca (hybrid)
+    display: false
+    organizers:
+      - Mac Shine, Ben Fulcher
+    contact:
+      - mac.shine@sydney.edu.au
+    website:
+    address: The University of Sydney, Sydney, Australia
+    position:
+      lat: -33.8883636936788
+      lng: 151.1873131074999
+    date: "2022-11-29"
 
-#   - title: Brainhack Avoca (hybrid)
-#     display: false
-#     organizers:
-#       - Mac Shine, Ben Fulcher
-#     contact:
-#       - mac.shine@sydney.edu.au
-#     website:
-#     address: The University of Sydney, Sydney,	Australia
-#     position:
-#       lat: -33.8883636936788
-#       lng: 151.1873131074999
-#     date: "2021-11-29T13:00:00Z"
+  - title: Brainhack Washington DC (hybrid)
+    display: false
+    organizers:
+      - Shawn Rhoads, Dustin Moraczewski
+    contact:
+      - sr1209@georgetown.edu
+    website: https://brainhackdc.github.io/
+    address: |
+      Georgetown University, National Institute of Mental Health, University of
+      Maryland - College Park; Washington DC; United States
+    position:
+      lat: 39.05114973899682
+      lng: -77.1204863663375
+    date: "2022-11-29"
 
-#   - title: Brainhack Washington DC (hybrid)
-#     display: false
-#     organizers:
-#       - Shawn Rhoads, Dustin Moraczewski
-#     contact:
-#       - sr1209@georgetown.edu
-#     website: https://brainhackdc.github.io/
-#     address: |
-#       Georgetown University, National Institute of Mental Health, University of
-#       Maryland - College Park; Washington DC; United States
-#     position:
-#       lat: 39.05114973899682
-#       lng: -77.1204863663375
-#     date: "2021-11-29T13:00:00Z"
+  - title: BrainHack UVA (in person only)
+    display: false
+    organizers:
+      - Amalia McDonald, Sarah Kucenas
+    contact:
+      - am5sd@virginia.edu
+    website:
+    address: University of Virginia, Charlottesville, United States
+    position:
+      lat: 38.03376
+      lng: -78.50841
+    date: "2022-11-29"
 
-#   - title: BrainHack UVA (in person only)
-#     display: false
-#     organizers:
-#       - Amalia McDonald, Sarah Kucenas
-#     contact:
-#       - am5sd@virginia.edu
-#     website:
-#     address: University of Virginia, Charlottesville, United States
-#     position:
-#       lat: 38.03376
-#       lng: -78.50841
-#     date: "2021-11-29T13:00:00Z"
+  - title: Brainhack Western (hybrid)
+    display: false
+    organizers:
+      - Suzanne Witt
+    contact:
+      - brainhack.western@gmail.com
+    website: https://brainhackwestern.github.io
+    address: Western University, London, Ontario, Canada
+    position:
+      lat: 43.0101
+      lng: -81.2736
+    date: "2022-11-29"
 
-#   - title: Brainhack Western (hybrid)
-#     display: false
-#     organizers:
-#       - Suzanne Witt
-#     contact:
-#       - brainhack.western@gmail.com
-#     website: https://brainhackwestern.github.io
-#     address: Western University, London, Ontario,	Canada
-#     position:
-#       lat: 43.0101
-#       lng: -81.2736
-#     date: "2021-11-29T13:00:00Z"
+  - title: Brainhack Geneva (in person only)
+    display: false
+    organizers:
+      - Michael Dayan
+    contact:
+      - michael.dayan@fcbg.ch
+    website: https://brainhack.ch/
+    address: Foundation Campus Biotech Geneva (FCBG), Geneva, Switzerland
+    position:
+      lat: 46.2228
+      lng: 6.1474
+    date: "2022-11-29"
 
-#   - title: Brainhack Geneva (in person only)
-#     display: false
-#     organizers:
-#       - Michael Dayan
-#     contact:
-#       - michael.dayan@fcbg.ch
-#     website: https://brainhack.ch/
-#     address: Foundation Campus Biotech Geneva (FCBG), Geneva, Switzerland
-#     position:
-#       lat: 46.2228
-#       lng: 6.1474
-#     date: "2021-11-29T13:00:00Z"
+  - title: BrainHack Toronto (online only)
+    display: false
+    organizers:
+      - Erin Dickie, John Griffiths
+    contact:
+      - erin.w.dickie@gmail.com
+    website: https://brainhackto.github.io/global-toronto-12-2022/
+    address: |
+      Krembil Centre for Neuroinformatics, Centre for Addiction and Mental
+      Health, Toronto, Canada
+    position:
+      lat: 43.654730647517326
+      lng: -79.40470761077849
+    date: "2022-11-29"
 
+  - title: Brainhack UCLA (hybrid)
+    display: false
+    organizers:
+      - Lucina Uddin
+    contact:
+      - lucina@ucla.edu
+    website: https://sites.google.com/view/brainhack-ucla/home
+    address: UCLA, Los Angeles, USA
+    position:
+      lat: 34.06
+      lng: -118.44
+    date: "2022-11-29"
 
+  - title: Brainhack Nordic (hybrid)
+    display: false
+    organizers:
+      - Cyril Pernet, Melanie Ganz
+    contact:
+      - openneuropet@gmail.com
+    website: https://github.com/openneuropet/outreach/tree/main/Brainhack-Nordic2022
+    address: HOTEL SP34 Sankt Peters Stræde 34, 1453 Copehangen, Denmark
+    position:
+      lat: 55.67
+      lng: 12.56
+    date: "2022-11-29"
 
-#   - title: BrainHack Toronto (online only)
-#     display: false
-#     organizers:
-#       - Erin Dickie, John Griffiths
-#     contact:
-#       - erin.w.dickie@gmail.com
-#     website: https://brainhackto.github.io/global-toronto-12-2021/
-#     address: |
-#       Krembil Centre for Neuroinformatics, Centre for Addiction and Mental
-#       Health, Toronto, Canada
-#     position:
-#       lat: 43.654730647517326
-#       lng: -79.40470761077849
-#     date: "2021-11-29T13:00:00Z"
+  - title: Brainhack Zurich (hybrid)
+    display: false
+    organizers:
+      - Mark Melnykowycz, Cao Tri Do
+    contact:
+      - mark@iduntechnologies.ch
+    website:
+    address: Rämistrasse 101, 8092 Zürich, Switzerland
+    position:
+      lat: 47.37666088954596
+      lng: 8.548579624651714
+    date: "2022-11-29"
 
+  - title: Brainhack Boston (online only)
+    display: false
+    organizers:
+      - Paul Wighton
+    contact:
+      - pwighton@mgh.harvard.edu
+    website: https://github.com/openneuropet/outreach/tree/main/Brainhack-MGH2022
+    address: Online
+    position:
+      lat: 42.37
+      lng: -71.05
+    date: "2022-11-29"
 
+  - title: Brainhack NYC (hybrid)
+    display: false
+    organizers:
+      - Gregory Kiar, Steven Giavasis
+    contact:
+      - gregory.kiar@childmind.org
+    website: https://brainhacknyc.github.io/2022/
+    address: Child Mind Institute, 101 East 56th St., New York, NY 10022, USA
+    position:
+      lat: 40.76103663481412
+      lng: -73.97044149270326
+    date: "2022-11-29"
 
-#   - title: Brainhack UCLA (hybrid)
-#     display: false
-#     organizers:
-#       - Lucina Uddin
-#     contact:
-#       - lucina@ucla.edu
-#     website: https://sites.google.com/view/brainhack-ucla/home
-#     address: UCLA, Los Angeles, USA
-#     position:
-#       lat: 34.06
-#       lng: -118.44
-#     date: "2021-11-29T13:00:00Z"
+  - title: Brainhack Montreal (hybrid)
+    display: false
+    organizers:
+      - Valentina Borghesani, Désirée Lussier
+    contact:
+      - valentinaborghesani@gmail.com
+    website: https://brainhackmtl.github.io/global2022/
+    address: |
+      Centre de recherche de l'IUGM, 4545 Queen Mary Rd, Montréal, Québec H3W
+      1W6, Canada
+    position:
+      lat: 45.49221148292775
+      lng: -73.62426362752213
+    date: "2022-11-29"
 
-
-
-#   - title: Brainhack Nordic (hybrid)
-#     display: false
-#     organizers:
-#       - Cyril Pernet, Melanie Ganz
-#     contact:
-#       - openneuropet@gmail.com
-#     website: https://github.com/openneuropet/outreach/tree/main/Brainhack-Nordic2021
-#     address: HOTEL SP34 Sankt Peters Stræde 34, 1453 Copehangen, Denmark
-#     position:
-#       lat: 55.67
-#       lng: 12.56
-#     date: "2021-11-29T13:00:00Z"
-
-#   - title: Brainhack Zurich (hybrid)
-#     display: false
-#     organizers:
-#       - Mark Melnykowycz, Cao Tri Do
-#     contact:
-#       - mark@iduntechnologies.ch
-#     website:
-#     address: Rämistrasse 101, 8092 Zürich, Switzerland
-#     position:
-#       lat: 47.37666088954596
-#       lng: 8.548579624651714
-#     date: "2021-11-29T13:00:00Z"
-
-#   - title: Brainhack Boston (online only)
-#     display: false
-#     organizers:
-#       - Paul Wighton
-#     contact:
-#       - pwighton@mgh.harvard.edu
-#     website: https://github.com/openneuropet/outreach/tree/main/Brainhack-MGH2021
-#     address: Online
-#     position:
-#       lat: 42.37
-#       lng: -71.05
-#     date: "2021-11-29T13:00:00Z"
-
-#   - title: Brainhack NYC (hybrid)
-#     display: false
-#     organizers:
-#       - Gregory Kiar, Steven Giavasis
-#     contact:
-#       - gregory.kiar@childmind.org
-#     website: https://brainhacknyc.github.io/2021/
-#     address: Child Mind Institute, 101 East 56th St., New York, NY 10022, USA
-#     position:
-#       lat: 40.76103663481412
-#       lng: -73.97044149270326
-#     date: "2021-11-29T13:00:00Z"
-
-#   - title: Brainhack Montreal (hybrid)
-#     display: false
-#     organizers:
-#       - Valentina Borghesani, Désirée Lussier
-#     contact:
-#       - valentinaborghesani@gmail.com
-#     website: https://brainhackmtl.github.io/global2021/
-#     address: |
-#       Centre de recherche de l'IUGM, 4545 Queen Mary Rd, Montréal, Québec H3W
-#       1W6, Canada
-#     position:
-#       lat: 45.49221148292775
-#       lng: -73.62426362752213
-#     date: "2021-11-29T13:00:00Z"
-    
-#   - title: BrainHack Magdeburd (online only)
-#     display: false
-#     organizers:
-#       - Anika Dirks, Peer Herholz
-#     contact:
-#       - anika.dirks@med.ovgu.de
-#     website:
-#     address: Medical Faculty, Otto von Guericke University Magdeburg
-#     position:
-#       lat: 52.14235072529714
-#       lng: 11.647752113849283
-#     date: "2021-11-29T13:00:00Z"
+  - title: BrainHack Magdeburd (online only)
+    display: false
+    organizers:
+      - Anika Dirks, Peer Herholz
+    contact:
+      - anika.dirks@med.ovgu.de
+    website:
+    address: Medical Faculty, Otto von Guericke University Magdeburg
+    position:
+      lat: 52.14235072529714
+      lng: 11.647752113849283
+    date: "2022-11-29"
