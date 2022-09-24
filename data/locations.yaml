@@ -344,7 +344,7 @@ events:
     format: online
     display: false
     abstract:
-    summary:
+    summary: VR and AR in neuroscience
     organizers:
       - Roberto Toro
       - Katja Heuer
@@ -361,8 +361,8 @@ events:
       lng: 2.311374595722641
     date: '2022-11-29'
     date_end:
-    mattermost_channel:
-    twitter_handle:
+    mattermost_channel: brainweb
+    twitter_handle: TheBrainWeb
     facebook:
     instagram:
     website: https://brain-web.github.io
@@ -585,7 +585,7 @@ events:
     format: hybrid
     display: false
     abstract:
-    summary:
+    summary: PET imaging and BIDS
     organizers:
       - Cyril Pernet
       - Melanie Ganz
@@ -606,7 +606,7 @@ events:
     twitter_handle:
     facebook:
     instagram:
-    website: https://github.com/openneuropet/outreach/tree/main/Brainhack-Nordic2022
+    website: https://openneuropet.github.io/brainhack/
     github_username:
     image:
     image_caption:
