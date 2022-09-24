@@ -75,7 +75,8 @@
                         </p>
 
                         {{ with .website }}<a href="{{.}}">Website</a>{{end}}
-                        {{ if .contact }} - <a href="mailto:{{ range .contact | first 1}} {{.}}{{end}}">Contact</a>{{end}}
+                        {{ if .contact | and .website }} - {{ end }}
+                        {{ if .contact }}<a href="mailto:{{ range .contact | first 1}} {{.}}{{end}}">Contact</a>{{end}}
 
                       </div>
 
