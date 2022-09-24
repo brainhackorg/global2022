@@ -59,7 +59,7 @@ events:
     facebook:
     instagram:
     website: https://brainhack-aus.github.io/global2021/
-    github_username:
+    github_username: brainhack-aus
     image:
     image_caption:
     publishDate: '2022-09-23'
@@ -91,7 +91,7 @@ events:
     facebook:
     instagram:
     website: https://brainhack-donostia.github.io
-    github_username: Brainhack-Donostia
+    github_username: brainhack-donostia
     image: donostia.jpg
     image_caption: 'Image credit: [**Brainhack Donostia**](https://brainhack-donostia.github.io)'
     publishDate: '2022-09-23'
@@ -123,7 +123,7 @@ events:
     facebook:
     instagram:
     website: https://brainhack-marseille.github.io/
-    github_username: Brainhack-Marseille
+    github_username: brainhack-marseille
     image: marseille.jpg
     image_caption: 'Image credit: [**Brainhack Marseille**](https://brainhack-marseille.github.io/)'
     publishDate: '2022-09-23'
@@ -213,7 +213,7 @@ events:
     facebook:
     instagram:
     website: https://neuronets.github.io/mit-brainhack2022/?version=b7e8e2f
-    github_username:
+    github_username: neuronets
     image: mit.jpg
     image_caption: 'Image credit: [**BrainHack MIT**](https://neuronets.github.io/mit-brainhack2022/?version=b7e8e2f)'
     publishDate: '2032-09-21'
@@ -273,7 +273,7 @@ events:
     facebook:
     instagram:
     website: https://langsci-edu.github.io/brainhack21
-    github_username:
+    github_username: langsci-edu
     image:
     image_caption:
     publishDate: '2032-09-21'
@@ -302,7 +302,7 @@ events:
     facebook:
     instagram:
     website: https://brainhack-marburg.github.io/
-    github_username:
+    github_username: brainhack-marburg
     image:
     image_caption:
     publishDate: '2032-09-21'
@@ -336,7 +336,7 @@ events:
     facebook: BrainhackZagreb
     instagram: brainhack_zagreb
     website: https://brainhackzg.github.io/
-    github_username:
+    github_username: brainhackzg
     image: zagreb.png
     image_caption: 'Image credit: [**Brainhack Zagreb**](https://brainhackzg.github.io/)'
     publishDate: '2032-09-21'
@@ -366,7 +366,7 @@ events:
     facebook:
     instagram:
     website: https://brain-web.github.io
-    github_username:
+    github_username: brain-web
     image:
     image_caption:
     publishDate: '2032-09-21'
@@ -424,13 +424,13 @@ events:
       lng: -77.1204863663375
     date: '2022-11-29'
     date_end:
-    mattermost_channel:
+    mattermost_channel: bhg-washingtondc
     twitter_handle:
     facebook:
     instagram:
     website: https://brainhackdc.github.io/
-    github_username:
-    image:
+    github_username: brainhackdc
+    image: washington.png
     image_caption:
     publishDate: '2032-09-21'
   - title: BrainHack UVA
@@ -454,7 +454,7 @@ events:
       lng: -78.50841
     date: '2022-11-29'
     date_end:
-    mattermost_channel:
+    mattermost_channel: brainhack-uva
     twitter_handle:
     facebook:
     instagram:
@@ -484,12 +484,12 @@ events:
     date: '2022-11-29'
     date_end:
     mattermost_channel:
-    twitter_handle:
+    twitter_handle: BrainHackUWO
     facebook:
     instagram:
     website: https://brainhackwestern.github.io
-    github_username:
-    image:
+    github_username: brainhackwestern
+    image: western.png
     image_caption:
     publishDate: '2032-09-21'
   - title: Brainhack Geneva
@@ -543,12 +543,12 @@ events:
       lng: -79.40470761077849
     date: '2022-11-29'
     date_end:
-    mattermost_channel:
-    twitter_handle:
+    mattermost_channel: brainhack-toronto
+    twitter_handle: brainhackto
     facebook:
     instagram:
     website: https://brainhackto.github.io/global-toronto-12-2022/
-    github_username:
+    github_username: brainhackto
     image:
     image_caption:
     publishDate: '2032-09-21'
@@ -556,7 +556,9 @@ events:
     format: hybrid
     display: false
     abstract:
-    summary:
+    summary: |
+      Brainhack brings together cross-disciplinary researchers
+        within the neuroimaging community at UCLA
     organizers:
       - Lucina Uddin
     contact:
@@ -607,7 +609,7 @@ events:
     facebook:
     instagram:
     website: https://openneuropet.github.io/brainhack/
-    github_username:
+    github_username: openneuropet
     image:
     image_caption:
     publishDate: '2032-09-21'
@@ -696,7 +698,7 @@ events:
     facebook:
     instagram:
     website: https://brainhacknyc.github.io/2021/
-    github_username:
+    github_username: brainhacknyc
     image:
     image_caption:
     publishDate: '2032-09-21'
@@ -726,7 +728,7 @@ events:
     facebook:
     instagram:
     website: https://brainhackmtl.github.io/global2021/
-    github_username:
+    github_username: brainhackmtl
     image: montreal.jpeg
     image_caption: 'Image credit: [**Brainhack Montreal**](https://brainhackmtl.github.io/global2021/)'
     publishDate: '2032-09-21'
@@ -756,7 +758,7 @@ events:
     facebook:
     instagram:
     website: https://brainhack-magdeburg.github.io/about/
-    github_username:
+    github_username: brainhack-magdeburg
     image:
     image_caption:
     publishDate: '2032-09-21'
