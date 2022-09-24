@@ -9,44 +9,62 @@ import shutil
 import os
 
 
-
 def main():
 
     root_dir = Path(__file__).parent.parent
     media_dir = root_dir.joinpath("static", "media", "events")
 
-    yesterday = datetime.now() - timedelta(days = 1)
+    template_file = root_dir.joinpath("content", "events", "index.mustache")
+    locations_file = root_dir.joinpath("data", "locations.yaml")
+
+    yesterday = datetime.now() - timedelta(days=1)
     publishDate = yesterday.strftime("%Y-%m-%dT%H:%M:%SZ")
 
     yaml = ruamel.yaml.YAML()
-    with open(root_dir.joinpath("data", "locations.yaml"), "r", encoding="utf8") as locations_file:
-        locations = yaml.load(locations_file)          
+    with open(locations_file, "r", encoding="utf8") as file:
+        locations = yaml.load(file)
 
-    template_file = root_dir.joinpath("content", "events", "index.mustache")
-    for loc in locations["events"]:
-        if loc["display"]:
+    fields_to_check = ["image_caption", "image", "website"]
 
-            loc["publishDate"] = publishDate
+    for this_event in locations["events"]:
 
-            with open(template_file, 'r') as template:
-                text = chevron.render(template, loc) 
-                print(text)  
+        for field in fields_to_check:
+            if field not in this_event:
+                this_event[field] = None
 
-            output_dir = root_dir.joinpath("content", "events", loc["title"].lower().replace(" ", "_"))
-            output_dir.mkdir(parents=True, exist_ok=True)   
+        if this_event["display"]:
+
+            output_dir = root_dir.joinpath(
+                "content", "events", this_event["title"].lower().replace(" ", "_")
+            )
+            output_dir.mkdir(parents=True, exist_ok=True)
+
+            this_event["publishDate"] = publishDate
+
+            if this_event["image"] is not None:
+                image_file = media_dir.joinpath(this_event["image"])
+                extension = os.path.splitext(image_file)[1]
+                shutil.copyfile(image_file, output_dir.joinpath(f"featured{extension}"))
+
+                if (
+                    this_event["image_caption"] is None
+                    and this_event["website"] is not None
+                ):
+                    this_event[
+                        "image_caption"
+                    ] = f"Image credit: [**{this_event['title']}**]({this_event['website']})"
+
+            with open(template_file, "r") as template:
+                text = chevron.render(template, this_event)
+                print(text)
 
             output_file = output_dir.joinpath("index.md")
-            with open(output_file, 'w') as output:
+            with open(output_file, "w") as output:
                 print(text, file=output)
 
-            if "image" in loc:
-                image_file = media_dir.joinpath(loc["image"])
-                extension = os.path.splitext(image_file)[1]
-                shutil.copyfile(image_file, output_dir.joinpath(f"featured{extension}"))  
-  
+    with open(citation_file, "w") as output_file:
+        yaml.dump(citation, output_file)
 
 
-
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

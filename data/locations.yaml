@@ -23,44 +23,22 @@ events:
   #                       # will be prefaced with the rest of url automatically
   #                       # (e.g. https://mattermost.brainhack.org/brainhack/channels/)
 
-  - title: Brainhack Atlantis
-    display: true
-    organizers:
-      - Aquaman
-    contact:
-      - info.bhg-atlantis@atlantis.edu
-    address:
-      street:
-      city:
-      region:
-      postcode:
-      country: TBD
-    position:
-      lat: 34.762643
-      lng: -45
-    date: "2022-11-29"
-    date_end: "2022-12-29"
-    mattermost_channel: atlantis
-    twitter_handle: atlantis
-    facebook: atlantis
-    website: https://atlantis.github.io/
-    image: australasia.png
-
   - title: Brainhack Australasia
     format: online
     display: true
-    abstract: |
-      Brainhack Australasia is a virtual event that brings together researchers from across the globe
-        to collaborate on open science projects.       
+    summary: |
+      Brainhack Australasia is a virtual event that brings together researchers 
+        from across the globe to collaborate on open science projects.       
         The event is hosted by the Australian and New Zealand chapters of the Open Science MOOC,       
         and is supported by the Australian and New Zealand Society for Neuroscience (ANZSN).
     organizers:
       - Johanna Bayer, Kelly Garner
     contact:
       - johanna.bayer@orygen.org.au
+    location:     
     address:
       street:
-      city: TBD
+      city:
       region:
       postcode:
       country: Australia
@@ -72,7 +50,8 @@ events:
     mattermost_channel: brainhack-australasia
     twitter_handle: OHBM_Australia
     facebook:
-    website: https://brainhack-aus.github.io/global2022/
+    website: https://brainhack-aus.github.io/global2021/
+    image: australasia.png
 
   - title: Brainhack Donostia
     format: online
@@ -81,6 +60,7 @@ events:
       - Chiara Luna Rivolta, Irene Arrieta
     contact:
       - info.bhg-donostia@bcbl.eu
+    location:     
     address:
       street:
       city: Donostia
@@ -92,17 +72,18 @@ events:
       lng: -1.98
     date: "2022-11-29"
     date_end: "2022-12-29"
+    twitter_handle: BHDonostia    
     website: https://brainhack-donostia.github.io
     image: donostia.jpg
 
   - title: Brainhack Marseille
     format: hybrid
     display: true
+    summary: Hybrid event - Third edition of Brainhack Marseille.
     organizers:
       - Sylvain Takerkart, Dipankar
     contact:
       - sylvain.takerkart@univ-amu.fr
-    website: https://brainhack-marseille.github.io/
     location: Institut de Neurosciences de la Timone
     address:
       street: Faculté de Médecine 27, boulevard  Jean Moulin
@@ -115,16 +96,19 @@ events:
       lng: 5.4032124890651305
     date: "2022-11-29"
     date_end: "2022-12-29"
+    mattermost_channel: bhg20-marseille
+    twitter_handle: BrainhackM    
+    website: https://brainhack-marseille.github.io/
+    image: marseille.png
+
 
   - title: BrainHack Bloomington
-    name: bloomington
-    display: false
     format: online
+    display: false
     organizers:
       - Serge Koudoro, Eleftherios Garyfallidis
     contact:
       - SKAB12@GMAIL.COM
-    website:
     address:
       street:
       city: Bloomington
@@ -136,7 +120,7 @@ events:
       lng: -86.51225149286539
     date: "2022-11-29"
     mattermost_channel: dipy
-    twitter_handle: foo
+    website:
 
   - title: BrainHack Minipig (online only)
     display: false

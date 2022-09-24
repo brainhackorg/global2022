@@ -28,9 +28,9 @@
 {{/* Get summary. */}}
 {{ $summary := "" }}
 {{ if $item.Params.summary }}
-    {{ $summary = $item.Params.summary | markdownify | emojify }}
+    {{ $summary = $item.Params.summary | emojify }}
   {{ else if .Params.abstract }}
-    {{ $summary = .Params.abstract | markdownify | emojify | truncate (site.Params.abstract_length | default 135) }}
+    {{ $summary = .Params.abstract | emojify | truncate (site.Params.abstract_length | default 135) }}
   {{ else if $item.Summary }}
     {{ $summary = $item.Summary }}
 {{ end }}
@@ -44,7 +44,7 @@
 
     {{ with $summary }}
     <a href="{{ $item.RelPermalink }}" class="summary-link">
-      <div class="article-style">
+      <div class="article-style" style="width: 90%; padding-left: 5%; padding-top: 2%">
         {{.}}
       </div>
     </a>
@@ -95,7 +95,7 @@
   <div class="ml-3">
     {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
     {{ with $resource }}
-    {{ $image := .Resize "150x" }}
+    {{ $image := .Resize "175x" }}
     <a href="{{$link}}" {{ $target | safeHTMLAttr }}>
       <img src="{{ $image.RelPermalink }}" alt="{{ $item.Title }}">
     </a>
