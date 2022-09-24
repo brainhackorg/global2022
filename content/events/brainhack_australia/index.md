@@ -8,11 +8,11 @@ title: Brainhack Australia
 event: Brainhack Australia
 event_url: https://brainhack-aus.github.io/global2021/
 
-location:
+location: University of Sydney / National Imaging Facility
 
 address:
   street:
-  city:
+  city: Sydney
   region:
   postcode:
   country: Australia
@@ -25,12 +25,12 @@ abstract: |
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2022-11-29"
-date_end: "2022-12-29"
+date: "2022-11-30"
+date_end: "2022-12-02"
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2022-09-23T17:46:55Z"
+publishDate: "2022-09-23T17:57:08Z"
 
 authors: []
 tags: []

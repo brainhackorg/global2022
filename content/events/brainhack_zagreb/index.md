@@ -9,9 +9,9 @@ event: Brainhack Zagreb
 event_url: https://brainhackzg.github.io/
 
 location: Medical School, University of Zagreb;
-Faculty of Electrical Engineering and Computing, University of Zagreb;
-Croatian Institute for Brain Research;
-Society for out of frame education
+  Faculty of Electrical Engineering and Computing, University of Zagreb;
+  Croatian Institute for Brain Research;
+  Society for out of frame education
 
 
 address:
@@ -34,7 +34,7 @@ date_end: ""
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2032-09-21T17:46:55Z"
+publishDate: "2032-09-21T17:57:08Z"
 
 authors: []
 tags: []

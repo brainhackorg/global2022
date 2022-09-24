@@ -25,12 +25,12 @@ abstract: |
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2022-11-29"
-date_end: "2022-12-29"
+date: "2022-11-28"
+date_end: "2022-11-30"
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2022-09-23T17:46:55Z"
+publishDate: "2022-09-23T17:57:08Z"
 
 authors: []
 tags: []
@@ -60,6 +60,10 @@ links:
 
 
 
+  - icon: github
+    icon_pack: fab
+    name: Github
+    url: https://www.https://github.com/Brainhack-Marseille
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.

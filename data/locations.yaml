@@ -40,8 +40,8 @@ events:
       - Kelly Garner
       - Tom Close
     contact:
-     - getkellygarner@gmail.com
-     - tom.g.close@gmail.com
+      - getkellygarner@gmail.com
+      - tom.g.close@gmail.com
     location: University of Sydney / National Imaging Facility
     address:
       street:
@@ -62,7 +62,7 @@ events:
     github_username:
     image:
     image_caption:
-    publishDate: '2022-09-23T17:46:55Z'
+    publishDate: '2022-09-23T17:57:08Z'
   - title: Brainhack Donostia
     format: In person
     display: true
@@ -72,8 +72,8 @@ events:
       - Lucía Manso-Ortega
       - Hana Zjakic
     contact:
-     - l.manso@bcbl.eu
-     - h.zjakic@bcbl.eu
+      - l.manso@bcbl.eu
+      - h.zjakic@bcbl.eu
     location: Basque Center on Cognition, Brain and Language
     address:
       street:
@@ -94,18 +94,18 @@ events:
     github_username: Brainhack-Donostia
     image: donostia.jpg
     image_caption: 'Image credit: [**Brainhack Donostia**](https://brainhack-donostia.github.io)'
-    publishDate: '2022-09-23T17:46:55Z'
+    publishDate: '2022-09-23T17:57:08Z'
   - title: Brainhack Marseille
-    format: hybrid
+    format: In person
     display: true
     abstract:
-    summary: Hybrid event - Third edition of Brainhack Marseille.
+    summary: 4th edition of Brainhack Marseille
     organizers:
       - Sylvain Takerkart
       - David Meunier
     contact:
-     - sylvain.takerkart@univ-amu.fr
-     - david.meunier@univ-amu.fr
+      - sylvain.takerkart@univ-amu.fr
+      - david.meunier@univ-amu.fr
     location: Institut de Neurosciences de la Timone
     address:
       street: Faculté de Médecine 27, boulevard  Jean Moulin
@@ -126,7 +126,7 @@ events:
     github_username: Brainhack-Marseille
     image: marseille.jpg
     image_caption: 'Image credit: [**Brainhack Marseille**](https://brainhack-marseille.github.io/)'
-    publishDate: '2022-09-23T17:46:55Z'
+    publishDate: '2022-09-23T17:57:08Z'
   - title: BrainHack Bloomington
     format: online
     display: false
@@ -156,7 +156,7 @@ events:
     github_username:
     image:
     image_caption:
-    publishDate: '2032-09-21T17:46:55Z'
+    publishDate: '2032-09-21T17:57:08Z'
   - title: BrainHack Minipig
     format: online
     display: false
@@ -186,7 +186,7 @@ events:
     github_username:
     image:
     image_caption:
-    publishDate: '2032-09-21T17:46:55Z'
+    publishDate: '2032-09-21T17:57:08Z'
   - title: BrainHack MIT
     format: online
     display: false
@@ -216,7 +216,7 @@ events:
     github_username:
     image: mit.jpg
     image_caption: 'Image credit: [**BrainHack MIT**](https://neuronets.github.io/mit-brainhack2022/?version=b7e8e2f)'
-    publishDate: '2032-09-21T17:46:55Z'
+    publishDate: '2032-09-21T17:57:08Z'
   - title: BrainHack Yale
     format: IRL
     display: false
@@ -246,7 +246,7 @@ events:
     github_username:
     image:
     image_caption:
-    publishDate: '2032-09-21T17:46:55Z'
+    publishDate: '2032-09-21T17:57:08Z'
   - title: Brainhack Taipei
     format: IRL
     display: false
@@ -276,7 +276,7 @@ events:
     github_username:
     image:
     image_caption:
-    publishDate: '2032-09-21T17:46:55Z'
+    publishDate: '2032-09-21T17:57:08Z'
   - title: Brainhack Marburg
     format:
     display: false
@@ -305,7 +305,7 @@ events:
     github_username:
     image:
     image_caption:
-    publishDate: '2032-09-21T17:46:55Z'
+    publishDate: '2032-09-21T17:57:08Z'
   - title: Brainhack Zagreb
     format: IRL
     display: false
@@ -317,9 +317,9 @@ events:
     contact:
     location: |
       Medical School, University of Zagreb;
-      Faculty of Electrical Engineering and Computing, University of Zagreb;
-      Croatian Institute for Brain Research;
-      Society for out of frame education
+        Faculty of Electrical Engineering and Computing, University of Zagreb;
+        Croatian Institute for Brain Research;
+        Society for out of frame education
     address:
       street:
       city: Zagreb
@@ -339,7 +339,7 @@ events:
     github_username:
     image: zagreb.png
     image_caption: 'Image credit: [**Brainhack Zagreb**](https://brainhackzg.github.io/)'
-    publishDate: '2032-09-21T17:46:55Z'
+    publishDate: '2032-09-21T17:57:08Z'
   - title: BrainWeb metaverse
     format: online
     display: false
@@ -369,7 +369,7 @@ events:
     github_username:
     image:
     image_caption:
-    publishDate: '2032-09-21T17:46:55Z'
+    publishDate: '2032-09-21T17:57:09Z'
   - title: Brainhack Avoca
     format: hybrid
     display: false
@@ -399,7 +399,7 @@ events:
     github_username:
     image:
     image_caption:
-    publishDate: '2032-09-21T17:46:55Z'
+    publishDate: '2032-09-21T17:57:09Z'
   - title: Brainhack Washington DC
     format: hybrid
     display: false
@@ -409,8 +409,10 @@ events:
       - Shawn Rhoads
       - Dustin Moraczewski
     contact:
-    location: Georgetown University, National Institute of Mental Health, University
-      of Maryland - College Park
+    location: |
+      Georgetown University,
+        National Institute of Mental Health,
+        University of Maryland - College Park
     address:
       street:
       city: Washington DC
@@ -430,7 +432,7 @@ events:
     github_username:
     image:
     image_caption:
-    publishDate: '2032-09-21T17:46:56Z'
+    publishDate: '2032-09-21T17:57:09Z'
   - title: BrainHack UVA
     format: IRL
     display: false
@@ -460,7 +462,7 @@ events:
     github_username:
     image:
     image_caption:
-    publishDate: '2032-09-21T17:46:56Z'
+    publishDate: '2032-09-21T17:57:09Z'
   - title: Brainhack Western
     format: hybrid
     display: false
@@ -489,7 +491,7 @@ events:
     github_username:
     image:
     image_caption:
-    publishDate: '2032-09-21T17:46:56Z'
+    publishDate: '2032-09-21T17:57:09Z'
   - title: Brainhack Geneva
     format: IRL
     display: false
@@ -518,7 +520,7 @@ events:
     github_username:
     image:
     image_caption:
-    publishDate: '2032-09-21T17:46:56Z'
+    publishDate: '2032-09-21T17:57:09Z'
   - title: BrainHack Toronto
     format: online
     display: false
@@ -549,7 +551,7 @@ events:
     github_username:
     image:
     image_caption:
-    publishDate: '2032-09-21T17:46:56Z'
+    publishDate: '2032-09-21T17:57:09Z'
   - title: Brainhack UCLA
     format: hybrid
     display: false
@@ -578,7 +580,7 @@ events:
     github_username:
     image:
     image_caption:
-    publishDate: '2032-09-21T17:46:56Z'
+    publishDate: '2032-09-21T17:57:09Z'
   - title: Brainhack Nordic
     format: hybrid
     display: false
@@ -608,7 +610,7 @@ events:
     github_username:
     image:
     image_caption:
-    publishDate: '2032-09-21T17:46:56Z'
+    publishDate: '2032-09-21T17:57:09Z'
   - title: Brainhack Zurich
     format: hybrid
     display: false
@@ -638,7 +640,7 @@ events:
     github_username:
     image:
     image_caption:
-    publishDate: '2032-09-21T17:46:56Z'
+    publishDate: '2032-09-21T17:57:09Z'
   - title: Brainhack Boston
     format: online
     display: false
@@ -667,7 +669,7 @@ events:
     github_username:
     image: boston.png
     image_caption: 'Image credit: [**Brainhack Boston**](https://github.com/openneuropet/outreach/tree/main/Brainhack-MGH2022)'
-    publishDate: '2032-09-21T17:46:56Z'
+    publishDate: '2032-09-21T17:57:09Z'
   - title: Brainhack NYC
     format: hybrid
     display: false
@@ -697,7 +699,7 @@ events:
     github_username:
     image:
     image_caption:
-    publishDate: '2032-09-21T17:46:56Z'
+    publishDate: '2032-09-21T17:57:09Z'
   - title: Brainhack Montreal
     format: hybrid
     display: false
@@ -727,7 +729,7 @@ events:
     github_username:
     image: montreal.jpeg
     image_caption: 'Image credit: [**Brainhack Montreal**](https://brainhackmtl.github.io/global2021/)'
-    publishDate: '2032-09-21T17:46:56Z'
+    publishDate: '2032-09-21T17:57:09Z'
   - title: BrainHack Magdeburd
     format: online
     display: false
@@ -757,4 +759,4 @@ events:
     github_username:
     image:
     image_caption:
-    publishDate: '2032-09-21T17:46:56Z'
+    publishDate: '2032-09-21T17:57:09Z'

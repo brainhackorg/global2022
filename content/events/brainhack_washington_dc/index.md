@@ -8,8 +8,10 @@ title: Brainhack Washington DC
 event: Brainhack Washington DC
 event_url: https://brainhackdc.github.io/
 
-location: Georgetown University, National Institute of Mental Health, University of Maryland -
-College Park
+location: Georgetown University,
+  National Institute of Mental Health,
+  University of Maryland - College Park
+
 
 address:
   street:
@@ -31,7 +33,7 @@ date_end: ""
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2032-09-21T17:46:56Z"
+publishDate: "2032-09-21T17:57:09Z"
 
 authors: []
 tags: []

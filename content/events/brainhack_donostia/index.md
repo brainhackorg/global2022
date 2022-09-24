@@ -8,7 +8,7 @@ title: Brainhack Donostia
 event: Brainhack Donostia
 event_url: https://brainhack-donostia.github.io
 
-location:
+location: Basque Center on Cognition, Brain and Language
 
 address:
   street:
@@ -25,12 +25,12 @@ abstract: |
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2022-11-29"
-date_end: "2022-12-29"
+date: "2022-11-23"
+date_end: "2022-11-25"
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2022-09-23T17:46:55Z"
+publishDate: "2022-09-23T17:57:08Z"
 
 authors: []
 tags: []
@@ -53,9 +53,17 @@ links:
     name: "@BHDonostia"
     url: https://twitter.com/BHDonostia
 
+  - icon: mattermost
+    icon_pack: custom
+    name: Mattermost
+    url: https://mattermost.brainhack.org/brainhack/channels/bhg20-donostia
 
 
 
+  - icon: github
+    icon_pack: fab
+    name: Github
+    url: https://www.https://github.com/Brainhack-Donostia
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
