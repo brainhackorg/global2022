@@ -62,15 +62,17 @@ events:
     image_caption:
     publishDate: '2022-09-23T17:46:55Z'
   - title: Brainhack Donostia
-    format: online
+    format: In person
     display: true
     abstract:
     summary:
     organizers:
-      - Chiara Luna Rivolta
-      - Irene Arrieta
+      - Lucía Manso-Ortega
+      - Hana Zjakic
     contact:
-    location:
+     - l.manso@bcbl.eu
+     - h.zjakic@bcbl.eu
+    location: Basque Center on Cognition, Brain and Language
     address:
       street:
       city: Donostia
@@ -80,14 +82,14 @@ events:
     position:
       lat: 43.29
       lng: -1.98
-    date: '2022-11-29'
-    date_end: '2022-12-29'
-    mattermost_channel:
+    date: '2022-11-23'
+    date_end: '2022-12-25'
+    mattermost_channel: bhg20-donostia
     twitter_handle: BHDonostia
     facebook:
     instagram:
     website: https://brainhack-donostia.github.io
-    github_username:
+    github_username: Brainhack-Donostia
     image: donostia.jpg
     image_caption: 'Image credit: [**Brainhack Donostia**](https://brainhack-donostia.github.io)'
     publishDate: '2022-09-23T17:46:55Z'
