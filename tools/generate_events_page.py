@@ -7,6 +7,8 @@ from datetime import timedelta
 import shutil
 import os
 
+from collections import OrderedDict
+
 
 def main():
 
@@ -81,11 +83,14 @@ def main():
             with open(output_file, "w") as output:
                 print(text, file=output)
 
-        locations["events"][i] = this_event
+        ordered = OrderedDict()
+        for k in order:
+            ordered[k] = this_event[k]
+
+        locations["events"][i] = dict(ordered)
 
     with open(locations_file, "w") as output_file:
-        yaml.dump(locations, locations_file)
-
+        yaml.dump(locations, output_file)
 
 if __name__ == "__main__":
     main()
