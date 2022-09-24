@@ -1,14 +1,13 @@
 events:
   # TEMPLATE
   # - title: # what will be displayed
-  #   name:  # variable name for this event
   #   display: # true or false; if false, the event will not be displayed on the website
   #   format: # the format of the event (e.g. "online", "in-person", "hybrid")
   #   organizers:
   #     -
   #   contact:
   #     -
-  #   website:
+  #   location:
   #   address:
   #     street:
   #     city:
@@ -27,8 +26,9 @@ events:
   #   facebook:
   #   instagram:
   #   website:
+  #   github_username:
   #   image: # name of the image file in the images folder static/media/events
-  #   image_caption:
+  #   image_caption: # one will be generated automatically if none is provided
   #   publishDate: # will be replaced automatically so you can leave this blank
 
   - title: Brainhack Australia

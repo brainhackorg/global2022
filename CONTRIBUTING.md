@@ -81,10 +81,32 @@ The details for each team member is in `content/authors` folder.
 For team member Jane Smith, the details will be in the frontmatter of
 `content/authors/Jane-Smith/_index.md`.
 
-Team belonging is defined in that frontmatter.
-Which group to display on the landing page is changed in the frontmatter of
-`content/home/team.md`
+Team belonging is defined in that frontmatter. Which group to display on the
+landing page is changed in the frontmatter of `content/home/team.md`
 
 An `avatar.jpg` can be added to the folder to be used as the profile picture.
 
 The corresponding page will be found at `[base-url]/author/jane-smith/`.
+
+## Updating events
+
+All the information about the events is centralized in: `data/locations.yaml`
+
+Any image for an event must go in `static/media/events`.
+
+Pages for each event are generated in the folder `content/events` by running the
+script `tools/generate_events_page.py`.
+
+This script uses the mustache template `content/events/index.mustache` to create
+the pages by completing with the info from `data/locations.yaml`.
+
+Make sure to install all the packages from the `requirements.txt` files before
+running the python script.
+
+To add new events you can use the commented templates at the top of
+`data/locations.yaml`.
+
+If you want to remove an event from the website, you can simply set its
+`display` field to `false`.
+
+Commit the newly generated files and push and PR to update the website.
