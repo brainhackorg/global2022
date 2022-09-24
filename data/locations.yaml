@@ -502,10 +502,10 @@ events:
     contact:
     location: Foundation Campus Biotech Geneva (FCBG)
     address:
-      street:
+      street: Chemin des Mines 9
       city: Geneva
       region:
-      postcode:
+      postcode: 1202
       country: Switzerland
     position:
       lat: 46.2228
@@ -513,12 +513,12 @@ events:
     date: '2022-11-29'
     date_end:
     mattermost_channel:
-    twitter_handle:
+    twitter_handle: brainhackgeneva
     facebook:
     instagram:
     website: https://brainhack.ch/
     github_username:
-    image:
+    image: geneva.jpg
     image_caption:
     publishDate: '2032-09-21T17:57:09Z'
   - title: BrainHack Toronto
