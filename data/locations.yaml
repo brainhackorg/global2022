@@ -32,26 +32,28 @@ events:
   #   publishDate: # will be replaced automatically so you can leave this blank
 
   - title: Brainhack Australia
-    format: online
+    format: In person
     display: true
     abstract:
     summary:
     organizers:
-      - Johanna Bayer
       - Kelly Garner
+      - Tom Close
     contact:
-    location:
+     - getkellygarner@gmail.com
+     - tom.g.close@gmail.com
+    location: University of Sydney / National Imaging Facility
     address:
       street:
-      city:
+      city: Sydney
       region:
       postcode:
       country: Australia
     position:
-      lat: -37.7982
-      lng: 144.9610
-    date: '2022-11-29'
-    date_end: '2022-12-29'
+      lat: -33.888173886142376
+      lng: 151.18746700082073
+    date: '2022-11-30'
+    date_end: '2022-12-02'
     mattermost_channel: brainhack-australasia
     twitter_handle: OHBM_Australia
     facebook:
@@ -83,7 +85,7 @@ events:
       lat: 43.29
       lng: -1.98
     date: '2022-11-23'
-    date_end: '2022-12-25'
+    date_end: '2022-11-25'
     mattermost_channel: bhg20-donostia
     twitter_handle: BHDonostia
     facebook:
@@ -100,8 +102,10 @@ events:
     summary: Hybrid event - Third edition of Brainhack Marseille.
     organizers:
       - Sylvain Takerkart
-      - Dipankar
+      - David Meunier
     contact:
+     - sylvain.takerkart@univ-amu.fr
+     - david.meunier@univ-amu.fr
     location: Institut de Neurosciences de la Timone
     address:
       street: Faculté de Médecine 27, boulevard  Jean Moulin
@@ -112,14 +116,14 @@ events:
     position:
       lat: 43.287036449254515
       lng: 5.4032124890651305
-    date: '2022-11-29'
-    date_end: '2022-12-29'
+    date: '2022-11-28'
+    date_end: '2022-11-30'
     mattermost_channel: bhg20-marseille
     twitter_handle: BrainhackM
     facebook:
     instagram:
     website: https://brainhack-marseille.github.io/
-    github_username:
+    github_username: Brainhack-Marseille
     image: marseille.jpg
     image_caption: 'Image credit: [**Brainhack Marseille**](https://brainhack-marseille.github.io/)'
     publishDate: '2022-09-23T17:46:55Z'
