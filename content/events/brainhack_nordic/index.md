@@ -6,7 +6,7 @@
 
 title: Brainhack Nordic
 event: Brainhack Nordic
-event_url: https://github.com/openneuropet/outreach/tree/main/Brainhack-Nordic2022
+event_url: https://openneuropet.github.io/brainhack/
 
 location:
 
@@ -18,7 +18,7 @@ address:
   country: Denmark
 
 summary: |
-
+  PET imaging and BIDS
 
 abstract: |
 
@@ -46,18 +46,21 @@ links:
   - icon: globe
     icon_pack: fas
     name: Website
-    url: https://github.com/openneuropet/outreach/tree/main/Brainhack-Nordic2022
+    url: https://openneuropet.github.io/brainhack/
 
 
 
 
 
+  - icon: github
+    icon_pack: fab
+    name: Github
+    url: https://www.github.com/openneuropet
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references
-`content/project/deep-learning/index.md`.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
 # - project_84

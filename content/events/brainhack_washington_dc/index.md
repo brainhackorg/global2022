@@ -42,7 +42,7 @@ tags: []
 featured: false
 
 image:
-  caption: ""
+  caption: "Image credit: [**Brainhack Washington DC**](https://brainhackdc.github.io/)"
   focal_point: center
 
 links:
@@ -52,15 +52,22 @@ links:
     url: https://brainhackdc.github.io/
 
 
+  - icon: mattermost
+    icon_pack: custom
+    name: Mattermost
+    url: https://mattermost.brainhack.org/brainhack/channels/bhg-washingtondc
 
 
 
+  - icon: github
+    icon_pack: fab
+    name: Github
+    url: https://www.github.com/brainhackdc
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references
-`content/project/deep-learning/index.md`.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
 # - project_84

@@ -431,7 +431,7 @@ events:
     website: https://brainhackdc.github.io/
     github_username: brainhackdc
     image: washington.png
-    image_caption:
+    image_caption: 'Image credit: [**Brainhack Washington DC**](https://brainhackdc.github.io/)'
     publishDate: '2032-09-21'
   - title: BrainHack UVA
     format: IRL
@@ -490,7 +490,7 @@ events:
     website: https://brainhackwestern.github.io
     github_username: brainhackwestern
     image: western.png
-    image_caption:
+    image_caption: 'Image credit: [**Brainhack Western**](https://brainhackwestern.github.io)'
     publishDate: '2032-09-21'
   - title: Brainhack Geneva
     format: IRL

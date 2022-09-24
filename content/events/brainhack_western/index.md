@@ -39,7 +39,7 @@ tags: []
 featured: false
 
 image:
-  caption: ""
+  caption: "Image credit: [**Brainhack Western**](https://brainhackwestern.github.io)"
   focal_point: center
 
 links:
@@ -48,16 +48,23 @@ links:
     name: Website
     url: https://brainhackwestern.github.io
 
+  - icon: twitter
+    icon_pack: fab
+    name: "@BrainHackUWO"
+    url: https://twitter.com/BrainHackUWO
 
 
 
 
+  - icon: github
+    icon_pack: fab
+    name: Github
+    url: https://www.github.com/brainhackwestern
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references
-`content/project/deep-learning/index.md`.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
 # - project_84

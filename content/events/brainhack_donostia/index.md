@@ -39,8 +39,7 @@ tags: []
 featured: false
 
 image:
-  caption: "Image credit: [**Brainhack
-Donostia**](https://brainhack-donostia.github.io)"
+  caption: "Image credit: [**Brainhack Donostia**](https://brainhack-donostia.github.io)"
   focal_point: center
 
 links:
@@ -64,13 +63,12 @@ links:
   - icon: github
     icon_pack: fab
     name: Github
-    url: https://www.https://github.com/Brainhack-Donostia
+    url: https://www.github.com/brainhack-donostia
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references
-`content/project/deep-learning/index.md`.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
 # - project_84
