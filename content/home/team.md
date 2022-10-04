@@ -9,7 +9,7 @@ weight = 50  # Order that this section will appear.
 title = "Meet the Team"
 subtitle = "The more, the merrier!"
 
-user_groups = ["Admin", "Outreach", "DEI", "Website"]
+user_groups = ["Admin", "Outreach and DEI", "Website"]
 show_social = true
 show_position = true
 
