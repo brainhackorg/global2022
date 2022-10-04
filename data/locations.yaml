@@ -493,7 +493,7 @@ events:
     image_caption: 'Image credit: [**Brainhack Western**](https://brainhackwestern.github.io)'
     publishDate: '2032-10-01'
   - title: Brainhack Geneva
-    format: IRL
+    format: In person
     display: true
     abstract:
     summary:
