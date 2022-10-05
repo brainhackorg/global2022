@@ -11,17 +11,17 @@ event_url: https://www.brainhack-krakow.org
 location: Institute of Psychology
 
 address:
-  street: 
+  street:
   city: Krakow
-  region: 
-  postcode: 
+  region:
+  postcode:
   country: Poland
 
 summary: |
-  
+
 
 abstract: |
-  
+
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -76,4 +76,3 @@ projects:
 # Enable math on this page?
 math: true
 ---
-
