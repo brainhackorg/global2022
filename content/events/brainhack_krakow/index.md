@@ -11,10 +11,10 @@ event_url: https://www.brainhack-krakow.org
 location: Institute of Psychology
 
 address:
-  street:
+  street: Romana Ingardena 6
   city: Krakow
   region:
-  postcode:
+  postcode: 30-060
   country: Poland
 
 summary: |
