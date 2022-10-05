@@ -80,6 +80,8 @@ def main():
 
     for i, this_event in enumerate(locations["events"]):
 
+        print(f"[bold blue]Processing: {this_event['title']}[/bold blue]")
+
         # ensure that all fields are set in case manual editing forgot some
         for field in ORDER:
             if field not in this_event:

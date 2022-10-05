@@ -39,7 +39,8 @@ tags: []
 featured: false
 
 image:
-  caption: "Image credit: [**BrainHack MIT**](https://neuronets.github.io/mit-brainhack2022/?version=b7e8e2f)"
+  caption: "Image credit: [**BrainHack
+MIT**](https://neuronets.github.io/mit-brainhack2022/?version=b7e8e2f)"
   focal_point: center
 
 links:

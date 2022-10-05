@@ -18,10 +18,10 @@ address:
   country: Poland
 
 summary: |
-
+  Simulate the brain to predict behaviour in health and disease.
 
 abstract: |
-
+  The Satellite Event of the [Neuronus Forum 2022](https://neuronusforum.pl/)
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -30,7 +30,7 @@ date_end: "2022-10-23"
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2022-10-03"
+publishDate: "2022-10-04"
 
 authors: []
 tags: []
@@ -39,7 +39,7 @@ tags: []
 featured: false
 
 image:
-  caption: ""
+  caption: "Image credit: [**Brainhack Krakow**](https://www.brainhack-krakow.org)"
   focal_point: center
 
 links:
