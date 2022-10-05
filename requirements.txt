@@ -1,5 +1,4 @@
 chevron
-requests
 rich
 pre-commit
 black
