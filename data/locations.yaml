@@ -33,8 +33,9 @@ events:
   - title: Brainhack Krakow
     format: In person
     display: true
-    abstract: "The Satellite Event of the <a href='https://neuronusforum.pl/' target='_blank'>Neuronus Forum 2022</a>"
-    summary: "Simulate the brain to predict behaviour in health and disease."
+    abstract: The Satellite Event of the <a href='https://neuronusforum.pl/' target='_blank'>Neuronus
+      Forum 2022</a>
+    summary: Simulate the brain to predict behaviour in health and disease.
     organizers:
       - Krzysztof Bielski
       - Szymon Wichary
@@ -59,9 +60,9 @@ events:
     instagram:
     website: https://www.brainhack-krakow.org
     github_username: Brainhack-2022
-    image:
-    image_caption:
-    publishDate: '2022-10-03'
+    image: krakow.jpg
+    image_caption: 'Image credit: [**Brainhack Krakow**](https://www.brainhack-krakow.org)'
+    publishDate: '2022-10-04'
   - title: Brainhack Australia
     format: In person
     display: true
@@ -91,8 +92,8 @@ events:
     instagram:
     website: https://brainhack-aus.github.io/global2021/
     github_username: brainhack-aus
-    image:
-    image_caption:
+    image: australia.jpg
+    image_caption: 'Image credit: [**Brainhack Australia**](https://brainhack-aus.github.io/global2021/)'
     publishDate: '2022-10-04'
   - title: Brainhack Donostia
     format: In person
@@ -523,7 +524,7 @@ events:
     github_username: brainhackwestern
     image: western.png
     image_caption: 'Image credit: [**Brainhack Western**](https://brainhackwestern.github.io)'
-    publishDate: '2022-10-03'
+    publishDate: '2022-10-04'
   - title: Brainhack Geneva
     format: In person
     display: true

@@ -39,7 +39,7 @@ tags: []
 featured: false
 
 image:
-  caption: ""
+  caption: "Image credit: [**Brainhack Australia**](https://brainhack-aus.github.io/global2021/)"
   focal_point: center
 
 links:
