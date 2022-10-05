@@ -15,3 +15,5 @@ jobs:
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
           # File with label/regex match dictionary
           configuration-path: .github/labeler.yml
+          # This can be increased if the dictionary undergoes a breaking change
+          enable-versioned-regex: 0
