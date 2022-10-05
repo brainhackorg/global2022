@@ -43,14 +43,14 @@ events:
       - szymon.wichary@uj.edu.pl
     location: Institute of Psychology
     address:
-      street:
+      street: Romana Ingardena 6
       city: Krakow
       region:
-      postcode:
+      postcode: 30-060
       country: Poland
     position:
-      lat: 50.06112069428719
-      lng: 19.934128855711347
+      lat: 50.061816691989
+      lng: 19.919703711991456
     date: '2022-10-21'
     date_end: '2022-10-23'
     mattermost_channel: brainhack-krakow
