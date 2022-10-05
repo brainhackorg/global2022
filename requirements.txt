@@ -3,5 +3,4 @@ rich
 pre-commit
 black
 ruamel.yaml
-git+https://github.com/brainhackorg/braintransform@v0.1.0
-requests
+git+https://github.com/brainhackorg/braintransform.git
