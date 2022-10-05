@@ -30,7 +30,38 @@ events:
   #   image: # name of the image file in the images folder static/media/events
   #   image_caption: # one will be generated automatically if none is provided
   #   publishDate: # will be replaced automatically so you can leave this blank
-
+  - title: Brainhack Krakow
+    format: In person
+    display: true
+    abstract:
+    summary:
+    organizers:
+      - Krzysztof Bielski
+      - Szymon Wichary
+    contact:
+      - krzysztof.bielski@doctoral.uj.edu.pl
+      - szymon.wichary@uj.edu.pl
+    location: Institute of Psychology
+    address:
+      street:
+      city: Krakow
+      region:
+      postcode:
+      country: Poland
+    position:
+      lat: 50.06112069428719
+      lng: 19.934128855711347
+    date: '2022-10-21'
+    date_end: '2022-10-23'
+    mattermost_channel: brainhack-krakow
+    twitter_handle: BrainhackKrakow
+    facebook:
+    instagram:
+    website: https://www.brainhack-krakow.org
+    github_username: Brainhack-2022
+    image:
+    image_caption:
+    publishDate: '2022-10-03'
   - title: Brainhack Australia
     format: In person
     display: true
@@ -464,14 +495,15 @@ events:
     image_caption:
     publishDate: '2032-10-01'
   - title: Brainhack Western
-    format: hybrid
-    display: false
+    format: In person
+    display: true
     abstract:
     summary:
     organizers:
       - Suzanne Witt
     contact:
-    location: Western University
+      - switt4@uwo.ca
+    location: University of Western Ontario
     address:
       street:
       city: London
@@ -481,19 +513,19 @@ events:
     position:
       lat: 43.0101
       lng: -81.2736
-    date: '2022-11-29'
-    date_end:
+    date: '2022-11-30'
+    date_end: '2022-12-02'
     mattermost_channel:
-    twitter_handle: BrainHackUWO
+    twitter_handle: UWOBrainhack
     facebook:
     instagram:
     website: https://brainhackwestern.github.io
     github_username: brainhackwestern
     image: western.png
     image_caption: 'Image credit: [**Brainhack Western**](https://brainhackwestern.github.io)'
-    publishDate: '2032-10-01'
+    publishDate: '2022-10-03'
   - title: Brainhack Geneva
-    format: IRL
+    format: In person
     display: true
     abstract:
     summary:
@@ -501,6 +533,8 @@ events:
       - Valentina Borghesani
       - Michael Dayan
     contact:
+      - valentinaborghesani@gmail.com
+      - michael.dayan@fcbg.ch
     location: Foundation Campus Biotech Geneva (FCBG)
     address:
       street: Chemin des Mines 9
