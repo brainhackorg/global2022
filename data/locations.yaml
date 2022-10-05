@@ -33,8 +33,7 @@ events:
   - title: Brainhack Krakow
     format: In person
     display: true
-    abstract: The Satellite Event of the <a href='https://neuronusforum.pl/' target='_blank'>Neuronus
-      Forum 2022</a>
+    abstract: The Satellite Event of the [Neuronus Forum 2022](https://neuronusforum.pl/)
     summary: Simulate the brain to predict behaviour in health and disease.
     organizers:
       - Krzysztof Bielski

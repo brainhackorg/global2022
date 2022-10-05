@@ -21,8 +21,7 @@ summary: |
   Simulate the brain to predict behaviour in health and disease.
 
 abstract: |
-  The Satellite Event of the &lt;a href='https://neuronusforum.pl/' target='_blank'&gt;Neuronus Forum
-2022&lt;/a&gt;
+  The Satellite Event of the [Neuronus Forum 2022](https://neuronusforum.pl/)
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
