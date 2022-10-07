@@ -18,7 +18,7 @@ address:
   country: France
 
 summary: |
-  4th edition of Brainhack Marseille
+
 
 abstract: |
 

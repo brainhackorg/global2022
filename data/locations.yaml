@@ -130,7 +130,7 @@ events:
     format: In person
     display: true
     abstract:
-    summary: 4th edition of Brainhack Marseille
+    summary:
     organizers:
       - Sylvain Takerkart
       - David Meunier
