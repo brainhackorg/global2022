@@ -18,7 +18,7 @@ address:
   country: France
 
 summary: |
-  4th edition of Brainhack Marseille
+
 
 abstract: |
 
@@ -30,7 +30,7 @@ date_end: "2022-11-30"
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2022-10-04"
+publishDate: "2022-10-05"
 
 authors: []
 tags: []
@@ -56,7 +56,7 @@ links:
   - icon: mattermost
     icon_pack: custom
     name: Mattermost
-    url: https://mattermost.brainhack.org/brainhack/channels/bhg20-marseille
+    url: https://mattermost.brainhack.org/brainhack/channels/bhg22-marseille
 
 
 
