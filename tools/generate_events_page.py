@@ -95,7 +95,13 @@ def main():
 
             this_event["publishDate"] = return_publish_date(this_event)
 
+            # remove old image if it exists
+            # and replace it with the new one if provided
+            images = output_dir.glob("feature*")
+            for image in images:
+                image.unlink(missing_ok=True)
             if this_event["image"] is not None:
+
                 image_file = media_dir.joinpath(this_event["image"])
                 extension = os.path.splitext(image_file)[1]
                 shutil.copyfile(image_file, output_dir.joinpath(f"featured{extension}"))
