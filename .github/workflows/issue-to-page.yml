@@ -37,8 +37,10 @@ jobs:
       uses: peter-evans/create-pull-request@v4
       with:
         branch: publish-project
+        delete-branch: true
         commit-message: Convert issues to project pages, yay!
-        assignees: SamGuay, complexbrains
+        title: 'MNT: Update git submodules'
+        body: 'done via this [GitHub Action](https://github.com/${{ github.repository }}/blob/${{ github.ref_name }}/.github/workflows/issue-to-page.yml)'
     - name: Check outputs
       run: |
         echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
