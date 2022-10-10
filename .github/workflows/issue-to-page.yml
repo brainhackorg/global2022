@@ -39,7 +39,7 @@ jobs:
         branch: publish-project
         delete-branch: true
         commit-message: Convert issues to project pages, yay!
-        title: 'MNT: Update git submodules'
+        title: '[ENH] Convert issues to project pages'
         body: 'done via this [GitHub Action](https://github.com/${{ github.repository }}/blob/${{ github.ref_name }}/.github/workflows/issue-to-page.yml)'
     - name: Check outputs
       run: |
