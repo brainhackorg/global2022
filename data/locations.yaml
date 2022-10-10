@@ -62,7 +62,7 @@ events:
     image: krakow.jpg
     image_caption: 'Image credit: [**Brainhack Krakow**](https://www.brainhack-krakow.org)'
     publishDate: '2022-10-06'
-  - title: Brainhack Australia
+  - title: Brainhack Australasia
     format: In person
     display: true
     abstract:
@@ -89,7 +89,7 @@ events:
     twitter_handle: OHBM_Australia
     facebook:
     instagram:
-    website: https://brainhack-aus.github.io/global2021/
+    website: https://brainhack-aus.github.io/global2022/
     github_username: brainhack-aus
     image: australia.jpg
     image_caption: 'Image credit: [**Brainhack Australia**](https://brainhack-aus.github.io/global2021/)'
