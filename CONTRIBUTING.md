@@ -90,18 +90,34 @@ The corresponding page will be found at `[base-url]/author/jane-smith/`.
 
 ## Updating events
 
+### Requirements
+
+This must be done locally on your computer.
+
+This requires python 3.6 or higher.
+
+Make sure to install all the packages from the `requirements.txt` files before
+running the main script.
+
+```bash
+pip install -r requirements.txt
+```
+
+### Procedure
+
 All the information about the events is centralized in: `data/locations.yaml`
 
 Any image for an event must go in `static/media/events`.
 
 Pages for each event are generated in the folder `content/events` by running the
-script `tools/generate_events_page.py`.
+script `tools/generate_events_page.py`  from the root of the repository
+
+```bash
+python tools/generate_events_page.py
+```
 
 This script uses the mustache template `content/events/index.mustache` to create
 the pages by completing with the info from `data/locations.yaml`.
-
-Make sure to install all the packages from the `requirements.txt` files before
-running the python script.
 
 To add new events you can use the commented templates at the top of
 `data/locations.yaml`.
@@ -109,4 +125,4 @@ To add new events you can use the commented templates at the top of
 If you want to remove an event from the website, you can simply set its
 `display` field to `false`.
 
-Commit the newly generated files and push and PR to update the website.
+Commit the newly generated files, push and open a pull request to update the website.
