@@ -6,7 +6,8 @@ on:
     types: [opened, edited]
 
 jobs:
-  triage:
+  labeller:
+    if: github.repository_owner == 'brainhackorg'
     runs-on: ubuntu-20.04
     steps:
       - uses: github/issue-labeler@v2.5
