@@ -7,10 +7,6 @@ partners:
   #   website:
   #   image:
 
-  - name: Oracle
-    website: https://neuromatch.io/
-    image: oracle.png
-
   # - name: Neuromatch
   #   website: https://neuromatch.io/
   #   image: NeuromatchLogo_full_Bl_1024.png
@@ -26,3 +22,7 @@ partners:
   # - name: OHBM
   #   website: https://www.humanbrainmapping.org/
   #   image: hbm_logo.png
+
+  - name: Oracle
+    website: https://neuromatch.io/
+    image: oracle.png
