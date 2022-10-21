@@ -7,18 +7,22 @@ partners:
   #   website:
   #   image:
 
-  - name: Neuromatch
+  - name: Oracle
     website: https://neuromatch.io/
-    image: NeuromatchLogo_full_Bl_1024.png
+    image: oracle.png
 
-  - name: WinRepo
-    website: https://www.winrepo.org/
-    image: winrepo.png
+  # - name: Neuromatch
+  #   website: https://neuromatch.io/
+  #   image: NeuromatchLogo_full_Bl_1024.png
 
-  - name: INCF
-    website: https://www.incf.org/
-    image: incf.png
+  # - name: WinRepo
+  #   website: https://www.winrepo.org/
+  #   image: winrepo.png
 
-  - name: OHBM
-    website: https://www.humanbrainmapping.org/
-    image: hbm_logo.png
+  # - name: INCF
+  #   website: https://www.incf.org/
+  #   image: incf.png
+
+  # - name: OHBM
+  #   website: https://www.humanbrainmapping.org/
+  #   image: hbm_logo.png
