@@ -41,6 +41,10 @@ Pretty much all the content of the website is either in the `data` or the
 - new partner details should be added in `data/partners.yml`
 - new images for partners should be added in `static/media/partners`
 
+You can toggle off the partner section
+by settting `active = true` in yml front matter of
+`content/home/partner.md`.
+
 ## Projects
 
 Projects are updated dynamically using the
