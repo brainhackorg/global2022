@@ -61,7 +61,7 @@ events:
     github_username: Brainhack-2022
     image: krakow.jpg
     image_caption: 'Image credit: [**Brainhack Krakow**](https://www.brainhack-krakow.org)'
-    publishDate: '2022-10-09'
+    publishDate: '2022-10-27'
   - title: Brainhack Australasia
     format: In person
     display: true
@@ -93,7 +93,7 @@ events:
     github_username: brainhack-aus
     image: australia.jpg
     image_caption: 'Image credit: [**Brainhack Australia**](https://brainhack-aus.github.io/global2021/)'
-    publishDate: '2022-10-09'
+    publishDate: '2022-10-27'
   - title: Brainhack Donostia
     format: In person
     display: true
@@ -125,7 +125,7 @@ events:
     github_username: brainhack-donostia
     image: donostia.jpg
     image_caption: 'Image credit: [**Brainhack Donostia**](https://brainhack-donostia.github.io)'
-    publishDate: '2022-10-09'
+    publishDate: '2022-10-27'
   - title: Brainhack Marseille
     format: In person
     display: true
@@ -156,7 +156,7 @@ events:
     github_username: brainhack-marseille
     image: marseille.png
     image_caption: 'Image credit: [**Brainhack Marseille**](https://brainhack-marseille.github.io/)'
-    publishDate: '2022-10-09'
+    publishDate: '2022-10-27'
   - title: BrainHack Bloomington
     format: online
     display: false
@@ -186,7 +186,7 @@ events:
     github_username:
     image:
     image_caption:
-    publishDate: '2032-10-07'
+    publishDate: '2032-10-25'
   - title: BrainHack Minipig
     format: online
     display: false
@@ -216,7 +216,7 @@ events:
     github_username:
     image:
     image_caption:
-    publishDate: '2032-10-07'
+    publishDate: '2032-10-25'
   - title: BrainHack MIT
     format: online
     display: false
@@ -246,7 +246,7 @@ events:
     github_username: neuronets
     image: mit.jpg
     image_caption: 'Image credit: [**BrainHack MIT**](https://neuronets.github.io/mit-brainhack2022/?version=b7e8e2f)'
-    publishDate: '2032-10-07'
+    publishDate: '2032-10-25'
   - title: BrainHack Yale
     format: IRL
     display: false
@@ -276,7 +276,7 @@ events:
     github_username:
     image:
     image_caption:
-    publishDate: '2032-10-07'
+    publishDate: '2032-10-25'
   - title: Brainhack Taipei
     format: IRL
     display: false
@@ -306,7 +306,7 @@ events:
     github_username: langsci-edu
     image:
     image_caption:
-    publishDate: '2032-10-07'
+    publishDate: '2032-10-25'
   - title: Brainhack Marburg
     format:
     display: false
@@ -335,7 +335,7 @@ events:
     github_username: brainhack-marburg
     image:
     image_caption:
-    publishDate: '2032-10-07'
+    publishDate: '2032-10-25'
   - title: Brainhack Zagreb
     format: IRL
     display: false
@@ -369,7 +369,7 @@ events:
     github_username: brainhackzg
     image: zagreb.png
     image_caption: 'Image credit: [**Brainhack Zagreb**](https://brainhackzg.github.io/)'
-    publishDate: '2032-10-07'
+    publishDate: '2032-10-25'
   - title: BrainWeb metaverse
     format: online
     display: false
@@ -399,7 +399,7 @@ events:
     github_username: brain-web
     image:
     image_caption:
-    publishDate: '2032-10-07'
+    publishDate: '2032-10-25'
   - title: Brainhack Avoca
     format: hybrid
     display: false
@@ -429,7 +429,7 @@ events:
     github_username:
     image:
     image_caption:
-    publishDate: '2032-10-07'
+    publishDate: '2032-10-25'
   - title: Brainhack Washington DC
     format: hybrid
     display: false
@@ -462,7 +462,7 @@ events:
     github_username: brainhackdc
     image: washington.png
     image_caption: 'Image credit: [**Brainhack Washington DC**](https://brainhackdc.github.io/)'
-    publishDate: '2032-10-07'
+    publishDate: '2032-10-25'
   - title: BrainHack UVA
     format: IRL
     display: false
@@ -492,7 +492,7 @@ events:
     github_username:
     image:
     image_caption:
-    publishDate: '2032-10-07'
+    publishDate: '2032-10-25'
   - title: Brainhack Western
     format: In person
     display: true
@@ -522,7 +522,7 @@ events:
     github_username: brainhackwestern
     image: western.png
     image_caption: 'Image credit: [**Brainhack Western**](https://brainhackwestern.github.io)'
-    publishDate: '2022-10-09'
+    publishDate: '2022-10-27'
   - title: Brainhack Geneva
     format: In person
     display: true
@@ -554,7 +554,7 @@ events:
     github_username:
     image: geneva.jpg
     image_caption: 'Image credit: [**Brainhack Geneva**](https://brainhack.ch/)'
-    publishDate: '2022-10-09'
+    publishDate: '2022-10-27'
   - title: BrainHack Toronto
     format: online
     display: false
@@ -585,7 +585,7 @@ events:
     github_username: brainhackto
     image:
     image_caption:
-    publishDate: '2032-10-07'
+    publishDate: '2032-10-25'
   - title: Brainhack UCLA
     format: hybrid
     display: false
@@ -616,37 +616,37 @@ events:
     github_username:
     image:
     image_caption:
-    publishDate: '2032-10-07'
+    publishDate: '2032-10-25'
   - title: Brainhack Nordic
-    format: hybrid
-    display: false
+    format: in person
+    display: true
     abstract:
     summary: PET imaging and BIDS
     organizers:
       - Cyril Pernet
       - Melanie Ganz
     contact:
-    location:
+    location: Copenhagen, Denmark
     address:
-      street: HOTEL SP34 Sankt Peters Stræde 34
-      city: Copehangen
+      street: Neurobiology Research Unit
+      city: Copenhangen
       region:
-      postcode: 1453
+      postcode:
       country: Denmark
     position:
       lat: 55.67
       lng: 12.56
-    date: '2022-11-29'
-    date_end:
+    date: 2022-12-5
+    date_end: 2022-12-7
     mattermost_channel:
-    twitter_handle:
+    twitter_handle: OpenNeuroPET
     facebook:
     instagram:
     website: https://openneuropet.github.io/brainhack/
     github_username: openneuropet
-    image:
-    image_caption:
-    publishDate: '2032-10-07'
+    image: nordic.png
+    image_caption: 'Image credit: [**Brainhack Nordic**](https://openneuropet.github.io/brainhack/)'
+    publishDate: '2022-10-27'
   - title: Brainhack Zurich
     format: hybrid
     display: false
@@ -676,7 +676,7 @@ events:
     github_username:
     image:
     image_caption:
-    publishDate: '2032-10-07'
+    publishDate: '2032-10-25'
   - title: Brainhack Boston
     format: online
     display: false
@@ -705,7 +705,7 @@ events:
     github_username:
     image: boston.png
     image_caption: 'Image credit: [**Brainhack Boston**](https://github.com/openneuropet/outreach/tree/main/Brainhack-MGH2022)'
-    publishDate: '2032-10-07'
+    publishDate: '2032-10-25'
   - title: Brainhack NYC
     format: hybrid
     display: false
@@ -735,7 +735,7 @@ events:
     github_username: brainhacknyc
     image:
     image_caption:
-    publishDate: '2032-10-07'
+    publishDate: '2032-10-25'
   - title: Brainhack Montreal
     format: hybrid
     display: false
@@ -765,7 +765,7 @@ events:
     github_username: brainhackmtl
     image: montreal.jpeg
     image_caption: 'Image credit: [**Brainhack Montreal**](https://brainhackmtl.github.io/global2021/)'
-    publishDate: '2032-10-07'
+    publishDate: '2032-10-25'
   - title: BrainHack Magdeburd
     format: online
     display: false
@@ -795,4 +795,4 @@ events:
     github_username: brainhack-magdeburg
     image:
     image_caption:
-    publishDate: '2032-10-07'
+    publishDate: '2032-10-25'

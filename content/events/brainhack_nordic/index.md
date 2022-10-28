@@ -8,13 +8,13 @@ title: Brainhack Nordic
 event: Brainhack Nordic
 event_url: https://openneuropet.github.io/brainhack/
 
-location:
+location: Copenhagen, Denmark
 
 address:
-  street: HOTEL SP34 Sankt Peters Stræde 34
-  city: Copehangen
+  street: Neurobiology Research Unit
+  city: Copenhangen
   region:
-  postcode: 1453
+  postcode:
   country: Denmark
 
 summary: |
@@ -25,12 +25,12 @@ abstract: |
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2022-11-29"
-date_end: ""
+date: "2022-12-5"
+date_end: "2022-12-7"
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2032-10-07"
+publishDate: "2022-10-27"
 
 authors: []
 tags: []
@@ -39,7 +39,7 @@ tags: []
 featured: false
 
 image:
-  caption: ""
+  caption: "Image credit: [**Brainhack Nordic**](https://openneuropet.github.io/brainhack/)"
   focal_point: center
 
 links:
@@ -48,6 +48,10 @@ links:
     name: Website
     url: https://openneuropet.github.io/brainhack/
 
+  - icon: twitter
+    icon_pack: fab
+    name: "@OpenNeuroPET"
+    url: https://twitter.com/OpenNeuroPET
 
 
 
