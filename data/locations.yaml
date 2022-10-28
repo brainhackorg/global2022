@@ -618,35 +618,35 @@ events:
     image_caption:
     publishDate: '2032-10-07'
   - title: Brainhack Nordic
-    format: hybrid
-    display: false
+    format: in person
+    display: true
     abstract:
     summary: PET imaging and BIDS
     organizers:
       - Cyril Pernet
       - Melanie Ganz
     contact:
-    location:
-    address:
-      street: HOTEL SP34 Sankt Peters Stræde 34
+    location: Copenhagen, Denmark
+    address: Neurobiology Research Unit
+      street: 
       city: Copehangen
       region:
-      postcode: 1453
+      postcode: 
       country: Denmark
     position:
       lat: 55.67
       lng: 12.56
-    date: '2022-11-29'
-    date_end:
+    date: '2022-12-5'
+    date_end: '2022-12-7'
     mattermost_channel:
-    twitter_handle:
+    twitter_handle: @OpenNeuroPET
     facebook:
     instagram:
     website: https://openneuropet.github.io/brainhack/
     github_username: openneuropet
     image:
     image_caption:
-    publishDate: '2032-10-07'
+    publishDate: '2022-10-28'
   - title: Brainhack Zurich
     format: hybrid
     display: false
