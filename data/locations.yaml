@@ -644,7 +644,7 @@ events:
     instagram:
     website: https://openneuropet.github.io/brainhack/
     github_username: openneuropet
-    image:
+    image: nordic.png
     image_caption:
     publishDate: '2022-10-28'
   - title: Brainhack Zurich
