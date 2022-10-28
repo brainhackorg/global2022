@@ -11,17 +11,17 @@ event_url: https://brainhack-donostia.github.io
 location: Basque Center on Cognition, Brain and Language
 
 address:
-  street:
+  street: 
   city: Donostia
-  region:
-  postcode:
+  region: 
+  postcode: 
   country: Basque Country
 
 summary: |
-
+  
 
 abstract: |
-
+  
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -30,7 +30,7 @@ date_end: "2022-11-25"
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2022-10-09"
+publishDate: "2022-10-27"
 
 authors: []
 tags: []
@@ -76,3 +76,4 @@ projects:
 # Enable math on this page?
 math: true
 ---
+
