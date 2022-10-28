@@ -627,9 +627,9 @@ events:
       - Melanie Ganz
     contact:
     location: Copenhagen, Denmark
-    address: Neurobiology Research Unit
-      street: 
-      city: Copehangen
+    address: 
+      street: Neurobiology Research Unit
+      city: Copenhangen
       region:
       postcode: 
       country: Denmark
