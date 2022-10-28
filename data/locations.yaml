@@ -639,7 +639,7 @@ events:
     date: '2022-12-5'
     date_end: '2022-12-7'
     mattermost_channel:
-    twitter_handle: @OpenNeuroPET
+    twitter_handle: OpenNeuroPET
     facebook:
     instagram:
     website: https://openneuropet.github.io/brainhack/
