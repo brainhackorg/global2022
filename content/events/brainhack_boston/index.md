@@ -39,8 +39,7 @@ tags: []
 featured: false
 
 image:
-  caption: "Image credit: [**Brainhack
-Boston**](https://github.com/openneuropet/outreach/tree/main/Brainhack-MGH2022)"
+  caption: "Image credit: [**Brainhack Boston**](https://github.com/openneuropet/outreach/tree/main/Brainhack-MGH2022)"
   focal_point: center
 
 links:

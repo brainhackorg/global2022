@@ -25,8 +25,8 @@ abstract: |
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2022-12-5"
-date_end: "2022-12-7"
+date: "2022-12-05"
+date_end: "2022-12-07"
 all_day: true
 
 # Schedule page publish date (NOT event date).

@@ -636,8 +636,8 @@ events:
     position:
       lat: 55.67
       lng: 12.56
-    date: 2022-12-5
-    date_end: 2022-12-7
+    date: '2022-12-05'
+    date_end: '2022-12-07'
     mattermost_channel:
     twitter_handle: OpenNeuroPET
     facebook:
