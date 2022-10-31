@@ -796,3 +796,31 @@ events:
     image:
     image_caption:
     publishDate: '2032-10-25'
+  - title: BOB (Boundaries of the Brain)
+    display: true 
+    format: in person with some streaming
+    organizers:
+      - Claude Julien Bajada
+      - Raisa Grech
+    contact:
+    location: University of Malta
+    address:
+      street:
+      city: Msida
+      region:
+      postcode:
+      country: Malta
+    position:
+      lat: 35.897778
+      lng: 14.489444
+     date:  '2022-11-30'
+     date_end:  '2022-12-02'
+     mattermost_channel: brainhack-malta
+     twitter_handle: NeuroCerberus
+     facebook:
+     instagram:
+     website: https://boblab.info
+     github_username:
+     image:  
+     image_caption:  
+     publishDate: 
