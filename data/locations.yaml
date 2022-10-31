@@ -813,14 +813,14 @@ events:
     position:
       lat: 35.897778
       lng: 14.489444
-     date:  '2022-11-30'
-     date_end:  '2022-12-02'
-     mattermost_channel: brainhack-malta
-     twitter_handle: NeuroCerberus
-     facebook:
-     instagram:
-     website: https://boblab.info
-     github_username:
-     image:  
-     image_caption:  
-     publishDate: 
+    date: '2022-11-30'
+    date_end: '2022-12-02'
+    mattermost_channel: brainhack-malta
+    twitter_handle: NeuroCerberus
+    facebook:
+    instagram:
+    website: https://boblab.info
+    github_username:
+    image:  
+    image_caption:  
+    publishDate: 
