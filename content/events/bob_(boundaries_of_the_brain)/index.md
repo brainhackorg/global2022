@@ -11,17 +11,17 @@ event_url: https://boblab.info
 location: University of Malta
 
 address:
-  street: 
+  street:
   city: Msida
-  region: 
-  postcode: 
+  region:
+  postcode:
   country: Malta
 
 summary: |
-  
+
 
 abstract: |
-  
+
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -72,4 +72,3 @@ projects:
 # Enable math on this page?
 math: true
 ---
-
