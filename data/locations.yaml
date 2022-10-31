@@ -556,13 +556,13 @@ events:
     image_caption: 'Image credit: [**Brainhack Geneva**](https://brainhack.ch/)'
     publishDate: '2022-10-27'
   - title: BrainHack Toronto
-    format: online
-    display: false
+    format: fully hybrid
+    display: true
     abstract:
     summary:
     organizers:
       - Erin Dickie
-      - John Griffiths
+      - Ju-Chi Yu
     contact:
     location: Krembil Centre for Neuroinformatics, Centre for Addiction and Mental
       Health
@@ -575,17 +575,17 @@ events:
     position:
       lat: 43.654730647517326
       lng: -79.40470761077849
-    date: '2022-11-29'
-    date_end:
+    date: '2022-12-08'
+    date_end: '2022-12-09'
     mattermost_channel: brainhack-toronto
     twitter_handle: brainhackto
     facebook:
     instagram:
     website: https://brainhackto.github.io/global-toronto-12-2022/
-    github_username: brainhackto
-    image:
+    github_username: BrainHackTO
+    image: toronto.png
     image_caption:
-    publishDate: '2032-10-25'
+    publishDate: '2022-10-32'
   - title: Brainhack UCLA
     format: hybrid
     display: false
