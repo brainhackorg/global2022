@@ -11,17 +11,17 @@ event_url: https://brain-web.github.io
 location: Institut Pasteur
 
 address:
-  street: 
+  street:
   city: Paris
-  region: 
-  postcode: 
+  region:
+  postcode:
   country: France
 
 summary: |
   VR and AR in neuroscience
 
 abstract: |
-  
+
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -68,7 +68,7 @@ links:
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references 
+#   E.g. `projects = ["internal-project"]` references
 `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
@@ -77,4 +77,3 @@ projects:
 # Enable math on this page?
 math: true
 ---
-

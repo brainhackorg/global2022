@@ -8,21 +8,21 @@ title: BrainHack Toronto
 event: BrainHack Toronto
 event_url: https://brainhackto.github.io/global-toronto-12-2022/
 
-location: Krembil Centre for Neuroinformatics, Centre for Addiction and Mental 
+location: Krembil Centre for Neuroinformatics, Centre for Addiction and Mental
 Health
 
 address:
-  street: 
+  street:
   city: Toronto
-  region: 
-  postcode: 
+  region:
+  postcode:
   country: Canada
 
 summary: |
-  
+
 
 abstract: |
-  
+
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -69,7 +69,7 @@ links:
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references 
+#   E.g. `projects = ["internal-project"]` references
 `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
@@ -78,4 +78,3 @@ projects:
 # Enable math on this page?
 math: true
 ---
-

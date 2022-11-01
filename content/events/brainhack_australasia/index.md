@@ -11,17 +11,17 @@ event_url: https://brainhack-aus.github.io/global2022/
 location: University of Sydney / National Imaging Facility
 
 address:
-  street: 
+  street:
   city: Sydney
-  region: 
-  postcode: 
+  region:
+  postcode:
   country: Australia
 
 summary: |
-  
+
 
 abstract: |
-  
+
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -39,7 +39,7 @@ tags: []
 featured: false
 
 image:
-  caption: "Image credit: [**Brainhack 
+  caption: "Image credit: [**Brainhack
 Australia**](https://brainhack-aus.github.io/global2021/)"
   focal_point: center
 
@@ -57,7 +57,7 @@ links:
   - icon: mattermost
     icon_pack: custom
     name: Mattermost
-    url: 
+    url:
 https://mattermost.brainhack.org/brainhack/channels/brainhack-australasia
 
 
@@ -70,7 +70,7 @@ https://mattermost.brainhack.org/brainhack/channels/brainhack-australasia
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references 
+#   E.g. `projects = ["internal-project"]` references
 `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
@@ -79,4 +79,3 @@ projects:
 # Enable math on this page?
 math: true
 ---
-

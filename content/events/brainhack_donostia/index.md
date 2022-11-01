@@ -11,17 +11,17 @@ event_url: https://brainhack-donostia.github.io
 location: Basque Center on Cognition, Brain and Language
 
 address:
-  street: 
+  street:
   city: Donostia
-  region: 
-  postcode: 
+  region:
+  postcode:
   country: Basque Country
 
 summary: |
-  
+
 
 abstract: |
-  
+
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -39,7 +39,7 @@ tags: []
 featured: false
 
 image:
-  caption: "Image credit: [**Brainhack 
+  caption: "Image credit: [**Brainhack
 Donostia**](https://brainhack-donostia.github.io)"
   focal_point: center
 
@@ -69,7 +69,7 @@ links:
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references 
+#   E.g. `projects = ["internal-project"]` references
 `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
@@ -78,4 +78,3 @@ projects:
 # Enable math on this page?
 math: true
 ---
-

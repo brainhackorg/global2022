@@ -11,17 +11,17 @@ event_url: https://boblab.info
 location: University of Malta
 
 address:
-  street: 
+  street:
   city: Msida
-  region: 
-  postcode: 
+  region:
+  postcode:
   country: Malta
 
 summary: |
-  
+
 
 abstract: |
-  
+
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -39,7 +39,7 @@ tags: []
 featured: false
 
 image:
-  caption: "Image credit: [**BOB (Boundaries of the 
+  caption: "Image credit: [**BOB (Boundaries of the
 Brain)**](https://boblab.info)"
   focal_point: center
 
@@ -65,7 +65,7 @@ links:
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references 
+#   E.g. `projects = ["internal-project"]` references
 `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
@@ -74,4 +74,3 @@ projects:
 # Enable math on this page?
 math: true
 ---
-
