@@ -6,22 +6,22 @@
 
 title: BrainHack Yale
 event: BrainHack Yale
-event_url: 
+event_url:
 
 location: Yale University
 
 address:
-  street: 
+  street:
   city: New Haven
-  region: 
-  postcode: 
+  region:
+  postcode:
   country: United States
 
 summary: |
-  
+
 
 abstract: |
-  
+
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -60,4 +60,3 @@ projects:
 # Enable math on this page?
 math: true
 ---
-

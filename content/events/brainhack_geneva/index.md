@@ -13,15 +13,15 @@ location: Foundation Campus Biotech Geneva (FCBG)
 address:
   street: Chemin des Mines 9
   city: Geneva
-  region: 
+  region:
   postcode: 1202
   country: Switzerland
 
 summary: |
-  
+
 
 abstract: |
-  
+
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -68,4 +68,3 @@ projects:
 # Enable math on this page?
 math: true
 ---
-
