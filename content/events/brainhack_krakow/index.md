@@ -13,7 +13,7 @@ location: Institute of Psychology
 address:
   street: Romana Ingardena 6
   city: Krakow
-  region:
+  region: 
   postcode: 30-060
   country: Poland
 
@@ -30,7 +30,7 @@ date_end: "2022-10-23"
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2022-10-30"
+publishDate: "2022-10-31"
 
 authors: []
 tags: []
@@ -39,7 +39,8 @@ tags: []
 featured: false
 
 image:
-  caption: "Image credit: [**Brainhack Krakow**](https://www.brainhack-krakow.org)"
+  caption: "Image credit: [**Brainhack 
+Krakow**](https://www.brainhack-krakow.org)"
   focal_point: center
 
 links:
@@ -68,7 +69,8 @@ links:
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   E.g. `projects = ["internal-project"]` references 
+`content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
 # - project_84
@@ -76,3 +78,4 @@ projects:
 # Enable math on this page?
 math: true
 ---
+

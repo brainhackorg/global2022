@@ -11,17 +11,17 @@ event_url: https://github.com/openneuropet/outreach/tree/main/Brainhack-MGH2022
 location: MGH,
 
 address:
-  street:
+  street: 
   city: Boston
-  region:
-  postcode:
+  region: 
+  postcode: 
   country: USA
 
 summary: |
   PET and multimodal imaging
 
 abstract: |
-
+  
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -30,7 +30,7 @@ date_end: ""
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2032-10-28"
+publishDate: "2032-10-29"
 
 authors: []
 tags: []
@@ -39,7 +39,7 @@ tags: []
 featured: false
 
 image:
-  caption: "Image credit: [**Brainhack
+  caption: "Image credit: [**Brainhack 
 Boston**](https://github.com/openneuropet/outreach/tree/main/Brainhack-MGH2022)"
   focal_point: center
 
@@ -57,7 +57,8 @@ links:
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   E.g. `projects = ["internal-project"]` references 
+`content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
 # - project_84
@@ -65,3 +66,4 @@ projects:
 # Enable math on this page?
 math: true
 ---
+

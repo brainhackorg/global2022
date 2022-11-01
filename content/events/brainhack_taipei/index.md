@@ -11,17 +11,17 @@ event_url: https://langsci-edu.github.io/brainhack21
 location: Graduate Institute of Linguistics, National Taiwan University
 
 address:
-  street:
+  street: 
   city: Taipei
-  region:
-  postcode:
+  region: 
+  postcode: 
   country: Taiwan
 
 summary: |
   In person only - EEG data analysis
 
 abstract: |
-
+  
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -30,7 +30,7 @@ date_end: ""
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2032-10-28"
+publishDate: "2032-10-29"
 
 authors: []
 tags: []
@@ -60,7 +60,8 @@ links:
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   E.g. `projects = ["internal-project"]` references 
+`content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
 # - project_84
@@ -68,3 +69,4 @@ projects:
 # Enable math on this page?
 math: true
 ---
+

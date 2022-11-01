@@ -13,15 +13,15 @@ location: Foundation Campus Biotech Geneva (FCBG)
 address:
   street: Chemin des Mines 9
   city: Geneva
-  region:
+  region: 
   postcode: 1202
   country: Switzerland
 
 summary: |
-
+  
 
 abstract: |
-
+  
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -30,7 +30,7 @@ date_end: "2022-12-03"
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2022-10-30"
+publishDate: "2022-10-31"
 
 authors: []
 tags: []
@@ -60,7 +60,8 @@ links:
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   E.g. `projects = ["internal-project"]` references 
+`content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
 # - project_84
@@ -68,3 +69,4 @@ projects:
 # Enable math on this page?
 math: true
 ---
+

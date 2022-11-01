@@ -11,17 +11,17 @@ event_url: https://brainhackwestern.github.io
 location: University of Western Ontario
 
 address:
-  street:
+  street: 
   city: London
   region: Ontario
-  postcode:
+  postcode: 
   country: Canada
 
 summary: |
-
+  
 
 abstract: |
-
+  
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -30,7 +30,7 @@ date_end: "2022-12-02"
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2022-10-30"
+publishDate: "2022-10-31"
 
 authors: []
 tags: []
@@ -39,7 +39,8 @@ tags: []
 featured: false
 
 image:
-  caption: "Image credit: [**Brainhack Western**](https://brainhackwestern.github.io)"
+  caption: "Image credit: [**Brainhack 
+Western**](https://brainhackwestern.github.io)"
   focal_point: center
 
 links:
@@ -64,7 +65,8 @@ links:
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   E.g. `projects = ["internal-project"]` references 
+`content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
 # - project_84
@@ -72,3 +74,4 @@ projects:
 # Enable math on this page?
 math: true
 ---
+
