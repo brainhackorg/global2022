@@ -30,7 +30,7 @@ date_end: "2022-12-09"
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2032-10-29"
+publishDate: "2022-11-01"
 
 authors: []
 tags: []
@@ -39,7 +39,7 @@ tags: []
 featured: false
 
 image:
-  caption: "Image credit: [**BrainHack Toronto**](https://brainhackto.github.io/global-toronto-12-2022/)"
+  caption: ""
   focal_point: center
 
 links:
@@ -63,7 +63,7 @@ links:
   - icon: github
     icon_pack: fab
     name: Github
-    url: https://www.github.com/BrainHackTO
+    url: https://www.github.com/brainhackto
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.

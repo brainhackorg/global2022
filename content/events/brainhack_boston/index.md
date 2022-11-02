@@ -30,7 +30,7 @@ date_end: ""
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2032-10-29"
+publishDate: "2032-10-30"
 
 authors: []
 tags: []
@@ -39,8 +39,7 @@ tags: []
 featured: false
 
 image:
-  caption: "Image credit: [**Brainhack
-Boston**](https://github.com/openneuropet/outreach/tree/main/Brainhack-MGH2022)"
+  caption: "Image credit: [**Brainhack Boston**](https://github.com/openneuropet/outreach/tree/main/Brainhack-MGH2022)"
   focal_point: center
 
 links:
