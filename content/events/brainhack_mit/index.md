@@ -11,17 +11,17 @@ event_url: https://neuronets.github.io/mit-brainhack2022/?version=b7e8e2f
 location: MIT
 
 address:
-  street:
+  street: 
   city: Boston
-  region:
-  postcode:
+  region: 
+  postcode: 
   country: USA
 
 summary: |
-
+  
 
 abstract: |
-
+  
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -30,7 +30,7 @@ date_end: ""
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2032-10-30"
+publishDate: "2032-10-31"
 
 authors: []
 tags: []
@@ -76,3 +76,4 @@ projects:
 # Enable math on this page?
 math: true
 ---
+
