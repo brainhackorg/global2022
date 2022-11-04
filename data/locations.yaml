@@ -2,7 +2,9 @@ events:
   # TEMPLATE
   # - title: # what will be displayed
   #   display: # true or false; if false, the event will not be displayed on the website
-  #   format: # the format of the event (e.g. "online", "in-person", "hybrid")
+  #   format: # the format of the event (e.g. "Online", "In person", "Hybrid")
+  #   abstract:
+  #   summary: # one sentence summary of the event, will display on the website
   #   organizers:
   #     -
   #   contact:
@@ -593,7 +595,7 @@ events:
     image_caption: 'Image credit: [**Brainhack Geneva**](https://brainhack.ch/)'
     publishDate: '2022-11-02'
   - title: BrainHack Toronto
-    format: fully hybrid
+    format: Hybrid
     display: true
     abstract:
     summary:
@@ -655,7 +657,7 @@ events:
     image_caption:
     publishDate: '2032-10-31'
   - title: Brainhack Nordic
-    format: in person
+    format: In person
     display: true
     abstract:
     summary: PET imaging and BIDS
