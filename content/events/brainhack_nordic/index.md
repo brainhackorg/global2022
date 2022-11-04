@@ -13,15 +13,15 @@ location: Copenhagen, Denmark
 address:
   street: Neurobiology Research Unit
   city: Copenhangen
-  region: 
-  postcode: 
+  region:
+  postcode:
   country: Denmark
 
 summary: |
   PET imaging and BIDS
 
 abstract: |
-  
+
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -72,4 +72,3 @@ projects:
 # Enable math on this page?
 math: true
 ---
-
