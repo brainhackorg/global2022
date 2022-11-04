@@ -6,7 +6,7 @@
 
 title: Brainhack Marburg
 event: Brainhack Marburg
-event_url: https://brainhack-marburg.github.io/
+event_url: https://openscienceinitiativeuniversitymarburg.github.io/
 
 location: Open Science Initiative University Marburg
 
@@ -26,11 +26,11 @@ abstract: |
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
 date: "2022-11-29"
-date_end: ""
+date_end: "2022-11-30"
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2032-10-30"
+publishDate: "2022-11-02"
 
 authors: []
 tags: []
@@ -39,19 +39,19 @@ tags: []
 featured: false
 
 image:
-  caption: ""
+  caption: "Image credit: [**Brainhack Marburg**](https://openscienceinitiativeuniversitymarburg.github.io/)"
   focal_point: center
 
 links:
   - icon: globe
     icon_pack: fas
     name: Website
-    url: https://brainhack-marburg.github.io/
+    url: https://openscienceinitiativeuniversitymarburg.github.io/
 
   - icon: twitter
     icon_pack: fab
-    name: "@OpenScieneUM"
-    url: https://twitter.com/OpenScieneUM
+    name: "@OpenScienceUM"
+    url: https://twitter.com/OpenScienceUM
 
   - icon: mattermost
     icon_pack: custom
