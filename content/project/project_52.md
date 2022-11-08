@@ -4,6 +4,11 @@
   "issue_number": 52,
   "labels": [
     {
+      "name": "donostia_esp",
+      "description": "Donostia event",
+      "color": "d4c5f9"
+    },
+    {
       "name": "git_skills:0_none",
       "description": "",
       "color": "bfdadc"

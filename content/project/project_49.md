@@ -4,6 +4,11 @@
   "issue_number": 49,
   "labels": [
     {
+      "name": "melbourne_aus",
+      "description": "Australasia event",
+      "color": "d4c5f9"
+    },
+    {
       "name": "programming:C++",
       "description": "",
       "color": "5319e7"
