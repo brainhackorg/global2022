@@ -4,6 +4,11 @@
   "issue_number": 51,
   "labels": [
     {
+      "name": "marseille_fra",
+      "description": "Marseille event",
+      "color": "d4c5f9"
+    },
+    {
       "name": "git_skills:2_branches_PRs",
       "description": "",
       "color": "bfdadc"
