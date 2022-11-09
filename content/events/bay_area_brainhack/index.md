@@ -11,17 +11,17 @@ event_url: https://brainhack-bayarea.github.io/home/
 location: UCSF, UCB, Standford
 
 address:
-  street: 
+  street:
   city: San Francisco
-  region: 
-  postcode: 
+  region:
+  postcode:
   country: United States
 
 summary: |
-  
+
 
 abstract: |
-  
+
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -68,4 +68,3 @@ projects:
 # Enable math on this page?
 math: true
 ---
-
