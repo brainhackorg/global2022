@@ -44,7 +44,7 @@ events:
     contact:
       - matteo.visconti@berkeley.edu
       - elizabethm.dupre@gmail.com
-    location: UCSF, UCB, Standford
+    location: UC San Francisco, UC Berkeley, Stanford University
     address:
       street:
       city: San Francisco
@@ -64,7 +64,7 @@ events:
     github_username:
     image: bayarea.png
     image_caption: 'Image credit: [**Bay Area Brainhack**](https://brainhack-bayarea.github.io/home/)'
-    publishDate: '2022-11-07'
+    publishDate: '2022-11-08'
   - title: Brainhack Physiopy
     format: Online
     display: true
@@ -84,8 +84,8 @@ events:
       postcode:
       country:
     position:
-      lat: 40.26862975247241
-      lng: -39.84765115027998
+      lat: 31.254314
+      lng: -24.258481
     date: '2022-11-29'
     date_end: '2022-12-01'
     mattermost_channel: physiopy
@@ -94,9 +94,9 @@ events:
     instagram:
     website:
     github_username: physiopy
-    image:
-    image_caption:
-    publishDate: '2022-11-07'
+    image: physiopy.png
+    image_caption: 'Image credit: [**Brainhack Physiopy**](https://github.com/physiopy)'
+    publishDate: '2022-11-08'
   - title: The BOB Hack
     format: In person
     display: true
@@ -128,7 +128,7 @@ events:
     github_username:
     image: malta.jpg
     image_caption: 'Image credit: [**The BOB Hack**](https://boblab.info)'
-    publishDate: '2022-11-07'
+    publishDate: '2022-11-08'
   - title: Brainhack Krakow
     format: In person
     display: true
@@ -160,7 +160,7 @@ events:
     github_username: Brainhack-2022
     image: krakow.jpg
     image_caption: 'Image credit: [**Brainhack Krakow**](https://www.brainhack-krakow.org)'
-    publishDate: '2022-11-07'
+    publishDate: '2022-11-08'
   - title: Brainhack Australasia
     format: In person
     display: true
@@ -192,7 +192,7 @@ events:
     github_username: brainhack-aus
     image: australia.jpg
     image_caption: 'Image credit: [**Brainhack Australia**](https://brainhack-aus.github.io/global2021/)'
-    publishDate: '2022-11-07'
+    publishDate: '2022-11-08'
   - title: Brainhack Donostia
     format: In person
     display: true
@@ -224,7 +224,7 @@ events:
     github_username: brainhack-donostia
     image: donostia.jpg
     image_caption: 'Image credit: [**Brainhack Donostia**](https://brainhack-donostia.github.io)'
-    publishDate: '2022-11-07'
+    publishDate: '2022-11-08'
   - title: Brainhack Marseille
     format: In person
     display: true
@@ -255,7 +255,7 @@ events:
     github_username: brainhack-marseille
     image: marseille.png
     image_caption: 'Image credit: [**Brainhack Marseille**](https://brainhack-marseille.github.io/)'
-    publishDate: '2022-11-07'
+    publishDate: '2022-11-08'
   - title: BrainHack Bloomington
     format: online
     display: false
@@ -285,7 +285,7 @@ events:
     github_username:
     image:
     image_caption:
-    publishDate: '2032-11-05'
+    publishDate: '2032-11-06'
   - title: BrainHack Minipig
     format: online
     display: false
@@ -315,7 +315,7 @@ events:
     github_username:
     image:
     image_caption:
-    publishDate: '2032-11-05'
+    publishDate: '2032-11-06'
   - title: BrainHack MIT
     format: online
     display: false
@@ -345,7 +345,7 @@ events:
     github_username: neuronets
     image: mit.jpg
     image_caption: 'Image credit: [**BrainHack MIT**](https://neuronets.github.io/mit-brainhack2022/?version=b7e8e2f)'
-    publishDate: '2032-11-05'
+    publishDate: '2032-11-06'
   - title: BrainHack Yale
     format: IRL
     display: false
@@ -375,7 +375,7 @@ events:
     github_username:
     image:
     image_caption:
-    publishDate: '2032-11-05'
+    publishDate: '2032-11-06'
   - title: Brainhack Taipei
     format: IRL
     display: false
@@ -405,7 +405,7 @@ events:
     github_username: langsci-edu
     image:
     image_caption:
-    publishDate: '2032-11-05'
+    publishDate: '2032-11-06'
   - title: Brainhack Marburg
     format: Online
     display: true
@@ -437,7 +437,7 @@ events:
     github_username: brainhack-marburg
     image: marburg.png
     image_caption: 'Image credit: [**Brainhack Marburg**](https://openscienceinitiativeuniversitymarburg.github.io/)'
-    publishDate: '2022-11-07'
+    publishDate: '2022-11-08'
   - title: Brainhack Zagreb
     format: IRL
     display: false
@@ -471,7 +471,7 @@ events:
     github_username: brainhackzg
     image: zagreb.png
     image_caption: 'Image credit: [**Brainhack Zagreb**](https://brainhackzg.github.io/)'
-    publishDate: '2032-11-05'
+    publishDate: '2032-11-06'
   - title: BrainWeb metaverse
     format: online
     display: false
@@ -501,7 +501,7 @@ events:
     github_username: brain-web
     image:
     image_caption:
-    publishDate: '2032-11-05'
+    publishDate: '2032-11-06'
   - title: Brainhack Avoca
     format: hybrid
     display: false
@@ -531,7 +531,7 @@ events:
     github_username:
     image:
     image_caption:
-    publishDate: '2032-11-05'
+    publishDate: '2032-11-06'
   - title: Brainhack Washington DC
     format: hybrid
     display: false
@@ -564,7 +564,7 @@ events:
     github_username: brainhackdc
     image: washington.png
     image_caption: 'Image credit: [**Brainhack Washington DC**](https://brainhackdc.github.io/)'
-    publishDate: '2032-11-05'
+    publishDate: '2032-11-06'
   - title: BrainHack UVA
     format: IRL
     display: false
@@ -594,7 +594,7 @@ events:
     github_username:
     image:
     image_caption:
-    publishDate: '2032-11-05'
+    publishDate: '2032-11-06'
   - title: Brainhack Western
     format: In person
     display: true
@@ -624,7 +624,7 @@ events:
     github_username: brainhackwestern
     image: western.png
     image_caption: 'Image credit: [**Brainhack Western**](https://brainhackwestern.github.io)'
-    publishDate: '2022-11-07'
+    publishDate: '2022-11-08'
   - title: Brainhack Geneva
     format: In person
     display: true
@@ -656,7 +656,7 @@ events:
     github_username:
     image: geneva.jpg
     image_caption: 'Image credit: [**Brainhack Geneva**](https://brainhack.ch/)'
-    publishDate: '2022-11-07'
+    publishDate: '2022-11-08'
   - title: BrainHack Toronto
     format: Hybrid
     display: true
@@ -687,7 +687,7 @@ events:
     github_username: brainhackto
     image:
     image_caption:
-    publishDate: '2022-11-07'
+    publishDate: '2022-11-08'
   - title: Brainhack UCLA
     format: hybrid
     display: false
@@ -718,7 +718,7 @@ events:
     github_username:
     image:
     image_caption:
-    publishDate: '2032-11-05'
+    publishDate: '2032-11-06'
   - title: Brainhack Nordic
     format: In person
     display: true
@@ -748,7 +748,7 @@ events:
     github_username: openneuropet
     image: nordic.png
     image_caption: 'Image credit: [**Brainhack Nordic**](https://openneuropet.github.io/brainhack/)'
-    publishDate: '2022-11-07'
+    publishDate: '2022-11-08'
   - title: Brainhack Zurich
     format: hybrid
     display: false
@@ -778,7 +778,7 @@ events:
     github_username:
     image:
     image_caption:
-    publishDate: '2032-11-05'
+    publishDate: '2032-11-06'
   - title: Brainhack Boston
     format: online
     display: false
@@ -807,7 +807,7 @@ events:
     github_username:
     image: boston.png
     image_caption: 'Image credit: [**Brainhack Boston**](https://github.com/openneuropet/outreach/tree/main/Brainhack-MGH2022)'
-    publishDate: '2032-11-05'
+    publishDate: '2032-11-06'
   - title: Brainhack NYC
     format: hybrid
     display: false
@@ -837,7 +837,7 @@ events:
     github_username: brainhacknyc
     image:
     image_caption:
-    publishDate: '2032-11-05'
+    publishDate: '2032-11-06'
   - title: Brainhack Montreal
     format: hybrid
     display: false
@@ -867,7 +867,7 @@ events:
     github_username: brainhackmtl
     image: montreal.jpeg
     image_caption: 'Image credit: [**Brainhack Montreal**](https://brainhackmtl.github.io/global2021/)'
-    publishDate: '2032-11-05'
+    publishDate: '2032-11-06'
   - title: BrainHack Magdeburd
     format: online
     display: false
@@ -897,4 +897,4 @@ events:
     github_username: brainhack-magdeburg
     image:
     image_caption:
-    publishDate: '2032-11-05'
+    publishDate: '2032-11-06'
