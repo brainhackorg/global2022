@@ -18,10 +18,10 @@ address:
   country: USA
 
 summary: |
-
+  
 
 abstract: |
-
+  
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -30,7 +30,7 @@ date_end: ""
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2032-11-06"
+publishDate: "2032-11-08"
 
 authors: []
 tags: []
@@ -76,3 +76,4 @@ projects:
 # Enable math on this page?
 math: true
 ---
+
