@@ -11,17 +11,17 @@ event_url: https://physiopy.github.io/brainhack-physiopy-2022/
 location: Physiopy
 
 address:
-  street: 
+  street:
   city: Atlantis
-  region: 
-  postcode: 
-  country: 
+  region:
+  postcode:
+  country:
 
 summary: |
-  
+
 
 abstract: |
-  
+
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -72,4 +72,3 @@ projects:
 # Enable math on this page?
 math: true
 ---
-

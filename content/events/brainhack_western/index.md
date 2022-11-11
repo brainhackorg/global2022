@@ -11,17 +11,17 @@ event_url: https://brainhackwestern.github.io
 location: University of Western Ontario
 
 address:
-  street: 
+  street:
   city: London
   region: Ontario
-  postcode: 
+  postcode:
   country: Canada
 
 summary: |
-  
+
 
 abstract: |
-  
+
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -72,4 +72,3 @@ projects:
 # Enable math on this page?
 math: true
 ---
-

@@ -15,17 +15,17 @@ location: Medical School, University of Zagreb;
 
 
 address:
-  street: 
+  street:
   city: Zagreb
-  region: 
-  postcode: 
+  region:
+  postcode:
   country: Croatia
 
 summary: |
   Blockchain
 
 abstract: |
-  
+
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -80,4 +80,3 @@ projects:
 # Enable math on this page?
 math: true
 ---
-

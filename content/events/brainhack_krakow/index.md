@@ -13,7 +13,7 @@ location: Institute of Psychology
 address:
   street: Romana Ingardena 6
   city: Krakow
-  region: 
+  region:
   postcode: 30-060
   country: Poland
 
@@ -76,4 +76,3 @@ projects:
 # Enable math on this page?
 math: true
 ---
-
