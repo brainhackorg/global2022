@@ -6,7 +6,7 @@
 
 title: Brainhack Physiopy
 event: Brainhack Physiopy
-event_url:
+event_url: https://physiopy.github.io/brainhack-physiopy-2022/
 
 location: Physiopy
 
@@ -30,7 +30,7 @@ date_end: "2022-12-01"
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2022-11-08"
+publishDate: "2022-11-10"
 
 authors: []
 tags: []
@@ -43,6 +43,10 @@ image:
   focal_point: center
 
 links:
+  - icon: globe
+    icon_pack: fas
+    name: Website
+    url: https://physiopy.github.io/brainhack-physiopy-2022/
 
 
   - icon: mattermost
