@@ -74,6 +74,11 @@
       "color": "0052cc"
     },
     {
+      "name": "status:published",
+      "description": "",
+      "color": "0e8a16"
+    },
+    {
       "name": "topic:diffusion",
       "description": "",
       "color": "006b75"
