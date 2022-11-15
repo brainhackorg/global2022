@@ -79,6 +79,11 @@
       "color": "0052cc"
     },
     {
+      "name": "status:published",
+      "description": "",
+      "color": "0e8a16"
+    },
+    {
       "name": "project_type:pipeline_development",
       "description": "",
       "color": "c5def5"
