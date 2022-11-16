@@ -4,8 +4,8 @@
   "issue_number": 17,
   "labels": [
     {
-      "name": "sydney_aus",
-      "description": "Sydney event",
+      "name": "melbourne_aus",
+      "description": "Australasia event",
       "color": "d4c5f9"
     },
     {
