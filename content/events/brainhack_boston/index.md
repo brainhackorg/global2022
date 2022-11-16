@@ -6,31 +6,31 @@
 
 title: Brainhack Boston
 event: Brainhack Boston
-event_url: https://github.com/openneuropet/outreach/tree/main/Brainhack-MGH2022
+event_url: https://brainhack-boston.github.io/
 
-location: MGH,
+location: MIT
 
 address:
-  street:
-  city: Boston
+  street: MIT
+  city: Cambridge
   region:
   postcode:
   country: USA
 
 summary: |
-  PET and multimodal imaging
+
 
 abstract: |
 
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2022-11-29"
-date_end: ""
+date: "2022-12-08"
+date_end: "2022-12-09"
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2032-11-08"
+publishDate: "2022-11-15"
 
 authors: []
 tags: []
@@ -39,20 +39,27 @@ tags: []
 featured: false
 
 image:
-  caption: "Image credit: [**Brainhack
-Boston**](https://github.com/openneuropet/outreach/tree/main/Brainhack-MGH2022)"
+  caption: "Image credit: [**Brainhack Boston**](https://brainhack-boston.github.io/)"
   focal_point: center
 
 links:
   - icon: globe
     icon_pack: fas
     name: Website
-    url: https://github.com/openneuropet/outreach/tree/main/Brainhack-MGH2022
+    url: https://brainhack-boston.github.io/
+
+
+  - icon: mattermost
+    icon_pack: custom
+    name: Mattermost
+    url: https://mattermost.brainhack.org/brainhack/channels/bhg22-boston
 
 
 
-
-
+  - icon: github
+    icon_pack: fab
+    name: Github
+    url: https://www.github.com/brainhack-boston
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.

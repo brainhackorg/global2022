@@ -30,7 +30,7 @@ date_end: "2022-11-25"
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2022-11-10"
+publishDate: "2022-11-15"
 
 authors: []
 tags: []
