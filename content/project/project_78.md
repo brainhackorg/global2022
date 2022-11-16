@@ -89,6 +89,11 @@
       "color": "0052cc"
     },
     {
+      "name": "status:published",
+      "description": "",
+      "color": "0e8a16"
+    },
+    {
       "name": "programming:R",
       "description": "",
       "color": "5319e7"
