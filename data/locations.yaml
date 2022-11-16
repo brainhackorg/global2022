@@ -533,12 +533,12 @@ events:
     image_caption:
     publishDate: '2032-11-08'
   - title: Brainhack Washington DC
-    format: hybrid
-    display: false
+    format: in person
+    display: true
     abstract:
     summary:
     organizers:
-      - Shawn Rhoads
+      - Marissa Laws
       - Dustin Moraczewski
     contact:
     location: |
@@ -547,17 +547,17 @@ events:
         University of Maryland - College Park
     address:
       street:
-      city: Washington DC
+      city: Bethesda MD
       region:
       postcode:
       country: USA
     position:
       lat: 39.05114973899682
       lng: -77.1204863663375
-    date: '2022-11-29'
-    date_end:
+    date: '2022-12-10'
+    date_end: '2022-12-11'
     mattermost_channel: bhg-washingtondc
-    twitter_handle:
+    twitter_handle: BrainhackDc
     facebook:
     instagram:
     website: https://brainhackdc.github.io/
