@@ -780,33 +780,34 @@ events:
     image_caption:
     publishDate: '2032-11-08'
   - title: Brainhack Boston
-    format: online
-    display: false
+    format: in person
+    display: true
     abstract:
-    summary: PET and multimodal imaging
+    summary:
     organizers:
       - Paul Wighton
+      - Dorota Jarecka
     contact:
-    location: MGH,
+    location: MIT
     address:
-      street:
-      city: Boston
+      street: MIT
+      city: Cambridge
       region:
       postcode:
       country: USA
     position:
       lat: 42.37
       lng: -71.05
-    date: '2022-11-29'
-    date_end:
-    mattermost_channel:
+    date: '2022-12-08'
+    date_end: '2022-12-09'
+    mattermost_channel: bhg22-boston
     twitter_handle:
     facebook:
     instagram:
-    website: https://github.com/openneuropet/outreach/tree/main/Brainhack-MGH2022
-    github_username:
+    website: https://brainhack-boston.github.io/
+    github_username: brainhack-boston
     image: boston.png
-    image_caption: 'Image credit: [**Brainhack Boston**](https://github.com/openneuropet/outreach/tree/main/Brainhack-MGH2022)'
+    image_caption: 'Image credit: [**Brainhack Boston**](https://brainhack-boston.github.io/)'
     publishDate: '2032-11-08'
   - title: Brainhack NYC
     format: hybrid
