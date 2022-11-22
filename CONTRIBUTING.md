@@ -1,3 +1,17 @@
+- [How to contribute to the Brainhack global 2022 website](#how-to-contribute-to-the-brainhack-global-2022-website)
+  - [Run the website locally](#run-the-website-locally)
+  - [Configuration](#configuration)
+  - [Content and what to modify where](#content-and-what-to-modify-where)
+    - [Partners](#partners)
+  - [Projects](#projects)
+  - [Images](#images)
+  - [Team](#team)
+  - [Updating events](#updating-events)
+    - [Requirements](#requirements)
+    - [Procedure](#procedure)
+  - [Updating the calendar](#updating-the-calendar)
+
+
 # How to contribute to the Brainhack global 2022 website
 
 Hugo based static website: https://gohugo.io/documentation/
@@ -130,3 +144,59 @@ If you want to remove an event from the website, you can simply set its
 `display` field to `false`.
 
 Commit the newly generated files, push and open a pull request to update the website.
+
+
+## Updating the calendar
+
+To do so you should have been granted access to this google calendar:
+
+https://calendar.google.com/calendar/embed?src=8mum7e3jm9628q1m6urpktbf1s%40group.calendar.google.com&ctz=Europe%2FBrussels
+
+To add all the google calendar events of a brainhack site,
+you must have an `.ics` file that lists all the events of that site.
+
+You should ask the organizers of the brainhack site to provide you with that.
+
+The content should look like a series of events delimited by a `BEGIN:VEVENT`
+and `END:VEVENT` tags (see below)
+
+Before adding these events to the global calendar, make sure that the `SUMMARY:`
+field of each event starts with the name of the brainhack site (see below).
+
+A quick search and replace should help you fix that.
+
+```text
+BEGIN:VEVENT
+DTSTART:20221124T123000Z
+DTEND:20221124T170000Z
+DTSTAMP:20221122T121943Z
+UID:3eafiooin01uhfgdg9q7qqekao@google.com
+CREATED:20220920T092305Z
+DESCRIPTION:
+LAST-MODIFIED:20221109T142705Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY: Donostia - Time to Work on Projects (Coffee Break @ 3:00pm)
+TRANSP:OPAQUE
+END:VEVENT
+
+BEGIN:VEVENT
+DTSTART:20221124T110000Z
+DTEND:20221124T123000Z
+DTSTAMP:20221122T121943Z
+UID:5c4i70k4a4b4q4jlgonhpu17gq@google.com
+CREATED:20220920T092236Z
+DESCRIPTION:
+LAST-MODIFIED:20221109T142655Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY: Donostia - Lunch Break
+TRANSP:OPAQUE
+END:VEVENT
+```
+
+Once this is done you can import the `.ics` file into the google calendar:
+
+https://support.google.com/calendar/answer/37118?hl=en&co=GENIE.Platform%3DDesktop
