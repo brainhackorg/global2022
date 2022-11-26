@@ -39,8 +39,7 @@ tags: []
 featured: false
 
 image:
-  caption: "Image credit: [**Brainhack 
-Nordic**](https://openneuropet.github.io/brainhack/)"
+  caption: "Image credit: [**Brainhack Nordic**](https://openneuropet.github.io/brainhack/)"
   focal_point: center
 
 links:

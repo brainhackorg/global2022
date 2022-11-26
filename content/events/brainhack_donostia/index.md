@@ -39,8 +39,7 @@ tags: []
 featured: false
 
 image:
-  caption: "Image credit: [**Brainhack 
-Donostia**](https://brainhack-donostia.github.io)"
+  caption: "Image credit: [**Brainhack Donostia**](https://brainhack-donostia.github.io)"
   focal_point: center
 
 links:

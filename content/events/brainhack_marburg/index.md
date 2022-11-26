@@ -39,8 +39,7 @@ tags: []
 featured: false
 
 image:
-  caption: "Image credit: [**Brainhack 
-Marburg**](https://openscienceinitiativeuniversitymarburg.github.io/)"
+  caption: "Image credit: [**Brainhack Marburg**](https://openscienceinitiativeuniversitymarburg.github.io/)"
   focal_point: center
 
 links:

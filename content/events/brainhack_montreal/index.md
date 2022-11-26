@@ -39,8 +39,7 @@ tags: []
 featured: false
 
 image:
-  caption: "Image credit: [**Brainhack 
-Montreal**](https://brainhackmtl.github.io/global2021/)"
+  caption: "Image credit: [**Brainhack Montreal**](https://brainhackmtl.github.io/global2021/)"
   focal_point: center
 
 links:

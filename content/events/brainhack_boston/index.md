@@ -39,8 +39,7 @@ tags: []
 featured: false
 
 image:
-  caption: "Image credit: [**Brainhack 
-Boston**](https://brainhack-boston.github.io/)"
+  caption: "Image credit: [**Brainhack Boston**](https://brainhack-boston.github.io/)"
   focal_point: center
 
 links:

@@ -39,8 +39,7 @@ tags: []
 featured: false
 
 image:
-  caption: "Image credit: [**Brainhack 
-Western**](https://brainhackwestern.github.io)"
+  caption: "Image credit: [**Brainhack Western**](https://brainhackwestern.github.io)"
   focal_point: center
 
 links:

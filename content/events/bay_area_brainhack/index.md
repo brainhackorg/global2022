@@ -39,8 +39,7 @@ tags: []
 featured: false
 
 image:
-  caption: "Image credit: [**Bay Area 
-Brainhack**](https://brainhack-bayarea.github.io/home/)"
+  caption: "Image credit: [**Bay Area Brainhack**](https://brainhack-bayarea.github.io/home/)"
   focal_point: center
 
 links:
