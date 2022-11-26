@@ -11,17 +11,17 @@ event_url: https://brainhack-bayarea.github.io/home/
 location: UC San Francisco, UC Berkeley, Stanford University
 
 address:
-  street: 
+  street:
   city: San Francisco
-  region: 
-  postcode: 
+  region:
+  postcode:
   country: United States
 
 summary: |
-  
+
 
 abstract: |
-  
+
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -39,7 +39,7 @@ tags: []
 featured: false
 
 image:
-  caption: "Image credit: [**Bay Area 
+  caption: "Image credit: [**Bay Area
 Brainhack**](https://brainhack-bayarea.github.io/home/)"
   focal_point: center
 
@@ -69,4 +69,3 @@ projects:
 # Enable math on this page?
 math: true
 ---
-

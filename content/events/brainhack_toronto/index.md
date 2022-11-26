@@ -11,17 +11,17 @@ event_url: https://brainhackto.github.io/global-toronto-12-2022/
 location: Krembil Centre for Neuroinformatics, Centre for Addiction and Mental Health
 
 address:
-  street: 
+  street:
   city: Toronto
-  region: 
-  postcode: 
+  region:
+  postcode:
   country: Canada
 
 summary: |
-  
+
 
 abstract: |
-  
+
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -76,4 +76,3 @@ projects:
 # Enable math on this page?
 math: true
 ---
-

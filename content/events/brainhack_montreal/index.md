@@ -18,10 +18,10 @@ address:
   country: Canada
 
 summary: |
-  
+
 
 abstract: |
-  
+
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -39,7 +39,7 @@ tags: []
 featured: false
 
 image:
-  caption: "Image credit: [**Brainhack 
+  caption: "Image credit: [**Brainhack
 Montreal**](https://brainhackmtl.github.io/global2021/)"
   focal_point: center
 
@@ -77,4 +77,3 @@ projects:
 # Enable math on this page?
 math: true
 ---
-

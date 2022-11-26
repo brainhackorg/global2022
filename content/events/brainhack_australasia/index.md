@@ -11,17 +11,17 @@ event_url: https://brainhack-aus.github.io/global2022/
 location: University of Sydney / National Imaging Facility
 
 address:
-  street: 
+  street:
   city: Sydney
-  region: 
-  postcode: 
+  region:
+  postcode:
   country: Australia
 
 summary: |
-  
+
 
 abstract: |
-  
+
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -39,7 +39,7 @@ tags: []
 featured: false
 
 image:
-  caption: "Image credit: [**Brainhack 
+  caption: "Image credit: [**Brainhack
 Australia**](https://brainhack-aus.github.io/global2021/)"
   focal_point: center
 
@@ -77,4 +77,3 @@ projects:
 # Enable math on this page?
 math: true
 ---
-

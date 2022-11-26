@@ -13,15 +13,15 @@ location: MIT
 address:
   street: MIT
   city: Cambridge
-  region: 
-  postcode: 
+  region:
+  postcode:
   country: USA
 
 summary: |
-  
+
 
 abstract: |
-  
+
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -39,7 +39,7 @@ tags: []
 featured: false
 
 image:
-  caption: "Image credit: [**Brainhack 
+  caption: "Image credit: [**Brainhack
 Boston**](https://brainhack-boston.github.io/)"
   focal_point: center
 
@@ -73,4 +73,3 @@ projects:
 # Enable math on this page?
 math: true
 ---
-

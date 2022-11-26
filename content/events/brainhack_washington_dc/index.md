@@ -14,17 +14,17 @@ location: Georgetown University,
 
 
 address:
-  street: 
+  street:
   city: Bethesda MD
-  region: 
-  postcode: 
+  region:
+  postcode:
   country: USA
 
 summary: |
-  
+
 
 abstract: |
-  
+
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -42,7 +42,7 @@ tags: []
 featured: false
 
 image:
-  caption: "Image credit: [**Brainhack Washington 
+  caption: "Image credit: [**Brainhack Washington
 DC**](https://brainhackdc.github.io/)"
   focal_point: center
 
@@ -80,4 +80,3 @@ projects:
 # Enable math on this page?
 math: true
 ---
-
