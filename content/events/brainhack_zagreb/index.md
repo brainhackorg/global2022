@@ -8,11 +8,7 @@ title: Brainhack Zagreb
 event: Brainhack Zagreb
 event_url: https://brainhackzg.github.io/
 
-location: Medical School, University of Zagreb;
-  Faculty of Electrical Engineering and Computing, University of Zagreb;
-  Croatian Institute for Brain Research;
-  Society for out of frame education
-
+location: University of Zagreb School of Medicine, Faculty of Electrical Engineering and Computing
 
 address:
   street:
@@ -22,19 +18,19 @@ address:
   country: Croatia
 
 summary: |
-  Blockchain
+
 
 abstract: |
 
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2022-11-29"
-date_end: ""
+date: "2022-12-03"
+date_end: "2022-12-04"
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2032-11-13"
+publishDate: "2022-11-24"
 
 authors: []
 tags: []
