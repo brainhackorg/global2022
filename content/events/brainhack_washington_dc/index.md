@@ -14,17 +14,17 @@ location: Georgetown University,
 
 
 address:
-  street:
+  street: 
   city: Bethesda MD
-  region:
-  postcode:
+  region: 
+  postcode: 
   country: USA
 
 summary: |
-
+  
 
 abstract: |
-
+  
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -33,7 +33,7 @@ date_end: "2022-12-11"
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2022-11-15"
+publishDate: "2022-11-24"
 
 authors: []
 tags: []
@@ -42,7 +42,8 @@ tags: []
 featured: false
 
 image:
-  caption: "Image credit: [**Brainhack Washington DC**](https://brainhackdc.github.io/)"
+  caption: "Image credit: [**Brainhack Washington 
+DC**](https://brainhackdc.github.io/)"
   focal_point: center
 
 links:
@@ -79,3 +80,4 @@ projects:
 # Enable math on this page?
 math: true
 ---
+

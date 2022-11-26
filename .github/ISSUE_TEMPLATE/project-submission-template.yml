@@ -96,6 +96,7 @@ body:
         - Brainhack Physiopy
         - Brainhack Washington DC
         - Brainhack Western
+        - Brainhack Zagreb
         - The BOB Hack
     validations:
       required: true

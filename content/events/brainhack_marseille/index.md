@@ -13,15 +13,15 @@ location: Institut de Neurosciences de la Timone
 address:
   street: Faculté de Médecine 27, boulevard  Jean Moulin
   city: Marseille
-  region:
+  region: 
   postcode: 13005
   country: France
 
 summary: |
-
+  
 
 abstract: |
-
+  
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -30,7 +30,7 @@ date_end: "2022-11-30"
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2022-11-15"
+publishDate: "2022-11-24"
 
 authors: []
 tags: []
@@ -39,7 +39,8 @@ tags: []
 featured: false
 
 image:
-  caption: "Image credit: [**Brainhack Marseille**](https://brainhack-marseille.github.io/)"
+  caption: "Image credit: [**Brainhack 
+Marseille**](https://brainhack-marseille.github.io/)"
   focal_point: center
 
 links:
@@ -76,3 +77,4 @@ projects:
 # Enable math on this page?
 math: true
 ---
+
