@@ -1,5 +1,5 @@
 {
-  "Title": "Testing project \"Automatise your processing pipelines with nipype / pydra\" for Brainhack Marseille template compatibility",
+  "Title": "Automatise your processing pipelines with nipype / pydra",
   "link_to_issue": "https://github.com/brainhackorg/global2022/issues/51",
   "issue_number": 51,
   "labels": [
