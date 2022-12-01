@@ -26,3 +26,7 @@ partners:
   - name: Oracle
     website: https://www.oracle.com/ca-en/research/
     image: oracle.png
+
+  - name: Holopin
+    website: https://www.holopin.io/
+    image: holopin-white.png
