@@ -6,22 +6,22 @@
 
 title: Brainhack Avoca
 event: Brainhack Avoca
-event_url:
+event_url: 
 
 location: The University of Sydney
 
 address:
-  street:
+  street: 
   city: Sydney
-  region:
-  postcode:
+  region: 
+  postcode: 
   country: Australia
 
 summary: |
-
+  
 
 abstract: |
-
+  
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -30,7 +30,7 @@ date_end: ""
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2032-11-22"
+publishDate: "2032-11-27"
 
 authors: []
 tags: []
@@ -60,3 +60,4 @@ projects:
 # Enable math on this page?
 math: true
 ---
+

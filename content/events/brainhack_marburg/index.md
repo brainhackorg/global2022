@@ -11,17 +11,17 @@ event_url: https://openscienceinitiativeuniversitymarburg.github.io/
 location: Open Science Initiative University Marburg
 
 address:
-  street:
+  street: 
   city: Marburg
-  region:
-  postcode:
+  region: 
+  postcode: 
   country: Germany
 
 summary: |
-
+  
 
 abstract: |
-
+  
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -30,7 +30,7 @@ date_end: "2022-11-30"
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2022-11-24"
+publishDate: "2022-11-29"
 
 authors: []
 tags: []
@@ -76,3 +76,4 @@ projects:
 # Enable math on this page?
 math: true
 ---
+

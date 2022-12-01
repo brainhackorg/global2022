@@ -84,6 +84,7 @@ body:
       multiple: true
       options:
         - Bay Area Brainhack
+        - BrainHack Magdeburg
         - BrainHack Toronto
         - Brainhack Australasia
         - Brainhack Boston
@@ -94,6 +95,7 @@ body:
         - Brainhack Marseille
         - Brainhack Nordic
         - Brainhack Physiopy
+        - Brainhack Warsaw
         - Brainhack Washington DC
         - Brainhack Western
         - Brainhack Zagreb
