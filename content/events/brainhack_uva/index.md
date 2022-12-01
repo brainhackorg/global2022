@@ -6,22 +6,22 @@
 
 title: BrainHack UVA
 event: BrainHack UVA
-event_url: 
+event_url:
 
 location: University of Virginia
 
 address:
-  street: 
+  street:
   city: Charlottesville
-  region: 
-  postcode: 
+  region:
+  postcode:
   country: USA
 
 summary: |
-  
+
 
 abstract: |
-  
+
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -64,4 +64,3 @@ projects:
 # Enable math on this page?
 math: true
 ---
-
