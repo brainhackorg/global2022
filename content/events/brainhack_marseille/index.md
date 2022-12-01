@@ -30,7 +30,7 @@ date_end: "2022-11-30"
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2022-11-24"
+publishDate: "2022-11-29"
 
 authors: []
 tags: []
@@ -39,8 +39,7 @@ tags: []
 featured: false
 
 image:
-  caption: "Image credit: [**Brainhack
-Marseille**](https://brainhack-marseille.github.io/)"
+  caption: "Image credit: [**Brainhack Marseille**](https://brainhack-marseille.github.io/)"
   focal_point: center
 
 links:
