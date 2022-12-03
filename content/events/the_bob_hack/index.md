@@ -11,17 +11,17 @@ event_url: https://boblab.info
 location: University of Malta
 
 address:
-  street:
+  street: 
   city: Msida
-  region:
-  postcode:
+  region: 
+  postcode: 
   country: Malta
 
 summary: |
   The exploration of contemporary research
 
 abstract: |
-
+  
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -30,7 +30,7 @@ date_end: "2022-12-02"
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2022-11-29"
+publishDate: "2022-12-02"
 
 authors: []
 tags: []
@@ -72,3 +72,4 @@ projects:
 # Enable math on this page?
 math: true
 ---
+

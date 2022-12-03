@@ -11,26 +11,26 @@ event_url: https://brainhack-bayarea.github.io/home/
 location: UC San Francisco, UC Berkeley, Stanford University
 
 address:
-  street:
+  street: 
   city: San Francisco
-  region:
-  postcode:
+  region: 
+  postcode: 
   country: United States
 
 summary: |
-
+  
 
 abstract: |
-
+  
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2023-02-09"
-date_end: "2023-02-10"
+date: "2022-12-08"
+date_end: "2022-12-09"
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2022-11-29"
+publishDate: "2022-12-02"
 
 authors: []
 tags: []
@@ -68,3 +68,4 @@ projects:
 # Enable math on this page?
 math: true
 ---
+
