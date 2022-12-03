@@ -11,17 +11,17 @@ event_url: https://brainhackzg.github.io/
 location: University of Zagreb School of Medicine, Faculty of Electrical Engineering and Computing
 
 address:
-  street: 
+  street:
   city: Zagreb
-  region: 
-  postcode: 
+  region:
+  postcode:
   country: Croatia
 
 summary: |
-  
+
 
 abstract: |
-  
+
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -76,4 +76,3 @@ projects:
 # Enable math on this page?
 math: true
 ---
-

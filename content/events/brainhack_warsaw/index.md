@@ -11,17 +11,17 @@ event_url: https://brainhackwarsaw.fuw.edu.pl/
 location: Faculty of Physics, University of Warsaw
 
 address:
-  street: 
+  street:
   city: Warsaw
-  region: 
-  postcode: 
+  region:
+  postcode:
   country: Poland
 
 summary: |
-  
+
 
 abstract: |
-  
+
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -72,4 +72,3 @@ projects:
 # Enable math on this page?
 math: true
 ---
-
