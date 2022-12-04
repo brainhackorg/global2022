@@ -25,12 +25,12 @@ abstract: |
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2022-12-08"
-date_end: "2022-12-09"
+date: "2023-02-09"
+date_end: "2023-02-10"
 all_day: true
 
 # Schedule page publish date (NOT event date).
-publishDate: "2022-12-02"
+publishDate: "2022-12-03"
 
 authors: []
 tags: []
