@@ -4,6 +4,11 @@
   "issue_number": 107,
   "labels": [
     {
+      "name": "geneva_che",
+      "description": "Geneva event",
+      "color": "d4c5f9"
+    },
+    {
       "name": "git_skills:0_none",
       "description": "",
       "color": "bfdadc"
