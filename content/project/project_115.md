@@ -49,6 +49,11 @@
       "color": "c2e0c6"
     },
     {
+      "name": "status:published",
+      "description": "",
+      "color": "0e8a16"
+    },
+    {
       "name": "project_development_status:0_concept_no_content",
       "description": "",
       "color": "bfd4f2"

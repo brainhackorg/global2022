@@ -44,6 +44,11 @@
       "color": "c5def5"
     },
     {
+      "name": "status:published",
+      "description": "",
+      "color": "0e8a16"
+    },
+    {
       "name": "tools:NWB",
       "description": "Neurodata Without Borders",
       "color": "0052cc"
