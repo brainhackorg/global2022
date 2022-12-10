@@ -49,7 +49,12 @@
                         and then loop through all other issue labels.
                   */}}
 
-                  {{$label := getJSON "https://api.github.com/repos/brainhackorg/global2022/labels?per_page=200"}}
+                  {{/* TODO This is ugly AF and needs refactoring
+                       The repo has more than 100 labels so we need to append more labels
+                       but no idea how to do that in Hugo
+                  */}}
+
+                  {{$label := getJSON "https://api.github.com/repos/brainhackorg/global2022/labels?per_page=100&page=1"}}
 
                   {{ range $idx, $item := $label }}
 
@@ -60,11 +65,30 @@
                       data-filter="{{ $data_filter | safeHTMLAttr }}"
                       class="btn btn-primary btn-lg rounded m-1{{ if eq $idx $filter_default }} active{{ end }}"
                       style="color: #fff; background-color: #{{ .color }}">
-                      {{ .description | replaceRE " event" ""}}
+                      {{ .description | replaceRE "event" ""}}
                       </a>
                     {{ end }}
 
                   {{ end }}
+
+                  {{$label := getJSON "https://api.github.com/repos/brainhackorg/global2022/labels?per_page=100&page=2"}}
+
+                  {{ range $idx, $item := $label }}
+
+                    {{ $data_filter := printf ".js-id-%s" (replace .name ":" "-") }}
+
+                    {{ if findRE "event" .description }}
+                      <a  href="#"
+                      data-filter="{{ $data_filter | safeHTMLAttr }}"
+                      class="btn btn-primary btn-lg rounded m-1{{ if eq $idx $filter_default }} active{{ end }}"
+                      style="color: #fff; background-color: #{{ .color }}">
+                      {{ .description | replaceRE "event" ""}}
+                      </a>
+                    {{ end }}
+
+                  {{ end }}
+
+                  {{$label := getJSON "https://api.github.com/repos/brainhackorg/global2022/labels?per_page=100&page=1"}}
 
                   {{ range $idx, $item := $label }}
 
