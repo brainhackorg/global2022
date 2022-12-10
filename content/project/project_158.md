@@ -64,6 +64,11 @@
       "color": "c5def5"
     },
     {
+      "name": "status:published",
+      "description": "",
+      "color": "0e8a16"
+    },
+    {
       "name": "project_type:tutorial_recording",
       "description": "",
       "color": "c5def5"
