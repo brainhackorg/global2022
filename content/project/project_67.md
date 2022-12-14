@@ -9,6 +9,11 @@
       "color": "d4c5f9"
     },
     {
+      "name": "geneva_che",
+      "description": "Geneva event",
+      "color": "d4c5f9"
+    },
+    {
       "name": "modality:MRI",
       "description": "",
       "color": "1d76db"
