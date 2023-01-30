@@ -10,7 +10,7 @@ jobs:
     if: github.repository_owner == 'brainhackorg'
     runs-on: ubuntu-20.04
     steps:
-      - uses: github/issue-labeler@v2.5
+      - uses: github/issue-labeler@v2.6
         with:
           # Secret token needed (not sure which permisions though)
           repo-token: "${{ secrets.LABELLER }}"
