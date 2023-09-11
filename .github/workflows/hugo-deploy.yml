@@ -10,7 +10,7 @@ jobs:
     if: github.repository_owner == 'brainhackorg'
     runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@v3.6.0
+      - uses: actions/checkout@v4.0.0
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
